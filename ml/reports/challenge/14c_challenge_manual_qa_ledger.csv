@@ -1,0 +1,151 @@
+challenge_id,challenge_group,gold_category,ood_family,challenge_type,decision,text_revised,label_changed,ood_family_changed,review_note
+CH_IN_001,IN_SCOPE,TEMIZLIK_ATIK,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_002,IN_SCOPE,TEMIZLIK_ATIK,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_003,IN_SCOPE,TEMIZLIK_ATIK,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_004,IN_SCOPE,TEMIZLIK_ATIK,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_005,IN_SCOPE,TEMIZLIK_ATIK,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_006,IN_SCOPE,TEMIZLIK_ATIK,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_007,IN_SCOPE,TEMIZLIK_ATIK,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_008,IN_SCOPE,TEMIZLIK_ATIK,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_009,IN_SCOPE,TEMIZLIK_ATIK,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_010,IN_SCOPE,TEMIZLIK_ATIK,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_011,IN_SCOPE,TEMIZLIK_ATIK,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_012,IN_SCOPE,TEMIZLIK_ATIK,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_013,IN_SCOPE,TEMIZLIK_ATIK,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_014,IN_SCOPE,TEMIZLIK_ATIK,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_015,IN_SCOPE,TEMIZLIK_ATIK,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_016,IN_SCOPE,TEMIZLIK_ATIK,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_017,IN_SCOPE,TEMIZLIK_ATIK,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_018,IN_SCOPE,TEMIZLIK_ATIK,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_019,IN_SCOPE,TEMIZLIK_ATIK,,MULTI_ISSUE_DOMINANT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_020,IN_SCOPE,TEMIZLIK_ATIK,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_021,IN_SCOPE,YOL_KALDIRIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_022,IN_SCOPE,YOL_KALDIRIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_023,IN_SCOPE,YOL_KALDIRIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_024,IN_SCOPE,YOL_KALDIRIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_025,IN_SCOPE,YOL_KALDIRIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_026,IN_SCOPE,YOL_KALDIRIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_027,IN_SCOPE,YOL_KALDIRIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_028,IN_SCOPE,YOL_KALDIRIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_029,IN_SCOPE,YOL_KALDIRIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_030,IN_SCOPE,YOL_KALDIRIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_031,IN_SCOPE,YOL_KALDIRIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_032,IN_SCOPE,YOL_KALDIRIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_033,IN_SCOPE,YOL_KALDIRIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_034,IN_SCOPE,YOL_KALDIRIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_035,IN_SCOPE,YOL_KALDIRIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_036,IN_SCOPE,YOL_KALDIRIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_037,IN_SCOPE,YOL_KALDIRIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_038,IN_SCOPE,YOL_KALDIRIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_039,IN_SCOPE,YOL_KALDIRIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_040,IN_SCOPE,YOL_KALDIRIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_041,IN_SCOPE,PARK_YESIL_ALAN,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_042,IN_SCOPE,PARK_YESIL_ALAN,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_043,IN_SCOPE,PARK_YESIL_ALAN,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_044,IN_SCOPE,PARK_YESIL_ALAN,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_045,IN_SCOPE,PARK_YESIL_ALAN,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_046,IN_SCOPE,PARK_YESIL_ALAN,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_047,IN_SCOPE,PARK_YESIL_ALAN,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_048,IN_SCOPE,PARK_YESIL_ALAN,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_049,IN_SCOPE,PARK_YESIL_ALAN,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_050,IN_SCOPE,PARK_YESIL_ALAN,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_051,IN_SCOPE,PARK_YESIL_ALAN,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_052,IN_SCOPE,PARK_YESIL_ALAN,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_053,IN_SCOPE,PARK_YESIL_ALAN,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_054,IN_SCOPE,PARK_YESIL_ALAN,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_055,IN_SCOPE,PARK_YESIL_ALAN,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_056,IN_SCOPE,PARK_YESIL_ALAN,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_057,IN_SCOPE,PARK_YESIL_ALAN,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_058,IN_SCOPE,PARK_YESIL_ALAN,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_059,IN_SCOPE,PARK_YESIL_ALAN,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_060,IN_SCOPE,PARK_YESIL_ALAN,,MULTI_ISSUE_DOMINANT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_061,IN_SCOPE,KENT_DUZENI_DENETIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_062,IN_SCOPE,KENT_DUZENI_DENETIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_063,IN_SCOPE,KENT_DUZENI_DENETIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_064,IN_SCOPE,KENT_DUZENI_DENETIM,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_065,IN_SCOPE,KENT_DUZENI_DENETIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_066,IN_SCOPE,KENT_DUZENI_DENETIM,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_067,IN_SCOPE,KENT_DUZENI_DENETIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_068,IN_SCOPE,KENT_DUZENI_DENETIM,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_069,IN_SCOPE,KENT_DUZENI_DENETIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_070,IN_SCOPE,KENT_DUZENI_DENETIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_071,IN_SCOPE,KENT_DUZENI_DENETIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_072,IN_SCOPE,KENT_DUZENI_DENETIM,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_073,IN_SCOPE,KENT_DUZENI_DENETIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_074,IN_SCOPE,KENT_DUZENI_DENETIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_075,IN_SCOPE,KENT_DUZENI_DENETIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_076,IN_SCOPE,KENT_DUZENI_DENETIM,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_077,IN_SCOPE,KENT_DUZENI_DENETIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_078,IN_SCOPE,KENT_DUZENI_DENETIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_079,IN_SCOPE,KENT_DUZENI_DENETIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_080,IN_SCOPE,KENT_DUZENI_DENETIM,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_081,IN_SCOPE,HAYVAN_VETERINER,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_082,IN_SCOPE,HAYVAN_VETERINER,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_083,IN_SCOPE,HAYVAN_VETERINER,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_084,IN_SCOPE,HAYVAN_VETERINER,,INDIRECT_WORDING,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_085,IN_SCOPE,HAYVAN_VETERINER,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_086,IN_SCOPE,HAYVAN_VETERINER,,CROSS_CLASS_DISTRACTOR,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_087,IN_SCOPE,HAYVAN_VETERINER,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_088,IN_SCOPE,HAYVAN_VETERINER,,CROSS_CLASS_DISTRACTOR,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_089,IN_SCOPE,HAYVAN_VETERINER,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_090,IN_SCOPE,HAYVAN_VETERINER,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_091,IN_SCOPE,HAYVAN_VETERINER,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_092,IN_SCOPE,HAYVAN_VETERINER,,TYPO_NOISE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_093,IN_SCOPE,HAYVAN_VETERINER,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_094,IN_SCOPE,HAYVAN_VETERINER,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_095,IN_SCOPE,HAYVAN_VETERINER,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_096,IN_SCOPE,HAYVAN_VETERINER,,LEXICAL_SHORTCUT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_IN_097,IN_SCOPE,HAYVAN_VETERINER,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_098,IN_SCOPE,HAYVAN_VETERINER,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_099,IN_SCOPE,HAYVAN_VETERINER,,MULTI_ISSUE_DOMINANT,PASS,True,False,False,Wording revised to remove artificial contrast/target-explaining language; semantic target unchanged.
+CH_IN_100,IN_SCOPE,HAYVAN_VETERINER,,MULTI_ISSUE_DOMINANT,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_001,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_002,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_003,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_004,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_005,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_006,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_007,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_008,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_009,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_010,OOD,,SU_KANALIZASYON,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_011,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_012,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_013,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_014,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_015,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_016,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_017,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_018,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_019,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_020,OOD,,AYDINLATMA_ELEKTRIK,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_021,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_022,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_023,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_024,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_025,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_026,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_027,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_028,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_029,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_030,OOD,,TOPLU_TASIMA,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_031,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_032,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_033,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_034,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_035,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_036,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_037,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_038,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_039,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_040,OOD,,VERGI_ODEME,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_041,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_042,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_043,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_044,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_045,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_046,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_047,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_048,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_049,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.
+CH_OOD_050,OOD,,SOSYAL_HIZMET,OUT_OF_SCOPE,PASS,False,False,False,Label/OOD status and wording reviewed; no change required.

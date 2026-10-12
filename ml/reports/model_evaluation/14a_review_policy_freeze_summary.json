@@ -1,0 +1,15 @@
+{
+  "status": "REVIEW_POLICY_V1_FROZEN",
+  "policy_file": "ml\\config\\review_policy_v1.json",
+  "selected_rule": "TOP1_OR_MARGIN",
+  "source_quantile": 0.05,
+  "top1_threshold": 0.9889855593442918,
+  "margin_threshold": 0.9816169261932371,
+  "validation_automatic_coverage": 0.944,
+  "validation_review_rate": 0.056,
+  "validation_accepted_accuracy": 1.0,
+  "threshold_source": "validation_only",
+  "test_used_for_threshold": false,
+  "challenge_used_for_threshold": false,
+  "post_test_model_tuning_allowed": false
+}

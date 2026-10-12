@@ -1,0 +1,273 @@
+{
+  "status": "FINAL_LENGTH_TOKENIZER_PROFILE_COMPLETE",
+  "dataset_record_count": 1667,
+  "dataset_sha256": "c6d8a06e0fb757c3b1db11a87959f7086fd4b22da5c97268522c5fd4d77ed1c7",
+  "tokenizer_name": "dbmdz/bert-base-turkish-cased",
+  "tokenizer_class": "BertTokenizer",
+  "special_tokens_included": true,
+  "global_statistics": {
+    "word_count": {
+      "min": 5.0,
+      "mean": 26.350329934013196,
+      "median": 19.0,
+      "p75": 31.0,
+      "p90": 53.0,
+      "p95": 65.0,
+      "p99": 87.0,
+      "max": 106.0
+    },
+    "char_count": {
+      "min": 43.0,
+      "mean": 204.3257348530294,
+      "median": 151.0,
+      "p75": 247.0,
+      "p90": 409.4000000000001,
+      "p95": 503.09999999999945,
+      "p99": 654.3399999999999,
+      "max": 819.0
+    },
+    "sentence_count": {
+      "min": 1.0,
+      "mean": 2.060587882423515,
+      "median": 1.0,
+      "p75": 3.0,
+      "p90": 4.0,
+      "p95": 5.0,
+      "p99": 6.0,
+      "max": 9.0
+    },
+    "berturk_token_count": {
+      "min": 12.0,
+      "mean": 40.991601679664065,
+      "median": 31.0,
+      "p75": 48.0,
+      "p90": 80.0,
+      "p95": 93.69999999999982,
+      "p99": 131.33999999999992,
+      "max": 163.0
+    }
+  },
+  "source_family_statistics": {
+    "ORIGINAL": {
+      "count": 1044,
+      "word_count": {
+        "min": 5.0,
+        "mean": 15.49904214559387,
+        "median": 15.0,
+        "p75": 18.0,
+        "p90": 22.0,
+        "p95": 24.0,
+        "p99": 29.0,
+        "max": 36.0
+      },
+      "berturk_token_count": {
+        "min": 12.0,
+        "mean": 25.8639846743295,
+        "median": 24.0,
+        "p75": 29.0,
+        "p90": 35.0,
+        "p95": 39.0,
+        "p99": 46.0,
+        "max": 55.0
+      }
+    },
+    "LONG": {
+      "count": 623,
+      "word_count": {
+        "min": 23.0,
+        "mean": 44.534510433386835,
+        "median": 38.0,
+        "p75": 54.0,
+        "p90": 74.80000000000007,
+        "p95": 84.0,
+        "p99": 91.0,
+        "max": 106.0
+      },
+      "berturk_token_count": {
+        "min": 35.0,
+        "mean": 66.34189406099519,
+        "median": 56.0,
+        "p75": 81.0,
+        "p90": 108.60000000000014,
+        "p95": 123.0,
+        "p99": 138.55999999999995,
+        "max": 163.0
+      }
+    }
+  },
+  "category_statistics": {
+    "HAYVAN_VETERINER": {
+      "count": 336,
+      "word_count": {
+        "min": 7.0,
+        "mean": 26.226190476190474,
+        "median": 19.0,
+        "p75": 31.0,
+        "p90": 52.5,
+        "p95": 63.0,
+        "p99": 87.64999999999998,
+        "max": 92.0
+      },
+      "berturk_token_count": {
+        "min": 15.0,
+        "mean": 39.723214285714285,
+        "median": 30.0,
+        "p75": 46.0,
+        "p90": 74.0,
+        "p95": 89.5,
+        "p99": 129.94999999999993,
+        "max": 139.0
+      }
+    },
+    "KENT_DUZENI_DENETIM": {
+      "count": 332,
+      "word_count": {
+        "min": 7.0,
+        "mean": 27.80421686746988,
+        "median": 21.0,
+        "p75": 32.0,
+        "p90": 54.0,
+        "p95": 63.44999999999999,
+        "p99": 88.69,
+        "max": 106.0
+      },
+      "berturk_token_count": {
+        "min": 14.0,
+        "mean": 42.626506024096386,
+        "median": 34.0,
+        "p75": 49.0,
+        "p90": 79.90000000000003,
+        "p95": 92.0,
+        "p99": 130.76,
+        "max": 163.0
+      }
+    },
+    "PARK_YESIL_ALAN": {
+      "count": 328,
+      "word_count": {
+        "min": 6.0,
+        "mean": 25.628048780487806,
+        "median": 19.0,
+        "p75": 30.25,
+        "p90": 52.0,
+        "p95": 64.64999999999998,
+        "p99": 86.73000000000002,
+        "max": 105.0
+      },
+      "berturk_token_count": {
+        "min": 14.0,
+        "mean": 40.96951219512195,
+        "median": 32.0,
+        "p75": 47.0,
+        "p90": 81.0,
+        "p95": 90.64999999999998,
+        "p99": 131.46000000000004,
+        "max": 152.0
+      }
+    },
+    "TEMIZLIK_ATIK": {
+      "count": 338,
+      "word_count": {
+        "min": 7.0,
+        "mean": 26.25147928994083,
+        "median": 18.0,
+        "p75": 31.0,
+        "p90": 52.30000000000001,
+        "p95": 68.44999999999993,
+        "p99": 83.63,
+        "max": 97.0
+      },
+      "berturk_token_count": {
+        "min": 14.0,
+        "mean": 40.99704142011834,
+        "median": 30.0,
+        "p75": 48.0,
+        "p90": 79.30000000000001,
+        "p95": 97.59999999999991,
+        "p99": 123.25999999999999,
+        "max": 141.0
+      }
+    },
+    "YOL_KALDIRIM": {
+      "count": 333,
+      "word_count": {
+        "min": 5.0,
+        "mean": 25.83783783783784,
+        "median": 18.0,
+        "p75": 32.0,
+        "p90": 51.80000000000001,
+        "p95": 68.0,
+        "p99": 87.0,
+        "max": 95.0
+      },
+      "berturk_token_count": {
+        "min": 12.0,
+        "mean": 40.65765765765766,
+        "median": 29.0,
+        "p75": 49.0,
+        "p90": 81.60000000000002,
+        "p95": 98.39999999999998,
+        "p99": 128.12000000000006,
+        "max": 151.0
+      }
+    }
+  },
+  "word_length_bands": {
+    "UNDER_25": 1005,
+    "25_50": 460,
+    "51_80": 159,
+    "81_120": 43
+  },
+  "berturk_token_length_bands": {
+    "001_032": 880,
+    "033_064": 517,
+    "097_128": 59,
+    "065_096": 191,
+    "129_160": 19,
+    "161_192": 1
+  },
+  "token_word_ratio": {
+    "min": 1.2307692307692308,
+    "mean": 1.6244143318539697,
+    "median": 1.5909090909090908,
+    "p75": 1.75,
+    "p90": 1.9,
+    "p95": 2.0,
+    "p99": 2.2075555555555537,
+    "max": 2.6666666666666665
+  },
+  "candidate_max_length_truncation": {
+    "64": {
+      "records_over_limit": 270,
+      "records_not_truncated": 1397,
+      "truncation_rate": 0.16196760647870426
+    },
+    "96": {
+      "records_over_limit": 79,
+      "records_not_truncated": 1588,
+      "truncation_rate": 0.047390521895620874
+    },
+    "128": {
+      "records_over_limit": 20,
+      "records_not_truncated": 1647,
+      "truncation_rate": 0.01199760047990402
+    },
+    "160": {
+      "records_over_limit": 1,
+      "records_not_truncated": 1666,
+      "truncation_rate": 0.0005998800239952009
+    },
+    "192": {
+      "records_over_limit": 0,
+      "records_not_truncated": 1667,
+      "truncation_rate": 0.0
+    },
+    "256": {
+      "records_over_limit": 0,
+      "records_not_truncated": 1667,
+      "truncation_rate": 0.0
+    }
+  },
+  "dataset_modified": false,
+  "policy": "Tokenizer profiling was performed on the frozen final accepted dataset before any train/validation/test split. Token counts include BERT special tokens. No max_length is selected automatically; truncation rates are reported for evidence-based selection."
+}

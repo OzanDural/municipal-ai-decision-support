@@ -1,0 +1,82 @@
+{
+  "stage6b_original_cross_category_queue": 100,
+  "current_survivor_count": 1681,
+  "pairs_removed_due_previous_reject": 8,
+  "active_cross_category_pairs": 92,
+  "unique_records_in_active_queue": 109,
+  "records_appearing_in_multiple_pairs": 36,
+  "category_pair_distribution": {
+    "TEMIZLIK_ATIK <-> YOL_KALDIRIM": 14,
+    "PARK_YESIL_ALAN <-> YOL_KALDIRIM": 49,
+    "KENT_DUZENI_DENETIM <-> YOL_KALDIRIM": 15,
+    "HAYVAN_VETERINER <-> TEMIZLIK_ATIK": 3,
+    "KENT_DUZENI_DENETIM <-> TEMIZLIK_ATIK": 5,
+    "HAYVAN_VETERINER <-> PARK_YESIL_ALAN": 1,
+    "HAYVAN_VETERINER <-> KENT_DUZENI_DENETIM": 1,
+    "PARK_YESIL_ALAN <-> TEMIZLIK_ATIK": 3,
+    "KENT_DUZENI_DENETIM <-> PARK_YESIL_ALAN": 1
+  },
+  "difficulty_pair_distribution": {
+    "hard <-> hard": 26,
+    "easy <-> medium": 3,
+    "medium <-> hard": 11,
+    "medium <-> easy": 6,
+    "medium <-> medium": 21,
+    "hard <-> medium": 17,
+    "easy <-> hard": 3,
+    "hard <-> easy": 2,
+    "easy <-> easy": 3
+  },
+  "removed_pairs": [
+    {
+      "original_rank": 13,
+      "sample_id_1": "GEMINI_long_gemini_003_036",
+      "sample_id_2": "GEMINI_long_gemini_003_060",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 22,
+      "sample_id_1": "GPT_prod_gpt_001_061",
+      "sample_id_2": "GPT_prod_gpt_005_030",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 32,
+      "sample_id_1": "GPT_prod_gpt_002_014",
+      "sample_id_2": "GPT_prod_gpt_004_033",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 37,
+      "sample_id_1": "GPT_prod_gpt_005_030",
+      "sample_id_2": "GPT_prod_gpt_005_061",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 51,
+      "sample_id_1": "GPT_prod_gpt_005_076",
+      "sample_id_2": "GPT_prod_gpt_005_093",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 82,
+      "sample_id_1": "GPT_long_gpt_003_034",
+      "sample_id_2": "GEMINI_long_gemini_003_060",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 85,
+      "sample_id_1": "GEMINI_prod_gemini_001_041",
+      "sample_id_2": "CLAUDE_prod_claude_001_020",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    },
+    {
+      "original_rank": 99,
+      "sample_id_1": "GPT_prod_gpt_001_061",
+      "sample_id_2": "GPT_prod_gpt_002_031",
+      "reason": "PREVIOUS_STAGE_REJECT"
+    }
+  ],
+  "dataset_modified": false,
+  "policy": "Cross-category semantic similarity is a human-review signal, not a rejection rule. Review evaluates whether each record's main municipal problem and required intervention support its assigned closed-set category. Valid hard negatives are intentionally retained."
+}

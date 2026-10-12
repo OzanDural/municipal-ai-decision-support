@@ -1,0 +1,42 @@
+{
+  "status": "CHALLENGE_EVALUATION_COMPLETE",
+  "challenge_sha256": "8c70ad783976fdb58597b5feddeffbb8e23c676b149e5119b005605888dcd7d8",
+  "finetuned_zip_sha256": "99ea9e296921181dbbe6170d859fae94c3f6f93d9378f32ac68028a894f91a7b",
+  "model": "full_finetuned_berturk",
+  "device": "cuda",
+  "inference_seconds_150_records": 0.7295621000012034,
+  "review_policy": {
+    "policy_id": "berturk_review_policy_v1",
+    "top1_threshold": 0.9889855593442918,
+    "margin_threshold": 0.9816169261932371,
+    "threshold_source": "validation_only",
+    "policy_frozen_before_challenge": true
+  },
+  "in_scope": {
+    "count": 100,
+    "accuracy": 0.94,
+    "macro_precision": 0.9484848484848485,
+    "macro_recall": 0.9399999999999998,
+    "macro_f1": 0.9407154249259511,
+    "weighted_f1": 0.9407154249259512,
+    "log_loss": 0.2856592535972595,
+    "incorrect": 6,
+    "review_count": 17,
+    "review_rate": 0.17,
+    "accepted_count": 83,
+    "accepted_accuracy": 0.963855421686747,
+    "flagged_errors": 3,
+    "error_capture_rate": 0.5
+  },
+  "ood": {
+    "count": 50,
+    "review_count": 48,
+    "review_rate": 0.96,
+    "auto_accepted_count": 2,
+    "auto_accept_rate": 0.04,
+    "interpretation": "OOD has no class-accuracy metric. The closed-set classifier is evaluated only for whether the pre-frozen human-review policy flags the input for review."
+  },
+  "challenge_used_for_model_tuning": false,
+  "challenge_used_for_threshold_tuning": false,
+  "post_challenge_tuning_allowed": false
+}

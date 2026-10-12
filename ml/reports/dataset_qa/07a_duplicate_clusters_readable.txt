@@ -1,0 +1,4698 @@
+====================================================================================================
+CLUSTER 45  [P1]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : sidewalk_damage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 1.0
+Semantic mean     : 1.0
+Semantic median   : 1.0
+Semantic max      : 1.0
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 1
+Raw exact pairs   : 1
+Lexical pairs     : 1
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_029
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım taşları kırılmış, basınca oynuyor.
+
+GPT_prod_gpt_004_029
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım taşları kırılmış, basınca oynuyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+1.000000  GPT_prod_gpt_003_029  <->  GPT_prod_gpt_004_029  [RAW_EXACT]  [LEXICAL]
+
+
+====================================================================================================
+CLUSTER 1  [P2]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : overflowing_container
+Member count      : 19
+All pair count    : 171
+Semantic min      : 0.859156
+Semantic mean     : 0.940178
+Semantic median   : 0.942692
+Semantic max      : 0.992573
+>= P99.5 pairs    : 57
+>= P99.9 pairs    : 14
+Raw exact pairs   : 0
+Lexical pairs     : 3
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_001
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri tamamen dolmuş, kapak kapanmıyor ve atıklar dışarı taşıyor. Boşaltılmasını rica ederim.
+
+GPT_prod_gpt_002_001
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri ağzına kadar dolmuş, atıklar dışarı taşmaya başladı. Boşaltılmasını rica ederim.
+
+GPT_prod_gpt_003_001
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri ağzına kadar dolu ve çevresine taşmaya başladı. Boşaltılmasını rica ederim.
+
+GPT_prod_gpt_005_001
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri günlerdir dolu ve atıklar dışına taşmış. Boşaltılmasını rica ediyorum.
+
+GPT_prod_gpt_005_004
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Konteynerlerin düzenli boşaltılmaması nedeniyle çevresinde ciddi bir atık birikimi oluşmuştur. Temizlenmesini talep ediyorum.
+
+GEMINI_prod_gemini_001_001
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltılmasını rica ediyorum.
+
+GEMINI_prod_gemini_002_001
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteynerinin kapağı kapanmayacak derecede dolmuş olup etrafa atıklar saçılmaktadır, boşaltılmasını arz ederim.
+
+GEMINI_prod_gemini_003_001
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri tamamen dolmuş ve atıklar dışarıya taşmış durumda, boşaltılmasını talep ediyorum.
+
+GEMINI_prod_gemini_004_001
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri tamamen dolmuş ve etrafa taşmış durumda, boşaltılmasını rica ediyoruz.
+
+GEMINI_prod_gemini_005_001
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Konteynerin kapasitesi yetersiz kaldığı için çöpler dışarı taşmış durumda, boşaltılmasını rica ediyorum.
+
+CLAUDE_prod_claude_002_001
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri günlerdir boşaltılmıyor ve taşmış durumda, çevreye kötü koku yayılıyor. Gereğinin yapılmasını rica ederim.
+
+CLAUDE_prod_claude_002_002
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizdeki konteyner ağzına kadar dolu, çöpler yere dökülmüş durumda. En kısa sürede boşaltılmasını talep ediyorum.
+
+GPT_long_gpt_001_001
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri birkaç gündür sürekli dolu kalıyor ve poşetler kapağın dışına taşmış durumda. Koku özellikle akşam saatlerinde artıyor, çevrede yürüyenler konteynere yaklaşmakta zorlanıyor. Daha sık boşaltılması gerekiyor.
+
+GPT_long_gpt_001_004
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteynerinin kapasitesi artık ihtiyacı karşılamıyor. Gün içinde birkaç kez çevresine poşet bırakıldığını görüyoruz ve akşam olduğunda kapak tamamen kapanamaz hale geliyor. Düzenli boşaltma sıklığının gözden geçirilmesini rica ederim.
+
+GPT_long_gpt_002_001
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri birkaç gündür tamamen dolu ve kapakları kapanmıyor. Poşetler çevresine bırakılmaya başladığı için kötü koku oluşuyor, özellikle akşam saatlerinde yanından geçmek zorlaşıyor. Konteynerin boşaltılması gerekiyor.
+
+GPT_long_gpt_003_002
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle girişindeki çöp konteyneri özellikle akşam saatlerinde tamamen doluyor. İnsanlar poşetlerini yanına bırakmak zorunda kalınca ertesi sabah çevresi daha da kirlenmiş oluyor. Daha sık boşaltılması gerekiyor.
+
+GEMINI_long_gemini_001_001
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteynerinin kapağı kırıldığı için çöpler dışarı taşmış durumda. Biriken atıklar rüzgarın etkisiyle çevreye saçılıyor ve ağır bir koku yayıyor. Konteynerin boşaltılmasını ve sağlam bir yenisiyle değiştirilmesini rica ediyorum.
+
+CLAUDE_long_claude_001_001
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çöp konteyneri günlerdir taşma noktasına gelmiş durumda ve içindeki atıklar etrafa dökülüyor. Çevrede kötü koku oluşmaya başladı, yoldan geçenler burnunu kapatarak yürüyor. Konteynerin bir an önce boşaltılmasını rica ediyorum.
+
+CLAUDE_long_claude_001_002
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Kullanılan çöp konteyneri neredeyse her akşam üstüne kadar doluyor ve kapağı artık düzgün kapanmıyor. Rüzgârlı havalarda içindeki poşetler etrafa savruluyor, bu hem görüntü kirliliği hem de kötü koku oluşturuyor. Toplama sıklığının artırılmasını ve konteyner sayısının gözden geçirilmesini istiyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.992573  GPT_prod_gpt_002_001  <->  GPT_prod_gpt_003_001  [LEXICAL]
+0.988783  GPT_prod_gpt_005_001  <->  GEMINI_prod_gemini_001_001
+0.987704  GPT_prod_gpt_002_001  <->  GPT_prod_gpt_005_001
+0.987567  GPT_prod_gpt_001_001  <->  GEMINI_prod_gemini_001_001
+0.987225  GPT_prod_gpt_002_001  <->  GEMINI_prod_gemini_001_001
+0.985064  GPT_prod_gpt_001_001  <->  GPT_prod_gpt_005_001
+0.983739  GPT_prod_gpt_003_001  <->  GEMINI_prod_gemini_001_001
+0.982094  GPT_prod_gpt_003_001  <->  GPT_prod_gpt_005_001
+0.981365  GPT_prod_gpt_001_001  <->  GPT_prod_gpt_002_001
+0.975735  GPT_prod_gpt_001_001  <->  GPT_prod_gpt_003_001
+0.973909  GEMINI_prod_gemini_002_001  <->  GEMINI_prod_gemini_003_001
+0.972776  GEMINI_prod_gemini_003_001  <->  GEMINI_prod_gemini_004_001  [LEXICAL]
+0.970522  GPT_long_gpt_001_001  <->  GPT_long_gpt_002_001
+0.969043  CLAUDE_prod_claude_002_001  <->  CLAUDE_long_claude_001_001
+0.967624  GPT_prod_gpt_005_001  <->  CLAUDE_prod_claude_002_001
+
+
+====================================================================================================
+CLUSTER 2  [P2]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : pothole
+Member count      : 16
+All pair count    : 120
+Semantic min      : 0.8882
+Semantic mean     : 0.937416
+Semantic median   : 0.938231
+Semantic max      : 0.987749
+>= P99.5 pairs    : 33
+>= P99.9 pairs    : 11
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_021
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Asfaltta derin bir çukur oluşmuş, araçlar geçerken sert şekilde vuruyor. Onarılmasını rica ederim.
+
+GPT_prod_gpt_002_021
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Asfaltta derin bir çukur oluşmuş, araç geçişinde ciddi sarsıntı yapıyor. Onarılmasını rica ederim.
+
+GPT_prod_gpt_003_021
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Asfaltta derin bir çukur oluşmuş. Araçlara zarar vermeden onarılmasını rica ederim.
+
+GPT_prod_gpt_004_022
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın girişindeki çukur yağmurdan sonra genişledi, araçlar karşı şeride yanaşarak geçiyor. Onarılmasını rica ederim.
+
+GPT_prod_gpt_005_021
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Derin bir yol çukuru oluşmuş, araç geçişini zorlaştırıyor. Onarılmasını rica ederim.
+
+GEMINI_prod_gemini_001_023
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : True
+  Flags     : -
+  Text      : Araç güzergahı üzerinde yağışlar neticesinde olusan çukurların trafik güvenliği açısından asfaltla kapatılmasını arz ederim.
+
+GEMINI_prod_gemini_002_021
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol ortasında meydana gelen derin çukur araçların geçişini tehlikeye sokmaktadır, asfalt yama yapılmasını arz ederim.
+
+GEMINI_prod_gemini_003_021
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yoldaki derin çukur araç trafiğini tehlikeye sokmaktadır, asfaltlama çalışması yapılmasını rica ederim.
+
+GEMINI_prod_gemini_004_021
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol üzerinde oluşan derin çukur araç trafiğini tehlikeye sokmaktadır, asfalt yama yapılmasını rica ederim.
+
+GEMINI_prod_gemini_005_021
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yolda oluşan derin çukur nedeniyle araçların altı yere çarpmaktadır; can ve mal güvenliği açısından asfalt yama yapılmasını rica ederim.
+
+CLAUDE_prod_claude_002_011
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yolda büyük bir çukur var, araçlar geçerken defalarca sarsılıyor. Onarılmasını rica ederim.
+
+GPT_long_gpt_001_021
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Büyük bir çukur yağmurdan sonra daha da derinleşti. Araçlar son anda fark edip ani manevra yapıyor, özellikle akşam saatlerinde görünürlüğü çok düşük. Çukurun kısa sürede onarılması gerekiyor.
+
+GPT_long_gpt_002_021
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yolun ortasında oluşan derin çukur özellikle gece fark edilmiyor. Araçlar son anda yön değiştiriyor ve yağmur yağdığında içi suyla dolduğu için derinliği anlaşılmıyor. Çukurun onarılması gerekiyor.
+
+GEMINI_long_gemini_001_021
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol ortasında meydana gelen derin çukur araç trafiği açısından büyük tehlike arz etmektedir. Araçlar çukura düşmemek için ani fren yapmakta ve kaza riski doğmaktadır. Çukurun ivedilikle asfalt yama ile kapatılmasını talep ederim.
+
+GEMINI_long_gemini_002_021
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Araç yolunun tam ortasında oluşan derin çukur seyir halindeki sürücüler için ciddi kaza riski teşkil etmektedir. Araçların alt takımlarına zarar veren bu çukurun acilen asfalt yama yapılarak kapatılmasını arz ederim.
+
+CLAUDE_long_claude_001_011
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yoldan geçen araçların sürekli sarsıldığı derin bir çukur oluşmuş durumda. Yağmur sonrasında çukur suyla doluyor ve derinliği fark edilmiyor, bu da sürücüler için ciddi bir risk oluşturuyor. Çukurun onarılmasını rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.987749  GEMINI_prod_gemini_003_021  <->  GEMINI_prod_gemini_004_021  [LEXICAL]
+0.985846  GEMINI_prod_gemini_002_021  <->  GEMINI_prod_gemini_004_021
+0.983437  GPT_prod_gpt_001_021  <->  GPT_prod_gpt_002_021
+0.981683  GPT_prod_gpt_002_021  <->  GPT_prod_gpt_003_021
+0.977259  GPT_prod_gpt_001_021  <->  GPT_prod_gpt_003_021
+0.974400  GEMINI_prod_gemini_002_021  <->  GEMINI_prod_gemini_003_021
+0.972798  GPT_prod_gpt_002_021  <->  GPT_prod_gpt_005_021
+0.971596  GEMINI_prod_gemini_002_021  <->  GEMINI_long_gemini_002_021
+0.970067  GEMINI_prod_gemini_004_021  <->  GEMINI_prod_gemini_005_021
+0.969291  GPT_prod_gpt_002_021  <->  CLAUDE_prod_claude_002_011
+0.968178  GEMINI_long_gemini_001_021  <->  GEMINI_long_gemini_002_021
+0.967520  GPT_prod_gpt_001_021  <->  CLAUDE_prod_claude_002_011
+0.964772  GEMINI_prod_gemini_004_021  <->  GEMINI_long_gemini_002_021
+0.964308  CLAUDE_prod_claude_002_011  <->  CLAUDE_long_claude_001_011
+0.963790  GEMINI_prod_gemini_002_021  <->  GEMINI_prod_gemini_005_021
+
+
+====================================================================================================
+CLUSTER 4  [P2]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 11
+All pair count    : 55
+Semantic min      : 0.896334
+Semantic mean     : 0.941452
+Semantic median   : 0.946176
+Semantic max      : 0.988895
+>= P99.5 pairs    : 22
+>= P99.9 pairs    : 2
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_041
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Salıncağın bir zinciri kopmuş ve oturma bölümü dengesiz duruyor. Onarılmasını rica ederim.
+
+GPT_prod_gpt_002_041
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk salıncağının zincirlerinden biri kopmuş. Kullanılmadan önce onarılmasını rica ederim.
+
+GPT_prod_gpt_003_041
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Salıncağın bir zinciri kopmuş ve oturağı yana düşüyor. Onarılmasını rica ederim.
+
+GPT_prod_gpt_005_041
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk salıncağının zinciri kopmuş. Onarılmasını rica ediyorum.
+
+GEMINI_prod_gemini_001_041
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk parkındaki salıncak zincirinin kopmuş olduğu görülmüştür, miniklerin güvenliği için tamiratını rica ederim.
+
+GEMINI_prod_gemini_002_041
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki salıncağın demir zinciri kopmuş vaziyettedir, tamir edilmesini saygıyla rica ederim.
+
+GEMINI_prod_gemini_004_041
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki salıncağın demir zinciri kopmuştur, çocukların güvenliği için tamir edilmesini arz ederim.
+
+GEMINI_prod_gemini_005_042
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizdeki çocuk parkında bulunan salıncağın demir zinciri kopmuş, tek zincirle asılı durduğu için çocuklar kullanamıyor.
+
+CLAUDE_prod_claude_002_021
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Salıncağın zinciri kopmuş, çocuklar sallanırken düşme tehlikesi yaşıyor. En kısa sürede tamir edilmesini rica ederim.
+
+GEMINI_long_gemini_001_041
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk parkındaki salıncakların zincir bağlantıları kopmuş ve tahterevallinin oturak kısmı kırılmıştır. Çocuklarımızın can güvenliği açısından tehlike arz eden oyun aletlerinin ivedilikle tamir edilmesini veya yenilenmesini saygılarımla arz ederim.
+
+CLAUDE_long_claude_001_021
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk parkındaki salıncaklardan birinin zinciri kopmuş ve oturma kısmı yerde sürünür halde duruyor. Çocuklar yine de üzerine çıkmaya çalışıyor, bu da ciddi bir düşme riski oluşturuyor. Salıncağın onarılmasını ya da kullanıma kapatılmasını rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.988895  GPT_prod_gpt_001_041  <->  GPT_prod_gpt_003_041
+0.984275  GPT_prod_gpt_002_041  <->  GPT_prod_gpt_005_041
+0.966049  GEMINI_prod_gemini_001_041  <->  GEMINI_prod_gemini_004_041
+0.964299  GPT_prod_gpt_005_041  <->  GEMINI_prod_gemini_001_041
+0.960513  GPT_prod_gpt_003_041  <->  CLAUDE_prod_claude_002_021
+0.959933  GPT_prod_gpt_001_041  <->  CLAUDE_prod_claude_002_021
+0.959277  GEMINI_prod_gemini_001_041  <->  CLAUDE_long_claude_001_021
+0.958946  GPT_prod_gpt_005_041  <->  GEMINI_prod_gemini_004_041
+0.958623  GPT_prod_gpt_002_041  <->  GEMINI_prod_gemini_001_041
+0.957790  GPT_prod_gpt_002_041  <->  GEMINI_prod_gemini_004_041
+0.957727  GPT_prod_gpt_002_041  <->  CLAUDE_long_claude_001_021
+0.957037  GPT_prod_gpt_002_041  <->  CLAUDE_prod_claude_002_021
+0.956938  CLAUDE_prod_claude_002_021  <->  CLAUDE_long_claude_001_021
+0.956769  GEMINI_prod_gemini_002_041  <->  GEMINI_prod_gemini_004_041
+0.956593  GPT_prod_gpt_005_041  <->  CLAUDE_prod_claude_002_021
+
+
+====================================================================================================
+CLUSTER 5  [P2]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_furniture
+Member count      : 11
+All pair count    : 55
+Semantic min      : 0.892307
+Semantic mean     : 0.93794
+Semantic median   : 0.941254
+Semantic max      : 0.980391
+>= P99.5 pairs    : 14
+>= P99.9 pairs    : 2
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_045
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Parkın girişindeki bankın oturma tahtaları kırılmış. Güvenli hale getirilmesini rica ederim.
+
+GPT_prod_gpt_002_045
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Park girişindeki bankın oturma tahtaları kırılmış. Kullanılabilir hâle getirilmesini rica ediyorum.
+
+GPT_prod_gpt_003_045
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkındaki bankın oturma tahtaları kırılmış.
+
+GPT_prod_gpt_004_045
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çınar Mahallesi Gül Caddesi'ndeki parkta bir bankın oturma tahtaları yerinden çıkmış. Tamir edilmesini talep ediyorum.
+
+GPT_prod_gpt_005_045
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkındaki bankın tahtaları kırılmış, oturulacak durumda değil.
+
+GEMINI_prod_gemini_001_045
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki bankın tahtaları kırılmış, oturulacak gibi değil yenilenmesi lazım.
+
+GEMINI_prod_gemini_003_045
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Ihlamur Parkı içerisindeki ahşap oturma banklarının tahtaları kırılmıştır, yenilenmesini rica ederim.
+
+GEMINI_prod_gemini_004_045
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Park içerisindeki ahşap oturma banklarının tahtaları kırılmış ve kullanılamaz hale gelmiştir, yenilenmesini rica ederim.
+
+CLAUDE_prod_claude_001_023
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Fatih Mahallesi Lale Sokak'taki parkta oturma bankının ayakları kırılmış, oturanlar için tehlike oluşturuyor. Değişiminin sağlanmasını rica ederim.
+
+GPT_long_gpt_001_045
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın orta kısmındaki banklardan birinin oturma tahtası kırılmış ve aşağı doğru sarkıyor. Yaşlılar oturmak isterken son anda fark ediyor. Bankın yeniden kullanılabilir hale getirilmesi gerekiyor.
+
+CLAUDE_long_claude_001_023
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki oturma banklarından biri tamamen kırılmış, tahtaları yerinden çıkmış durumda. Oturmak isteyenler bu banka güvenemediği için ayakta beklemek zorunda kalıyor. Bankın yenilenmesini ya da değiştirilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.980391  GEMINI_prod_gemini_003_045  <->  GEMINI_prod_gemini_004_045
+0.979198  GPT_prod_gpt_001_045  <->  GPT_prod_gpt_002_045
+0.964439  GEMINI_prod_gemini_004_045  <->  CLAUDE_long_claude_001_023
+0.960677  CLAUDE_prod_claude_001_023  <->  CLAUDE_long_claude_001_023
+0.959768  GPT_prod_gpt_001_045  <->  GPT_prod_gpt_004_045
+0.958947  GPT_prod_gpt_005_045  <->  GEMINI_prod_gemini_001_045
+0.958536  GPT_prod_gpt_002_045  <->  GPT_prod_gpt_004_045
+0.958068  GPT_prod_gpt_001_045  <->  CLAUDE_long_claude_001_023
+0.957689  GEMINI_prod_gemini_001_045  <->  GEMINI_prod_gemini_004_045
+0.957145  GPT_prod_gpt_003_045  <->  GPT_prod_gpt_005_045
+0.957010  GPT_long_gpt_001_045  <->  CLAUDE_long_claude_001_023
+0.956147  GPT_prod_gpt_002_045  <->  GEMINI_prod_gemini_004_045
+0.955699  GPT_prod_gpt_004_045  <->  CLAUDE_long_claude_001_023
+0.952755  GEMINI_prod_gemini_001_045  <->  CLAUDE_long_claude_001_023
+0.952132  GPT_prod_gpt_004_045  <->  GEMINI_prod_gemini_004_045
+
+
+====================================================================================================
+CLUSTER 3  [P2]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : curb_damage
+Member count      : 11
+All pair count    : 55
+Semantic min      : 0.836212
+Semantic mean     : 0.916792
+Semantic median   : 0.929667
+Semantic max      : 0.978053
+>= P99.5 pairs    : 15
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_033
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Köşedeki bordür taşı kopmuş, parçaları yolun kenarında duruyor.
+
+GPT_prod_gpt_001_034
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bordürlerin bir bölümü yerinden çıkmış ve yol ile kaldırım arasındaki seviye bozulmuş. Düzeltilmesini talep ediyorum.
+
+GPT_prod_gpt_003_033
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yolun köşesindeki bordür taşları kırılmış ve yerinden çıkmış. Bordürlerin yenilenmesini bekliyoruz.
+
+GPT_prod_gpt_004_033
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşları kırılmış ve parçalar taşıt yoluna düşmüş. Düzeltilmesini talep ediyorum.
+
+GPT_prod_gpt_005_033
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım bordürleri kırılmış, parçalar yol kenarına dağılmış. Yenilenmesini talep ediyorum.
+
+GEMINI_prod_gemini_001_033
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşları yerinden fırlamış ve kırılmış, düzeltilmesi gerekiyor.
+
+GEMINI_prod_gemini_003_033
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşları kırılmış ve parçaları caddeye dağılmış durumda.
+
+GEMINI_prod_gemini_004_033
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım bordür taşları kırılmış ve parçaları yola dağılmış vaziyette duruyor.
+
+GEMINI_prod_gemini_004_036
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşlarının sökülüp tahrip olması nedeniyle kaldırım ve yol kotu bozulmuştur, gerekli düzenlemenin yapılmasını talep ederim.
+
+GEMINI_prod_gemini_005_033
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşları yerinden sökülerek yola devrilmiştir, düzeltilmesini talep ediyorum.
+
+GEMINI_long_gemini_002_033
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : İnönü Caddesi üzerinde yol ile kaldırımı ayıran bordür taşları araç darbeleri sonucu yerinden sökülerek yola devrilmiştir. Sürüş emniyetini bozan ve yaya sınırını ortadan kaldıran bu hasarlı bordürlerin onarılmasını talep ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.978053  GPT_prod_gpt_004_033  <->  GEMINI_prod_gemini_005_033
+0.963422  GPT_prod_gpt_003_033  <->  GPT_prod_gpt_004_033
+0.960854  GPT_prod_gpt_003_033  <->  GEMINI_prod_gemini_005_033
+0.959867  GPT_prod_gpt_001_034  <->  GPT_prod_gpt_004_033
+0.958769  GPT_prod_gpt_001_033  <->  GEMINI_prod_gemini_004_033
+0.958089  GEMINI_prod_gemini_005_033  <->  GEMINI_long_gemini_002_033
+0.957820  GEMINI_prod_gemini_003_033  <->  GEMINI_prod_gemini_004_033
+0.956271  GPT_prod_gpt_001_034  <->  GPT_prod_gpt_005_033
+0.955713  GEMINI_prod_gemini_001_033  <->  GEMINI_prod_gemini_005_033
+0.955212  GPT_prod_gpt_004_033  <->  GPT_prod_gpt_005_033
+0.954196  GPT_prod_gpt_004_033  <->  GEMINI_prod_gemini_004_036
+0.953680  GEMINI_prod_gemini_004_036  <->  GEMINI_prod_gemini_005_033
+0.953287  GPT_prod_gpt_001_034  <->  GEMINI_prod_gemini_004_036
+0.953058  GEMINI_prod_gemini_001_033  <->  GEMINI_prod_gemini_003_033
+0.953024  GPT_prod_gpt_001_034  <->  GEMINI_prod_gemini_005_033
+
+
+====================================================================================================
+CLUSTER 7  [P2]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : injured_stray
+Member count      : 10
+All pair count    : 45
+Semantic min      : 0.907511
+Semantic mean     : 0.941537
+Semantic median   : 0.942237
+Semantic max      : 0.976291
+>= P99.5 pairs    : 13
+>= P99.9 pairs    : 2
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_084
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: hard
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarında yaralı bir köpek hareketsiz yatıyor; araçlar yaklaşınca kalkmaya çalışıp tekrar yola yöneliyor. Güvenli şekilde alınarak tedavi edilmesini bekliyorum.
+
+GPT_prod_gpt_005_084
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Sahipsiz bir köpeğin araç çarpması sonrası hareketsizce beklediği görülüyor. Güvenli şekilde alınarak tedavi edilmesini talep ediyorum.
+
+GEMINI_prod_gemini_001_081
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokakta arka bacağı kırılmış ve basamayan yaralı bir köpek var, acil tedaviye ihtiyacı bulunuyor.
+
+GEMINI_prod_gemini_002_081
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Ayağı kırık ve kanaması olan sahipsiz sokak köpeği için acil tedavi müdahalesi yapılmasını saygıyla arz ederim.
+
+GEMINI_prod_gemini_003_081
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bacağı kırılmış yaralı sokak köpeği için acil tıbbi müdahale yapılmasını arz ederim.
+
+GEMINI_prod_gemini_004_081
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Ayağından ağır yaralı ve kanaması olan sahipsiz köpeğe acil veteriner müdahalesi yapılmasını talep ediyorum.
+
+GEMINI_prod_gemini_005_081
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Araba çarpması sonucu arka bacağı kırılan sokak köpeği acı çekmektedir; tedavi edilmesi için acil müdahale talep etmekteyim.
+
+CLAUDE_prod_claude_001_041
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokakta arka bacağını sürüyerek yürüyen yaralı bir köpek var, yardım edilmesi gerekiyor.
+
+GEMINI_long_gemini_001_081
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarında yatan sokak köpeğinin arka bacağında açık yara ve kırık bulunmaktadır. Hareket edemeyen ve acı çeken hayvanın tedavi altına alınması için acil müdahale edilmesini saygılarımla arz ederim.
+
+GEMINI_long_gemini_002_081
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarında arka bacağından ağır yaralanmış ve kanaması olan sahipsiz bir köpek yatmaktadır. Acı çeken hayvanın tedavi altına alınması için acil müdahalede bulunulmasını saygılarımla arz ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.976291  GEMINI_long_gemini_001_081  <->  GEMINI_long_gemini_002_081
+0.969472  GEMINI_prod_gemini_003_081  <->  GEMINI_prod_gemini_005_081
+0.967017  GEMINI_prod_gemini_001_081  <->  GEMINI_prod_gemini_005_081
+0.966214  GEMINI_prod_gemini_001_081  <->  CLAUDE_prod_claude_001_041
+0.965788  GEMINI_prod_gemini_002_081  <->  GEMINI_prod_gemini_004_081
+0.964471  GEMINI_prod_gemini_001_081  <->  GEMINI_prod_gemini_003_081
+0.962700  GEMINI_prod_gemini_002_081  <->  GEMINI_prod_gemini_003_081
+0.962414  GEMINI_prod_gemini_002_081  <->  GEMINI_long_gemini_001_081
+0.959855  GPT_prod_gpt_003_084  <->  GPT_prod_gpt_005_084
+0.958225  GEMINI_prod_gemini_005_081  <->  GEMINI_long_gemini_001_081
+0.956679  GPT_prod_gpt_003_084  <->  GEMINI_long_gemini_002_081
+0.954601  GEMINI_prod_gemini_003_081  <->  GEMINI_long_gemini_001_081
+0.954165  GEMINI_prod_gemini_003_081  <->  GEMINI_prod_gemini_004_081
+0.950200  GEMINI_prod_gemini_002_081  <->  GEMINI_long_gemini_002_081
+0.950154  GEMINI_prod_gemini_004_081  <->  GEMINI_long_gemini_002_081
+
+
+====================================================================================================
+CLUSTER 6  [P2]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 10
+All pair count    : 45
+Semantic min      : 0.905859
+Semantic mean     : 0.942626
+Semantic median   : 0.944767
+Semantic max      : 0.970569
+>= P99.5 pairs    : 14
+>= P99.9 pairs    : 2
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_042
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkındaki kaydırağın basamaklarından biri kırık, çocuklar çıkarken ayağı boşluğa geliyor.
+
+GPT_prod_gpt_002_042
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkındaki kaydırağın çıkış kısmı çatlamış, çocuklar kayarken kenara takılıyor.
+
+GPT_prod_gpt_003_042
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın girişine yakın kaydırağın basamaklarından biri çatlamış, çocuklar çıkarken ayağı takılıyor.
+
+GPT_prod_gpt_005_042
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın girişine yakın kaydırağın basamaklarından biri kırık, çocuklar kullanırken zorlanıyor.
+
+GEMINI_prod_gemini_002_042
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki kaydırağın basamakları kırılmış, çocuklar tırmanırken kayıp düşüyor.
+
+GEMINI_prod_gemini_004_042
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: hard
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkındaki kaydırağın basamakları kırılmış, altındaki kauçuk zemin de söküldüğü için kayan çocuklar yere düşüp yaralanma tehlikesi atlatıyor.
+
+CLAUDE_prod_claude_001_022
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : True
+  Flags     : -
+  Text      : Mahalle parkındaki kaydırağın basamagı kırılmış, çocuklar düşme tehlikesi yaşıyor.
+
+GPT_long_gpt_001_042
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın girişine yakın oyun bölümünde kaydırağın basamaklarından biri kırılmış. Özellikle küçük çocuklar çıkarken ayağını boşluğa basıyor, aileler de sürekli uyarmak zorunda kalıyor. Hasarın kısa sürede giderilmesi güvenlik açısından gerekli.
+
+GPT_long_gpt_002_042
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın çocuk bölümündeki kaydırağın basamaklarından biri çatlamış ve üzerine basıldığında esniyor. Özellikle akşam saatlerinde çocuk sayısı arttığı için sırada bekleyenler fark etmeden aynı basamağı kullanıyor. Kırık parça tamamen kopmadan kontrol edilmesi iyi olur.
+
+GPT_long_gpt_003_042
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın çocuk bölümündeki kaydırağın basamaklarından biri yerinden oynamış. Çocuklar çıkarken basamak sallanıyor ve ebeveynler sürekli uyarmak zorunda kalıyor. Yoğun kullanılan bu bölümde parça tamamen kopmadan onarılması iyi olur.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.970569  GPT_prod_gpt_001_042  <->  GPT_prod_gpt_003_042
+0.968617  GEMINI_prod_gemini_004_042  <->  CLAUDE_prod_claude_001_022
+0.964834  GPT_prod_gpt_001_042  <->  CLAUDE_prod_claude_001_022
+0.964717  GPT_prod_gpt_003_042  <->  GPT_prod_gpt_005_042
+0.962050  GPT_prod_gpt_001_042  <->  GPT_prod_gpt_005_042
+0.961743  GPT_long_gpt_002_042  <->  GPT_long_gpt_003_042
+0.961074  GPT_long_gpt_001_042  <->  GPT_long_gpt_003_042
+0.958417  GPT_prod_gpt_001_042  <->  GPT_long_gpt_001_042
+0.958416  GPT_prod_gpt_003_042  <->  GPT_long_gpt_001_042
+0.957476  GPT_prod_gpt_001_042  <->  GEMINI_prod_gemini_004_042
+0.957161  GPT_prod_gpt_005_042  <->  GPT_long_gpt_001_042
+0.957102  GPT_prod_gpt_002_042  <->  GPT_prod_gpt_003_042
+0.956060  GEMINI_prod_gemini_002_042  <->  CLAUDE_prod_claude_001_022
+0.955203  GPT_prod_gpt_003_042  <->  GEMINI_prod_gemini_002_042
+0.951761  GEMINI_prod_gemini_002_042  <->  GEMINI_prod_gemini_004_042
+
+
+====================================================================================================
+CLUSTER 8  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_sidewalk_occupation
+Member count      : 9
+All pair count    : 36
+Semantic min      : 0.902097
+Semantic mean     : 0.945369
+Semantic median   : 0.946938
+Semantic max      : 0.977768
+>= P99.5 pairs    : 14
+>= P99.9 pairs    : 3
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_061
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletmenin masa ve sandalyeleri kaldırım geçişini kapatıyor. Yayaların rahatça geçebilmesi için düzenleme yapılmasını rica ederim.
+
+GPT_prod_gpt_002_061
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme masa ve sandalyelerini kaldırımın tamamına yaymış, yayaların geçeceği alan kalmamış. Kontrol edilmesini rica ederim.
+
+GPT_prod_gpt_003_061
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme masa ve sandalyelerini kaldırıma yaymış, yayaların geçiş alanı kalmıyor. Kamusal geçişin açılması için işletmenin denetlenmesini istiyorum.
+
+GPT_prod_gpt_005_061
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme masa ve sandalyelerini kaldırıma yaydığı için yaya geçişi kalmıyor. Düzenleme yapılmasını rica ederim.
+
+GEMINI_prod_gemini_002_061
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırıma dizilen kafe masa ve sandalyeleri yaya geçişini tamamen engellemektedir, gerekli denetimin yapılmasını arz ederim.
+
+GEMINI_prod_gemini_003_061
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : İşletmelerin masalarını kaldırıma koyarak yayaların geçişini engellemesi hususunda denetim yapılmasını arz ederim.
+
+GEMINI_prod_gemini_004_061
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : İşletmelerin masa ve sandalyelerini kaldırımın tamamına yayarak yaya geçişini engellemesi sebebiyle denetim yapılmasını rica ederim.
+
+GEMINI_prod_gemini_005_061
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Cadde üzerindeki kafeteryanın masa ve sandalyeleri yaya kaldırımını tamamen kapatmıştır; denetim yapılarak geçişin açılmasını talep etmekteyim.
+
+CLAUDE_long_claude_001_031
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme sahibi kaldırımın büyük bölümünü masa ve sandalyelerle kaplamış durumda, yayaların geçebileceği alan neredeyse kalmamış. Özellikle bebek arabası ya da tekerlekli sandalyeyle geçmek imkansız hale geliyor. Kaldırımın yeniden yaya kullanımına açılmasını rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.977768  GPT_prod_gpt_001_061  <->  GPT_prod_gpt_005_061
+0.972226  GPT_prod_gpt_002_061  <->  GPT_prod_gpt_005_061
+0.967737  GPT_prod_gpt_003_061  <->  GPT_prod_gpt_005_061
+0.967385  GPT_prod_gpt_002_061  <->  GEMINI_prod_gemini_004_061
+0.965296  GEMINI_prod_gemini_003_061  <->  GEMINI_prod_gemini_004_061
+0.964138  GPT_prod_gpt_001_061  <->  GPT_prod_gpt_002_061
+0.961062  GPT_prod_gpt_001_061  <->  GEMINI_prod_gemini_004_061
+0.960961  GEMINI_prod_gemini_002_061  <->  GEMINI_prod_gemini_005_061
+0.960610  GPT_prod_gpt_001_061  <->  GPT_prod_gpt_003_061
+0.959887  GPT_prod_gpt_002_061  <->  GPT_prod_gpt_003_061
+0.959229  GEMINI_prod_gemini_002_061  <->  GEMINI_prod_gemini_004_061
+0.959126  GPT_prod_gpt_005_061  <->  CLAUDE_long_claude_001_031
+0.957129  GPT_prod_gpt_001_061  <->  CLAUDE_long_claude_001_031
+0.954024  GPT_prod_gpt_005_061  <->  GEMINI_prod_gemini_004_061
+0.951842  GPT_prod_gpt_002_061  <->  CLAUDE_long_claude_001_031
+
+
+====================================================================================================
+CLUSTER 9  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_noise_nuisance
+Member count      : 8
+All pair count    : 28
+Semantic min      : 0.92898
+Semantic mean     : 0.951998
+Semantic median   : 0.950091
+Semantic max      : 0.973668
+>= P99.5 pairs    : 11
+>= P99.9 pairs    : 3
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_074
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : İşletmeden geç saatlere kadar düzenli olarak yüksek sesli müzik geliyor. Çevreyi rahatsız eden bu durumun incelenmesini talep ediyorum.
+
+GPT_prod_gpt_002_074
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : True
+  Flags     : -
+  Text      : Restoranın gece geç saatlerde dışarı verdiği müzik çevrede ciddi rahatsızlk yaratıyor. Ses düzeyinin kontrol edilmesini rica ederim.
+
+GPT_prod_gpt_003_073
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahalledeki işletmeden gece geç saatlere kadar yüksek sesli müzik geliyor. Gürültü konusunda denetim yapılmasını rica ederim.
+
+GPT_prod_gpt_004_073
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Gece geç saatlere kadar yüksek sesle müzik açan işletmenin denetlenmesini talep ediyorum.
+
+GPT_prod_gpt_005_073
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletmeden gece geç saatlere kadar yüksek sesli müzik geliyor. Denetlenmesini rica ediyorum.
+
+GPT_long_gpt_001_073
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Gece geç saatlere kadar yüksek sesle müzik açan bir işletme nedeniyle çevrede dinlenmek zorlaştı. Ses kapılar kapalıyken bile dışarıdan duyuluyor ve hafta içi de tekrar ediyor. Çalışma saatleri ve gürültü düzeyinin denetlenmesini rica ederim.
+
+GPT_long_gpt_003_073
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletmeden özellikle gece saatlerinde yüksek seviyede müzik sesi geliyor. Kapılar açık bırakıldığında ses çevrede uzun süre duyuluyor ve dinlenmeyi zorlaştırıyor. Gürültünün geç saatlere kadar düzenli biçimde tekrarlanmasının kontrol edilmesini rica ederim.
+
+GPT_long_gpt_003_076
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yakındaki işletmeden her gece geç saatlerde yüksek sesli müzik geliyor. Özellikle bas sesi kapalı pencereden bile duyuluyor ve uyumayı güçleştiriyor. Gürültünün belirli saatlerden sonra devam etmemesi için durumun kontrol edilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.973668  GPT_prod_gpt_004_073  <->  GPT_prod_gpt_005_073  [LEXICAL]
+0.973022  GPT_long_gpt_003_073  <->  GPT_long_gpt_003_076
+0.970472  GPT_long_gpt_001_073  <->  GPT_long_gpt_003_073
+0.966751  GPT_prod_gpt_003_073  <->  GPT_prod_gpt_005_073
+0.966699  GPT_prod_gpt_001_074  <->  GPT_prod_gpt_005_073
+0.957548  GPT_prod_gpt_003_073  <->  GPT_long_gpt_003_073
+0.957461  GPT_prod_gpt_003_073  <->  GPT_long_gpt_003_076
+0.956258  GPT_prod_gpt_001_074  <->  GPT_prod_gpt_002_074
+0.953970  GPT_prod_gpt_002_074  <->  GPT_long_gpt_003_073
+0.953151  GPT_prod_gpt_001_074  <->  GPT_prod_gpt_003_073
+0.953104  GPT_long_gpt_001_073  <->  GPT_long_gpt_003_076
+0.952185  GPT_prod_gpt_001_074  <->  GPT_long_gpt_003_073
+0.951520  GPT_prod_gpt_002_074  <->  GPT_prod_gpt_003_073
+0.950279  GPT_prod_gpt_001_074  <->  GPT_long_gpt_001_073
+0.949904  GPT_prod_gpt_002_074  <->  GPT_prod_gpt_005_073
+
+
+====================================================================================================
+CLUSTER 10  [P2]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : sick_stray
+Member count      : 6
+All pair count    : 15
+Semantic min      : 0.910576
+Semantic mean     : 0.940798
+Semantic median   : 0.941273
+Semantic max      : 0.964604
+>= P99.5 pairs    : 5
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_088
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: hard
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Pazar yerinin arkasında çok halsiz bir sokak köpeği var; çevredeki yemek artıklarına yaklaşmıyor, ayağa kalkınca hemen tekrar yatıyor. Sağlık kontrolü için alınmasını rica ederim.
+
+GPT_prod_gpt_004_086
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Evimizin yakınında hasta gibi görünen bir köpek var, gözleri akıyor ve yemek de yemiyor.
+
+GPT_prod_gpt_004_088
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: hard
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yıldız Mahallesi Gül Caddesi'nde marketlerin arkasındaki sahipsiz köpek belirgin şekilde halsiz, tüyleri dökülmüş ve çöplerin arasında yatıyor; sağlık kontrolü yapılmasını rica ederim.
+
+GPT_long_gpt_001_085
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle girişinde birkaç gündür çok halsiz görünen sahipsiz bir köpek bulunuyor. Yemek bırakıldığında yaklaşmıyor, gözleri akıntılı ve uzun süre aynı yerde yatıyor. Sağlık durumunun kontrol edilmesi gerekiyor.
+
+GEMINI_long_gemini_001_086
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım köşesinde günlerdir hareketsiz yatan bir sokak köpeği var. Sürekli titriyor, burnundan koyu akıntı geliyor ve hiçbir şey yemiyor. Bulaşıcı bir hastalığı olmasından endişeleniyoruz, tedavi edilmesi için alınmasını istiyoruz.
+
+CLAUDE_long_claude_001_043
+  Generator : CLAUDE
+  Batch     : long_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Sürekli aynı köşede yatan bir sokak köpeği dikkatimi çekti, gözlerinde akıntı var ve nefes alışı düzensiz görünüyor. Yemek verilse bile pek iştahı olmuyor ve halsiz bir şekilde yatıyor. Hayvanın sağlık durumunun kontrol edilmesini rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.964604  GPT_long_gpt_001_085  <->  CLAUDE_long_claude_001_043
+0.962904  GPT_prod_gpt_001_088  <->  CLAUDE_long_claude_001_043
+0.956331  GPT_prod_gpt_004_086  <->  GPT_long_gpt_001_085
+0.955373  GPT_prod_gpt_001_088  <->  GPT_prod_gpt_004_088
+0.952808  GEMINI_long_gemini_001_086  <->  CLAUDE_long_claude_001_043
+0.948773  GPT_prod_gpt_001_088  <->  GPT_long_gpt_001_085
+0.941447  GPT_prod_gpt_004_088  <->  CLAUDE_long_claude_001_043
+0.941273  GPT_prod_gpt_004_086  <->  CLAUDE_long_claude_001_043
+0.937382  GPT_prod_gpt_004_088  <->  GPT_long_gpt_001_085
+0.937314  GPT_prod_gpt_004_086  <->  GEMINI_long_gemini_001_086
+0.937078  GPT_long_gpt_001_085  <->  GEMINI_long_gemini_001_086
+0.931819  GPT_prod_gpt_001_088  <->  GEMINI_long_gemini_001_086
+0.920768  GPT_prod_gpt_001_088  <->  GPT_prod_gpt_004_086
+0.913513  GPT_prod_gpt_004_088  <->  GEMINI_long_gemini_001_086
+0.910576  GPT_prod_gpt_004_086  <->  GPT_prod_gpt_004_088
+
+
+====================================================================================================
+CLUSTER 11  [P2]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : injured_stray
+Member count      : 5
+All pair count    : 10
+Semantic min      : 0.934663
+Semantic mean     : 0.96416
+Semantic median   : 0.960642
+Semantic max      : 0.989744
+>= P99.5 pairs    : 9
+>= P99.9 pairs    : 4
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_081
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Sahipsiz bir kedinin arka ayağı kanıyor ve üzerine basamıyor. Tedavi için alınmasını rica ederim.
+
+GPT_prod_gpt_001_083
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: hard
+  Style     : formal
+  Typo      : True
+  Flags     : -
+  Text      : Barış Mahallesi Gül Caddesi'nde yol kenarında yaralı bir kedi var; araçlar yaklaşınca kalkmaya çalışıyor fakat ön ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ediyorm.
+
+GPT_prod_gpt_002_081
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yaralı bir sokak kedisi arka ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ederim.
+
+GPT_prod_gpt_003_081
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yaralı bir sokak kedisi var, arka ayağına basamıyor. Yardım edilmesini rica ederim.
+
+GPT_prod_gpt_005_081
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yaralı bir kedi var, arka ayağına basamıyor. Yardım edilmesini rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.989744  GPT_prod_gpt_003_081  <->  GPT_prod_gpt_005_081  [LEXICAL]
+0.984723  GPT_prod_gpt_002_081  <->  GPT_prod_gpt_003_081
+0.973256  GPT_prod_gpt_002_081  <->  GPT_prod_gpt_005_081
+0.968248  GPT_prod_gpt_001_083  <->  GPT_prod_gpt_002_081
+0.960838  GPT_prod_gpt_001_083  <->  GPT_prod_gpt_003_081
+0.960446  GPT_prod_gpt_001_081  <->  GPT_prod_gpt_005_081
+0.957765  GPT_prod_gpt_001_081  <->  GPT_prod_gpt_002_081
+0.957223  GPT_prod_gpt_001_083  <->  GPT_prod_gpt_005_081
+0.954691  GPT_prod_gpt_001_081  <->  GPT_prod_gpt_003_081
+0.934663  GPT_prod_gpt_001_081  <->  GPT_prod_gpt_001_083
+
+
+====================================================================================================
+CLUSTER 12  [P2]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 5
+All pair count    : 10
+Semantic min      : 0.934009
+Semantic mean     : 0.949708
+Semantic median   : 0.951889
+Semantic max      : 0.973225
+>= P99.5 pairs    : 4
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : CLAUDE, GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_005_041
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki kaydırağın basamakları kırılmış olup minikler için tehlike yaratmaktadır; ekipmanın tamir edilmesini saygılarımla arz ederim.
+
+CLAUDE_prod_claude_002_022
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahalledeki oyun alanında kaydırağın basamağı kırılmış, çocuklar çıkarken zorlanıyor. Gerekli onarımın yapılmasını talep ediyorum.
+
+GEMINI_long_gemini_001_042
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkının oyun alanında bulunan spiral kaydırağın iniş basamakları kırık ve plastik yüzeyinde derin çatlaklar var. Çocuklar kayarken bacaklarını çiziyor. Herhangi bir yaralanma meydana gelmeden bu oyun grubunun onarılmasını istiyoruz.
+
+GEMINI_long_gemini_002_041
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki kaydırağın basamakları kırılmış ve emniyet korkuluğu yerinden çıkmıştır. Küçük yaştaki çocukların düşerek ağır yaralanma riski bulunduğundan hasarlı oyun grubunun tamir edilmesini arz ederim.
+
+GEMINI_long_gemini_003_041
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk parkı içerisindeki spiral kaydırağın basamak demirleri yerinden çıkmış ve kaydırak tablasında derin bir çatlak oluşmuştur. Çocuklarımızın oyun esnasında yaralanmaması adına oyun grubunun acilen bakım ve onarımdan geçirilmesini saygılarımla arz ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.973225  GEMINI_prod_gemini_005_041  <->  GEMINI_long_gemini_002_041
+0.955361  GEMINI_prod_gemini_005_041  <->  GEMINI_long_gemini_003_041
+0.954651  GEMINI_long_gemini_001_042  <->  GEMINI_long_gemini_003_041
+0.953031  CLAUDE_prod_claude_002_022  <->  GEMINI_long_gemini_002_041
+0.952149  GEMINI_long_gemini_002_041  <->  GEMINI_long_gemini_003_041
+0.951628  GEMINI_prod_gemini_005_041  <->  CLAUDE_prod_claude_002_022
+0.947120  CLAUDE_prod_claude_002_022  <->  GEMINI_long_gemini_001_042
+0.938168  GEMINI_long_gemini_001_042  <->  GEMINI_long_gemini_002_041
+0.937738  CLAUDE_prod_claude_002_022  <->  GEMINI_long_gemini_003_041
+0.934009  GEMINI_prod_gemini_005_041  <->  GEMINI_long_gemini_001_042
+
+
+====================================================================================================
+CLUSTER 14  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_sidewalk_occupation
+Member count      : 4
+All pair count    : 6
+Semantic min      : 0.962974
+Semantic mean     : 0.96812
+Semantic median   : 0.967829
+Semantic max      : 0.975398
+>= P99.5 pairs    : 6
+>= P99.9 pairs    : 3
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_062
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Köşedeki kafe kaldırımın neredeyse tamamına masa koymuş, bebek arabasıyla geçilemiyor.
+
+GPT_prod_gpt_002_062
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Köşedeki kafe akşamları masaları iyice dışarı çıkarıyor, bebek arabasıyla geçmek mümkün olmuyor.
+
+GPT_prod_gpt_003_062
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Köşedeki kafe akşamları sandalyeleri kaldırımın tamamına yakınını kaplayacak şekilde çıkarıyor, bebek arabasıyla geçilemiyor.
+
+GPT_prod_gpt_005_062
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Köşedeki kafe her akşam kaldırımı masalarla kapatıyor, bebek arabasıyla geçmek mümkün olmuyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.975398  GPT_prod_gpt_002_062  <->  GPT_prod_gpt_005_062  [LEXICAL]
+0.970493  GPT_prod_gpt_001_062  <->  GPT_prod_gpt_005_062
+0.969484  GPT_prod_gpt_001_062  <->  GPT_prod_gpt_002_062
+0.966175  GPT_prod_gpt_003_062  <->  GPT_prod_gpt_005_062
+0.964197  GPT_prod_gpt_001_062  <->  GPT_prod_gpt_003_062
+0.962974  GPT_prod_gpt_002_062  <->  GPT_prod_gpt_003_062
+
+
+====================================================================================================
+CLUSTER 13  [P2]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : overflowing_container
+Member count      : 4
+All pair count    : 6
+Semantic min      : 0.939647
+Semantic mean     : 0.955383
+Semantic median   : 0.957357
+Semantic max      : 0.968058
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_002
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın köşesindeki konteyner ağzına kadar dolu, poşetler yanına bırakılmaya başlandı.
+
+GPT_prod_gpt_002_002
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki konteyner dolu olduğu için poşetler yanına bırakılıyor, çevresi giderek kirleniyor.
+
+GPT_prod_gpt_003_002
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki konteyner dolduğu için poşetler yanına bırakılıyor, akşamları koku iyice artıyor.
+
+GPT_prod_gpt_005_002
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki konteyner tamamen dolmuş, poşetler çevresine bırakılıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.968058  GPT_prod_gpt_002_002  <->  GPT_prod_gpt_005_002
+0.967172  GPT_prod_gpt_002_002  <->  GPT_prod_gpt_003_002
+0.962886  GPT_prod_gpt_001_002  <->  GPT_prod_gpt_005_002
+0.951828  GPT_prod_gpt_003_002  <->  GPT_prod_gpt_005_002
+0.942706  GPT_prod_gpt_001_002  <->  GPT_prod_gpt_003_002
+0.939647  GPT_prod_gpt_001_002  <->  GPT_prod_gpt_002_002
+
+
+====================================================================================================
+CLUSTER 19  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_noise_nuisance
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.956851
+Semantic mean     : 0.967733
+Semantic median   : 0.958944
+Semantic max      : 0.987403
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_073
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Alt sokaktaki kafe gece çok yüksek müzik açıyor, evde cam kapalıyken bile duyuluyor.
+
+GPT_prod_gpt_002_073
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Alt sokaktaki kafeden gece geç saatlere kadar çok yüksek müzik geliyor, uyumak zor oluyor.
+
+GPT_prod_gpt_004_074
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : casual
+  Typo      : True
+  Flags     : -
+  Text      : Alt sokaktaki kafeden her gece çok yüksek müzik geliyo, camlar kapalıyken bile duyuluyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.987403  GPT_prod_gpt_001_073  <->  GPT_prod_gpt_004_074  [LEXICAL]
+0.958944  GPT_prod_gpt_002_073  <->  GPT_prod_gpt_004_074
+0.956851  GPT_prod_gpt_001_073  <->  GPT_prod_gpt_002_073
+
+
+====================================================================================================
+CLUSTER 27  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_sidewalk_occupation
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.976485
+Semantic mean     : 0.978914
+Semantic median   : 0.977038
+Semantic max      : 0.983219
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 3
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_061
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme gün boyunca masa ve sandalyelerini kaldırımın büyük bölümüne yayıyor. Yayalar tek sıra geçmek zorunda kalıyor, çocuk arabası kullananlar ise kısa süreliğine yola iniyor. Geçiş alanının açık tutulması gerekiyor.
+
+GPT_long_gpt_002_061
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme masa ve sandalyelerini kaldırımın neredeyse tamamına yaymış durumda. Yayalar tek sıra hâlinde geçebiliyor, çocuk arabası kullananlar ise çoğu zaman yola iniyor. Geçiş alanının açılması gerekiyor.
+
+GPT_long_gpt_003_061
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir işletme masa ve sandalyelerini kaldırımın neredeyse tamamını kaplayacak şekilde yerleştiriyor. Yayalar tek sıra hâlinde geçmek zorunda kalıyor, bebek arabaları ise araç yoluna iniyor. Yaya alanının açık tutulması gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.983219  GPT_long_gpt_001_061  <->  GPT_long_gpt_002_061
+0.977038  GPT_long_gpt_002_061  <->  GPT_long_gpt_003_061
+0.976485  GPT_long_gpt_001_061  <->  GPT_long_gpt_003_061
+
+
+====================================================================================================
+CLUSTER 18  [P2]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : pothole
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.957948
+Semantic mean     : 0.965636
+Semantic median   : 0.961626
+Semantic max      : 0.977335
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_022
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın girişindeki çukur iyice büyüdü, araçlar yanından geçmek için manevra yapıyor.
+
+GPT_prod_gpt_002_022
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın dönüşündeki çukur son yağmurlardan sonra büyüdü, araçlar karşı şeride açılarak geçiyor.
+
+GPT_prod_gpt_003_022
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın girişindeki çukur son yağmurlarla büyüdü, arabalar karşı şeride kırarak geçiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.977335  GPT_prod_gpt_002_022  <->  GPT_prod_gpt_003_022
+0.961626  GPT_prod_gpt_001_022  <->  GPT_prod_gpt_002_022
+0.957948  GPT_prod_gpt_001_022  <->  GPT_prod_gpt_003_022
+
+
+====================================================================================================
+CLUSTER 23  [P2]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.959294
+Semantic mean     : 0.964835
+Semantic median   : 0.965987
+Semantic max      : 0.969223
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 3
+Chaining risk     : False
+Generators        : CLAUDE, GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_004_041
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Salıncağın bir zinciri kopmuş, çocuklar kullanamıyor.
+
+GEMINI_prod_gemini_003_042
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Oyun alanındaki salıncağın bir zinciri kopmuş, çocuklar sallanamıyor.
+
+CLAUDE_prod_claude_001_021
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki salıncağın zinciri kopmuş, çocuklar kullanamıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.969223  GEMINI_prod_gemini_003_042  <->  CLAUDE_prod_claude_001_021  [LEXICAL]
+0.965987  GPT_prod_gpt_004_041  <->  CLAUDE_prod_claude_001_021  [LEXICAL]
+0.959294  GPT_prod_gpt_004_041  <->  GEMINI_prod_gemini_003_042  [LEXICAL]
+
+
+====================================================================================================
+CLUSTER 20  [P2]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : stray_animal_group
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.951375
+Semantic mean     : 0.962112
+Semantic median   : 0.965954
+Semantic max      : 0.969007
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_094
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir grup sahipsiz köpek birlikte hareket ediyor ve yoldan geçenlere topluca yaklaşarak korku yaratıyor. Güvenli şekilde kontrol altına alınmalarını rica ederim.
+
+GPT_prod_gpt_004_093
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir grup sahipsiz köpek sürü halinde dolaşıp yayaların peşine takılıyor. Güvenli şekilde kontrol altına alınmalarını talep ediyorum.
+
+GPT_prod_gpt_005_093
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Birlikte dolaşan sahipsiz köpek grubu akşamları insanları tedirgin ediyor. Kontrol edilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.969007  GPT_prod_gpt_001_094  <->  GPT_prod_gpt_004_093
+0.965954  GPT_prod_gpt_001_094  <->  GPT_prod_gpt_005_093
+0.951375  GPT_prod_gpt_004_093  <->  GPT_prod_gpt_005_093
+
+
+====================================================================================================
+CLUSTER 44  [P2]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : bulky_waste_debris
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.986256
+Semantic mean     : 0.986256
+Semantic median   : 0.986256
+Semantic max      : 0.986256
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_017
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Eski koltuk ve kırık dolap parçaları günlerdir bırakıldığı yerde duruyor.
+
+GPT_prod_gpt_004_017
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Eski bir koltukla kırık dolap parçaları günlerdir kaldırılmadan duruyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.986256  GPT_prod_gpt_003_017  <->  GPT_prod_gpt_004_017
+
+
+====================================================================================================
+CLUSTER 48  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : unauthorized_street_vendor
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.981047
+Semantic mean     : 0.981047
+Semantic median   : 0.981047
+Semantic max      : 0.981047
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_067
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Barış Mahallesi Menekşe Sokak'ta yaya geçiş alanına sürekli seyyar satış tezgâhı kuruluyor. İzin ve kullanım durumunun kontrol edilmesini talep ediyorum.
+
+GPT_prod_gpt_004_065
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Barış Mahallesi Menekşe Caddesi'nde izinsiz olduğu anlaşılan seyyar satış tezgâhı yaya geçişini engelliyor. Kontrol edilmesini talep ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.981047  GPT_prod_gpt_003_067  <->  GPT_prod_gpt_004_065
+
+
+====================================================================================================
+CLUSTER 33  [P2]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : bulky_waste_debris
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.969424
+Semantic mean     : 0.969424
+Semantic median   : 0.969424
+Semantic max      : 0.969424
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_017
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başına eski koltuk bırakmışlar, günlerdir duruyor.
+
+GEMINI_prod_gemini_005_018
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başına eski baza ve kırık koltuk atmışlar, günlerdir öylece duruyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.969424  GPT_prod_gpt_001_017  <->  GEMINI_prod_gemini_005_018
+
+
+====================================================================================================
+CLUSTER 58  [P2]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : unauthorized_street_vendor
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.968588
+Semantic mean     : 0.968588
+Semantic median   : 0.968588
+Semantic max      : 0.968588
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 1
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_065
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : İstasyon Caddesi'nde izinsiz tezgâh açan seyyar satıcılar yolu tıkamış durumda.
+
+GEMINI_prod_gemini_005_065
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : İstasyon Meydanı çıkışında izinsiz seyyar satıcılar tezgah kurarak yaya geçişini tıkıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.968588  GEMINI_prod_gemini_002_065  <->  GEMINI_prod_gemini_005_065
+
+
+====================================================================================================
+CLUSTER 16  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : aggressive_stray
+Member count      : 4
+All pair count    : 6
+Semantic min      : 0.910686
+Semantic mean     : 0.942944
+Semantic median   : 0.945624
+Semantic max      : 0.967274
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_089
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Umut Mahallesi Papatya Caddesi'nde sahipsiz bir köpek geçenlere doğru koşup hırlıyor, özellikle çocuklar korkuyor.
+
+GPT_prod_gpt_003_089
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sahipsiz bir köpek geçenlere hırlayıp üstlerine koşuyor.
+
+GPT_prod_gpt_004_089
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sahipsiz bir köpek geçenlere diş gösterip üstlerine koşuyor.
+
+GPT_prod_gpt_005_089
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Güneşli Mahallesi Menekşe Caddesi'nde sahipsiz bir köpek geçenlere hırlayıp üzerlerine koşuyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.967274  GPT_prod_gpt_003_089  <->  GPT_prod_gpt_004_089
+0.958433  GPT_prod_gpt_001_089  <->  GPT_prod_gpt_005_089
+0.955339  GPT_prod_gpt_003_089  <->  GPT_prod_gpt_005_089
+0.935908  GPT_prod_gpt_001_089  <->  GPT_prod_gpt_003_089
+0.930023  GPT_prod_gpt_004_089  <->  GPT_prod_gpt_005_089
+0.910686  GPT_prod_gpt_001_089  <->  GPT_prod_gpt_004_089
+
+
+====================================================================================================
+CLUSTER 17  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : vegetation_irrigation
+Member count      : 4
+All pair count    : 6
+Semantic min      : 0.911201
+Semantic mean     : 0.939532
+Semantic median   : 0.94587
+Semantic max      : 0.957649
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_051
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yeni dikilen fidanların bir kısmı susuzluktan yaprak döküyor. Sulama düzeninin kontrol edilmesini rica ederim.
+
+GPT_prod_gpt_005_050
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yeni dikilen fidanların kuruma belirtileri gösterdiğini fark ettim. Sulama düzeninin kontrol edilmesini rica ederim.
+
+GPT_long_gpt_002_049
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parkın arka tarafındaki çim alan haftalardır düzenli sulanmıyor gibi görünüyor. Özellikle güneş alan bölüm tamamen sararmış, yeni dikilen birkaç fidanın yaprakları da kurumuş. Yağış olmayan günlerde durum hızla kötüleşiyor. Sulama düzeninin kontrol edilmesi gerekiyor.
+
+GPT_long_gpt_002_051
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çimlerin bir bölümü uzun süredir susuz kaldığı için tamamen sararmış, genç fidanların yaprakları da kıvrılmaya başlamış. Yağışsız dönemde sulama yapılmadığı açıkça görülüyor. Yeşil alanın sulama düzeninin kontrol edilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.957649  GPT_prod_gpt_002_051  <->  GPT_prod_gpt_005_050
+0.954797  GPT_long_gpt_002_049  <->  GPT_long_gpt_002_051
+0.953150  GPT_prod_gpt_002_051  <->  GPT_long_gpt_002_051
+0.938590  GPT_prod_gpt_005_050  <->  GPT_long_gpt_002_051
+0.921806  GPT_prod_gpt_002_051  <->  GPT_long_gpt_002_049
+0.911201  GPT_prod_gpt_005_050  <->  GPT_long_gpt_002_049
+
+
+====================================================================================================
+CLUSTER 15  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : unauthorized_street_vendor
+Member count      : 4
+All pair count    : 6
+Semantic min      : 0.935306
+Semantic mean     : 0.948204
+Semantic median   : 0.950505
+Semantic max      : 0.955924
+>= P99.5 pairs    : 3
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_065
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Meydan girişinde izinsiz satış yapan seyyar tezgâh geçişi daraltıyor. Alanın düzenlenmesini rica ederim.
+
+GPT_prod_gpt_002_065
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Meydan girişinde sürekli kurulan seyyar satış tezgâhının yaya akışını engellediğini bildiriyorum. Denetlenmesini rica ederim.
+
+GEMINI_prod_gemini_001_065
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Meydanda ruhsatsız seyyar satıcılar tezgah açarak geçişi engellemektedir, denetlenmesini rica ederim.
+
+GEMINI_prod_gemini_003_065
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : İstasyon Caddesi üzerinde izinsiz seyyar tezgah açan satıcıların denetlenmesini saygılarımla talep ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.955924  GEMINI_prod_gemini_001_065  <->  GEMINI_prod_gemini_003_065
+0.953367  GPT_prod_gpt_002_065  <->  GEMINI_prod_gemini_001_065
+0.952937  GPT_prod_gpt_001_065  <->  GPT_prod_gpt_002_065
+0.948072  GPT_prod_gpt_001_065  <->  GEMINI_prod_gemini_001_065
+0.943617  GPT_prod_gpt_002_065  <->  GEMINI_prod_gemini_003_065
+0.935306  GPT_prod_gpt_001_065  <->  GEMINI_prod_gemini_003_065
+
+
+====================================================================================================
+CLUSTER 21  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : road_surface_collapse
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.944805
+Semantic mean     : 0.954178
+Semantic median   : 0.954553
+Semantic max      : 0.963175
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_038
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Yol yüzeyi bir noktada aşağı doğru çökmüş, araç geçerken altı vuracak kadar derinleşmiş.
+
+GPT_prod_gpt_003_040
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Asfaltın altı boşalmış gibi bir bölüm aşağı oturmuş; araçlar geçerken sert vuruyor.
+
+GPT_prod_gpt_004_038
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Asfalt bir noktada resmen çökmüş, araba geçince altı vuruyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.963175  GPT_prod_gpt_003_040  <->  GPT_prod_gpt_004_038
+0.954553  GPT_prod_gpt_002_038  <->  GPT_prod_gpt_004_038
+0.944805  GPT_prod_gpt_002_038  <->  GPT_prod_gpt_003_040
+
+
+====================================================================================================
+CLUSTER 22  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.938405
+Semantic mean     : 0.954078
+Semantic median   : 0.960706
+Semantic max      : 0.963122
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_044
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: hard
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Oyun alanındaki salıncağın oturağı kırılıp yere düşmüş; parça diğer atıklarla birlikte kenara itilmiş, zincirler hâlâ çocukların erişiminde. Ekipmanın güvenli hâle getirilmesi için müdahale bekliyorum.
+
+GPT_long_gpt_002_041
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki salıncağın oturma kısmını taşıyan bağlantılardan biri gevşemiş. Kullanıldığında salıncak yana doğru dengesiz hareket ediyor. Çocuklar kullanmaya devam ettiği için ekipmanın kontrol edilip güvenli hâle getirilmesi gerekiyor.
+
+GPT_long_gpt_003_041
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk oyun alanındaki salıncağın bir oturağı kırılmış ve bağlantı zincirlerinden biri gevşemiş durumda. Çocuklar kullanmaya devam ettiği için düşme riski oluşuyor. Ekipmanın güvenli hâle getirilene kadar onarılması veya kullanımının engellenmesi gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.963122  GPT_long_gpt_002_041  <->  GPT_long_gpt_003_041
+0.960706  GPT_prod_gpt_003_044  <->  GPT_long_gpt_003_041
+0.938405  GPT_prod_gpt_003_044  <->  GPT_long_gpt_002_041
+
+
+====================================================================================================
+CLUSTER 28  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : aggressive_stray
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.937884
+Semantic mean     : 0.951663
+Semantic median   : 0.957802
+Semantic max      : 0.959304
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_089
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Funda Mahallesi Çınar Yolu'nda sahipsiz bir köpek yayalara sık sık havlayıp üzerlerine doğru koşuyor. Özellikle bisiklet geçenlere tepki veriyor ve birkaç kişi korkup yönünü değiştirdi. Hayvanın davranışının kontrol edilmesi gerekiyor.
+
+GPT_long_gpt_002_092
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yürüyüş yolunun yakınında duran bir köpek özellikle bisiklet geçenlere havlayıp peşlerinden koşuyor. Yavaş yürüyenlere çoğunlukla yaklaşmıyor ama hızlı hareket görünce birden saldırganlaşıyor. Son günlerde aynı davranış birkaç kez tekrarlandı.
+
+GPT_long_gpt_003_091
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yürüyüş yolunun yakınında duran sahipsiz köpek son günlerde geçenlere havlayıp üzerlerine doğru koşuyor. Özellikle bisikletliler yaklaşınca peşlerinden gidiyor. İnsanlar korkup yolun karşı tarafına geçmeye başladığı için durumun kontrol edilmesi gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.959304  GPT_long_gpt_002_092  <->  GPT_long_gpt_003_091
+0.957802  GPT_long_gpt_001_089  <->  GPT_long_gpt_003_091
+0.937884  GPT_long_gpt_001_089  <->  GPT_long_gpt_002_092
+
+
+====================================================================================================
+CLUSTER 26  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : tree_branch_hazard
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.943728
+Semantic mean     : 0.951746
+Semantic median   : 0.953658
+Semantic max      : 0.957853
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_053
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yürüyüş yolunun üzerine doğru sarkan kalın bir ağaç dalı var. Rüzgârda belirgin biçimde hareket ediyor ve altında oturanlar tedirgin oluyor. Dalın kırılmadan önce güvenli şekilde budanması gerekiyor.
+
+GPT_long_gpt_002_053
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parkın giriş tarafındaki büyük ağacın kalın bir dalı son rüzgârdan sonra aşağı doğru sarkmış. Dal yürüyüş güzergâhının üstüne geliyor ve altında sürekli insanlar geçiyor. Kırılmadan önce kontrol edilmesi iyi olur.
+
+GPT_long_gpt_003_053
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Büyük bir ağacın kurumuş dalı yürüyüş alanının üzerinde aşağı doğru sarkmaktadır. Rüzgârlı havalarda dal belirgin şekilde hareket ediyor ve altından geçenler yön değiştirmek zorunda kalıyor. Kırılıp düşmeden önce güvenli biçimde budanmasının uygun olacağını düşünüyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.957853  GPT_long_gpt_001_053  <->  GPT_long_gpt_003_053
+0.953658  GPT_long_gpt_001_053  <->  GPT_long_gpt_002_053
+0.943728  GPT_long_gpt_002_053  <->  GPT_long_gpt_003_053
+
+
+====================================================================================================
+CLUSTER 29  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : tree_branch_hazard
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.949234
+Semantic mean     : 0.953368
+Semantic median   : 0.95358
+Semantic max      : 0.95729
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_long_gemini_001_053
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parkın girişindeki büyük çınar ağacının kalın bir dalı fırtınada çatladı ve havada asılı kaldı. İnsanların kafasına düşebilir. Bu tehlikeli dalın acilen budanıp kesilmesini istiyoruz.
+
+GEMINI_long_gemini_002_053
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Botanik Parkı girişindeki asırlık çınar ağacının kalın bir dalı fırtınada kırılarak aşağı doğru sarkmıştır. Altından geçen yayaların üzerine düşme ihtimali çok yüksek olduğundan tehlikeli dalın acilen budanmasını arz ederim.
+
+GEMINI_long_gemini_003_053
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Ihlamur Parkı yürüyüş yolu üzerindeki asırlık çınar ağacının kalın bir dalı fırtınada kırılarak askıda kalmıştır. Altından geçen yayaların üzerine her an düşebilecek durumdaki bu tehlikeli dalın budanmasını rica ederiz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.957290  GEMINI_long_gemini_002_053  <->  GEMINI_long_gemini_003_053
+0.953580  GEMINI_long_gemini_001_053  <->  GEMINI_long_gemini_002_053
+0.949234  GEMINI_long_gemini_001_053  <->  GEMINI_long_gemini_003_053
+
+
+====================================================================================================
+CLUSTER 25  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : trapped_animal_rescue
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.944297
+Semantic mean     : 0.952272
+Semantic median   : 0.955577
+Semantic max      : 0.956942
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_098
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : True
+  Flags     : -
+  Text      : İnşaat temelindeki su çukuruna düşen yavru köpek kendi başına tırmanamıyo, kurtarılması gerek.
+
+GEMINI_prod_gemini_003_097
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : İnşaat çukuruna düşen köpek yavrusu çıkamıyor, kurtarılması için yardım bekliyoruz.
+
+GEMINI_prod_gemini_005_098
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : İnşaatın çukurundaki su birikintisinde bir köpek mahsur kalmış, yukarı tırmanamıyor kurtarın.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.956942  GEMINI_prod_gemini_002_098  <->  GEMINI_prod_gemini_003_097
+0.955577  GEMINI_prod_gemini_002_098  <->  GEMINI_prod_gemini_005_098
+0.944297  GEMINI_prod_gemini_003_097  <->  GEMINI_prod_gemini_005_098
+
+
+====================================================================================================
+CLUSTER 24  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : aggressive_stray
+Member count      : 3
+All pair count    : 3
+Semantic min      : 0.933224
+Semantic mean     : 0.947651
+Semantic median   : 0.953222
+Semantic max      : 0.956508
+>= P99.5 pairs    : 2
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : True
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_090
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Okul yolundaki kavşakta bekleyen sahipsiz köpek öğrencilere doğru koşarak havlamakta ve korku yaratmaktadır, bölgeden alınarak rehabilite edilmesini rica ederim.
+
+GEMINI_long_gemini_002_089
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : İlkokulun hemen yanındaki sokakta iri bir köpek yoldan geçen öğrencilere ve velilere sürekli saldırganca havlayıp üzerlerine koşuyor. Çocuklar korkudan okula gidemez oldu, şu köpeğin buradan alınmasını rica ediyorum.
+
+GEMINI_long_gemini_003_089
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki iri köpek yoldan geçen herkese hırlıyor ve koşarak saldırıyor. Bu sabah okula giden iki çocuğun üzerine atladı, çocuklar zor kaçtı. Birileri ısırılmadan bu saldırgan hayvanın toplanmasını istiyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.956508  GEMINI_prod_gemini_002_090  <->  GEMINI_long_gemini_002_089
+0.953222  GEMINI_long_gemini_002_089  <->  GEMINI_long_gemini_003_089
+0.933224  GEMINI_prod_gemini_002_090  <->  GEMINI_long_gemini_003_089
+
+
+====================================================================================================
+CLUSTER 47  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : tree_branch_hazard
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.967475
+Semantic mean     : 0.967475
+Semantic median   : 0.967475
+Semantic max      : 0.967475
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : CLAUDE, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_053
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Parkın kenarındaki ağacın kalın bir dalı aşağı sarkmış. Kırılma riski oluşmadan budama yapılmasını istiyorum.
+
+CLAUDE_prod_claude_001_027
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çocuk parkının yanındaki büyük ağacın dalı kırılmış, düşme tehlikesi oluşturuyor. Budama yapılmasını istiyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.967475  GPT_prod_gpt_003_053  <->  CLAUDE_prod_claude_001_027
+
+
+====================================================================================================
+CLUSTER 53  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : road_surface_collapse
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.966551
+Semantic mean     : 0.966551
+Semantic median   : 0.966551
+Semantic max      : 0.966551
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_040
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kanalizasyon kapağının çevresindeki asfalt zemin yaklaşık yarım metre çökmüş durumda, sürücüler fark etmeyip son anda kaçıyor.
+
+GEMINI_prod_gemini_003_039
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kanalizasyon kapağının etrafındaki zemin çökmüş, sürücüler fark etmeyince çok sert çarpıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.966551  GEMINI_prod_gemini_001_040  <->  GEMINI_prod_gemini_003_039
+
+
+====================================================================================================
+CLUSTER 41  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : trapped_animal_rescue
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.964526
+Semantic mean     : 0.964526
+Semantic median   : 0.964526
+Semantic max      : 0.964526
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_097
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki yağmur giderine bir kedi düşmüş, kendi başına çıkamıyor.
+
+GPT_prod_gpt_005_097
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki yağmur suyu kanalına bir kedi düşmüş, kendi başına çıkamıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.964526  GPT_prod_gpt_002_097  <->  GPT_prod_gpt_005_097
+
+
+====================================================================================================
+CLUSTER 34  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : tree_branch_hazard
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.9633
+Semantic mean     : 0.9633
+Semantic median   : 0.9633
+Semantic max      : 0.9633
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_054
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : SERVICE_TERM
+  Text      : Büyük bir ağaç dalı çatlamış ve düşme riski oluşturuyor. Park görevlilerinin kontrol edip güvenli hale getirmesini rica ederim.
+
+GPT_prod_gpt_004_053
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Park ağacının kalın dalı çatlamış ve aşağı doğru sarkıyor. Düşmeden önce kontrol edilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.963300  GPT_prod_gpt_001_054  <->  GPT_prod_gpt_004_053
+
+
+====================================================================================================
+CLUSTER 37  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : stray_animal_group
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.962742
+Semantic mean     : 0.962742
+Semantic median   : 0.962742
+Semantic max      : 0.962742
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_096
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: hard
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parkın arka çıkışında toplanan sahipsiz köpekler çöp poşetlerini dağıttıktan sonra yaklaşanlara birlikte havlayıp peşlerinden gidiyor. İnsanlar o geçişi kullanmaya çekiniyor.
+
+GPT_prod_gpt_003_096
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: hard
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yenikent Mahallesi Çam Caddesi'nde park çıkışında toplanan sahipsiz köpekler, çöp poşetleri açıldığında daha da kalabalıklaşıp çevreden geçenleri sıkıştırıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.962742  GPT_prod_gpt_001_096  <->  GPT_prod_gpt_003_096
+
+
+====================================================================================================
+CLUSTER 62  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : sidewalk_damage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.961989
+Semantic mean     : 0.961989
+Semantic median   : 0.961989
+Semantic max      : 0.961989
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_003_030
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Otobüs durağının yanındaki yaya kaldırımında taşlar yerinden oynamıştır, onarılmasını rica ederim.
+
+GEMINI_prod_gemini_004_032
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: medium
+  Style     : formal
+  Typo      : True
+  Flags     : -
+  Text      : Otobüs durağının arkasındaki kaldırım tabanının çökmesi ve taşların kırılması sebebiyle yayalar düşme tehhlikesi yaşamaktadır, onarımını rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.961989  GEMINI_prod_gemini_003_030  <->  GEMINI_prod_gemini_004_032
+
+
+====================================================================================================
+CLUSTER 50  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : uncollected_garbage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.961773
+Semantic mean     : 0.961773
+Semantic median   : 0.961773
+Semantic max      : 0.961773
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_004_006
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Bizim sokakta çöpler üç akşamdır alınmıyor, kediler poşetleri dağıtmaya başladı.
+
+GPT_prod_gpt_005_008
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : neutral
+  Typo      : True
+  Flags     : -
+  Text      : Evimizin yakınındaki çöp poşetleri üç gündür toplanmıyor, kediler dağıtmaya basladı.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.961773  GPT_prod_gpt_004_006  <->  GPT_prod_gpt_005_008
+
+
+====================================================================================================
+CLUSTER 32  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : street_litter
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.961603
+Semantic mean     : 0.961603
+Semantic median   : 0.961603
+Semantic max      : 0.961603
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_009
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Umut Mahallesi Papatya Caddesi'nde kaldırımlara bardak, ambalaj ve peçete saçılmış; cadde oldukça kirli görünüyor.
+
+GPT_prod_gpt_005_009
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Umut Mahallesi Lale Sokak boyunca yerlere bardak ve ambalaj atılmış, sokak çok kirli görünüyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.961603  GPT_prod_gpt_001_009  <->  GPT_prod_gpt_005_009
+
+
+====================================================================================================
+CLUSTER 66  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : road_surface_collapse
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.96155
+Semantic mean     : 0.96155
+Semantic median   : 0.96155
+Semantic max      : 0.96155
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_037
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Yolun bir bölümünde yüzey belirgin şekilde aşağı çökmüş. Araçlar bu noktadan geçerken altını vuracak kadar sarsılıyor ve sürücüler son anda yavaşlıyor. Çökme birkaç gün içinde büyüdü, kontrol edilmesi gerekiyor.
+
+GPT_long_gpt_003_037
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Alt geçidin yakınındaki yol yüzeyinde genişçe bir bölüm çökmüş ve çevresinde çatlaklar oluşmuş. Araçlar bu noktadan geçmemek için yana açılıyor. Çökme son birkaç günde belirgin şekilde büyüdüğü için kontrol edilmesi gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.961550  GPT_long_gpt_001_037  <->  GPT_long_gpt_003_037
+
+
+====================================================================================================
+CLUSTER 64  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : uncollected_garbage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.96125
+Semantic mean     : 0.96125
+Semantic median   : 0.96125
+Semantic max      : 0.96125
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : CLAUDE
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+CLAUDE_prod_claude_001_003
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çınar Mahallesi Menekşe Sokak'ta çöpler bir haftadır toplanmadı, birikan poşetler kötü koku yapmaya başladı. İlgilenilmesini rica ederim.
+
+CLAUDE_prod_claude_002_003
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çınar Mahallesi Menekşe Sokak'ta çöpler üç gündür toplanmadı, poşetler kaldırıma yığılmış vaziyette. Konuyla ilgilenilmesini rica ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.961250  CLAUDE_prod_claude_001_003  <->  CLAUDE_prod_claude_002_003
+
+
+====================================================================================================
+CLUSTER 55  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_fence_path
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.960505
+Semantic mean     : 0.960505
+Semantic median   : 0.960505
+Semantic max      : 0.960505
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_058
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın yürüyüş parkurundaki kauçuk zemin kaplamaları yerinden sökülmüş, yürümek zorlaşıyor.
+
+GEMINI_prod_gemini_003_059
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Koşu parkurunun zeminindeki kauçuk kaplama yer yer kabarmış ve yürümeyi zorlaştırıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.960505  GEMINI_prod_gemini_001_058  <->  GEMINI_prod_gemini_003_059
+
+
+====================================================================================================
+CLUSTER 42  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : uncollected_garbage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.960449
+Semantic mean     : 0.960449
+Semantic median   : 0.960449
+Semantic max      : 0.960449
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_005
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahallede iki gündür çöp poşetleri toplanmadı, kaldırım kenarında birikmiş durumda.
+
+GPT_prod_gpt_005_005
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizde birkaç gündür çöpler alınmadı, torbalar kaldırım kenarında birikiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.960449  GPT_prod_gpt_003_005  <->  GPT_prod_gpt_005_005
+
+
+====================================================================================================
+CLUSTER 65  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : pothole
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.960068
+Semantic mean     : 0.960068
+Semantic median   : 0.960068
+Semantic max      : 0.960068
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_024
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Orta büyüklükte bir çukur bir süredir büyümeye devam ediyor. Gündüz fark ediliyor ancak akşam araç farı altında geç seçiliyor, bu nedenle sürücüler aniden yön değiştiriyor. Daha fazla genişlemeden kapatılması uygun olur.
+
+GPT_long_gpt_003_021
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yolun ortasına yakın bölümde derin bir çukur oluşmuş. Araçlar son anda fark edip yön değiştiriyor ve özellikle akşam saatlerinde tehlike artıyor. Çukurun büyümeden kapatılması sürüş güvenliği açısından gerekli görünüyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.960068  GPT_long_gpt_001_024  <->  GPT_long_gpt_003_021
+
+
+====================================================================================================
+CLUSTER 73  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : curb_damage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.960029
+Semantic mean     : 0.960029
+Semantic median   : 0.960029
+Semantic max      : 0.960029
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_003_033
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol kenarındaki bordür taşlarının önemli bir kısmı kırılmış ve bazı parçalar dışarı doğru çıkıntı yapmıştır. Yağış sırasında su bu açıklıklardan kaldırım tarafına yayılıyor. Bozulmanın ilerlememesi ve yaya geçişinde takılma riski oluşmaması için hasarlı bordürlerin yenilenmesi uygun olacaktır.
+
+GPT_long_gpt_003_036
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yol ile kaldırım arasındaki bordür taşlarından birkaçının kırıldığı ve yerinden çıktığı görülüyor. Keskin parçalar yaya tarafına doğru uzanıyor. Hasarlı taşların değiştirilmesi, daha büyük bir bozulma oluşmadan sorunu çözecektir.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.960029  GPT_long_gpt_003_033  <->  GPT_long_gpt_003_036
+
+
+====================================================================================================
+CLUSTER 31  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : uncollected_garbage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.959246
+Semantic mean     : 0.959246
+Semantic median   : 0.959246
+Semantic max      : 0.959246
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_005
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahallede biriken evsel çöpler iki gündür alınmamış. Toplanmasını talep ediyorum.
+
+GEMINI_prod_gemini_004_005
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizde haftalardır düzenli çöp toplama işlemi yapılmamaktadır, biriken çöplerin alınmasını talep ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.959246  GPT_prod_gpt_001_005  <->  GEMINI_prod_gemini_004_005
+
+
+====================================================================================================
+CLUSTER 71  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : trapped_animal_rescue
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.958909
+Semantic mean     : 0.958909
+Semantic median   : 0.958909
+Semantic max      : 0.958909
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_002_097
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sazova Mahallesi Karanfil Geçidi'nde bir kedi yağmur suyu kanalının içine düşmüş ve kendi başına çıkamıyor. Yaklaşıldığında ses verdiği duyuluyor. Kanal açıklığından erişmek zor göründüğü için güvenli biçimde çıkarılması gerekiyor.
+
+GPT_long_gpt_002_099
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: hard
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Bir kedi boş durumdaki dar bir yağmur suyu kanalına girmiş ve saatlerdir çıkamıyor. Kanal çevresinde birkaç kırık taş görülse de insanların geçişini engellemiyor; içeriden sürekli ses gelmesi hayvanın sıkıştığını gösteriyor. El uzatılabilecek kadar yakın değil ve korktuğu için daha derine kaçıyor. Güvenli bir şekilde çıkarılması gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.958909  GPT_long_gpt_002_097  <->  GPT_long_gpt_002_099
+
+
+====================================================================================================
+CLUSTER 67  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : injured_stray
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.957389
+Semantic mean     : 0.957389
+Semantic median   : 0.957389
+Semantic max      : 0.957389
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_001_081
+  Generator : GPT
+  Batch     : long_gpt_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Ön ayağına basamayan sahipsiz bir köpek var. Yürümeye çalışınca hemen oturuyor ve ayağını sürekli yukarıda tutuyor. Birkaç saattir aynı bölgede olduğu için kontrol edilip yardım edilmesi gerekiyor.
+
+GPT_long_gpt_003_081
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Sokakta ön ayağına basamayan bir köpek var. Hayvan yürürken sürekli aksıyor ve dinlenmek için sık sık yere yatıyor. Yaralanmanın ilerlememesi için uygun şekilde alınarak kontrol edilmesi gerektiğini düşünüyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.957389  GPT_long_gpt_001_081  <->  GPT_long_gpt_003_081
+
+
+====================================================================================================
+CLUSTER 70  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : aggressive_stray
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.957113
+Semantic mean     : 0.957113
+Semantic median   : 0.957113
+Semantic max      : 0.957113
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_002_091
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Bir sokak köpeği yanından geçenlere sık sık havlayarak yaklaşmakta ve özellikle koşan kişilerin peşinden gitmektedir. Aynı davranış birkaç gündür tekrar ediyor. Çevrede risk oluşmadan hayvanın kontrol edilmesini rica ederim.
+
+GPT_long_gpt_003_092
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Çamlıca Mahallesi Kestane Caddesi'nde bir sokak köpeği son birkaç akşam motosiklet ve bisikletlerin arkasından koşuyor. Yaya geçerken de aniden havlayıp yaklaşıyor. Kimseye zarar vermeden önce bu davranışın kontrol altına alınması lazım.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.957113  GPT_long_gpt_002_091  <->  GPT_long_gpt_003_092
+
+
+====================================================================================================
+CLUSTER 40  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : stray_animal_group
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.956203
+Semantic mean     : 0.956203
+Semantic median   : 0.956203
+Semantic max      : 0.956203
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_096
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp koşan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+GPT_prod_gpt_004_095
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Umut Mahallesi Papatya Caddesi'nde birkaç sahipsiz köpek sabah saatlerinde okul çevresinde birlikte dolaşıp çocuklara havlayarak yaklaşıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.956203  GPT_prod_gpt_002_096  <->  GPT_prod_gpt_004_095
+
+
+====================================================================================================
+CLUSTER 51  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : overflowing_container
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.955897
+Semantic mean     : 0.955897
+Semantic median   : 0.955897
+Semantic max      : 0.955897
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_002
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki metal çöp kutusu günlerdir boşaltılmadığı için kapakları kapanmıyor, poşetler rüzgardan yolun ortasına savruluyor.
+
+GEMINI_prod_gemini_003_002
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağın başındaki çöp kutusu tepeleme dolmuş, rüzgar estikçe etrafa poşetler saçılıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.955897  GEMINI_prod_gemini_001_002  <->  GEMINI_prod_gemini_003_002
+
+
+====================================================================================================
+CLUSTER 35  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_fence_path
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.955397
+Semantic mean     : 0.955397
+Semantic median   : 0.955397
+Semantic max      : 0.955397
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_057
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Oyun alanının kenarındaki tel çit açılmış, çocuklar boşluktan dışarı çıkabiliyor.
+
+GPT_prod_gpt_004_060
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Oyun alanını çevreleyen çitin alt kısmı açılmış, küçük çocuklar kolayca dışarı çıkabiliyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.955397  GPT_prod_gpt_001_057  <->  GPT_prod_gpt_004_060
+
+
+====================================================================================================
+CLUSTER 74  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_sidewalk_occupation
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.955137
+Semantic mean     : 0.955137
+Semantic median   : 0.955137
+Semantic max      : 0.955137
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_long_gemini_001_061
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Cadde üzerindeki kafeler masa ve sandalyelerini yaya kaldırımının tamamına yayarak yayaların geçişini engellemektedir. Bebek arabalı ve engelli vatandaşların mağduriyet yaşamaması için gerekli denetimlerin yapılarak kaldırım işgaline son verilmesini arz ederim.
+
+GEMINI_long_gemini_003_061
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Çarşı caddesindeki kafeler, yaya kaldırımını masa, sandalye ve rüzgarlıklarla tamamen işgal etmiştir. Yayaların ve bebek arabalı ailelerin araç yoluna inmek zorunda kaldığı bu duruma müdahale edilerek kaldırımın boşaltılmasını saygılarımla arz ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.955137  GEMINI_long_gemini_001_061  <->  GEMINI_long_gemini_003_061
+
+
+====================================================================================================
+CLUSTER 61  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : injured_stray
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.955062
+Semantic mean     : 0.955062
+Semantic median   : 0.955062
+Semantic max      : 0.955062
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_082
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Sokağımızdaki kedi araba çarpması sonucu yaralanmış, arka ayaklarını basamıyor.
+
+GEMINI_prod_gemini_003_082
+  Generator : GEMINI
+  Batch     : prod_gemini_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırımda yatan yaralı bir kedi var, arka ayağını hiç basamıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.955062  GEMINI_prod_gemini_002_082  <->  GEMINI_prod_gemini_003_082
+
+
+====================================================================================================
+CLUSTER 52  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : asphalt_damage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.954909
+Semantic mean     : 0.954909
+Semantic median   : 0.954909
+Semantic max      : 0.954909
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_025
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yoldaki asfalt tamamen çatlamış ve yer yer kabarmıştır, yüzeyin yenilenmesini talep etmekteyiz.
+
+GEMINI_prod_gemini_004_025
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizin ana caddesinde asfalt kaplama aşınmış ve yüzeyde geniş çatlaklar meydana gelmiştir, onarılmasını talep ediyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.954909  GEMINI_prod_gemini_001_025  <->  GEMINI_prod_gemini_004_025
+
+
+====================================================================================================
+CLUSTER 68  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : street_litter
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.954466
+Semantic mean     : 0.954466
+Semantic median   : 0.954466
+Semantic max      : 0.954466
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_002_012
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Otobüs durağının çevresinde özellikle akşamdan sonra çok fazla bardak ve paket kalıyor. Sabah aynı çöpler kaldırım boyunca dağılmış oluyor, birkaç gün üst üste temizlenmediğinde iyice birikiyor. Çevrenin daha düzenli temizlenmesi gerekiyor.
+
+GPT_long_gpt_003_011
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Otobüs durağının yakınında kaldırım kenarına çok sayıda sigara paketi, pet şişe ve yiyecek ambalajı atılmış. Rüzgârla birlikte çöpler yol kenarına da dağılıyor. Birkaç gündür temizlenmediği için birikme giderek artıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.954466  GPT_long_gpt_002_012  <->  GPT_long_gpt_003_011
+
+
+====================================================================================================
+CLUSTER 75  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : stray_animal_group
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.954444
+Semantic mean     : 0.954444
+Semantic median   : 0.954444
+Semantic max      : 0.954444
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_long_gemini_001_094
+  Generator : GEMINI
+  Batch     : long_gemini_001
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Toplu konutlar bölgesindeki ortak kullanım alanlarında kontrolsüz şekilde artan sokak hayvanı popülasyonu mevcuttur. Sürü halinde dolaşan hayvanların aşı, küpeleme ve kısırlaştırma işlemlerinin yapılması hususunda gereğini saygılarımla arz ederim.
+
+GEMINI_long_gemini_003_094
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Mahallemizdeki boş arazide küpesiz sokak köpeklerinin sürü halinde toplandığı tespit edilmiştir. Gece ve sabah erken saatlerde yoldan geçen yayaların güvenliğini tehlikeye atan bu hayvan grubunun aşı ve kısırlaştırma işlemlerinin yapılması hususunu saygılarımla arz ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.954444  GEMINI_long_gemini_001_094  <->  GEMINI_long_gemini_003_094
+
+
+====================================================================================================
+CLUSTER 43  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : uncollected_garbage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.95443
+Semantic mean     : 0.95443
+Semantic median   : 0.95443
+Semantic max      : 0.95443
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : CLAUDE, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_006
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Üç gündür çöpler alınmıyor, poşetler açılmış ve etrafa koku yayılıyor.
+
+CLAUDE_prod_claude_001_004
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Sokağımızın girişinde çöpler üç gündür alınmadı, kokudan pencere açamıyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.954430  GPT_prod_gpt_003_006  <->  CLAUDE_prod_claude_001_004
+
+
+====================================================================================================
+CLUSTER 46  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_furniture
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.954348
+Semantic mean     : 0.954348
+Semantic median   : 0.954348
+Semantic max      : 0.954348
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI, GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_046
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Piknik masasının bir ayağı sallanıyor, oturunca masa yana yatıyor.
+
+GEMINI_prod_gemini_002_046
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Piknik masalarının ayakları paslanıp yerinden oynamış, üzerine oturulduğunda devrilecek gibi sallanıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.954348  GPT_prod_gpt_003_046  <->  GEMINI_prod_gemini_002_046
+
+
+====================================================================================================
+CLUSTER 57  [P3]
+====================================================================================================
+Category          : YOL_KALDIRIM
+Scenario          : sidewalk_damage
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953974
+Semantic mean     : 0.953974
+Semantic median   : 0.953974
+Semantic max      : 0.953974
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : CLAUDE, GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_029
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım taşları yerinden sökülmüş ve kırılmış, yürürken takılıp düşme tehlikesi var.
+
+CLAUDE_prod_claude_002_015
+  Generator : CLAUDE
+  Batch     : prod_claude_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırımın taşları yerinden oynamış, özellikle akşam saatlerinde takılıp düşme riski oluşuyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953974  GEMINI_prod_gemini_002_029  <->  CLAUDE_prod_claude_002_015
+
+
+====================================================================================================
+CLUSTER 38  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : street_litter
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953905
+Semantic mean     : 0.953905
+Semantic median   : 0.953905
+Semantic max      : 0.953905
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_011
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yere saçılmış şişe, kâğıt ve plastikler birkaç gündür temizlenmemiş. Alanın süpürülüp toparlanmasını rica ederim.
+
+GPT_prod_gpt_005_010
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Yerlere biriken kâğıt, plastik ve izmaritler uzun süredir süpürülmemiş görünüyor. Temizlenmesini rica ediyorum.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953905  GPT_prod_gpt_002_011  <->  GPT_prod_gpt_005_010
+
+
+====================================================================================================
+CLUSTER 63  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_furniture
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953479
+Semantic mean     : 0.953479
+Semantic median   : 0.953479
+Semantic max      : 0.953479
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_004_048
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki piknik masasının ayakları sallanıyor, bir tarafı tamamen çökmüş kimse oturamıyor.
+
+GEMINI_prod_gemini_005_046
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki piknik masasının ayağı kırılmış bir tarafa yatmış, çay içerken devrilecek gibi duruyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953479  GEMINI_prod_gemini_004_048  <->  GEMINI_prod_gemini_005_046
+
+
+====================================================================================================
+CLUSTER 69  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : sick_stray
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953459
+Semantic mean     : 0.953459
+Semantic median   : 0.953459
+Semantic max      : 0.953459
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_002_086
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Apartmanların arkasındaki ortak alanda bir sokak kedisi iki gündür çok halsiz görünüyor. Gözlerinde akıntı var ve bırakılan suya bile zor yaklaşıyor. Hastalığı ilerlemeden kontrol edilse iyi olur.
+
+GPT_long_gpt_003_088
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : True
+  Flags     : -
+  Text      : Parkın kenarında duran sokak kedisi son günlerde cok kötü görünüyor. Burnunda ve gözlerinde akıntı var, nefes alırken de ses geliyor. Çocuklar yaklaşmak istiyor ama hayvan hemen saklanıyor. Daha önce hareketliydi, şimdi çoğu zaman aynı yerde yatıyor. Hastalanmış olabilir, kontrol edilmesi gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953459  GPT_long_gpt_002_086  <->  GPT_long_gpt_003_088
+
+
+====================================================================================================
+CLUSTER 60  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_noise_nuisance
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953455
+Semantic mean     : 0.953455
+Semantic median   : 0.953455
+Semantic max      : 0.953455
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_074
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: medium
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Alt kattaki fırının havalandırma motoru gece gündüz uğulduyor, sesten uyku uyuyamaz hale geldik.
+
+GEMINI_prod_gemini_005_074
+  Generator : GEMINI
+  Batch     : prod_gemini_005
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Alt katımızda yeni açılan fırının bacası ve soğutma motoru gece boyunca aşırı uğultu ve titreşim yapıyor, bina sakinleri olarak uyuyamıyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953455  GEMINI_prod_gemini_002_074  <->  GEMINI_prod_gemini_005_074
+
+
+====================================================================================================
+CLUSTER 72  [P3]
+====================================================================================================
+Category          : HAYVAN_VETERINER
+Scenario          : trapped_animal_rescue
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953396
+Semantic mean     : 0.953396
+Semantic median   : 0.953396
+Semantic max      : 0.953396
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_long_gpt_002_098
+  Generator : GPT
+  Batch     : long_gpt_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : -
+  Text      : Parkın kenarındaki kapalı kanal bölümünden uzun süredir kedi sesi gelmektedir. Açıklıktan bakıldığında hayvanın aşağıda sıkıştığı, çıkmak için birkaç kez tırmanıp geri düştüğü görülüyor. Çevredeki park yolu kullanılabilir durumda ancak kanalın derinliği nedeniyle vatandaşların müdahale etmesi güvenli görünmüyor. Kedinin zarar görmeden çıkarılması için yardım rica ederim.
+
+GPT_long_gpt_003_099
+  Generator : GPT
+  Batch     : long_gpt_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : True
+  Flags     : -
+  Text      : Parkın arka kısmındaki drenaj boşluğunda bir yavru kedi sıkısmış durumda. Üst taraftaki tel çitin bir bölümü de eğilmiş ancak hayvana doğrudan ulaşmayı sağlamıyor. Kedi uzun süredir ses çıkarıyor, dar bölümden geri dönemediği görülüyor ve çevredeki kişiler el uzatarak çıkaramıyor. Zarar görmeden profesyonel şekilde kurtarılması gerekiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953396  GPT_long_gpt_002_098  <->  GPT_long_gpt_003_099
+
+
+====================================================================================================
+CLUSTER 49  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : public_space_obstruction
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953291
+Semantic mean     : 0.953291
+Semantic median   : 0.953291
+Semantic max      : 0.953291
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_003_069
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Geçiş yoluna palet ve kasalar bırakılmış, insanlar aralarından geçmeye çalışıyor.
+
+GPT_prod_gpt_004_069
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Geçiş yoluna palet ve kasalar bırakılmış, insanlar tek sıra geçiyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953291  GPT_prod_gpt_003_069  <->  GPT_prod_gpt_004_069
+
+
+====================================================================================================
+CLUSTER 76  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : playground_equipment
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953277
+Semantic mean     : 0.953277
+Semantic median   : 0.953277
+Semantic max      : 0.953277
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_long_gemini_002_042
+  Generator : GEMINI
+  Batch     : long_gemini_002
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Mahalle parkının içindeki salıncakların zincirleri aşınmış ve bir tanesinin kancası tamamen kopmuş durumda. Çocuklar diğer salıncak için kavga ediyor ve sallanırken yere savrulma tehlikesi yaşıyor. Bu ekipmanların onarılmasını talep ediyoruz.
+
+GEMINI_long_gemini_003_042
+  Generator : GEMINI
+  Batch     : long_gemini_003
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parktaki salıncaklardan birinin zinciri kopmuş ve yerde sürükleniyor. Diğer tahterevallinin ise tutma kolları kırık olduğu için küçük çocuklar dengesini kaybedip düşüyor. Mahallemizdeki tek çocuk oyun grubunun güvenli hale getirilmesi için parça değişimi yapılmasını istiyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953277  GEMINI_long_gemini_002_042  <->  GEMINI_long_gemini_003_042
+
+
+====================================================================================================
+CLUSTER 56  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : business_sidewalk_occupation
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.953093
+Semantic mean     : 0.953093
+Semantic median   : 0.953093
+Semantic max      : 0.953093
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : CLAUDE, GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_061
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kaldırım üzerindeki kafeler masa ve sandalyelerini çok fazla yaydığı için yayalara yürüyecek yer kalmıyor.
+
+CLAUDE_prod_claude_001_031
+  Generator : CLAUDE
+  Batch     : prod_claude_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Kafenin masaları kaldırımın tamamını kaplamış, yayalar yürüyecek yer bulamıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.953093  GEMINI_prod_gemini_001_061  <->  CLAUDE_prod_claude_001_031
+
+
+====================================================================================================
+CLUSTER 36  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : unauthorized_signage_display
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.952957
+Semantic mean     : 0.952957
+Semantic median   : 0.952957
+Semantic max      : 0.952957
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_077
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: easy
+  Style     : casual
+  Typo      : False
+  Flags     : -
+  Text      : Dükkânın önüne izinsiz bırakılan büyük reklam panosu kaldırımı ortadan kapatmış, geçerken etrafından dolaşıyoruz.
+
+GPT_prod_gpt_005_077
+  Generator : GPT
+  Batch     : prod_gpt_005
+  Difficulty: medium
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Dükkânın önündeki ayaklı reklam panosu kaldırımı daraltıyor, geçerken omuz omuza kalıyoruz.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.952957  GPT_prod_gpt_001_077  <->  GPT_prod_gpt_005_077
+
+
+====================================================================================================
+CLUSTER 30  [P3]
+====================================================================================================
+Category          : TEMIZLIK_ATIK
+Scenario          : overflowing_container
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.952765
+Semantic mean     : 0.952765
+Semantic median   : 0.952765
+Semantic max      : 0.952765
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_001_003
+  Generator : GPT
+  Batch     : prod_gpt_001
+  Difficulty: hard
+  Style     : formal
+  Typo      : True
+  Flags     : -
+  Text      : Barış Mahallesi Gül Caddesi'nde park çıkışındaki konteyner taşmış; poşetler kaldırımın geçiş kısmına yayılıyor. Konteynerin bosaltılmasını ve çevresinin toplanmasını rica ederim.
+
+GPT_prod_gpt_004_003
+  Generator : GPT
+  Batch     : prod_gpt_004
+  Difficulty: hard
+  Style     : casual
+  Typo      : True
+  Flags     : -
+  Text      : Barış Mahallesi Gül Caddesi'ndeki park girişinde konteyner taşmış, poşetler kaldırıma yayılıyo ve çocuk arabasıyla geçmek zorlaşıyor.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.952765  GPT_prod_gpt_001_003  <->  GPT_prod_gpt_004_003
+
+
+====================================================================================================
+CLUSTER 59  [P3]
+====================================================================================================
+Category          : KENT_DUZENI_DENETIM
+Scenario          : unauthorized_street_vendor
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.952743
+Semantic mean     : 0.952743
+Semantic median   : 0.952743
+Semantic max      : 0.952743
+>= P99.5 pairs    : 1
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 0
+Chaining risk     : False
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_002_067
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: medium
+  Style     : formal
+  Typo      : False
+  Flags     : SERVICE_TERM
+  Text      : Meydan girişinde kayıt dışı tezgâh kuran seyyar satıcılar kamu düzenini bozmakta olup zabıta ekiplerince kontrol edilmesini saygıyla talep ederim.
+
+GEMINI_prod_gemini_004_065
+  Generator : GEMINI
+  Batch     : prod_gemini_004
+  Difficulty: easy
+  Style     : formal
+  Typo      : False
+  Flags     : SERVICE_TERM
+  Text      : Meydan civarında yetkisiz seyyar satıcıların tezgâh açması sonucu oluşan karmaşaya karşı gerekli zabıta denetiminin yapılmasını talep ederim.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.952743  GEMINI_prod_gemini_002_067  <->  GEMINI_prod_gemini_004_065
+
+
+====================================================================================================
+CLUSTER 39  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : park_fence_path
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.948809
+Semantic mean     : 0.948809
+Semantic median   : 0.948809
+Semantic max      : 0.948809
+>= P99.5 pairs    : 0
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : True
+Generators        : GPT
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GPT_prod_gpt_002_057
+  Generator : GPT
+  Batch     : prod_gpt_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın çevre çitinde geniş bir açıklık oluşmuş, çocuklar eğimli tarafa geçebiliyor.
+
+GPT_prod_gpt_003_057
+  Generator : GPT
+  Batch     : prod_gpt_003
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Parkın çevre çitinde geniş bir açıklık oluşmuş.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.948809  GPT_prod_gpt_002_057  <->  GPT_prod_gpt_003_057  [LEXICAL]
+
+
+====================================================================================================
+CLUSTER 54  [P3]
+====================================================================================================
+Category          : PARK_YESIL_ALAN
+Scenario          : vegetation_irrigation
+Member count      : 2
+All pair count    : 1
+Semantic min      : 0.944094
+Semantic mean     : 0.944094
+Semantic median   : 0.944094
+Semantic max      : 0.944094
+>= P99.5 pairs    : 0
+>= P99.9 pairs    : 0
+Raw exact pairs   : 0
+Lexical pairs     : 1
+Chaining risk     : True
+Generators        : GEMINI
+Artificial flags  : -
+
+MEMBERS
+----------------------------------------------------------------------------------------------------
+
+GEMINI_prod_gemini_001_049
+  Generator : GEMINI
+  Batch     : prod_gemini_001
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Yeşil alandaki çimler ve süs bitkileri uzun süredir sulanmadığı için tamamen sarardı.
+
+GEMINI_prod_gemini_002_049
+  Generator : GEMINI
+  Batch     : prod_gemini_002
+  Difficulty: easy
+  Style     : neutral
+  Typo      : False
+  Flags     : -
+  Text      : Çimler ve süs bitkileri sulanmadığı için tamamen sarardı ve kurumaya başladı.
+
+TOP PAIRS
+----------------------------------------------------------------------------------------------------
+0.944094  GEMINI_prod_gemini_001_049  <->  GEMINI_prod_gemini_002_049  [LEXICAL]
+
+

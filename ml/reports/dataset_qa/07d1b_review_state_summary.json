@@ -1,0 +1,49 @@
+{
+  "status": "STAGE7_CURRENT_REVIEW_STATE",
+  "master_record_count": 1750,
+  "master_sha256": "eadcf4af5ee4dd4afb6742acbd70919541d8240c0e9dbe40f30e99fb8f9f0e29",
+  "duplicate_ledger_sha256": "0b9e4d7247364830e50d7b2977b752bead4b2e8a6e6cd782285a29a047afdc3e",
+  "artificial_decisions_sha256": "af93fdee0c0656b7a84f68fdbd65c8688020836be0b84dd60b80d481cc090e39",
+  "duplicate_reviewed_unique": 162,
+  "duplicate_keep_count": 104,
+  "duplicate_reject_count": 58,
+  "artificial_review_count": 11,
+  "artificial_reject_count": 11,
+  "duplicate_reject_artificial_reject_overlap": 0,
+  "effective_provisional_reject_count": 69,
+  "current_survivor_count": 1681,
+  "effective_status_counts": {
+    "SURVIVE_REVIEW_SO_FAR": 104,
+    "NOT_YET_STAGE7_REVIEWED": 1577,
+    "REJECT_PROVISIONAL": 69
+  },
+  "duplicate_keep_then_artificial_reject_count": 0,
+  "duplicate_keep_then_artificial_reject_sample_ids": [],
+  "category_distribution_before": {
+    "TEMIZLIK_ATIK": 350,
+    "YOL_KALDIRIM": 350,
+    "PARK_YESIL_ALAN": 350,
+    "KENT_DUZENI_DENETIM": 350,
+    "HAYVAN_VETERINER": 350
+  },
+  "category_distribution_after": {
+    "TEMIZLIK_ATIK": 340,
+    "YOL_KALDIRIM": 336,
+    "PARK_YESIL_ALAN": 334,
+    "KENT_DUZENI_DENETIM": 335,
+    "HAYVAN_VETERINER": 336
+  },
+  "generator_distribution_before": {
+    "GPT": 800,
+    "GEMINI": 800,
+    "CLAUDE": 150
+  },
+  "generator_distribution_after": {
+    "GPT": 762,
+    "GEMINI": 772,
+    "CLAUDE": 147
+  },
+  "master_dataset_modified": false,
+  "survivor_is_final_dataset": false,
+  "policy": "Review decisions remain stage-specific. A duplicate-stage KEEP means only that the record was retained during duplicate review; it is not a final ACCEPT decision. Any provisional REJECT decision from a later QA stage removes the record from the current survivor view. Final ACCEPT/REJECT status will be assigned only after all Stage 7 reviews are complete."
+}

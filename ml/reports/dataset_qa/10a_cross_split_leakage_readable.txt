@@ -1,0 +1,1736 @@
+====================================================================================================
+LEAKAGE REVIEW 001
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : VALIDATION_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.976485
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_061
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Bir işletme gün boyunca masa ve sandalyelerini kaldırımın büyük bölümüne yayıyor. Yayalar tek sıra geçmek zorunda kalıyor, çocuk arabası kullananlar ise kısa süreliğine yola iniyor. Geçiş alanının açık tutulması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_061
+Split          : TEST
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Bir işletme masa ve sandalyelerini kaldırımın neredeyse tamamını kaplayacak şekilde yerleştiriyor. Yayalar tek sıra hâlinde geçmek zorunda kalıyor, bebek arabaları ise araç yoluna iniyor. Yaya alanının açık tutulması gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 002
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.970522
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_001
+Split          : VALIDATION
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri birkaç gündür sürekli dolu kalıyor ve poşetler kapağın dışına taşmış durumda. Koku özellikle akşam saatlerinde artıyor, çevrede yürüyenler konteynere yaklaşmakta zorlanıyor. Daha sık boşaltılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri birkaç gündür tamamen dolu ve kapakları kapanmıyor. Poşetler çevresine bırakılmaya başladığı için kötü koku oluşuyor, özellikle akşam saatlerinde yanından geçmek zorlaşıyor. Konteynerin boşaltılması gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 003
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.969424
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_018
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : bulky_waste_debris
+Text           : Sokağın başına eski baza ve kırık koltuk atmışlar, günlerdir öylece duruyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_017
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : bulky_waste_debris
+Text           : Sokağın başına eski koltuk bırakmışlar, günlerdir duruyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 004
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.968617
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_prod_claude_001_022
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahalle parkındaki kaydırağın basamagı kırılmış, çocuklar düşme tehlikesi yaşıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_042
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahalle parkındaki kaydırağın basamakları kırılmış, altındaki kauçuk zemin de söküldüğü için kayan çocuklar yere düşüp yaralanma tehlikesi atlatıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 005
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.968248
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_083
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Barış Mahallesi Gül Caddesi'nde yol kenarında yaralı bir kedi var; araçlar yaklaşınca kalkmaya çalışıyor fakat ön ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ediyorm.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_081
+Split          : TEST
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Yaralı bir sokak kedisi arka ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 006
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.967475
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_prod_claude_001_027
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Çocuk parkının yanındaki büyük ağacın dalı kırılmış, düşme tehlikesi oluşturuyor. Budama yapılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_053
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Parkın kenarındaki ağacın kalın bir dalı aşağı sarkmış. Kırılma riski oluşmadan budama yapılmasını istiyorum.
+
+
+====================================================================================================
+LEAKAGE REVIEW 007
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : VALIDATION_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.966551
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_001_040
+Split          : TEST
+Category       : YOL_KALDIRIM
+Scenario       : road_surface_collapse
+Text           : Kanalizasyon kapağının çevresindeki asfalt zemin yaklaşık yarım metre çökmüş durumda, sürücüler fark etmeyip son anda kaçıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_003_039
+Split          : VALIDATION
+Category       : YOL_KALDIRIM
+Scenario       : road_surface_collapse
+Text           : Kanalizasyon kapağının etrafındaki zemin çökmüş, sürücüler fark etmeyince çok sert çarpıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 008
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.964605
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_043
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Sürekli aynı köşede yatan bir sokak köpeği dikkatimi çekti, gözlerinde akıntı var ve nefes alışı düzensiz görünüyor. Yemek verilse bile pek iştahı olmuyor ve halsiz bir şekilde yatıyor. Hayvanın sağlık durumunun kontrol edilmesini rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_085
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Mahalle girişinde birkaç gündür çok halsiz görünen sahipsiz bir köpek bulunuyor. Yemek bırakıldığında yaklaşmıyor, gözleri akıntılı ve uzun süre aynı yerde yatıyor. Sağlık durumunun kontrol edilmesi gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 009
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.964526
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_097
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : trapped_animal_rescue
+Text           : Yol kenarındaki yağmur giderine bir kedi düşmüş, kendi başına çıkamıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_005_097
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : trapped_animal_rescue
+Text           : Sokağın başındaki yağmur suyu kanalına bir kedi düşmüş, kendi başına çıkamıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 010
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : VALIDATION_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.964197
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_062
+Split          : TEST
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Köşedeki kafe kaldırımın neredeyse tamamına masa koymuş, bebek arabasıyla geçilemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_062
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Köşedeki kafe akşamları sandalyeleri kaldırımın tamamına yakınını kaplayacak şekilde çıkarıyor, bebek arabasıyla geçilemiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 011
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.9633
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_054
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Büyük bir ağaç dalı çatlamış ve düşme riski oluşturuyor. Park görevlilerinin kontrol edip güvenli hale getirmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_004_053
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Park ağacının kalın dalı çatlamış ve aşağı doğru sarkıyor. Düşmeden önce kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 012
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.962904
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_043
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Sürekli aynı köşede yatan bir sokak köpeği dikkatimi çekti, gözlerinde akıntı var ve nefes alışı düzensiz görünüyor. Yemek verilse bile pek iştahı olmuyor ve halsiz bir şekilde yatıyor. Hayvanın sağlık durumunun kontrol edilmesini rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_088
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Pazar yerinin arkasında çok halsiz bir sokak köpeği var; çevredeki yemek artıklarına yaklaşmıyor, ayağa kalkınca hemen tekrar yatıyor. Sağlık kontrolü için alınmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 013
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.962741
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_096
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : stray_animal_group
+Text           : Parkın arka çıkışında toplanan sahipsiz köpekler çöp poşetlerini dağıttıktan sonra yaklaşanlara birlikte havlayıp peşlerinden gidiyor. İnsanlar o geçişi kullanmaya çekiniyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_096
+Split          : TEST
+Category       : HAYVAN_VETERINER
+Scenario       : stray_animal_group
+Text           : Yenikent Mahallesi Çam Caddesi'nde park çıkışında toplanan sahipsiz köpekler, çöp poşetleri açıldığında daha da kalabalıklaşıp çevreden geçenleri sıkıştırıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 014
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.96199
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_001
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapağı kapanmayacak derecede dolmuş olup etrafa atıklar saçılmaktadır, boşaltılmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Konteynerin kapasitesi yetersiz kaldığı için çöpler dışarı taşmış durumda, boşaltılmasını rica ediyorum.
+
+
+====================================================================================================
+LEAKAGE REVIEW 015
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.961743
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_042
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Parkın çocuk bölümündeki kaydırağın basamaklarından biri çatlamış ve üzerine basıldığında esniyor. Özellikle akşam saatlerinde çocuk sayısı arttığı için sırada bekleyenler fark etmeden aynı basamağı kullanıyor. Kırık parça tamamen kopmadan kontrol edilmesi iyi olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_042
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Parkın çocuk bölümündeki kaydırağın basamaklarından biri yerinden oynamış. Çocuklar çıkarken basamak sallanıyor ve ebeveynler sürekli uyarmak zorunda kalıyor. Yoğun kullanılan bu bölümde parça tamamen kopmadan onarılması iyi olur.
+
+
+====================================================================================================
+LEAKAGE REVIEW 016
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.961603
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_009
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : street_litter
+Text           : Umut Mahallesi Papatya Caddesi'nde kaldırımlara bardak, ambalaj ve peçete saçılmış; cadde oldukça kirli görünüyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_005_009
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : street_litter
+Text           : Umut Mahallesi Lale Sokak boyunca yerlere bardak ve ambalaj atılmış, sokak çok kirli görünüyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 017
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.961592
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_004
+Split          : VALIDATION
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapasitesi artık ihtiyacı karşılamıyor. Gün içinde birkaç kez çevresine poşet bırakıldığını görüyoruz ve akşam olduğunda kapak tamamen kapanamaz hale geliyor. Düzenli boşaltma sıklığının gözden geçirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri birkaç gündür tamamen dolu ve kapakları kapanmıyor. Poşetler çevresine bırakılmaya başladığı için kötü koku oluşuyor, özellikle akşam saatlerinde yanından geçmek zorlaşıyor. Konteynerin boşaltılması gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 018
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.961074
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_042
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Parkın girişine yakın oyun bölümünde kaydırağın basamaklarından biri kırılmış. Özellikle küçük çocuklar çıkarken ayağını boşluğa basıyor, aileler de sürekli uyarmak zorunda kalıyor. Hasarın kısa sürede giderilmesi güvenlik açısından gerekli.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_042
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Parkın çocuk bölümündeki kaydırağın basamaklarından biri yerinden oynamış. Çocuklar çıkarken basamak sallanıyor ve ebeveynler sürekli uyarmak zorunda kalıyor. Yoğun kullanılan bu bölümde parça tamamen kopmadan onarılması iyi olur.
+
+
+====================================================================================================
+LEAKAGE REVIEW 019
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.960781
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_001
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapağı kapanmayacak derecede dolmuş olup etrafa atıklar saçılmaktadır, boşaltılmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri tamamen dolmuş, kapak kapanmıyor ve atıklar dışarı taşıyor. Boşaltılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 020
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.960677
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_023
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Parktaki oturma banklarından biri tamamen kırılmış, tahtaları yerinden çıkmış durumda. Oturmak isteyenler bu banka güvenemediği için ayakta beklemek zorunda kalıyor. Bankın yenilenmesini ya da değiştirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_prod_claude_001_023
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Fatih Mahallesi Lale Sokak'taki parkta oturma bankının ayakları kırılmış, oturanlar için tehlike oluşturuyor. Değişiminin sağlanmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 021
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.96045
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_005
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : uncollected_garbage
+Text           : Mahallede iki gündür çöp poşetleri toplanmadı, kaldırım kenarında birikmiş durumda.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_005_005
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : uncollected_garbage
+Text           : Mahallemizde birkaç gündür çöpler alınmadı, torbalar kaldırım kenarında birikiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 022
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.960068
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_024
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Orta büyüklükte bir çukur bir süredir büyümeye devam ediyor. Gündüz fark ediliyor ancak akşam araç farı altında geç seçiliyor, bu nedenle sürücüler aniden yön değiştiriyor. Daha fazla genişlemeden kapatılması uygun olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_021
+Split          : VALIDATION
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Yolun ortasına yakın bölümde derin bir çukur oluşmuş. Araçlar son anda fark edip yön değiştiriyor ve özellikle akşam saatlerinde tehlike artıyor. Çukurun büyümeden kapatılması sürüş güvenliği açısından gerekli görünüyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 023
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.96003
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_033
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : curb_damage
+Text           : Yol kenarındaki bordür taşlarının önemli bir kısmı kırılmış ve bazı parçalar dışarı doğru çıkıntı yapmıştır. Yağış sırasında su bu açıklıklardan kaldırım tarafına yayılıyor. Bozulmanın ilerlememesi ve yaya geçişinde takılma riski oluşmaması için hasarlı bordürlerin yenilenmesi uygun olacaktır.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_036
+Split          : VALIDATION
+Category       : YOL_KALDIRIM
+Scenario       : curb_damage
+Text           : Yol ile kaldırım arasındaki bordür taşlarından birkaçının kırıldığı ve yerinden çıktığı görülüyor. Keskin parçalar yaya tarafına doğru uzanıyor. Hasarlı taşların değiştirilmesi, daha büyük bir bozulma oluşmadan sorunu çözecektir.
+
+
+====================================================================================================
+LEAKAGE REVIEW 024
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.958944
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_073
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Alt sokaktaki kafeden gece geç saatlere kadar çok yüksek müzik geliyor, uyumak zor oluyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_004_074
+Split          : TEST
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Alt sokaktaki kafeden her gece çok yüksek müzik geliyo, camlar kapalıyken bile duyuluyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 025
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.958225
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_081
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Yol kenarında yatan sokak köpeğinin arka bacağında açık yara ve kırık bulunmaktadır. Hareket edemeyen ve acı çeken hayvanın tedavi altına alınması için acil müdahale edilmesini saygılarımla arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_081
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Araba çarpması sonucu arka bacağı kırılan sokak köpeği acı çekmektedir; tedavi edilmesi için acil müdahale talep etmekteyim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 026
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957948
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_022
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Sokağın girişindeki çukur iyice büyüdü, araçlar yanından geçmek için manevra yapıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_022
+Split          : TEST
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Sokağın girişindeki çukur son yağmurlarla büyüdü, arabalar karşı şeride kırarak geçiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 027
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957727
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_021
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk parkındaki salıncaklardan birinin zinciri kopmuş ve oturma kısmı yerde sürünür halde duruyor. Çocuklar yine de üzerine çıkmaya çalışıyor, bu da ciddi bir düşme riski oluşturuyor. Salıncağın onarılmasını ya da kullanıma kapatılmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_041
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk salıncağının zincirlerinden biri kopmuş. Kullanılmadan önce onarılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 028
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957649
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_051
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : vegetation_irrigation
+Text           : Yeni dikilen fidanların bir kısmı susuzluktan yaprak döküyor. Sulama düzeninin kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_005_050
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : vegetation_irrigation
+Text           : Yeni dikilen fidanların kuruma belirtileri gösterdiğini fark ettim. Sulama düzeninin kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 029
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957548
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_073
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Bir işletmeden özellikle gece saatlerinde yüksek seviyede müzik sesi geliyor. Kapılar açık bırakıldığında ses çevrede uzun süre duyuluyor ve dinlenmeyi zorlaştırıyor. Gürültünün geç saatlere kadar düzenli biçimde tekrarlanmasının kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_073
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Mahalledeki işletmeden gece geç saatlere kadar yüksek sesli müzik geliyor. Gürültü konusunda denetim yapılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 030
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957476
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_042
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahalle parkındaki kaydırağın basamakları kırılmış, altındaki kauçuk zemin de söküldüğü için kayan çocuklar yere düşüp yaralanma tehlikesi atlatıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_042
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahalle parkındaki kaydırağın basamaklarından biri kırık, çocuklar çıkarken ayağı boşluğa geliyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 031
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957461
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_076
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Yakındaki işletmeden her gece geç saatlerde yüksek sesli müzik geliyor. Özellikle bas sesi kapalı pencereden bile duyuluyor ve uyumayı güçleştiriyor. Gürültünün belirli saatlerden sonra devam etmemesi için durumun kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_073
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Mahalledeki işletmeden gece geç saatlere kadar yüksek sesli müzik geliyor. Gürültü konusunda denetim yapılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 032
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957389
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_081
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Ön ayağına basamayan sahipsiz bir köpek var. Yürümeye çalışınca hemen oturuyor ve ayağını sürekli yukarıda tutuyor. Birkaç saattir aynı bölgede olduğu için kontrol edilip yardım edilmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_081
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Sokakta ön ayağına basamayan bir köpek var. Hayvan yürürken sürekli aksıyor ve dinlenmek için sık sık yere yatıyor. Yaralanmanın ilerlememesi için uygun şekilde alınarak kontrol edilmesi gerektiğini düşünüyorum.
+
+
+====================================================================================================
+LEAKAGE REVIEW 033
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957289
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_002_053
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Botanik Parkı girişindeki asırlık çınar ağacının kalın bir dalı fırtınada kırılarak aşağı doğru sarkmıştır. Altından geçen yayaların üzerine düşme ihtimali çok yüksek olduğundan tehlikeli dalın acilen budanmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_003_053
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Ihlamur Parkı yürüyüş yolu üzerindeki asırlık çınar ağacının kalın bir dalı fırtınada kırılarak askıda kalmıştır. Altından geçen yayaların üzerine her an düşebilecek durumdaki bu tehlikeli dalın budanmasını rica ederiz.
+
+
+====================================================================================================
+LEAKAGE REVIEW 034
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957113
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_091
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : Bir sokak köpeği yanından geçenlere sık sık havlayarak yaklaşmakta ve özellikle koşan kişilerin peşinden gitmektedir. Aynı davranış birkaç gündür tekrar ediyor. Çevrede risk oluşmadan hayvanın kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_092
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : Çamlıca Mahallesi Kestane Caddesi'nde bir sokak köpeği son birkaç akşam motosiklet ve bisikletlerin arkasından koşuyor. Yaya geçerken de aniden havlayıp yaklaşıyor. Kimseye zarar vermeden önce bu davranışın kontrol altına alınması lazım.
+
+
+====================================================================================================
+LEAKAGE REVIEW 035
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.957037
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_prod_claude_002_021
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Salıncağın zinciri kopmuş, çocuklar sallanırken düşme tehlikesi yaşıyor. En kısa sürede tamir edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_041
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk salıncağının zincirlerinden biri kopmuş. Kullanılmadan önce onarılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 036
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.95701
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_023
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Parktaki oturma banklarından biri tamamen kırılmış, tahtaları yerinden çıkmış durumda. Oturmak isteyenler bu banka güvenemediği için ayakta beklemek zorunda kalıyor. Bankın yenilenmesini ya da değiştirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_045
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Parkın orta kısmındaki banklardan birinin oturma tahtası kırılmış ve aşağı doğru sarkıyor. Yaşlılar oturmak isterken son anda fark ediyor. Bankın yeniden kullanılabilir hale getirilmesi gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 037
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.956897
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_001_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltılmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_001
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapağı kapanmayacak derecede dolmuş olup etrafa atıklar saçılmaktadır, boşaltılmasını arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 038
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : VALIDATION_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.956508
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_002_089
+Split          : TEST
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : İlkokulun hemen yanındaki sokakta iri bir köpek yoldan geçen öğrencilere ve velilere sürekli saldırganca havlayıp üzerlerine koşuyor. Çocuklar korkudan okula gidemez oldu, şu köpeğin buradan alınmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_090
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : Okul yolundaki kavşakta bekleyen sahipsiz köpek öğrencilere doğru koşarak havlamakta ve korku yaratmaktadır, bölgeden alınarak rehabilite edilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 039
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.956203
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_096
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : stray_animal_group
+Text           : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp koşan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_004_095
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : stray_animal_group
+Text           : Umut Mahallesi Papatya Caddesi'nde birkaç sahipsiz köpek sabah saatlerinde okul çevresinde birlikte dolaşıp çocuklara havlayarak yaklaşıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 040
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.95536
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_003_041
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk parkı içerisindeki spiral kaydırağın basamak demirleri yerinden çıkmış ve kaydırak tablasında derin bir çatlak oluşmuştur. Çocuklarımızın oyun esnasında yaralanmaması adına oyun grubunun acilen bakım ve onarımdan geçirilmesini saygılarımla arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_041
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk oyun alanındaki kaydırağın basamakları kırılmış olup minikler için tehlike yaratmaktadır; ekipmanın tamir edilmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 041
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.955137
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_061
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Cadde üzerindeki kafeler masa ve sandalyelerini yaya kaldırımının tamamına yayarak yayaların geçişini engellemektedir. Bebek arabalı ve engelli vatandaşların mağduriyet yaşamaması için gerekli denetimlerin yapılarak kaldırım işgaline son verilmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_003_061
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_sidewalk_occupation
+Text           : Çarşı caddesindeki kafeler, yaya kaldırımını masa, sandalye ve rüzgarlıklarla tamamen işgal etmiştir. Yayaların ve bebek arabalı ailelerin araç yoluna inmek zorunda kaldığı bu duruma müdahale edilerek kaldırımın boşaltılmasını saygılarımla arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 042
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.955088
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_021
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk parkındaki salıncaklardan birinin zinciri kopmuş ve oturma kısmı yerde sürünür halde duruyor. Çocuklar yine de üzerine çıkmaya çalışıyor, bu da ciddi bir düşme riski oluşturuyor. Salıncağın onarılmasını ya da kullanıma kapatılmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_041
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk parkındaki salıncakların zincir bağlantıları kopmuş ve tahterevallinin oturak kısmı kırılmıştır. Çocuklarımızın can güvenliği açısından tehlike arz eden oyun aletlerinin ivedilikle tamir edilmesini veya yenilenmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 043
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : VALIDATION_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.955063
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_082
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Sokağımızdaki kedi araba çarpması sonucu yaralanmış, arka ayaklarını basamıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_003_082
+Split          : TEST
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Kaldırımda yatan yaralı bir kedi var, arka ayağını hiç basamıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 044
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.954909
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_001_025
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : asphalt_damage
+Text           : Yoldaki asfalt tamamen çatlamış ve yer yer kabarmıştır, yüzeyin yenilenmesini talep etmekteyiz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_025
+Split          : TEST
+Category       : YOL_KALDIRIM
+Scenario       : asphalt_damage
+Text           : Mahallemizin ana caddesinde asfalt kaplama aşınmış ve yüzeyde geniş çatlaklar meydana gelmiştir, onarılmasını talep ediyoruz.
+
+
+====================================================================================================
+LEAKAGE REVIEW 045
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.954841
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_004
+Split          : VALIDATION
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapasitesi artık ihtiyacı karşılamıyor. Gün içinde birkaç kez çevresine poşet bırakıldığını görüyoruz ve akşam olduğunda kapak tamamen kapanamaz hale geliyor. Düzenli boşaltma sıklığının gözden geçirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_001_001
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteyneri tamamen dolmuş, kapak kapanmıyor ve atıklar dışarı taşıyor. Boşaltılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 046
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.954651
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_042
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahalle parkının oyun alanında bulunan spiral kaydırağın iniş basamakları kırık ve plastik yüzeyinde derin çatlaklar var. Çocuklar kayarken bacaklarını çiziyor. Herhangi bir yaralanma meydana gelmeden bu oyun grubunun onarılmasını istiyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_003_041
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk parkı içerisindeki spiral kaydırağın basamak demirleri yerinden çıkmış ve kaydırak tablasında derin bir çatlak oluşmuştur. Çocuklarımızın oyun esnasında yaralanmaması adına oyun grubunun acilen bakım ve onarımdan geçirilmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 047
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.9546
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_081
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Yol kenarında yatan sokak köpeğinin arka bacağında açık yara ve kırık bulunmaktadır. Hareket edemeyen ve acı çeken hayvanın tedavi altına alınması için acil müdahale edilmesini saygılarımla arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_003_081
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : injured_stray
+Text           : Bacağı kırılmış yaralı sokak köpeği için acil tıbbi müdahale yapılmasını arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 048
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.954466
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_012
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : street_litter
+Text           : Otobüs durağının çevresinde özellikle akşamdan sonra çok fazla bardak ve paket kalıyor. Sabah aynı çöpler kaldırım boyunca dağılmış oluyor, birkaç gün üst üste temizlenmediğinde iyice birikiyor. Çevrenin daha düzenli temizlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_011
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : street_litter
+Text           : Otobüs durağının yakınında kaldırım kenarına çok sayıda sigara paketi, pet şişe ve yiyecek ambalajı atılmış. Rüzgârla birlikte çöpler yol kenarına da dağılıyor. Birkaç gündür temizlenmediği için birikme giderek artıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 049
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.95443
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_prod_claude_001_004
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : uncollected_garbage
+Text           : Sokağımızın girişinde çöpler üç gündür alınmadı, kokudan pencere açamıyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_006
+Split          : TEST
+Category       : TEMIZLIK_ATIK
+Scenario       : uncollected_garbage
+Text           : Üç gündür çöpler alınmıyor, poşetler açılmış ve etrafa koku yayılıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 050
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.95426
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_041
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Çocuk oyun alanındaki salıncağın demir zinciri kopmuştur, çocukların güvenliği için tamir edilmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_042
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : playground_equipment
+Text           : Mahallemizdeki çocuk parkında bulunan salıncağın demir zinciri kopmuş, tek zincirle asılı durduğu için çocuklar kullanamıyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 051
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.954106
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_011
+Split          : TEST
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Yoldan geçen araçların sürekli sarsıldığı derin bir çukur oluşmuş durumda. Yağmur sonrasında çukur suyla doluyor ve derinliği fark edilmiyor, bu da sürücüler için ciddi bir risk oluşturuyor. Çukurun onarılmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_003_021
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : pothole
+Text           : Asfaltta derin bir çukur oluşmuş. Araçlara zarar vermeden onarılmasını rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 052
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.95397
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_073
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Bir işletmeden özellikle gece saatlerinde yüksek seviyede müzik sesi geliyor. Kapılar açık bırakıldığında ses çevrede uzun süre duyuluyor ve dinlenmeyi zorlaştırıyor. Gürültünün geç saatlere kadar düzenli biçimde tekrarlanmasının kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_prod_gpt_002_074
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Restoranın gece geç saatlerde dışarı verdiği müzik çevrede ciddi rahatsızlk yaratıyor. Ses düzeyinin kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 053
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953712
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_002
+Split          : TRAIN
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Kullanılan çöp konteyneri neredeyse her akşam üstüne kadar doluyor ve kapağı artık düzgün kapanmıyor. Rüzgârlı havalarda içindeki poşetler etrafa savruluyor, bu hem görüntü kirliliği hem de kötü koku oluşturuyor. Toplama sıklığının artırılmasını ve konteyner sayısının gözden geçirilmesini istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_004
+Split          : VALIDATION
+Category       : TEMIZLIK_ATIK
+Scenario       : overflowing_container
+Text           : Çöp konteynerinin kapasitesi artık ihtiyacı karşılamıyor. Gün içinde birkaç kez çevresine poşet bırakıldığını görüyoruz ve akşam olduğunda kapak tamamen kapanamaz hale geliyor. Düzenli boşaltma sıklığının gözden geçirilmesini rica ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 054
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953658
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_001_053
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Yürüyüş yolunun üzerine doğru sarkan kalın bir ağaç dalı var. Rüzgârda belirgin biçimde hareket ediyor ve altında oturanlar tedirgin oluyor. Dalın kırılmadan önce güvenli şekilde budanması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_053
+Split          : VALIDATION
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Parkın giriş tarafındaki büyük ağacın kalın bir dalı son rüzgârdan sonra aşağı doğru sarkmış. Dal yürüyüş güzergâhının üstüne geliyor ve altında sürekli insanlar geçiyor. Kırılmadan önce kontrol edilmesi iyi olur.
+
+
+====================================================================================================
+LEAKAGE REVIEW 055
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953579
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_053
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Parkın girişindeki büyük çınar ağacının kalın bir dalı fırtınada çatladı ve havada asılı kaldı. İnsanların kafasına düşebilir. Bu tehlikeli dalın acilen budanıp kesilmesini istiyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_002_053
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : tree_branch_hazard
+Text           : Botanik Parkı girişindeki asırlık çınar ağacının kalın bir dalı fırtınada kırılarak aşağı doğru sarkmıştır. Altından geçen yayaların üzerine düşme ihtimali çok yüksek olduğundan tehlikeli dalın acilen budanmasını arz ederim.
+
+
+====================================================================================================
+LEAKAGE REVIEW 056
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953479
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_048
+Split          : TEST
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Parktaki piknik masasının ayakları sallanıyor, bir tarafı tamamen çökmüş kimse oturamıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_046
+Split          : TRAIN
+Category       : PARK_YESIL_ALAN
+Scenario       : park_furniture
+Text           : Parktaki piknik masasının ayağı kırılmış bir tarafa yatmış, çay içerken devrilecek gibi duruyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 057
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953459
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_002_086
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Apartmanların arkasındaki ortak alanda bir sokak kedisi iki gündür çok halsiz görünüyor. Gözlerinde akıntı var ve bırakılan suya bile zor yaklaşıyor. Hastalığı ilerlemeden kontrol edilse iyi olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GPT_long_gpt_003_088
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Parkın kenarında duran sokak kedisi son günlerde cok kötü görünüyor. Burnunda ve gözlerinde akıntı var, nefes alırken de ses geliyor. Çocuklar yaklaşmak istiyor ama hayvan hemen saklanıyor. Daha önce hareketliydi, şimdi çoğu zaman aynı yerde yatıyor. Hastalanmış olabilir, kontrol edilmesi gerekiyor.
+
+
+====================================================================================================
+LEAKAGE REVIEW 058
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953455
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_074
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Alt kattaki fırının havalandırma motoru gece gündüz uğulduyor, sesten uyku uyuyamaz hale geldik.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_005_074
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : business_noise_nuisance
+Text           : Alt katımızda yeni açılan fırının bacası ve soğutma motoru gece boyunca aşırı uğultu ve titreşim yapıyor, bina sakinleri olarak uyuyamıyoruz.
+
+
+====================================================================================================
+LEAKAGE REVIEW 059
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_TEST
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953222
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_002_089
+Split          : TEST
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : İlkokulun hemen yanındaki sokakta iri bir köpek yoldan geçen öğrencilere ve velilere sürekli saldırganca havlayıp üzerlerine koşuyor. Çocuklar korkudan okula gidemez oldu, şu köpeğin buradan alınmasını rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_003_089
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : aggressive_stray
+Text           : Sokağın başındaki iri köpek yoldan geçen herkese hırlıyor ve koşarak saldırıyor. Bu sabah okula giden iki çocuğun üzerine atladı, çocuklar zor kaçtı. Birileri ısırılmadan bu saldırgan hayvanın toplanmasını istiyoruz.
+
+
+====================================================================================================
+LEAKAGE REVIEW 060
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.953058
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_001_033
+Split          : TRAIN
+Category       : YOL_KALDIRIM
+Scenario       : curb_damage
+Text           : Yol kenarındaki bordür taşları yerinden fırlamış ve kırılmış, düzeltilmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_003_033
+Split          : VALIDATION
+Category       : YOL_KALDIRIM
+Scenario       : curb_damage
+Text           : Yol kenarındaki bordür taşları kırılmış ve parçaları caddeye dağılmış durumda.
+
+
+====================================================================================================
+LEAKAGE REVIEW 061
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.952808
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : CLAUDE_long_claude_001_043
+Split          : VALIDATION
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Sürekli aynı köşede yatan bir sokak köpeği dikkatimi çekti, gözlerinde akıntı var ve nefes alışı düzensiz görünüyor. Yemek verilse bile pek iştahı olmuyor ve halsiz bir şekilde yatıyor. Hayvanın sağlık durumunun kontrol edilmesini rica ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_long_gemini_001_086
+Split          : TRAIN
+Category       : HAYVAN_VETERINER
+Scenario       : sick_stray
+Text           : Kaldırım köşesinde günlerdir hareketsiz yatan bir sokak köpeği var. Sürekli titriyor, burnundan koyu akıntı geliyor ve hiçbir şey yemiyor. Bulaşıcı bir hastalığı olmasından endişeleniyoruz, tedavi edilmesi için alınmasını istiyoruz.
+
+
+====================================================================================================
+LEAKAGE REVIEW 062
+====================================================================================================
+Requirement    : LEAKAGE_REVIEW
+Sources        : STAGE6B_DUPLICATE_POOL
+Split pair     : TRAIN_VS_VALIDATION
+Relation       : SAME_CATEGORY_SAME_SCENARIO
+Semantic sim.  : 0.952742
+Char sim.      : 
+Word sim.      : 
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_002_067
+Split          : VALIDATION
+Category       : KENT_DUZENI_DENETIM
+Scenario       : unauthorized_street_vendor
+Text           : Meydan girişinde kayıt dışı tezgâh kuran seyyar satıcılar kamu düzenini bozmakta olup zabıta ekiplerince kontrol edilmesini saygıyla talep ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID      : GEMINI_prod_gemini_004_065
+Split          : TRAIN
+Category       : KENT_DUZENI_DENETIM
+Scenario       : unauthorized_street_vendor
+Text           : Meydan civarında yetkisiz seyyar satıcıların tezgâh açması sonucu oluşan karmaşaya karşı gerekli zabıta denetiminin yapılmasını talep ederim.
+
+

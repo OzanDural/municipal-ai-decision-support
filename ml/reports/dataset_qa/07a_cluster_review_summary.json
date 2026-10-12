@@ -1,0 +1,14 @@
+{
+  "cluster_count": 76,
+  "priority_counts": {
+    "P1": 1,
+    "P2": 23,
+    "P3": 52
+  },
+  "clusters_with_chaining_risk": 26,
+  "clusters_with_exact_duplicates": 1,
+  "clusters_with_artificial_contrast_members": 0,
+  "p99_5_threshold": 0.952652,
+  "p99_9_threshold": 0.967695,
+  "policy": "Clusters are review units, not deletion units. Connected-component membership alone does not prove that all members are mutual duplicates. Full within-cluster pairwise similarity is measured to detect chaining before human review."
+}

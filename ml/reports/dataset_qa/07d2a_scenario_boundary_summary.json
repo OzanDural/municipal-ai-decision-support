@@ -1,0 +1,117 @@
+{
+  "stage6b_original_queue_size": 100,
+  "current_survivor_count": 1681,
+  "pairs_removed_due_previous_reject": 15,
+  "active_scenario_boundary_pairs": 85,
+  "unique_records_in_active_queue": 116,
+  "records_appearing_in_multiple_pairs": 36,
+  "category_distribution": {
+    "HAYVAN_VETERINER": 50,
+    "KENT_DUZENI_DENETIM": 3,
+    "YOL_KALDIRIM": 9,
+    "TEMIZLIK_ATIK": 22,
+    "PARK_YESIL_ALAN": 1
+  },
+  "scenario_pair_distribution": {
+    "aggressive_stray <-> stray_animal_group": 18,
+    "injured_stray <-> sick_stray": 22,
+    "public_space_obstruction <-> unauthorized_signage_display": 1,
+    "asphalt_damage <-> road_surface_collapse": 3,
+    "illegal_dumping <-> overflowing_container": 7,
+    "aggressive_stray <-> sick_stray": 2,
+    "pothole <-> sidewalk_damage": 1,
+    "overflowing_container <-> uncollected_garbage": 10,
+    "asphalt_damage <-> pothole": 3,
+    "aggressive_stray <-> injured_stray": 4,
+    "street_litter <-> uncollected_garbage": 1,
+    "business_sidewalk_occupation <-> public_space_obstruction": 2,
+    "sick_stray <-> stray_animal_group": 1,
+    "illegal_dumping <-> uncollected_garbage": 2,
+    "asphalt_damage <-> sidewalk_damage": 1,
+    "sick_stray <-> trapped_animal_rescue": 1,
+    "injured_stray <-> trapped_animal_rescue": 2,
+    "park_furniture <-> tree_branch_hazard": 1,
+    "curb_damage <-> sidewalk_damage": 1,
+    "illegal_dumping <-> street_litter": 1,
+    "overflowing_container <-> street_litter": 1
+  },
+  "removed_pairs": [
+    {
+      "original_rank": 5,
+      "sample_id_1": "GPT_prod_gpt_004_013",
+      "sample_id_2": "GPT_prod_gpt_005_001"
+    },
+    {
+      "original_rank": 13,
+      "sample_id_1": "GPT_prod_gpt_004_013",
+      "sample_id_2": "CLAUDE_prod_claude_002_002"
+    },
+    {
+      "original_rank": 22,
+      "sample_id_1": "GPT_prod_gpt_002_001",
+      "sample_id_2": "GPT_prod_gpt_004_013"
+    },
+    {
+      "original_rank": 23,
+      "sample_id_1": "GPT_prod_gpt_001_081",
+      "sample_id_2": "GPT_prod_gpt_005_087"
+    },
+    {
+      "original_rank": 28,
+      "sample_id_1": "GPT_prod_gpt_002_021",
+      "sample_id_2": "GPT_prod_gpt_002_028"
+    },
+    {
+      "original_rank": 33,
+      "sample_id_1": "GPT_prod_gpt_002_091",
+      "sample_id_2": "GPT_prod_gpt_005_093"
+    },
+    {
+      "original_rank": 35,
+      "sample_id_1": "GEMINI_prod_gemini_001_085",
+      "sample_id_2": "GEMINI_prod_gemini_002_081"
+    },
+    {
+      "original_rank": 41,
+      "sample_id_1": "GPT_prod_gpt_002_021",
+      "sample_id_2": "CLAUDE_prod_claude_002_013"
+    },
+    {
+      "original_rank": 47,
+      "sample_id_1": "GPT_prod_gpt_003_081",
+      "sample_id_2": "GEMINI_prod_gemini_003_098"
+    },
+    {
+      "original_rank": 53,
+      "sample_id_1": "GPT_prod_gpt_001_005",
+      "sample_id_2": "CLAUDE_prod_claude_002_002"
+    },
+    {
+      "original_rank": 59,
+      "sample_id_1": "GPT_prod_gpt_003_001",
+      "sample_id_2": "GPT_prod_gpt_004_013"
+    },
+    {
+      "original_rank": 66,
+      "sample_id_1": "GPT_prod_gpt_004_013",
+      "sample_id_2": "CLAUDE_prod_claude_002_001"
+    },
+    {
+      "original_rank": 70,
+      "sample_id_1": "GPT_prod_gpt_005_001",
+      "sample_id_2": "GPT_prod_gpt_005_007"
+    },
+    {
+      "original_rank": 76,
+      "sample_id_1": "GEMINI_prod_gemini_004_005",
+      "sample_id_2": "CLAUDE_prod_claude_002_002"
+    },
+    {
+      "original_rank": 83,
+      "sample_id_1": "GEMINI_prod_gemini_002_081",
+      "sample_id_2": "GEMINI_prod_gemini_003_085"
+    }
+  ],
+  "dataset_modified": false,
+  "policy": "Scenario-boundary pairs contain the same classification category but different QA scenario metadata. High semantic similarity is not treated as a deletion criterion. Review focuses on scenario consistency, metadata correctness, ambiguity, and useful boundary diversity."
+}

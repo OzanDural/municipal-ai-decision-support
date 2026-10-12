@@ -1,0 +1,1568 @@
+{
+  "district_code": "SARICAM",
+  "district_name": "Sarıçam",
+  "saricam_relation_id": 1249247,
+  "source": "OpenStreetMap Overpass API",
+  "purpose": "Discovery only. No discovered boundary is treated as verified application data yet.",
+  "canonical_neighborhood_count": 69,
+  "matched_count": 18,
+  "unmatched_count": 51,
+  "level_10_match_count": 0,
+  "relation_match_count": 18,
+  "ambiguous_count": 0,
+  "nonstandard_level_count": 18,
+  "extra_boundary_count": 1,
+  "matched": [
+    {
+      "name": "Balcalı",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104591,
+        "name": "Balcalı Mahallesi",
+        "normalized_name": "balcali",
+        "canonical_neighborhood": "Balcalı",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385596",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0421866,
+          "longitude": 35.3677097
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104591,
+          "name": "Balcalı Mahallesi",
+          "normalized_name": "balcali",
+          "canonical_neighborhood": "Balcalı",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385596",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0421866,
+            "longitude": 35.3677097
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Beyceli",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104584,
+        "name": "Beyceli Mahallesi",
+        "normalized_name": "beyceli",
+        "canonical_neighborhood": "Beyceli",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0520276,
+          "longitude": 35.431641
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104584,
+          "name": "Beyceli Mahallesi",
+          "normalized_name": "beyceli",
+          "canonical_neighborhood": "Beyceli",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0520276,
+            "longitude": 35.431641
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Çarkıpare",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104589,
+        "name": "Çarkıpare Mahallesi",
+        "normalized_name": "carkipare",
+        "canonical_neighborhood": "Çarkıpare",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0632104,
+          "longitude": 35.3829074
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104589,
+          "name": "Çarkıpare Mahallesi",
+          "normalized_name": "carkipare",
+          "canonical_neighborhood": "Çarkıpare",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0632104,
+            "longitude": 35.3829074
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Elif Su Uludağ",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 17393267,
+        "name": "Elif Su Uludağ Mahallesi",
+        "normalized_name": "elifsuuludag",
+        "canonical_neighborhood": "Elif Su Uludağ",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q138064173",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0183543,
+          "longitude": 35.4181935
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 17393267,
+          "name": "Elif Su Uludağ Mahallesi",
+          "normalized_name": "elifsuuludag",
+          "canonical_neighborhood": "Elif Su Uludağ",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q138064173",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0183543,
+            "longitude": 35.4181935
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Esentepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104585,
+        "name": "Esentepe Mahallesi",
+        "normalized_name": "esentepe",
+        "canonical_neighborhood": "Esentepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0384209,
+          "longitude": 35.4141176
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104585,
+          "name": "Esentepe Mahallesi",
+          "normalized_name": "esentepe",
+          "canonical_neighborhood": "Esentepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0384209,
+            "longitude": 35.4141176
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Gültepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104590,
+        "name": "Gültepe Mahallesi",
+        "normalized_name": "gultepe",
+        "canonical_neighborhood": "Gültepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393369",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0482125,
+          "longitude": 35.3969139
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104590,
+          "name": "Gültepe Mahallesi",
+          "normalized_name": "gultepe",
+          "canonical_neighborhood": "Gültepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393369",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0482125,
+            "longitude": 35.3969139
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Hürriyet",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104596,
+        "name": "Hürriyet Mahallesi",
+        "normalized_name": "hurriyet",
+        "canonical_neighborhood": "Hürriyet",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393371",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0066278,
+          "longitude": 35.4276332
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104596,
+          "name": "Hürriyet Mahallesi",
+          "normalized_name": "hurriyet",
+          "canonical_neighborhood": "Hürriyet",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393371",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0066278,
+            "longitude": 35.4276332
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Kemalpaşa",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104594,
+        "name": "Kemalpaşa Mahallesi",
+        "normalized_name": "kemalpasa",
+        "canonical_neighborhood": "Kemalpaşa",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393372",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0008795,
+          "longitude": 35.4578644
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104594,
+          "name": "Kemalpaşa Mahallesi",
+          "normalized_name": "kemalpasa",
+          "canonical_neighborhood": "Kemalpaşa",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393372",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0008795,
+            "longitude": 35.4578644
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Mehmet Akif Ersoy",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104597,
+        "name": "Mehmet Akif Ersoy Mahallesi",
+        "normalized_name": "mehmetakifersoy",
+        "canonical_neighborhood": "Mehmet Akif Ersoy",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387092",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0169595,
+          "longitude": 35.3934764
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104597,
+          "name": "Mehmet Akif Ersoy Mahallesi",
+          "normalized_name": "mehmetakifersoy",
+          "canonical_neighborhood": "Mehmet Akif Ersoy",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387092",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0169595,
+            "longitude": 35.3934764
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Orhangazi",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104586,
+        "name": "Orhangazi Mahallesi",
+        "normalized_name": "orhangazi",
+        "canonical_neighborhood": "Orhangazi",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387094",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0373474,
+          "longitude": 35.4316458
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104586,
+          "name": "Orhangazi Mahallesi",
+          "normalized_name": "orhangazi",
+          "canonical_neighborhood": "Orhangazi",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387094",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0373474,
+            "longitude": 35.4316458
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Remzi Oğuz Arık",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104593,
+        "name": "Remzi Oğuz Arık Mahallesi",
+        "normalized_name": "remzioguzarik",
+        "canonical_neighborhood": "Remzi Oğuz Arık",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387096",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.022154,
+          "longitude": 35.3806878
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104593,
+          "name": "Remzi Oğuz Arık Mahallesi",
+          "normalized_name": "remzioguzarik",
+          "canonical_neighborhood": "Remzi Oğuz Arık",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387096",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.022154,
+            "longitude": 35.3806878
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Sarıçam",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 1249247,
+        "name": "Sarıçam",
+        "normalized_name": "saricam",
+        "canonical_neighborhood": "Sarıçam",
+        "boundary": "administrative",
+        "admin_level": "6",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q1430729",
+        "wikipedia": "tr:Sarıçam, Adana",
+        "center": {
+          "latitude": 37.1122107,
+          "longitude": 35.4753614
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 1249247,
+          "name": "Sarıçam",
+          "normalized_name": "saricam",
+          "canonical_neighborhood": "Sarıçam",
+          "boundary": "administrative",
+          "admin_level": "6",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q1430729",
+          "wikipedia": "tr:Sarıçam, Adana",
+          "center": {
+            "latitude": 37.1122107,
+            "longitude": 35.4753614
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Sofudede",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104583,
+        "name": "Sofudede Mahallesi",
+        "normalized_name": "sofudede",
+        "canonical_neighborhood": "Sofudede",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385960",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0500608,
+          "longitude": 35.4154533
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104583,
+          "name": "Sofudede Mahallesi",
+          "normalized_name": "sofudede",
+          "canonical_neighborhood": "Sofudede",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385960",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0500608,
+            "longitude": 35.4154533
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Şahintepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104587,
+        "name": "Şahintepe Mahallesi",
+        "normalized_name": "sahintepe",
+        "canonical_neighborhood": "Şahintepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385958",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0322146,
+          "longitude": 35.4187584
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104587,
+          "name": "Şahintepe Mahallesi",
+          "normalized_name": "sahintepe",
+          "canonical_neighborhood": "Şahintepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385958",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0322146,
+            "longitude": 35.4187584
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yavuz Sultan Selim",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 5914717,
+        "name": "Yavuz Sultan Selim Mahallesi",
+        "normalized_name": "yavuzsultanselim",
+        "canonical_neighborhood": "Yavuz Sultan Selim",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0410799,
+          "longitude": 35.4236716
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 5914717,
+          "name": "Yavuz Sultan Selim Mahallesi",
+          "normalized_name": "yavuzsultanselim",
+          "canonical_neighborhood": "Yavuz Sultan Selim",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0410799,
+            "longitude": 35.4236716
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yeni Mahalle",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104595,
+        "name": "Yeni Mahalle",
+        "normalized_name": "yenimahalle",
+        "canonical_neighborhood": "Yeni Mahalle",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 36.98635,
+          "longitude": 35.4165462
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104595,
+          "name": "Yeni Mahalle",
+          "normalized_name": "yenimahalle",
+          "canonical_neighborhood": "Yeni Mahalle",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 36.98635,
+            "longitude": 35.4165462
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yeşiltepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104588,
+        "name": "Yeşiltepe Mahallesi",
+        "normalized_name": "yesiltepe",
+        "canonical_neighborhood": "Yeşiltepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385966",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0380209,
+          "longitude": 35.4077017
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104588,
+          "name": "Yeşiltepe Mahallesi",
+          "normalized_name": "yesiltepe",
+          "canonical_neighborhood": "Yeşiltepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385966",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0380209,
+            "longitude": 35.4077017
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yıldırım Beyazıt",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104592,
+        "name": "Yıldırım Beyazıt Mahallesi",
+        "normalized_name": "yildirimbeyazit",
+        "canonical_neighborhood": "Yıldırım Beyazıt",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385968",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0258403,
+          "longitude": 35.4046061
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104592,
+          "name": "Yıldırım Beyazıt Mahallesi",
+          "normalized_name": "yildirimbeyazit",
+          "canonical_neighborhood": "Yıldırım Beyazıt",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385968",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0258403,
+            "longitude": 35.4046061
+          }
+        }
+      ],
+      "review_required": true
+    }
+  ],
+  "unmatched": [
+    "Acıdere",
+    "Aflak",
+    "Akkuyu",
+    "Avcılar",
+    "Aydınyurdu",
+    "Ayvalı",
+    "Bayramhacılı",
+    "Boynuyoğun",
+    "Boztepe",
+    "Büyükbaklalı",
+    "Cerenli",
+    "Cihadiye",
+    "Cumhuriyet (Buruk)",
+    "Çamlıca",
+    "Çaylı",
+    "Çınarlı",
+    "Çiçekli",
+    "Çirişgediği",
+    "Dağcı",
+    "Dutluca",
+    "Eğeciuşağı",
+    "Ertuğrulgazi",
+    "Gökbuket",
+    "Göztepe",
+    "Hakkıbeyli",
+    "Hasanbeyli",
+    "Hocallı",
+    "İstiklal",
+    "Karaömerli",
+    "Karayusuflu",
+    "Kargakekeç",
+    "Karlık",
+    "Kaşobası",
+    "Kepeztepe",
+    "Kılbaş",
+    "Kılıçlı",
+    "Kızılkaş",
+    "Kösefakılı",
+    "Küçükbaklalı",
+    "Maltepe",
+    "Menekşe",
+    "Mustafalar",
+    "Müminli",
+    "Osmangazi",
+    "Suluca",
+    "Turunçlu",
+    "Ünlüce",
+    "Yağızlar",
+    "Yarımca",
+    "Yeniyayla",
+    "Yürekli"
+  ],
+  "ambiguous": [],
+  "nonstandard_level": [
+    {
+      "name": "Balcalı",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104591,
+        "name": "Balcalı Mahallesi",
+        "normalized_name": "balcali",
+        "canonical_neighborhood": "Balcalı",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385596",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0421866,
+          "longitude": 35.3677097
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104591,
+          "name": "Balcalı Mahallesi",
+          "normalized_name": "balcali",
+          "canonical_neighborhood": "Balcalı",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385596",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0421866,
+            "longitude": 35.3677097
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Beyceli",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104584,
+        "name": "Beyceli Mahallesi",
+        "normalized_name": "beyceli",
+        "canonical_neighborhood": "Beyceli",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0520276,
+          "longitude": 35.431641
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104584,
+          "name": "Beyceli Mahallesi",
+          "normalized_name": "beyceli",
+          "canonical_neighborhood": "Beyceli",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0520276,
+            "longitude": 35.431641
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Çarkıpare",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104589,
+        "name": "Çarkıpare Mahallesi",
+        "normalized_name": "carkipare",
+        "canonical_neighborhood": "Çarkıpare",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0632104,
+          "longitude": 35.3829074
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104589,
+          "name": "Çarkıpare Mahallesi",
+          "normalized_name": "carkipare",
+          "canonical_neighborhood": "Çarkıpare",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0632104,
+            "longitude": 35.3829074
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Elif Su Uludağ",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 17393267,
+        "name": "Elif Su Uludağ Mahallesi",
+        "normalized_name": "elifsuuludag",
+        "canonical_neighborhood": "Elif Su Uludağ",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q138064173",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0183543,
+          "longitude": 35.4181935
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 17393267,
+          "name": "Elif Su Uludağ Mahallesi",
+          "normalized_name": "elifsuuludag",
+          "canonical_neighborhood": "Elif Su Uludağ",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q138064173",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0183543,
+            "longitude": 35.4181935
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Esentepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104585,
+        "name": "Esentepe Mahallesi",
+        "normalized_name": "esentepe",
+        "canonical_neighborhood": "Esentepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0384209,
+          "longitude": 35.4141176
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104585,
+          "name": "Esentepe Mahallesi",
+          "normalized_name": "esentepe",
+          "canonical_neighborhood": "Esentepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0384209,
+            "longitude": 35.4141176
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Gültepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104590,
+        "name": "Gültepe Mahallesi",
+        "normalized_name": "gultepe",
+        "canonical_neighborhood": "Gültepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393369",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0482125,
+          "longitude": 35.3969139
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104590,
+          "name": "Gültepe Mahallesi",
+          "normalized_name": "gultepe",
+          "canonical_neighborhood": "Gültepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393369",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0482125,
+            "longitude": 35.3969139
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Hürriyet",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104596,
+        "name": "Hürriyet Mahallesi",
+        "normalized_name": "hurriyet",
+        "canonical_neighborhood": "Hürriyet",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393371",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0066278,
+          "longitude": 35.4276332
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104596,
+          "name": "Hürriyet Mahallesi",
+          "normalized_name": "hurriyet",
+          "canonical_neighborhood": "Hürriyet",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393371",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0066278,
+            "longitude": 35.4276332
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Kemalpaşa",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104594,
+        "name": "Kemalpaşa Mahallesi",
+        "normalized_name": "kemalpasa",
+        "canonical_neighborhood": "Kemalpaşa",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109393372",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0008795,
+          "longitude": 35.4578644
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104594,
+          "name": "Kemalpaşa Mahallesi",
+          "normalized_name": "kemalpasa",
+          "canonical_neighborhood": "Kemalpaşa",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109393372",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0008795,
+            "longitude": 35.4578644
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Mehmet Akif Ersoy",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104597,
+        "name": "Mehmet Akif Ersoy Mahallesi",
+        "normalized_name": "mehmetakifersoy",
+        "canonical_neighborhood": "Mehmet Akif Ersoy",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387092",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0169595,
+          "longitude": 35.3934764
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104597,
+          "name": "Mehmet Akif Ersoy Mahallesi",
+          "normalized_name": "mehmetakifersoy",
+          "canonical_neighborhood": "Mehmet Akif Ersoy",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387092",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0169595,
+            "longitude": 35.3934764
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Orhangazi",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104586,
+        "name": "Orhangazi Mahallesi",
+        "normalized_name": "orhangazi",
+        "canonical_neighborhood": "Orhangazi",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387094",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0373474,
+          "longitude": 35.4316458
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104586,
+          "name": "Orhangazi Mahallesi",
+          "normalized_name": "orhangazi",
+          "canonical_neighborhood": "Orhangazi",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387094",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0373474,
+            "longitude": 35.4316458
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Remzi Oğuz Arık",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104593,
+        "name": "Remzi Oğuz Arık Mahallesi",
+        "normalized_name": "remzioguzarik",
+        "canonical_neighborhood": "Remzi Oğuz Arık",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109387096",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.022154,
+          "longitude": 35.3806878
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104593,
+          "name": "Remzi Oğuz Arık Mahallesi",
+          "normalized_name": "remzioguzarik",
+          "canonical_neighborhood": "Remzi Oğuz Arık",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109387096",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.022154,
+            "longitude": 35.3806878
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Sarıçam",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 1249247,
+        "name": "Sarıçam",
+        "normalized_name": "saricam",
+        "canonical_neighborhood": "Sarıçam",
+        "boundary": "administrative",
+        "admin_level": "6",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q1430729",
+        "wikipedia": "tr:Sarıçam, Adana",
+        "center": {
+          "latitude": 37.1122107,
+          "longitude": 35.4753614
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 1249247,
+          "name": "Sarıçam",
+          "normalized_name": "saricam",
+          "canonical_neighborhood": "Sarıçam",
+          "boundary": "administrative",
+          "admin_level": "6",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q1430729",
+          "wikipedia": "tr:Sarıçam, Adana",
+          "center": {
+            "latitude": 37.1122107,
+            "longitude": 35.4753614
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Sofudede",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104583,
+        "name": "Sofudede Mahallesi",
+        "normalized_name": "sofudede",
+        "canonical_neighborhood": "Sofudede",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385960",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0500608,
+          "longitude": 35.4154533
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104583,
+          "name": "Sofudede Mahallesi",
+          "normalized_name": "sofudede",
+          "canonical_neighborhood": "Sofudede",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385960",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0500608,
+            "longitude": 35.4154533
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Şahintepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104587,
+        "name": "Şahintepe Mahallesi",
+        "normalized_name": "sahintepe",
+        "canonical_neighborhood": "Şahintepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385958",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0322146,
+          "longitude": 35.4187584
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104587,
+          "name": "Şahintepe Mahallesi",
+          "normalized_name": "sahintepe",
+          "canonical_neighborhood": "Şahintepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385958",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0322146,
+            "longitude": 35.4187584
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yavuz Sultan Selim",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 5914717,
+        "name": "Yavuz Sultan Selim Mahallesi",
+        "normalized_name": "yavuzsultanselim",
+        "canonical_neighborhood": "Yavuz Sultan Selim",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0410799,
+          "longitude": 35.4236716
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 5914717,
+          "name": "Yavuz Sultan Selim Mahallesi",
+          "normalized_name": "yavuzsultanselim",
+          "canonical_neighborhood": "Yavuz Sultan Selim",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0410799,
+            "longitude": 35.4236716
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yeni Mahalle",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104595,
+        "name": "Yeni Mahalle",
+        "normalized_name": "yenimahalle",
+        "canonical_neighborhood": "Yeni Mahalle",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "center": {
+          "latitude": 36.98635,
+          "longitude": 35.4165462
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104595,
+          "name": "Yeni Mahalle",
+          "normalized_name": "yenimahalle",
+          "canonical_neighborhood": "Yeni Mahalle",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": null,
+          "wikipedia": null,
+          "center": {
+            "latitude": 36.98635,
+            "longitude": 35.4165462
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yeşiltepe",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104588,
+        "name": "Yeşiltepe Mahallesi",
+        "normalized_name": "yesiltepe",
+        "canonical_neighborhood": "Yeşiltepe",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385966",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0380209,
+          "longitude": 35.4077017
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104588,
+          "name": "Yeşiltepe Mahallesi",
+          "normalized_name": "yesiltepe",
+          "canonical_neighborhood": "Yeşiltepe",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385966",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0380209,
+            "longitude": 35.4077017
+          }
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "name": "Yıldırım Beyazıt",
+      "selected": {
+        "osm_type": "relation",
+        "osm_id": 13104592,
+        "name": "Yıldırım Beyazıt Mahallesi",
+        "normalized_name": "yildirimbeyazit",
+        "canonical_neighborhood": "Yıldırım Beyazıt",
+        "boundary": "administrative",
+        "admin_level": "8",
+        "type_tag": "boundary",
+        "official_name": null,
+        "wikidata": "Q109385968",
+        "wikipedia": null,
+        "center": {
+          "latitude": 37.0258403,
+          "longitude": 35.4046061
+        }
+      },
+      "candidate_count": 1,
+      "all_candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 13104592,
+          "name": "Yıldırım Beyazıt Mahallesi",
+          "normalized_name": "yildirimbeyazit",
+          "canonical_neighborhood": "Yıldırım Beyazıt",
+          "boundary": "administrative",
+          "admin_level": "8",
+          "type_tag": "boundary",
+          "official_name": null,
+          "wikidata": "Q109385968",
+          "wikipedia": null,
+          "center": {
+            "latitude": 37.0258403,
+            "longitude": 35.4046061
+          }
+        }
+      ],
+      "review_required": true
+    }
+  ],
+  "extra_boundaries": [
+    {
+      "osm_type": "relation",
+      "osm_id": 167216,
+      "name": "Adana",
+      "normalized_name": "adana",
+      "canonical_neighborhood": null,
+      "boundary": "administrative",
+      "admin_level": "4",
+      "type_tag": "boundary",
+      "official_name": null,
+      "wikidata": "Q40549",
+      "wikipedia": "tr:Adana (il)",
+      "center": {
+        "latitude": 37.3338216,
+        "longitude": 35.5744375
+      }
+    }
+  ]
+}

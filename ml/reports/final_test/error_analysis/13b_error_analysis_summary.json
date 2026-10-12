@@ -1,0 +1,10 @@
+{
+  "status": "FINAL_TEST_ERROR_ANALYSIS_PREPARED",
+  "test_size": 250,
+  "tfidf_errors": 0,
+  "frozen_berturk_errors": 24,
+  "finetuned_berturk_errors": 2,
+  "manual_review_required": 2,
+  "post_test_tuning_allowed": false,
+  "note": "This stage performs post-hoc error analysis only. No model, dataset, split, threshold or hyperparameter may be changed based on final-test errors."
+}

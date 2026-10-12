@@ -1,0 +1,42 @@
+{
+  "experiment": "BERTurk full fine-tuning",
+  "base_model": "dbmdz/bert-base-turkish-cased",
+  "transformers_version": "5.16.1",
+  "pytorch_version": "2.11.0+cu128",
+  "gpu": "Tesla T4",
+  "seed": 2026,
+  "max_length": 160,
+  "train_count": 1167,
+  "validation_count": 250,
+  "train_sha256": "f53325aa45d45b3fbb8a0c356a1c838421e5b2860ab773f0301db5869e2426aa",
+  "validation_sha256": "7e22c40cb1fb62de9201e9ce5fddd14fa444cd63d3b27c6b765b03b687d99d75",
+  "test_accessed": false,
+  "learning_rate": 2e-05,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_epochs": 5,
+  "weight_decay": 0.01,
+  "warmup_fraction": 0.1,
+  "fp16": true,
+  "selection_metric": "validation_macro_f1",
+  "best_checkpoint": "/content/berturk_training/checkpoint-219",
+  "best_validation_macro_f1": 1.0,
+  "global_steps": 365,
+  "total_parameters": 110621189,
+  "trainable_parameters": 110621189,
+  "full_encoder_finetuned": true,
+  "label2id": {
+    "TEMIZLIK_ATIK": 0,
+    "YOL_KALDIRIM": 1,
+    "PARK_YESIL_ALAN": 2,
+    "KENT_DUZENI_DENETIM": 3,
+    "HAYVAN_VETERINER": 4
+  },
+  "id2label": {
+    "0": "TEMIZLIK_ATIK",
+    "1": "YOL_KALDIRIM",
+    "2": "PARK_YESIL_ALAN",
+    "3": "KENT_DUZENI_DENETIM",
+    "4": "HAYVAN_VETERINER"
+  }
+}

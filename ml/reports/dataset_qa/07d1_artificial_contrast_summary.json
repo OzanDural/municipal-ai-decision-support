@@ -1,0 +1,21 @@
+{
+  "master_record_count": 1750,
+  "duplicate_review_survivor_count": 1692,
+  "artificial_flag_occurrence_count": 11,
+  "unique_artificial_record_count_before_duplicate_filter": 11,
+  "artificial_records_removed_as_duplicates": 0,
+  "unique_artificial_record_count_for_review": 11,
+  "category_distribution": {
+    "YOL_KALDIRIM": 1,
+    "HAYVAN_VETERINER": 6,
+    "TEMIZLIK_ATIK": 1,
+    "PARK_YESIL_ALAN": 2,
+    "KENT_DUZENI_DENETIM": 1
+  },
+  "difficulty_distribution": {
+    "hard": 11
+  },
+  "removed_by_duplicate_sample_ids": [],
+  "dataset_modified": false,
+  "policy": "Rule-based artificial-contrast flags are review signals only. Records are not automatically rejected. Human review must determine whether wording unnaturally reveals or prioritizes the target class."
+}

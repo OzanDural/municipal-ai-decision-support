@@ -1,0 +1,30 @@
+{
+  "input_file": "data\\raw\\master_raw.jsonl",
+  "output_file": "data\\processed\\master_stage2.jsonl",
+  "input_record_count": 1750,
+  "output_record_count": 1750,
+  "correction_count": 1,
+  "applied_corrections": [
+    {
+      "sample_id": "GEMINI_prod_gemini_001_001",
+      "field": "language_style",
+      "old_value": "formal",
+      "new_value": "neutral",
+      "reason": "Metin doğal ve düz vatandaş dili kullanıyor; formal söylem özellikleri taşımıyor."
+    }
+  ],
+  "accepted_generation_deviations": [
+    {
+      "generation_batch": "long_gemini_002",
+      "category": "HAYVAN_VETERINER",
+      "field": "has_typo",
+      "expected_true": 4,
+      "actual_true": 3,
+      "decision": "ACCEPTED_GENERATION_DEVIATION",
+      "reason": "Dördüncü typo örneğini oluşturmak için hatasız bir metnin metadata'sını yapay olarak has_typo=true yapmak metodolojik olarak uygun değildir."
+    }
+  ],
+  "raw_sha256": "492e1ccb36a3a278def150ef1661b3d3d393ca779e39227cb887b468df4cb4b9",
+  "processed_sha256": "eadcf4af5ee4dd4afb6742acbd70919541d8240c0e9dbe40f30e99fb8f9f0e29",
+  "policy": "RAW dataset is immutable. Only manually justified metadata corrections are applied to the processed dataset. Generation quota deviations are documented rather than artificially corrected."
+}

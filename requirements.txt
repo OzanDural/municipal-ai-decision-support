@@ -1,0 +1,31 @@
+# Web API
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+
+# Configuration and validation
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+
+# Database and migrations
+SQLAlchemy==2.0.52
+psycopg[binary]==3.3.5
+GeoAlchemy2==0.20.0
+alembic==1.19.2
+
+# Authentication
+PyJWT==2.13.0
+pwdlib==0.3.1
+argon2-cffi==25.1.0
+
+# NLP inference
+torch==2.14.0
+transformers==5.17.0
+safetensors==0.8.0
+
+# LLM integration
+google-genai==2.23.0
+
+# Testing
+pytest==9.1.1
+httpx==0.28.1

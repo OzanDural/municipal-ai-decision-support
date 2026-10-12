@@ -1,0 +1,47 @@
+{
+  "status": "DUPLICATE_REVIEW_COMPLETE_PROVISIONAL",
+  "master_record_count": 1750,
+  "master_dataset_modified": false,
+  "reviewed_unique_record_count": 162,
+  "keep_decision_count": 104,
+  "reject_duplicate_count": 58,
+  "duplicate_review_survivor_count": 1692,
+  "stage7c3_residual_pair_count": 74,
+  "residual_pair_dispositions": {
+    "KEEP_BOTH_AFTER_REVIEW": 48,
+    "RESOLVED_BY_REJECT": 26
+  },
+  "unreviewed_residual_pair_count": 0,
+  "category_distribution_before": {
+    "TEMIZLIK_ATIK": 350,
+    "YOL_KALDIRIM": 350,
+    "PARK_YESIL_ALAN": 350,
+    "KENT_DUZENI_DENETIM": 350,
+    "HAYVAN_VETERINER": 350
+  },
+  "category_distribution_after": {
+    "TEMIZLIK_ATIK": 341,
+    "YOL_KALDIRIM": 337,
+    "PARK_YESIL_ALAN": 336,
+    "KENT_DUZENI_DENETIM": 336,
+    "HAYVAN_VETERINER": 342
+  },
+  "generator_distribution_before": {
+    "GPT": 800,
+    "GEMINI": 800,
+    "CLAUDE": 150
+  },
+  "generator_distribution_after": {
+    "GPT": 762,
+    "GEMINI": 783,
+    "CLAUDE": 147
+  },
+  "reject_reason_counts": {
+    "SEMANTIC_REDUNDANCY": 54,
+    "LEXICAL_REDUNDANCY": 3,
+    "EXACT_DUPLICATE": 1
+  },
+  "duplicate_review_finalized": false,
+  "survivor_is_final_dataset": false,
+  "policy": "Duplicate review is complete, but decisions remain provisional until all other Stage 7 quality reviews are complete. master_stage2 remains immutable. No similarity threshold was used as an automatic deletion rule."
+}

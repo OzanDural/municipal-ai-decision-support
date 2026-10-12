@@ -1,0 +1,27 @@
+{
+  "candidate_id": "HYBRID_C2p0",
+  "feature_set": "HYBRID",
+  "logistic_regression_C": 2.0,
+  "selection_metric": "validation_macro_f1",
+  "selection_tie_breakers": [
+    "lower_validation_log_loss",
+    "higher_validation_accuracy"
+  ],
+  "validation_metrics": {
+    "accuracy": 0.992,
+    "precision_macro": 0.9923076923076923,
+    "recall_macro": 0.992,
+    "macro_f1": 0.9919967987194879,
+    "weighted_f1": 0.9919967987194878,
+    "log_loss": 0.27500137640999733
+  },
+  "train_metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "log_loss": 0.14367022135588237
+  },
+  "model_file": "ml\\models\\baseline\\tfidf_logreg_best_train_only.joblib",
+  "model_sha256": "5c2088ef51dbe3a4ea799c36731a22c6a6bfcd2eccd9c1cf9e6cdb67ac60cd9d",
+  "test_accessed": false
+}

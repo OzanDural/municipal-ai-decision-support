@@ -1,0 +1,27 @@
+{
+  "status": "SCENARIO_METADATA_FIX_APPLIED_TO_QA_VIEW",
+  "input_survivor_count": 1681,
+  "output_survivor_count": 1681,
+  "metadata_correction_count": 4,
+  "changed_record_count": 4,
+  "changed_sample_ids": [
+    "CLAUDE_prod_claude_002_013",
+    "GPT_long_gpt_001_069",
+    "GPT_long_gpt_003_005",
+    "GPT_prod_gpt_002_071"
+  ],
+  "category_distribution_unchanged": true,
+  "category_distribution": {
+    "TEMIZLIK_ATIK": 340,
+    "YOL_KALDIRIM": 336,
+    "PARK_YESIL_ALAN": 334,
+    "KENT_DUZENI_DENETIM": 335,
+    "HAYVAN_VETERINER": 336
+  },
+  "input_survivor_sha256": "f05c6913c18c21ac6255866dcef5b3e4cabb4859dc26d415284706a6d774675f",
+  "corrections_sha256": "934c4e15b88e98693af5a1956715b1545d226feb839c367639890a14be33bf42",
+  "output_survivor_sha256": "c8f2a6c6c71f49a9a9f5cb1f2c5a01dd4055b6b39fe1e34a3089a8629dd2a5ef",
+  "master_dataset_modified": false,
+  "record_count_changed": false,
+  "policy": "Only audited scenario metadata corrections were applied to the current QA survivor view. complaint_text and category were not modified. The source master dataset remains immutable. Scenario is QA metadata and is not the model target label."
+}

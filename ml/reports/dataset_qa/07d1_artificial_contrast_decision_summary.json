@@ -1,0 +1,17 @@
+{
+  "status": "PROVISIONAL_ARTIFICIAL_REVIEW_COMPLETE",
+  "records_reviewed": 11,
+  "keep_count": 0,
+  "reject_artificial_count": 11,
+  "dataset_modified": false,
+  "duplicate_review_survivor_before": 1692,
+  "provisional_survivor_after_artificial_review": 1681,
+  "category_counts_after_if_applied": {
+    "TEMIZLIK_ATIK": 340,
+    "YOL_KALDIRIM": 336,
+    "PARK_YESIL_ALAN": 334,
+    "KENT_DUZENI_DENETIM": 335,
+    "HAYVAN_VETERINER": 336
+  },
+  "policy": "Rule flags were manually reviewed. Rejection was based on explicit artificial contrast or target-priority wording that unnaturally disambiguates the intended class; no record was rejected solely because a regex matched."
+}

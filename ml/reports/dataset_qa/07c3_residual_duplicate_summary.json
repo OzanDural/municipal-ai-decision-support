@@ -1,0 +1,18 @@
+{
+  "status": "PROVISIONAL_DUPLICATE_REVIEW_COMPLETE",
+  "dataset_modified": false,
+  "input_residual_pair_count": 74,
+  "residual_connected_component_count": 33,
+  "residual_unique_record_count": 98,
+  "records_already_reviewed_before_stage7c3": 34,
+  "new_records_reviewed_stage7c3": 64,
+  "new_keep_count": 45,
+  "new_reject_duplicate_count": 19,
+  "pair_edges_resolved_by_new_rejects": 26,
+  "high_similarity_edges_kept_after_manual_review": 48,
+  "unreviewed_residual_pair_count_after_stage7c3": 0,
+  "previous_provisional_reject_count": 39,
+  "combined_provisional_duplicate_reject_count": 58,
+  "provisional_survivor_count_after_duplicate_review": 1692,
+  "policy": "Residual semantic similarity is a review signal, not an automatic deletion rule. Records are rejected only when they add no meaningful contextual, linguistic, length, difficulty, typo, location-style, or event-detail diversity. Remaining high-similarity edges are explicitly accepted as KEEP_BOTH after review."
+}

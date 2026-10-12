@@ -1,0 +1,546 @@
+﻿==============================================================================
+SAME_CATEGORY_SAME_SCENARIO
+==============================================================================
+
+
+semantic_similarity : 1.0
+sample_id_1         : GPT_prod_gpt_003_029
+sample_id_2         : GPT_prod_gpt_004_029
+category_1          : YOL_KALDIRIM
+category_2          : YOL_KALDIRIM
+scenario_1          : sidewalk_damage
+scenario_2          : sidewalk_damage
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_003
+batch_2             : prod_gpt_004
+complaint_text_1    : Kaldırım taşları kırılmış, basınca oynuyor.
+complaint_text_2    : Kaldırım taşları kırılmış, basınca oynuyor.
+
+semantic_similarity : 0.992573
+sample_id_1         : GPT_prod_gpt_002_001
+sample_id_2         : GPT_prod_gpt_003_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : overflowing_container
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_002
+batch_2             : prod_gpt_003
+complaint_text_1    : Çöp konteyneri ağzına kadar dolmuş, atıklar dışarı taşmaya başladı. Boşaltılmasını 
+                      rica ederim.
+complaint_text_2    : Çöp konteyneri ağzına kadar dolu ve çevresine taşmaya başladı. Boşaltılmasını rica 
+                      ederim.
+
+semantic_similarity : 0.989744
+sample_id_1         : GPT_prod_gpt_003_081
+sample_id_2         : GPT_prod_gpt_005_081
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : injured_stray
+scenario_2          : injured_stray
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_003
+batch_2             : prod_gpt_005
+complaint_text_1    : Yaralı bir sokak kedisi var, arka ayağına basamıyor. Yardım edilmesini rica ederim.
+complaint_text_2    : Yaralı bir kedi var, arka ayağına basamıyor. Yardım edilmesini rica ediyorum.
+
+semantic_similarity : 0.988895
+sample_id_1         : GPT_prod_gpt_001_041
+sample_id_2         : GPT_prod_gpt_003_041
+category_1          : PARK_YESIL_ALAN
+category_2          : PARK_YESIL_ALAN
+scenario_1          : playground_equipment
+scenario_2          : playground_equipment
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_003
+complaint_text_1    : Salıncağın bir zinciri kopmuş ve oturma bölümü dengesiz duruyor. Onarılmasını rica 
+                      ederim.
+complaint_text_2    : Salıncağın bir zinciri kopmuş ve oturağı yana düşüyor. Onarılmasını rica ederim.
+
+semantic_similarity : 0.988782
+sample_id_1         : GPT_prod_gpt_005_001
+sample_id_2         : GEMINI_prod_gemini_001_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : overflowing_container
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GEMINI
+batch_1             : prod_gpt_005
+batch_2             : prod_gemini_001
+complaint_text_1    : Çöp konteyneri günlerdir dolu ve atıklar dışına taşmış. Boşaltılmasını rica ediyoru
+                      m.
+complaint_text_2    : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltıl
+                      masını rica ediyorum.
+
+semantic_similarity : 0.987749
+sample_id_1         : GEMINI_prod_gemini_003_021
+sample_id_2         : GEMINI_prod_gemini_004_021
+category_1          : YOL_KALDIRIM
+category_2          : YOL_KALDIRIM
+scenario_1          : pothole
+scenario_2          : pothole
+generator_1         : GEMINI
+generator_2         : GEMINI
+batch_1             : prod_gemini_003
+batch_2             : prod_gemini_004
+complaint_text_1    : Yoldaki derin çukur araç trafiğini tehlikeye sokmaktadır, asfaltlama çalışması yapı
+                      lmasını rica ederim.
+complaint_text_2    : Yol üzerinde oluşan derin çukur araç trafiğini tehlikeye sokmaktadır, asfalt yama y
+                      apılmasını rica ederim.
+
+semantic_similarity : 0.987703
+sample_id_1         : GPT_prod_gpt_002_001
+sample_id_2         : GPT_prod_gpt_005_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : overflowing_container
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_002
+batch_2             : prod_gpt_005
+complaint_text_1    : Çöp konteyneri ağzına kadar dolmuş, atıklar dışarı taşmaya başladı. Boşaltılmasını 
+                      rica ederim.
+complaint_text_2    : Çöp konteyneri günlerdir dolu ve atıklar dışına taşmış. Boşaltılmasını rica ediyoru
+                      m.
+
+semantic_similarity : 0.987568
+sample_id_1         : GPT_prod_gpt_001_001
+sample_id_2         : GEMINI_prod_gemini_001_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : overflowing_container
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GEMINI
+batch_1             : prod_gpt_001
+batch_2             : prod_gemini_001
+complaint_text_1    : Çöp konteyneri tamamen dolmuş, kapak kapanmıyor ve atıklar dışarı taşıyor. Boşaltıl
+                      masını rica ederim.
+complaint_text_2    : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltıl
+                      masını rica ediyorum.
+
+semantic_similarity : 0.987404
+sample_id_1         : GPT_prod_gpt_001_073
+sample_id_2         : GPT_prod_gpt_004_074
+category_1          : KENT_DUZENI_DENETIM
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : business_noise_nuisance
+scenario_2          : business_noise_nuisance
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_004
+complaint_text_1    : Alt sokaktaki kafe gece çok yüksek müzik açıyor, evde cam kapalıyken bile duyuluyor
+                      .
+complaint_text_2    : Alt sokaktaki kafeden her gece çok yüksek müzik geliyo, camlar kapalıyken bile duyu
+                      luyor.
+
+semantic_similarity : 0.987225
+sample_id_1         : GPT_prod_gpt_002_001
+sample_id_2         : GEMINI_prod_gemini_001_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : overflowing_container
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GEMINI
+batch_1             : prod_gpt_002
+batch_2             : prod_gemini_001
+complaint_text_1    : Çöp konteyneri ağzına kadar dolmuş, atıklar dışarı taşmaya başladı. Boşaltılmasını 
+                      rica ederim.
+complaint_text_2    : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltıl
+                      masını rica ediyorum.
+
+
+
+
+==============================================================================
+SAME_CATEGORY_DIFF_SCENARIO
+==============================================================================
+
+
+semantic_similarity : 0.960475
+sample_id_1         : GPT_prod_gpt_001_094
+sample_id_2         : GPT_prod_gpt_002_091
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : stray_animal_group
+scenario_2          : aggressive_stray
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_002
+complaint_text_1    : Bir grup sahipsiz köpek birlikte hareket ediyor ve yoldan geçenlere topluca yaklaşa
+                      rak korku yaratıyor. Güvenli şekilde kontrol altına alınmalarını rica ederim.
+complaint_text_2    : Sahipsiz bir köpek insanlara doğru saldırı hamlesi yapıyor ve birkaç kişiyi geri dö
+                      nmek zorunda bıraktı. Güvenli müdahale edilmesini rica ederim.
+
+semantic_similarity : 0.95874
+sample_id_1         : GPT_prod_gpt_001_089
+sample_id_2         : GPT_prod_gpt_002_096
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : aggressive_stray
+scenario_2          : stray_animal_group
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_002
+complaint_text_1    : Umut Mahallesi Papatya Caddesi'nde sahipsiz bir köpek geçenlere doğru koşup hırlıyo
+                      r, özellikle çocuklar korkuyor.
+complaint_text_2    : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp ko
+                      şan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+semantic_similarity : 0.958277
+sample_id_1         : GPT_prod_gpt_004_081
+sample_id_2         : GEMINI_prod_gemini_003_086
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : injured_stray
+scenario_2          : sick_stray
+generator_1         : GPT
+generator_2         : GEMINI
+batch_1             : prod_gpt_004
+batch_2             : prod_gemini_003
+complaint_text_1    : Ayağı kanayan bir sokak kedisi var, yürümekte zorlanıyor.
+complaint_text_2    : Ağzından salyalar akan ve titreyen hasta bir sokak kedisi var, ayakta durmakta zorl
+                      anıyor.
+
+semantic_similarity : 0.952175
+sample_id_1         : GEMINI_prod_gemini_001_085
+sample_id_2         : GEMINI_prod_gemini_003_081
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : sick_stray
+scenario_2          : injured_stray
+generator_1         : GEMINI
+generator_2         : GEMINI
+batch_1             : prod_gemini_001
+batch_2             : prod_gemini_003
+complaint_text_1    : Ağır derecede uyuz olmuş ve tüy dökmüş sokak köpeğinin tedavi altına alınmasını arz
+                       ederim.
+complaint_text_2    : Bacağı kırılmış yaralı sokak köpeği için acil tıbbi müdahale yapılmasını arz ederim
+                      .
+
+semantic_similarity : 0.95204
+sample_id_1         : GPT_prod_gpt_004_013
+sample_id_2         : GPT_prod_gpt_005_001
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : illegal_dumping
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_004
+batch_2             : prod_gpt_005
+complaint_text_1    : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmas
+                      ını talep ediyorum.
+complaint_text_2    : Çöp konteyneri günlerdir dolu ve atıklar dışına taşmış. Boşaltılmasını rica ediyoru
+                      m.
+
+semantic_similarity : 0.951504
+sample_id_1         : GPT_prod_gpt_001_089
+sample_id_2         : GPT_prod_gpt_004_095
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : aggressive_stray
+scenario_2          : stray_animal_group
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_004
+complaint_text_1    : Umut Mahallesi Papatya Caddesi'nde sahipsiz bir köpek geçenlere doğru koşup hırlıyo
+                      r, özellikle çocuklar korkuyor.
+complaint_text_2    : Umut Mahallesi Papatya Caddesi'nde birkaç sahipsiz köpek sabah saatlerinde okul çev
+                      resinde birlikte dolaşıp çocuklara havlayarak yaklaşıyor.
+
+semantic_similarity : 0.950902
+sample_id_1         : GPT_prod_gpt_001_078
+sample_id_2         : GPT_long_gpt_001_069
+category_1          : KENT_DUZENI_DENETIM
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : unauthorized_signage_display
+scenario_2          : public_space_obstruction
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : long_gpt_001
+complaint_text_1    : Güneş Mahallesi Yasemin Caddesi'nde bir işletme kaldırım üzerine sabit olmayan büyü
+                      k bir reklam standı koymuştur. Yaya geçişini daraltan standın kaldırlmasını rica ed
+                      erim.
+complaint_text_2    : Kestane Mahallesi Işık Sokak'ta kaldırım üzerine zincirle bağlanmış büyük bir rekla
+                      m standı bırakılmış. İşletme açık ya da kapalı olsa da stand aynı yerde kalıyor ve 
+                      yaya akışını daraltıyor. Özellikle gece fark edilmesi zor. Kaldırımdan kaldırılması
+                       gerekiyor.
+
+semantic_similarity : 0.949261
+sample_id_1         : GPT_prod_gpt_002_039
+sample_id_2         : GPT_prod_gpt_005_026
+category_1          : YOL_KALDIRIM
+category_2          : YOL_KALDIRIM
+scenario_1          : road_surface_collapse
+scenario_2          : asphalt_damage
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_002
+batch_2             : prod_gpt_005
+complaint_text_1    : Çamlık Mahallesi Defne Caddesi'nde yol yüzeyinde çökme meydana gelmiş; alanın çevre
+                      sinde çatlaklar genisliyor.
+complaint_text_2    : Çamlık Mahallesi Defne Caddesi'nde asfalt çatlayıp yer yer sökülmüş, araç çok sarsı
+                      lıyor.
+
+semantic_similarity : 0.949066
+sample_id_1         : GEMINI_long_gemini_001_082
+sample_id_2         : GEMINI_long_gemini_002_085
+category_1          : HAYVAN_VETERINER
+category_2          : HAYVAN_VETERINER
+scenario_1          : injured_stray
+scenario_2          : sick_stray
+generator_1         : GEMINI
+generator_2         : GEMINI
+batch_1             : long_gemini_001
+batch_2             : long_gemini_002
+complaint_text_1    : Parkın girişindeki bankın altında yaralı bir sokak kedisi yatıyor. Ön patisi ezilmi
+                      ş ve kanıyor, basamıyor ve sürekli inliyor. Hayvanın kurtarılması ve pansumanının y
+                      apılması için veteriner desteği bekliyoruz.
+complaint_text_2    : Parkın köşesindeki bankın altında yatan sokak kedisinin iki gözü de iltihaptan tama
+                      men kapanmış ve nefes almakta zorlanıyor. Yemeden içmeden kesilen bu hasta hayvanın
+                       bakımevine götürülüp iyileştirilmesini istiyoruz.
+
+semantic_similarity : 0.949015
+sample_id_1         : GPT_prod_gpt_004_013
+sample_id_2         : GPT_prod_gpt_005_004
+category_1          : TEMIZLIK_ATIK
+category_2          : TEMIZLIK_ATIK
+scenario_1          : illegal_dumping
+scenario_2          : overflowing_container
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_004
+batch_2             : prod_gpt_005
+complaint_text_1    : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmas
+                      ını talep ediyorum.
+complaint_text_2    : Konteynerlerin düzenli boşaltılmaması nedeniyle çevresinde ciddi bir atık birikimi 
+                      oluşmuştur. Temizlenmesini talep ediyorum.
+
+
+
+
+==============================================================================
+DIFFERENT_CATEGORY
+==============================================================================
+
+
+semantic_similarity : 0.944757
+sample_id_1         : GPT_prod_gpt_001_012
+sample_id_2         : GPT_prod_gpt_001_032
+category_1          : TEMIZLIK_ATIK
+category_2          : YOL_KALDIRIM
+scenario_1          : street_litter
+scenario_2          : sidewalk_damage
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_001
+complaint_text_1    : Yıldız Mahallesi Akasya Sokak'ta kaldırım boyunca kırık şişe ve ambalaj parçaları v
+                      ar; bisikletle geçenler de üzerinden kaçmaya çalışıyor. Alanın temizlenmesi gerekyo
+                      r.
+complaint_text_2    : Yıldız Mahallesi Akasya Sokak'ta pazar sonrasında kalan ambalajlar kırık kaldırım p
+                      lakalarının aralarına doluyor; plakalar da aşağı çökmüş durumda ve yürüyenler denge
+                      sini kaybediyor. Onarim gerekiyor.
+
+semantic_similarity : 0.940293
+sample_id_1         : GPT_long_gpt_001_035
+sample_id_2         : GPT_long_gpt_001_059
+category_1          : YOL_KALDIRIM
+category_2          : PARK_YESIL_ALAN
+scenario_1          : curb_damage
+scenario_2          : park_fence_path
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : long_gpt_001
+batch_2             : long_gpt_001
+complaint_text_1    : Safir Mahallesi Kırlangıç Caddesi'nde bordür taşları park sulamasından gelen suyun 
+                      aktığı bölümde gevşemiş. Sürekli ıslanan zemin taşların altını boşaltmış gibi; iki 
+                      parça artık yola doğru eğiliyor. Çimlerin sulanması devam ettikçe hasarın ilerlediğ
+                      ini görüyoruz. Araçlar kenara yanaşırken taşlara sürtüyor ve yayalar da çıkıntının 
+                      üzerinden atlamak zorunda kalıyor. Geçen hafta bordürün altındaki toprakta küçük bi
+                      r boşluk vardı, bugün bu boşluk daha geniş ve taşlardan biri elle bile oynayacak ka
+                      dar gevşek görünüyor. Sulama suyu her sabah aynı noktadan bordür dibine doğru akıyo
+                      r ve ıslaklık gün içinde uzun süre kalıyor. Bordür hattının sağlamlaştırılması ve g
+                      evşeyen taşların yerine oturtulması gerekiyor.
+complaint_text_2    : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana do
+                      ğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun
+                       kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol verm
+                      ekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son bir
+                      kaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi y
+                      olun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındak
+                      i taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bis
+                      ikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+semantic_similarity : 0.93818
+sample_id_1         : GEMINI_long_gemini_001_061
+sample_id_2         : GEMINI_long_gemini_002_030
+category_1          : KENT_DUZENI_DENETIM
+category_2          : YOL_KALDIRIM
+scenario_1          : business_sidewalk_occupation
+scenario_2          : sidewalk_damage
+generator_1         : GEMINI
+generator_2         : GEMINI
+batch_1             : long_gemini_001
+batch_2             : long_gemini_002
+complaint_text_1    : Cadde üzerindeki kafeler masa ve sandalyelerini yaya kaldırımının tamamına yayarak 
+                      yayaların geçişini engellemektedir. Bebek arabalı ve engelli vatandaşların mağduriy
+                      et yaşamaması için gerekli denetimlerin yapılarak kaldırım işgaline son verilmesini
+                       arz ederim.
+complaint_text_2    : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin 
+                      dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı 
+                      ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırıml
+                      arın yenilenmesini arz ederim.
+
+semantic_similarity : 0.935771
+sample_id_1         : GPT_prod_gpt_003_058
+sample_id_2         : CLAUDE_prod_claude_001_020
+category_1          : PARK_YESIL_ALAN
+category_2          : YOL_KALDIRIM
+scenario_1          : park_fence_path
+scenario_2          : road_surface_collapse
+generator_1         : GPT
+generator_2         : CLAUDE
+batch_1             : prod_gpt_003
+batch_2             : prod_claude_001
+complaint_text_1    : Oyun alanına çıkan iç yürüyüş yolunda taşlar yerinden oynamış ve yüzey düzensizleşm
+                      iş. Park içi yolun düzenlenmesi için işlem yapılmasını bekliyorum.
+complaint_text_2    : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu ç
+                      ukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılması
+                      nı bekliyorum.
+
+semantic_similarity : 0.935273
+sample_id_1         : GPT_long_gpt_001_059
+sample_id_2         : GPT_long_gpt_003_029
+category_1          : PARK_YESIL_ALAN
+category_2          : YOL_KALDIRIM
+scenario_1          : park_fence_path
+scenario_2          : sidewalk_damage
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : long_gpt_001
+batch_2             : long_gpt_003
+complaint_text_1    : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana do
+                      ğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun
+                       kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol verm
+                      ekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son bir
+                      kaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi y
+                      olun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındak
+                      i taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bis
+                      ikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+complaint_text_2    : Yeşiltepe Mahallesi İnci Parkı'nın dış kenarındaki kaldırımda birkaç taş kırılmış v
+                      e bir kısmı yerinden oynamış. Park sulandığında su bu boşluklarda birikiyor, taşlar
+                      ın altı daha fazla gevşiyor. Çimlerde belirgin bir kuruma yok ama yürüyüş tarafında
+                       takılma riski her geçen gün artıyor. Özellikle bebek arabasıyla geçerken tekerler 
+                      boşluğa giriyor.
+
+semantic_similarity : 0.935106
+sample_id_1         : GPT_prod_gpt_002_008
+sample_id_2         : GPT_prod_gpt_002_088
+category_1          : TEMIZLIK_ATIK
+category_2          : HAYVAN_VETERINER
+scenario_1          : uncollected_garbage
+scenario_2          : sick_stray
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_002
+batch_2             : prod_gpt_002
+complaint_text_1    : Günlerdir alınmayan çöp torbaları parçalanmış, yiyecek arayan sokak kedileri atıkla
+                      rı etrafa yayıyor. Birikmiş çöplerin toplanmasını talep ediyorum.
+complaint_text_2    : Sahipsiz bir kedi belirgin şekilde halsiz, gözleri akıyor ve yiyecek bulmak için çö
+                      p torbalarını eşeliyor. Hayvanın alınarak muayene edilmesini talep ediyorum.
+
+semantic_similarity : 0.933141
+sample_id_1         : GEMINI_long_gemini_002_030
+sample_id_2         : GEMINI_long_gemini_003_061
+category_1          : YOL_KALDIRIM
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : sidewalk_damage
+scenario_2          : business_sidewalk_occupation
+generator_1         : GEMINI
+generator_2         : GEMINI
+batch_1             : long_gemini_002
+batch_2             : long_gemini_003
+complaint_text_1    : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin 
+                      dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı 
+                      ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırıml
+                      arın yenilenmesini arz ederim.
+complaint_text_2    : Çarşı caddesindeki kafeler, yaya kaldırımını masa, sandalye ve rüzgarlıklarla tamam
+                      en işgal etmiştir. Yayaların ve bebek arabalı ailelerin araç yoluna inmek zorunda k
+                      aldığı bu duruma müdahale edilerek kaldırımın boşaltılmasını saygılarımla arz ederi
+                      m.
+
+semantic_similarity : 0.93196
+sample_id_1         : GEMINI_long_gemini_002_030
+sample_id_2         : CLAUDE_long_claude_001_031
+category_1          : YOL_KALDIRIM
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : sidewalk_damage
+scenario_2          : business_sidewalk_occupation
+generator_1         : GEMINI
+generator_2         : CLAUDE
+batch_1             : long_gemini_002
+batch_2             : long_claude_001
+complaint_text_1    : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin 
+                      dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı 
+                      ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırıml
+                      arın yenilenmesini arz ederim.
+complaint_text_2    : Bir işletme sahibi kaldırımın büyük bölümünü masa ve sandalyelerle kaplamış durumda
+                      , yayaların geçebileceği alan neredeyse kalmamış. Özellikle bebek arabası ya da tek
+                      erlekli sandalyeyle geçmek imkansız hale geliyor. Kaldırımın yeniden yaya kullanımı
+                      na açılmasını rica ediyorum.
+
+semantic_similarity : 0.931433
+sample_id_1         : GPT_long_gpt_002_018
+sample_id_2         : CLAUDE_long_claude_001_031
+category_1          : TEMIZLIK_ATIK
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : bulky_waste_debris
+scenario_2          : business_sidewalk_occupation
+generator_1         : GPT
+generator_2         : CLAUDE
+batch_1             : long_gpt_002
+batch_2             : long_claude_001
+complaint_text_1    : Mahalle çıkışındaki kaldırımın kenarında bir süredir eski yatak, kırık sandalye ve 
+                      tahta parçaları beklemektedir. Yağmurdan sonra parçalar dağıldığı için daha geniş y
+                      er kaplamaya başladı. Kaldırım yüzeyinde belirgin bir hasar yok ancak büyük eşyalar
+                       yayaların kullanabileceği alanı daraltıyor. Bu hacimli atıkların toplanarak alanın
+                       açılmasını rica ederim.
+complaint_text_2    : Bir işletme sahibi kaldırımın büyük bölümünü masa ve sandalyelerle kaplamış durumda
+                      , yayaların geçebileceği alan neredeyse kalmamış. Özellikle bebek arabası ya da tek
+                      erlekli sandalyeyle geçmek imkansız hale geliyor. Kaldırımın yeniden yaya kullanımı
+                      na açılmasını rica ediyorum.
+
+semantic_similarity : 0.930998
+sample_id_1         : GPT_prod_gpt_001_018
+sample_id_2         : GPT_prod_gpt_001_078
+category_1          : TEMIZLIK_ATIK
+category_2          : KENT_DUZENI_DENETIM
+scenario_1          : bulky_waste_debris
+scenario_2          : unauthorized_signage_display
+generator_1         : GPT
+generator_2         : GPT
+batch_1             : prod_gpt_001
+batch_2             : prod_gpt_001
+complaint_text_1    : Güneş Mahallesi Yasemin Caddesi'nde kaldırım kenarına bırakılan büyük dolap parçala
+                      rının kaldırılmasını rica ediyorum; geçiş alanını daraltıyo.
+complaint_text_2    : Güneş Mahallesi Yasemin Caddesi'nde bir işletme kaldırım üzerine sabit olmayan büyü
+                      k bir reklam standı koymuştur. Yaya geçişini daraltan standın kaldırlmasını rica ed
+                      erim.
+
+
+
+

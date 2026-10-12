@@ -1,0 +1,2380 @@
+====================================================================================================
+SCENARIO BOUNDARY 001
+====================================================================================================
+Original rank : 1
+Similarity    : 0.960475
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir grup sahipsiz köpek birlikte hareket ediyor ve yoldan geçenlere topluca yaklaşarak korku yaratıyor. Güvenli şekilde kontrol altına alınmalarını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir köpek insanlara doğru saldırı hamlesi yapıyor ve birkaç kişiyi geri dönmek zorunda bıraktı. Güvenli müdahale edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 002
+====================================================================================================
+Original rank : 2
+Similarity    : 0.958740
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde sahipsiz bir köpek geçenlere doğru koşup hırlıyor, özellikle çocuklar korkuyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_096
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp koşan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 003
+====================================================================================================
+Original rank : 3
+Similarity    : 0.958277
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Ayağı kanayan bir sokak kedisi var, yürümekte zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_086
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Ağzından salyalar akan ve titreyen hasta bir sokak kedisi var, ayakta durmakta zorlanıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 004
+====================================================================================================
+Original rank : 4
+Similarity    : 0.952175
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Ağır derecede uyuz olmuş ve tüy dökmüş sokak köpeğinin tedavi altına alınmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Bacağı kırılmış yaralı sokak köpeği için acil tıbbi müdahale yapılmasını arz ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 005
+====================================================================================================
+Original rank : 6
+Similarity    : 0.951504
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde sahipsiz bir köpek geçenlere doğru koşup hırlıyor, özellikle çocuklar korkuyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_095
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde birkaç sahipsiz köpek sabah saatlerinde okul çevresinde birlikte dolaşıp çocuklara havlayarak yaklaşıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 006
+====================================================================================================
+Original rank : 7
+Similarity    : 0.950902
+Category      : KENT_DUZENI_DENETIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_078
+Scenario      : unauthorized_signage_display
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde bir işletme kaldırım üzerine sabit olmayan büyük bir reklam standı koymuştur. Yaya geçişini daraltan standın kaldırlmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_069
+Scenario      : public_space_obstruction
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Kestane Mahallesi Işık Sokak'ta kaldırım üzerine zincirle bağlanmış büyük bir reklam standı bırakılmış. İşletme açık ya da kapalı olsa da stand aynı yerde kalıyor ve yaya akışını daraltıyor. Özellikle gece fark edilmesi zor. Kaldırımdan kaldırılması gerekiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 007
+====================================================================================================
+Original rank : 8
+Similarity    : 0.949261
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_039
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Çamlık Mahallesi Defne Caddesi'nde yol yüzeyinde çökme meydana gelmiş; alanın çevresinde çatlaklar genisliyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_026
+Scenario      : asphalt_damage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Çamlık Mahallesi Defne Caddesi'nde asfalt çatlayıp yer yer sökülmüş, araç çok sarsılıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 008
+====================================================================================================
+Original rank : 9
+Similarity    : 0.949066
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Parkın girişindeki bankın altında yaralı bir sokak kedisi yatıyor. Ön patisi ezilmiş ve kanıyor, basamıyor ve sürekli inliyor. Hayvanın kurtarılması ve pansumanının yapılması için veteriner desteği bekliyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Parkın köşesindeki bankın altında yatan sokak kedisinin iki gözü de iltihaptan tamamen kapanmış ve nefes almakta zorlanıyor. Yemeden içmeden kesilen bu hasta hayvanın bakımevine götürülüp iyileştirilmesini istiyoruz.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 009
+====================================================================================================
+Original rank : 10
+Similarity    : 0.949015
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_004
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Konteynerlerin düzenli boşaltılmaması nedeniyle çevresinde ciddi bir atık birikimi oluşmuştur. Temizlenmesini talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 010
+====================================================================================================
+Original rank : 11
+Similarity    : 0.948692
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltılmasını rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 011
+====================================================================================================
+Original rank : 12
+Similarity    : 0.947950
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_096
+Scenario      : stray_animal_group
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında akşamları kalabalık bir köpek grubu toplanıyor. Bazen birbirleriyle koşuşup yola çıkıyorlar, geçen insanlar da grup dağılana kadar bekliyor. Hayvanların güvenli şekilde kontrol edilmesi lazım.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_046
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Pazar yerinin yanında birkaç köpek genellikle sakin bir şekilde dolaşırken, içlerinden biri son günlerde yanından geçen herkese hırlamaya ve bazen üzerine atılmaya başladı. Özellikle küçük çocuklu aileler bu köpeğin bulunduğu bölümden geçerken tedirgin oluyor, bazıları başka bir güzergah kullanmayı tercih ediyor. Pazar günleri kalabalık arttığında bu davranış daha da belirginleşiyor ve insanlar arasında panik yaratabiliyor. Köpeğin güvenli bir şekilde kontrol altına alınmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 012
+====================================================================================================
+Original rank : 14
+Similarity    : 0.946026
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_096
+Scenario      : stray_animal_group
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Yenikent Mahallesi Çam Caddesi'nde park çıkışında toplanan sahipsiz köpekler, çöp poşetleri açıldığında daha da kalabalıklaşıp çevreden geçenleri sıkıştırıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_092
+Scenario      : aggressive_stray
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yenişehir Mahallesi Akasya Caddesi'nde park çıkışında duran sahipsiz köpek, çöp poşetleri karıştırılırken yaklaşan insanlara aniden saldırmaya çalışıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 013
+====================================================================================================
+Original rank : 15
+Similarity    : 0.945422
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında çok halsiz bir sokak köpeği var; çevredeki yemek artıklarına yaklaşmıyor, ayağa kalkınca hemen tekrar yatıyor. Sağlık kontrolü için alınmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak köpeği yanından geçenlere sık sık havlayarak yaklaşmakta ve özellikle koşan kişilerin peşinden gitmektedir. Aynı davranış birkaç gündür tekrar ediyor. Çevrede risk oluşmadan hayvanın kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 014
+====================================================================================================
+Original rank : 16
+Similarity    : 0.945398
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_024
+Scenario      : pothole
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Park çıkışındaki yolda oluşan çukur yağmur suyuyla doluyor; sürücüler kaçarken kaldırım tarafına fazla yaklaşıyor. Yol yüzeyinin onarılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_031
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Menekşe Sokak'ta park çitinin yanındaki kaldırım çökmüş, yağmur suyu çukurda birikiyor ve yürüyüş yolu bağlantısında geçiş zorlaşıyor. Onarım yapılmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 015
+====================================================================================================
+Original rank : 17
+Similarity    : 0.945292
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Ön ayağına basamayan sahipsiz bir köpek var. Yürümeye çalışınca hemen oturuyor ve ayağını sürekli yukarıda tutuyor. Birkaç saattir aynı bölgede olduğu için kontrol edilip yardım edilmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Mahalle girişinde birkaç gündür çok halsiz görünen sahipsiz bir köpek bulunuyor. Yemek bırakıldığında yaklaşmıyor, gözleri akıntılı ve uzun süre aynı yerde yatıyor. Sağlık durumunun kontrol edilmesi gerekiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 016
+====================================================================================================
+Original rank : 18
+Similarity    : 0.945001
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Çöp konteyneri birkaç gündür tamamen dolu ve kapakları kapanmıyor. Poşetler çevresine bırakılmaya başladığı için kötü koku oluşuyor, özellikle akşam saatlerinde yanından geçmek zorlaşıyor. Konteynerin boşaltılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_005
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin yanındaki konteyner hafta sonlarında çok hızlı doluyor. Kapağı açık kaldığı için hem koku oluşuyor hem de poşetler yaya geçişine doğru yayılıyor. Kaldırımın kendisinde bir hasar yok ancak etrafındaki çöpler yüzünden geçerken kenara açılmak gerekiyor. Boşaltma aralığının burada yeterli olmadığı görülüyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 017
+====================================================================================================
+Original rank : 19
+Similarity    : 0.944218
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Pazar alanının arkasında hasta görünen bir kedi var; çöplerin arasına saklandığı için yaklaşmak zor oluyor ve çok zayıf görünüyo.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin yakınında arka ayağını yere basamayan sahipsiz bir kedi birkaç gündür aynı çevrede dolaşıyor. İnsanlardan kaçtığı için yaklaşmak zor oluyor. Ayağında şişlik de fark ediliyor, daha fazla zarar görmeden yardım edilmesi gerekiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 018
+====================================================================================================
+Original rank : 20
+Similarity    : 0.944158
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sokakta ön ayağına basamayan bir köpek var. Hayvan yürürken sürekli aksıyor ve dinlenmek için sık sık yere yatıyor. Yaralanmanın ilerlememesi için uygun şekilde alınarak kontrol edilmesi gerektiğini düşünüyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_043
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Sürekli aynı köşede yatan bir sokak köpeği dikkatimi çekti, gözlerinde akıntı var ve nefes alışı düzensiz görünüyor. Yemek verilse bile pek iştahı olmuyor ve halsiz bir şekilde yatıyor. Hayvanın sağlık durumunun kontrol edilmesini rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 019
+====================================================================================================
+Original rank : 21
+Similarity    : 0.943874
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_013
+Scenario      : asphalt_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Aydınlar Mahallesi Papatya Sokak'ta asfalt uzun süredir çökük durumda, yağmur sonrasında su birikintisi oluşuyor. Onarım yapılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_002_012
+Scenario      : pothole
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Mahallemizin ana yolunda derin bir çukur oluşmuş, yağmur sonrası su birikiyor. Bir an önce asfaltlanmasını talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 020
+====================================================================================================
+Original rank : 24
+Similarity    : 0.943202
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir köpek insanlara doğru saldırı hamlesi yapıyor ve birkaç kişiyi geri dönmek zorunda bıraktı. Güvenli müdahale edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_093
+Scenario      : stray_animal_group
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir grup sahipsiz köpek sürü halinde dolaşıp yayaların peşine takılıyor. Güvenli şekilde kontrol altına alınmalarını talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 021
+====================================================================================================
+Original rank : 25
+Similarity    : 0.942592
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_084
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir köpeğin araç çarpması sonrası hareketsizce beklediği görülüyor. Güvenli şekilde alınarak tedavi edilmesini talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_090
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yayalara saldırma eğilimi gösteren sahipsiz köpeğin güvenli şekilde alınmasını rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 022
+====================================================================================================
+Original rank : 26
+Similarity    : 0.942583
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın girişinde halsiz ve gözleri akıntılı bir sahipsiz kedi var. Bir veteriner ekip bakabilir mi?
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_042
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Sitenin girişinde arabaya carpmış görünen bir kedi var, yürüyemiyor, bir veteriner ekip bakabilir mi acaba.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 023
+====================================================================================================
+Original rank : 27
+Similarity    : 0.942275
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_005_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Konteynerin kapasitesi yetersiz kaldığı için çöpler dışarı taşmış durumda, boşaltılmasını rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 024
+====================================================================================================
+Original rank : 29
+Similarity    : 0.941804
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_042
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : İki gündür aynı bölgede dolaşan bir kedi gördüm, ön ayaklarından birini hiç yere basmadan yürüyor ve acı çekiyormuş gibi miyavlıyor. İnsanlar yaklaştığında kaçmaya çalışsa da fazla uzaklaşamıyor, bu da yaralanmanın ciddi olabileceğini düşündürüyor. Bu hayvanın en kısa sürede tedavi altına alınmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_044
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın arka tarafında birkaç gündür aynı yerde yatan bir kedi var, tüyleri dökülmüş ve derisinde yer yer kızarıklıklar oluşmuş durumda. Diğer kediler ondan uzak duruyor, bu da bulaşıcı bir rahatsızlığı olabileceğini düşündürüyor. Hayvanın bir an önce tedavi edilmesini istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 025
+====================================================================================================
+Original rank : 30
+Similarity    : 0.941730
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir süredir çöp konteynerinin kapağı kapanmayacak kadar dolu olduğunu görüyorum. Poşetler kenarlara taşmış ve rüzgârla çevreye dağılmaya başlamış. Düzenli boşaltılması çevrenin kirlenmesini önleyecektir.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_005
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin yanındaki konteyner hafta sonlarında çok hızlı doluyor. Kapağı açık kaldığı için hem koku oluşuyor hem de poşetler yaya geçişine doğru yayılıyor. Kaldırımın kendisinde bir hasar yok ancak etrafındaki çöpler yüzünden geçerken kenara açılmak gerekiyor. Boşaltma aralığının burada yeterli olmadığı görülüyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 026
+====================================================================================================
+Original rank : 31
+Similarity    : 0.941422
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Çöp konteyneri tamamen dolmuş, kapak kapanmıyor ve atıklar dışarı taşıyor. Boşaltılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmasını talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 027
+====================================================================================================
+Original rank : 32
+Similarity    : 0.940107
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Mahallemizdeki sokak kedilerinden birinin kuyruk kısmında derin bir yara açılmış ve enfeksiyon kapmış durumda. Hayvan acıdan yürüyemiyor ve sürekli inliyor. Tedavi edilip sağlığına kavuşturulması için uzman görevlilerin müdahale etmesini rica ediyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_087
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Apartmanımızın sığınağının önüne sığınan bir sokak kedisi birkaç gündür hiçbir şey yemiyor ve sürekli kusuyor. Ağzından köpükler geliyor, gözleri tamamen kapanmış ve soluk almakta büyük güçlük çekiyor. Durumu her geçen saat kötüye gidiyor, çevredeki vatandaşlar olarak ne yapacağımızı bilemedik. Bu hasta hayvanın barınak veya tedavi merkezine götürülerek tedavi edilmesini rica ediyoruz.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 028
+====================================================================================================
+Original rank : 34
+Similarity    : 0.939858
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Çöp konteyneri birkaç gündür sürekli dolu kalıyor ve poşetler kapağın dışına taşmış durumda. Koku özellikle akşam saatlerinde artıyor, çevrede yürüyenler konteynere yaklaşmakta zorlanıyor. Daha sık boşaltılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_005
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin yanındaki konteyner hafta sonlarında çok hızlı doluyor. Kapağı açık kaldığı için hem koku oluşuyor hem de poşetler yaya geçişine doğru yayılıyor. Kaldırımın kendisinde bir hasar yok ancak etrafındaki çöpler yüzünden geçerken kenara açılmak gerekiyor. Boşaltma aralığının burada yeterli olmadığı görülüyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 029
+====================================================================================================
+Original rank : 36
+Similarity    : 0.939792
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_008
+Scenario      : uncollected_garbage
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Okulun yakınındaki toplama noktasında atıklar birkaç gündür zamanında alınmıyor. Öğrencilerin giriş çıkış saatlerinde poşetler kaldırım kenarına kadar uzanıyor ve sıcaklık arttıkça koku belirginleşiyor. Son günlerde toplama saati iyice düzensizlesti; çevrede yaşayanlar ne zaman çıkaracağını kestiremiyor. Akşam bırakılan poşetlerin ertesi gün öğlene kadar kaldığı oluyor, bu sırada ambalajlar çevreye dağılıyor. Özellikle çocukların yoğun geçtiği saatlerden önce birikimin alınması iyi olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_009
+Scenario      : street_litter
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki yol kenarında her sabah bardak, ambalaj ve peçeteler birikiyor. Gün içinde rüzgâr bunları çevreye dağıtınca alan daha da kirli görünüyor. Çöp kutuları dolu değil ama yerdeki atıklar uzun süre kalıyor. Özellikle hafta başlarında temizlik yapılmadığı çok belli oluyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 030
+====================================================================================================
+Original rank : 37
+Similarity    : 0.939771
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_006
+Scenario      : uncollected_garbage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Çınar Mahallesi Menekşe Sokak'ta akşam bırakılan çöp torbaları ertesi gün de olduğu yerde kalıyor; sıcak havada koku yapmaya başladı.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_003
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Çınar Mahallesi Menekşe Sokak'taki konteyner iyice taşmış, kapağı kapanmıyor. Akşama doğru koku da artıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 031
+====================================================================================================
+Original rank : 38
+Similarity    : 0.939425
+Category      : KENT_DUZENI_DENETIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_064
+Scenario      : business_sidewalk_occupation
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : İşletmenin önündeki kaldırım fiziksel olarak sağlam ve geniş olmasına rağmen masa, sandalye ve taşınabilir panoların sürekli dışarı çıkarılması nedeniyle yaya geçişi daralıyor. Akşamları çevrede çöp poşetleri de görülebiliyor ancak bunlar kısa sürede kaldırılıyor. Gün boyu devam eden yerleşim özellikle bebek arabası ve tekerlekli sandalye kullananların araç yoluna yönelmesine neden oluyor. Kamusal geçiş alanının sürekli açık tutulmasının sağlanması gerekmektedir.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_070
+Scenario      : public_space_obstruction
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Kamusal geçiş alanına gün boyunca büyük plastik kasalar, taşınabilir bariyerler ve çeşitli eşyalar bırakılıyor. Alanın zemininde belirgin bir hasar bulunmuyor; eşyalar kaldırıldığında geçiş normal genişliğine dönüyor. Yakındaki yeşil alanın girişine de kısmen taşan malzemeler insanların yön değiştirmesine neden oluyor. Özellikle yoğun saatlerde tekerlekli sandalye kullananların geçebileceği boşluk kalmıyor. Eşyaların sürekli kamusal alanda tutulmasının önlenmesi ve geçiş koridorunun açık bırakılması gerekmektedir.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 032
+====================================================================================================
+Original rank : 39
+Similarity    : 0.939193
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_093
+Scenario      : stray_animal_group
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir grup sahipsiz köpek sürü halinde dolaşıp yayaların peşine takılıyor. Güvenli şekilde kontrol altına alınmalarını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_090
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yayalara saldırma eğilimi gösteren sahipsiz köpeğin güvenli şekilde alınmasını rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 033
+====================================================================================================
+Original rank : 40
+Similarity    : 0.939013
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin yanında son haftalarda kalabalık bir sahipsiz köpek grubu oluştu. Sabahları daha dağınık oluyorlar ama akşam yemek artıkları bırakılınca aynı noktada toplanıyorlar. İnsanlar kalabalığın içinden gecmek istemiyor. Özellikle pazarın dağıldığı saatlerde yiyecek kokusuna yaklaşan köpeklerin sayısı artıyor ve yaya geçişi tedirgin edici hale geliyor. Grubun durumunun değerlendirilmesi ve güvenli şekilde kontrol altına alınması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_046
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Pazar yerinin yanında birkaç köpek genellikle sakin bir şekilde dolaşırken, içlerinden biri son günlerde yanından geçen herkese hırlamaya ve bazen üzerine atılmaya başladı. Özellikle küçük çocuklu aileler bu köpeğin bulunduğu bölümden geçerken tedirgin oluyor, bazıları başka bir güzergah kullanmayı tercih ediyor. Pazar günleri kalabalık arttığında bu davranış daha da belirginleşiyor ve insanlar arasında panik yaratabiliyor. Köpeğin güvenli bir şekilde kontrol altına alınmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 034
+====================================================================================================
+Original rank : 42
+Similarity    : 0.938877
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_014
+Scenario      : illegal_dumping
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Mahalle çıkışındaki toprak alana düzenli olarak çöp dökülüyor. Bu hafta poşetlerin yanında eski gıda kutuları ve kırık plastikler de birikmiş. Rüzgârla hafif atıklar çevreye sacılıyor; alan giderek kalıcı bir döküm noktası gibi kullanılmaya başladı. Geçen ay yalnızca birkaç torba varken şimdi alanın kenarı boyunca dağılmış durumda. Yakından geçenler kokudan rahatsız oluyor ve yağmur sonrası atıkların bir kısmı çamura karışıyor. Birikimin tamamen temizlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_002
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Mahalle pazarının kurulduğu alanın köşesindeki büyük çöp kutusu pazar bittikten sonra tamamen doldu. Çevresine saçılan sebze atıkları ve poşetler yola doğru dağılmaya başladı. Sabah saatlerinde rüzgar çıktıkça pislik tüm çevreye yayılıyor, kutunun acilen boşaltılması gerekiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 035
+====================================================================================================
+Original rank : 43
+Similarity    : 0.938490
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_084
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak kedisinin kulağında açık yara var, birkaç gündür aynı halde dolaşıyor ve dokununca kaçamıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_086
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Ağzından salyalar akan ve titreyen hasta bir sokak kedisi var, ayakta durmakta zorlanıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 036
+====================================================================================================
+Original rank : 44
+Similarity    : 0.938486
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında çok halsiz bir sokak köpeği var; çevredeki yemek artıklarına yaklaşmıyor, ayağa kalkınca hemen tekrar yatıyor. Sağlık kontrolü için alınmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin arkasında toplanan sahipsiz köpekler akşam saatlerinde dagılmıyor ve yaklaşanlara topluca havlıyor. Güvenli şekilde kontrol edilmelerini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 037
+====================================================================================================
+Original rank : 45
+Similarity    : 0.938178
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_039
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Deniz Mahallesi Lale Sokak'ta kazı sonrası kapatılan bölüm yeniden çökmüs; yol ekibinin kontrol edip zemini sağlamlaştırmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_027
+Scenario      : asphalt_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Altyapı çalışmasından sonra kapatılan bölüm yeniden çözüldü ve asfalt dağılmaya başladı. Yol ekibinin kontrol etmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 038
+====================================================================================================
+Original rank : 46
+Similarity    : 0.938089
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_002_012
+Scenario      : pothole
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Mahallemizin ana yolunda derin bir çukur oluşmuş, yağmur sonrası su birikiyor. Bir an önce asfaltlanmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_013
+Scenario      : asphalt_damage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Cadde boyunca asfalt yer yer çökmüş ve büyük çatlaklar oluşmuş durumda. Özellikle yağış sonrası bu bölgelerde su birikintileri oluşuyor ve araçlar yavaşlamak zorunda kalıyor. Asfalt yüzeyinin yenilenmesini talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 039
+====================================================================================================
+Original rank : 48
+Similarity    : 0.937918
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin arkasında toplanan sahipsiz köpekler akşam saatlerinde dagılmıyor ve yaklaşanlara topluca havlıyor. Güvenli şekilde kontrol edilmelerini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak köpeği yanından geçenlere sık sık havlayarak yaklaşmakta ve özellikle koşan kişilerin peşinden gitmektedir. Aynı davranış birkaç gündür tekrar ediyor. Çevrede risk oluşmadan hayvanın kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 040
+====================================================================================================
+Original rank : 49
+Similarity    : 0.937672
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_083
+Scenario      : injured_stray
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde yol kenarında yaralı bir kedi var; araçlar yaklaşınca kalkmaya çalışıyor fakat ön ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ediyorm.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_091
+Scenario      : aggressive_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Güneş Mahallesi Lale Sokak'ta park kapısına yakın sahipsiz köpek, yanından araç geçince ürküp yayalara doğru saldırganlaşıyor. Güvenli şekilde alınmasını rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 041
+====================================================================================================
+Original rank : 50
+Similarity    : 0.937570
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_008
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Caddesi'nde yol çalışmasından sonra kenara bırakılan poşet ve evsel çöpler üç gündür duruyor; yağmurla birlikte yol kenarına dağılıyor. Toplanmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_003
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : casual
+Typo          : True
+Generator     : GEMINI
+Text          : Kurtuluş Mahallesi Akasya Sokak üzerinde bulunan büyük çöp konteynırı üç gündür taşmış halde bekliyor. Poşetler artık yola kadar saçıldı, arabalar gecerken çöplerin üzerinden geçmek zorunda kalıyor. Havalar sıcak olduğu için inanılmaz pis kokuyor ve kediler poşetleri paramparca etmiş. Buraya düzenli gelinmesini ve sokağın bu pislikten temizlenmesini istiyoruz, gercekten durulacak gibi değil.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 042
+====================================================================================================
+Original rank : 51
+Similarity    : 0.937369
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında çok halsiz bir sokak köpeği var; çevredeki yemek artıklarına yaklaşmıyor, ayağa kalkınca hemen tekrar yatıyor. Sağlık kontrolü için alınmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sokakta ön ayağına basamayan bir köpek var. Hayvan yürürken sürekli aksıyor ve dinlenmek için sık sık yere yatıyor. Yaralanmanın ilerlememesi için uygun şekilde alınarak kontrol edilmesi gerektiğini düşünüyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 043
+====================================================================================================
+Original rank : 52
+Similarity    : 0.937216
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Lale Sokak'ta sahipsiz bir köpek geçenlere hırlıyor ve bisikletlileri kovalıyor, cocuklar geçemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_096
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp koşan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 044
+====================================================================================================
+Original rank : 54
+Similarity    : 0.936952
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Çöp konteyneri birkaç gündür tamamen dolu ve kapakları kapanmıyor. Poşetler çevresine bırakılmaya başladığı için kötü koku oluşuyor, özellikle akşam saatlerinde yanından geçmek zorlaşıyor. Konteynerin boşaltılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_006
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında bırakılan çöp poşetleri iki gündür alınmamış. Akşam kapanıştan sonra yığın daha da büyüyor, sabah çevrede ağır bir koku oluyor. Bu çöplerin bekletilmeden toplanması iyi olur.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 045
+====================================================================================================
+Original rank : 55
+Similarity    : 0.936923
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_087
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Park girişinde çok zayıflamış bir sokak kedisi var, nefes alırken hırıltı duyuluyor ve yerinden kalkmıyor gibii.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Parkın girişindeki bankın altında yaralı bir sokak kedisi yatıyor. Ön patisi ezilmiş ve kanıyor, basamıyor ve sürekli inliyor. Hayvanın kurtarılması ve pansumanının yapılması için veteriner desteği bekliyoruz.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 046
+====================================================================================================
+Original rank : 56
+Similarity    : 0.936916
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir köpek insanlara doğru saldırı hamlesi yapıyor ve birkaç kişiyi geri dönmek zorunda bıraktı. Güvenli müdahale edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin arkasında toplanan sahipsiz köpekler akşam saatlerinde dagılmıyor ve yaklaşanlara topluca havlıyor. Güvenli şekilde kontrol edilmelerini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 047
+====================================================================================================
+Original rank : 57
+Similarity    : 0.936905
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir grup sahipsiz köpek birlikte hareket ediyor ve yoldan geçenlere topluca yaklaşarak korku yaratıyor. Güvenli şekilde kontrol altına alınmalarını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_091
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak köpeği yanından geçenlere sık sık havlayarak yaklaşmakta ve özellikle koşan kişilerin peşinden gitmektedir. Aynı davranış birkaç gündür tekrar ediyor. Çevrede risk oluşmadan hayvanın kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 048
+====================================================================================================
+Original rank : 58
+Similarity    : 0.936853
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Gece saatlerinde torbalarla evsel çöp bırakılıyor. Son birkaç gündür yığının büyüdüğünü görüyoruz ve çevreye ağır bir koku yayılmaya başladı. Birikimin temizlenmesi ve tekrar bırakılmasının önlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_006
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Lale Sokak üzerinde bırakılan evsel çöp torbaları iki gecedir alınmamış. Sabahları poşetlerin etrafında daha fazla atık birikiyor ve koku artıyor. Böyle devam etmeden toplanması iyi olur.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 049
+====================================================================================================
+Original rank : 60
+Similarity    : 0.936150
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Atatürk Parkı içerisindeki çocuk oyun alanının kenarında halsizce yatan ve vücudunda açık yaralar bulunan sokak kedisinin tedaviye alınmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Parkın girişindeki bankın altında yaralı bir sokak kedisi yatıyor. Ön patisi ezilmiş ve kanıyor, basamıyor ve sürekli inliyor. Hayvanın kurtarılması ve pansumanının yapılması için veteriner desteği bekliyoruz.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 050
+====================================================================================================
+Original rank : 61
+Similarity    : 0.935923
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Ayağı kanayan bir sokak kedisi var, yürümekte zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_087
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Park girişinde çok zayıflamış bir sokak kedisi var, nefes alırken hırıltı duyuluyor ve yerinden kalkmıyor gibii.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 051
+====================================================================================================
+Original rank : 62
+Similarity    : 0.935873
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_096
+Scenario      : stray_animal_group
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka çıkışında toplanan sahipsiz köpekler çöp poşetlerini dağıttıktan sonra yaklaşanlara birlikte havlayıp peşlerinden gidiyor. İnsanlar o geçişi kullanmaya çekiniyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_092
+Scenario      : aggressive_stray
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yenişehir Mahallesi Akasya Caddesi'nde park çıkışında duran sahipsiz köpek, çöp poşetleri karıştırılırken yaklaşan insanlara aniden saldırmaya çalışıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 052
+====================================================================================================
+Original rank : 63
+Similarity    : 0.935827
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_038
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde yol yüzeyi belirgin biçimde çökmüş ve seviye farkı oluşmuştur. Bölgenin kontrol edilerek onarılmasını rica ediyrum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_002_013
+Scenario      : asphalt_damage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Yeşiltepe Mahallesi Akasya Sokak'ta asfalt geniş bir alanda çökmüş durumda, araç geçişleri sırasında ciddi sarsıntı yaşanıyor. Gerekli onarımın yapılmasını rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 053
+====================================================================================================
+Original rank : 64
+Similarity    : 0.935803
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_028
+Scenario      : asphalt_damage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Asfalt tabakası parça parça kalkmış; kopan parçalar kenara savruluyor ve yağmurda çamurlu birikintiler oluşuyor. Yol yüzeyinin düzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_021
+Scenario      : pothole
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Asfaltta derin bir çukur oluşmuş. Araçlara zarar vermeden onarılmasını rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 054
+====================================================================================================
+Original rank : 65
+Similarity    : 0.935725
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_004
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Çöp konteynerinin kapasitesi artık ihtiyacı karşılamıyor. Gün içinde birkaç kez çevresine poşet bırakıldığını görüyoruz ve akşam olduğunda kapak tamamen kapanamaz hale geliyor. Düzenli boşaltma sıklığının gözden geçirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_003
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Çöpler bu hafta boyunca hiç toplanmadı ve poşetler etrafta birikmeye başladı. Yaz sıcağıyla birlikte koku iyice belirginleşti ve rahatsızlık veriyor. Toplama programının aksamasının nedeni araştırılıp bir an önce düzeltilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 055
+====================================================================================================
+Original rank : 67
+Similarity    : 0.935693
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Karanfil Caddesi civarında uyuz hastalığı ilerlemiş sokak köpeğinin tedavi altına alınmasını saygılarımla talep ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yol kenarında yatan sokak köpeğinin arka bacağında açık yara ve kırık bulunmaktadır. Hareket edemeyen ve acı çeken hayvanın tedavi altına alınması için acil müdahale edilmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 056
+====================================================================================================
+Original rank : 68
+Similarity    : 0.935662
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_095
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde birkaç sahipsiz köpek sabah saatlerinde okul çevresinde birlikte dolaşıp çocuklara havlayarak yaklaşıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_002_046
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Kayalar Mahallesi Nilüfer Caddesi'nde bir köpek okuldan çıkan öğrencilere saldırgan şekilde yaklaşıyor, veliler bu yüzden çocuklarını almak için erken geliyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 057
+====================================================================================================
+Original rank : 69
+Similarity    : 0.935613
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_032
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GEMINI
+Text          : Otobüs durağının arkasındaki kaldırım tabanının çökmesi ve taşların kırılması sebebiyle yayalar düşme tehhlikesi yaşamaktadır, onarımını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_026
+Scenario      : asphalt_damage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Otobüs durağının önündeki asfalt epey aşınmış, yüzey parça parça kalkıyor. Araçlar geçtikçe küçük taşlar kenara saçılıyor ve yağmurda bölüm daha kaygan oluyor. Yolun bu kısmının yenilenmesi lazım.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 058
+====================================================================================================
+Original rank : 71
+Similarity    : 0.935501
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_099
+Scenario      : trapped_animal_rescue
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Çamlık Mahallesi Defne Caddesi'nde sahipsiz bir kedi bodrum havalandırma boşluğunda mahsur kalmıs; uzun süredir miyavlıyor. Kurtarılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Çınar Mahallesi Menekşe Sokak'ta çok halsiz görünen sahipsiz bir kedi uzun süredir aynı yerde yatıyor. Kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 059
+====================================================================================================
+Original rank : 72
+Similarity    : 0.935436
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_084
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak kedisinin kulağında açık yara var, birkaç gündür aynı halde dolaşıyor ve dokununca kaçamıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_088
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Evimizin yakınındaki sokak kedisi iki gündür çok halsiz, gozü de kapanmış durumda.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 060
+====================================================================================================
+Original rank : 73
+Similarity    : 0.935338
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Ayağı kanayan bir sokak kedisi var, yürümekte zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_097
+Scenario      : trapped_animal_rescue
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Bir sokak kedisi tel çitin arasına sıkışmış, kendi başına çıkamıyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 061
+====================================================================================================
+Original rank : 74
+Similarity    : 0.935268
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Boş bir alana çok sayıda çöp poşeti ve eski ambalaj dökülmüş. Atıkların kaldırılmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_001
+Scenario      : overflowing_container
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Çöp konteyneri günlerdir taşma noktasına gelmiş durumda ve içindeki atıklar etrafa dökülüyor. Çevrede kötü koku oluşmaya başladı, yoldan geçenler burnunu kapatarak yürüyor. Konteynerin bir an önce boşaltılmasını rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 062
+====================================================================================================
+Original rank : 75
+Similarity    : 0.935231
+Category      : KENT_DUZENI_DENETIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_071
+Scenario      : public_space_obstruction
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Her gün dışarı çıkarılan ürün askılıkları ve koliler ortak yaya alanını kapatıyor. Kaldırılmasının sağlanmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_064
+Scenario      : business_sidewalk_occupation
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : İş yerinin ürün kasaları ve teşhir standları yaya geçişini sürekli kısıtlıyor. Kontrol edilmesini talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 063
+====================================================================================================
+Original rank : 77
+Similarity    : 0.935071
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Ağır derecede uyuz olmuş ve tüy dökmüş sokak köpeğinin tedavi altına alınmasını arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yol kenarında yatan sokak köpeğinin arka bacağında açık yara ve kırık bulunmaktadır. Hareket edemeyen ve acı çeken hayvanın tedavi altına alınması için acil müdahale edilmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 064
+====================================================================================================
+Original rank : 78
+Similarity    : 0.935004
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_003
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Çınaraltı Mahallesi Lalezar Sokak'taki konteyner taşmış, çöpler park girişine doğru yayılıyor. Yağmur yağdığında poşetlerden çıkan kirli su yol kenarına akıyor ve çevredeki kediler atıkları dağıtıyor. Konteynerin bosaltılma sıklığı yetersiz görünüyor; özellikle hafta sonları durum daha da kötüleşiyor. Pazar akşamı yanına bırakılan poşetlerin ertesi öğlene kadar kaldığını da birkaç kez gördüm. Geçiş alanı tamamen kapanmıyor fakat koku nedeniyle insanlar diğer taraftan yürümeyi tercih ediyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_005
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin yanındaki konteyner hafta sonlarında çok hızlı doluyor. Kapağı açık kaldığı için hem koku oluşuyor hem de poşetler yaya geçişine doğru yayılıyor. Kaldırımın kendisinde bir hasar yok ancak etrafındaki çöpler yüzünden geçerken kenara açılmak gerekiyor. Boşaltma aralığının burada yeterli olmadığı görülüyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 065
+====================================================================================================
+Original rank : 79
+Similarity    : 0.934959
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_084
+Scenario      : injured_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın girişine yakın bölümde arka ayağından yaralanmış görünen bir sokak köpeği bulunmaktadır. Köpek çoğunlukla çim kenarında yatıyor ancak kalabalık arttığında yavaşça yürüyüş yoluna çıkıyor. Parkın yolunda veya oyun alanında belirgin bir fiziksel sorun yok; hayvan ayağına hiç yük veremediği için hareket etmekte zorlanıyor. Özellikle akşam yoğunluğu başlamadan güvenli biçimde alınarak sağlık durumunun değerlendirilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_087
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Deryakent Mahallesi Mercimek Sokak çevresinde görülen bir sokak köpeği son iki gündür belirgin biçimde halsizdir. Yürürken kısa süre sonra yere yatıyor ve bırakılan yiyeceğe ilgi göstermiyor. Hayvanın sağlık durumunun değerlendirilmesi için güvenli biçimde alınmasını rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 066
+====================================================================================================
+Original rank : 80
+Similarity    : 0.934836
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_096
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Sokak'ta birkaç sahipsiz köpek akşamları birlikte dolaşıp koşan insanları kovalıyor, çocuklar tek başına geçemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_091
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Okul yoluna yakın bir noktada duran sokak köpeği son birkaç gündür insanları kovalıyor, çocuklar geçmeye çekiniyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 067
+====================================================================================================
+Original rank : 81
+Similarity    : 0.934783
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_093
+Scenario      : stray_animal_group
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Boş arsanın çevresinde bir grup sahipsiz köpek toplanmış, geçen bisikletlilerin peşinden koşuyorlar.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_091
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Sokağın köşesindeki sahipsiz köpek özellikle bisikletlilerin peşinden koşuyor, çocuklar geçmeye çekiniyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 068
+====================================================================================================
+Original rank : 82
+Similarity    : 0.934671
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yaralı bir sokak kedisi arka ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_088
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Atatürk Parkı içerisindeki çocuk oyun alanının kenarında halsizce yatan ve vücudunda açık yaralar bulunan sokak kedisinin tedaviye alınmasını arz ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 069
+====================================================================================================
+Original rank : 84
+Similarity    : 0.934440
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Bir grup sahipsiz köpek birlikte hareket ediyor ve yoldan geçenlere topluca yaklaşarak korku yaratıyor. Güvenli şekilde kontrol altına alınmalarını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Yoldan geçenlere sürekli hırlayıp saldıran sahipsiz köpeğin kontrol altına alınmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 070
+====================================================================================================
+Original rank : 85
+Similarity    : 0.934183
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Gece saatlerinde torbalarla evsel çöp bırakılıyor. Son birkaç gündür yığının büyüdüğünü görüyoruz ve çevreye ağır bir koku yayılmaya başladı. Birikimin temizlenmesi ve tekrar bırakılmasının önlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_006
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Pazar yerinin arkasında bırakılan çöp poşetleri iki gündür alınmamış. Akşam kapanıştan sonra yığın daha da büyüyor, sabah çevrede ağır bir koku oluyor. Bu çöplerin bekletilmeden toplanması iyi olur.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 071
+====================================================================================================
+Original rank : 86
+Similarity    : 0.934178
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Karanfil Caddesi civarında uyuz hastalığı ilerlemiş sokak köpeğinin tedavi altına alınmasını saygılarımla talep ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Barış Mahallesi Karanfil Caddesi'nde yoldan geçen yayalara saldıran sahipsiz köpeğin rehabilite edilmesi için ekiplerin yönlendirilmesini talep ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 072
+====================================================================================================
+Original rank : 87
+Similarity    : 0.934121
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_083
+Scenario      : injured_stray
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde yol kenarında yaralı bir kedi var; araçlar yaklaşınca kalkmaya çalışıyor fakat ön ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ediyorm.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_087
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Barış Mahallesi Menekşe Caddesi'nde sahipsiz bir kedide yoğun göz akıntısı ve nefes almada güçlük görülüyor. Hayvanın kontrol edilmesi için destek talep ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 073
+====================================================================================================
+Original rank : 88
+Similarity    : 0.934039
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_094
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin arkasında toplanan sahipsiz köpekler akşam saatlerinde dagılmıyor ve yaklaşanlara topluca havlıyor. Güvenli şekilde kontrol edilmelerini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_046
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Pazar yerinin yanında birkaç köpek genellikle sakin bir şekilde dolaşırken, içlerinden biri son günlerde yanından geçen herkese hırlamaya ve bazen üzerine atılmaya başladı. Özellikle küçük çocuklu aileler bu köpeğin bulunduğu bölümden geçerken tedirgin oluyor, bazıları başka bir güzergah kullanmayı tercih ediyor. Pazar günleri kalabalık arttığında bu davranış daha da belirginleşiyor ve insanlar arasında panik yaratabiliyor. Köpeğin güvenli bir şekilde kontrol altına alınmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 074
+====================================================================================================
+Original rank : 89
+Similarity    : 0.933912
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Mahalle girişinde birkaç gündür çok halsiz görünen sahipsiz bir köpek bulunuyor. Yemek bırakıldığında yaklaşmıyor, gözleri akıntılı ve uzun süre aynı yerde yatıyor. Sağlık durumunun kontrol edilmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_081
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sokakta ön ayağına basamayan bir köpek var. Hayvan yürürken sürekli aksıyor ve dinlenmek için sık sık yere yatıyor. Yaralanmanın ilerlememesi için uygun şekilde alınarak kontrol edilmesi gerektiğini düşünüyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 075
+====================================================================================================
+Original rank : 90
+Similarity    : 0.933881
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_083
+Scenario      : injured_stray
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde yol kenarında yaralı bir kedi var; araçlar yaklaşınca kalkmaya çalışıyor fakat ön ayağına basamıyor. Güvenli şekilde alınarak tedavi edilmesini rica ediyorm.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_090
+Scenario      : aggressive_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Gül Caddesi'nde sahipsiz bir köpek özellikle bisikletlilere doğru koşup saldırgan davranıyor. Güvenli biçimde müdahale edilmesini istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 076
+====================================================================================================
+Original rank : 91
+Similarity    : 0.933857
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_002_003
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GEMINI
+Text          : Sokağın başındakı konteyner günlerdir taşmış durumda, kokudan pencereleri açamıyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_004
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : Sokağımızın girişinde çöpler üç gündür alınmadı, kokudan pencere açamıyoruz.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 077
+====================================================================================================
+Original rank : 92
+Similarity    : 0.933774
+Category      : PARK_YESIL_ALAN
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_054
+Scenario      : tree_branch_hazard
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Büyük bir ağaç dalı çatlamış ve düşme riski oluşturuyor. Park görevlilerinin kontrol edip güvenli hale getirmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_047
+Scenario      : park_furniture
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Birkaç park bankının sırtlıkları yerinden çıkmış. Park görevlilerince kontrol edilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 078
+====================================================================================================
+Original rank : 93
+Similarity    : 0.933762
+Category      : YOL_KALDIRIM
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_002_029
+Scenario      : sidewalk_damage
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Kaldırım taşları yerinden sökülmüş ve kırılmış, yürürken takılıp düşme tehlikesi var.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_035
+Scenario      : curb_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Kaldırım kenar taşları yerinden fırlamış, araçların yanaşırken lastiklerini kesme riski bulunuyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 079
+====================================================================================================
+Original rank : 94
+Similarity    : 0.933707
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_082
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın yakınında arka bacağında açık yara görünen sahipsiz bir kedi dolaşıyor. İnsanlardan kaçmıyor ama yürürken belirgin şekilde aksıyor. Yaranın daha fazla kötüleşmeden kontrol edilip hayvanın güvenli biçimde alınması iyi olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_098
+Scenario      : trapped_animal_rescue
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın kenarındaki kapalı kanal bölümünden uzun süredir kedi sesi gelmektedir. Açıklıktan bakıldığında hayvanın aşağıda sıkıştığı, çıkmak için birkaç kez tırmanıp geri düştüğü görülüyor. Çevredeki park yolu kullanılabilir durumda ancak kanalın derinliği nedeniyle vatandaşların müdahale etmesi güvenli görünmüyor. Kedinin zarar görmeden çıkarılması için yardım rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 080
+====================================================================================================
+Original rank : 95
+Similarity    : 0.933679
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_085
+Scenario      : sick_stray
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Çamlık Caddesi 50. Yıl İlkokulu önünde tüyleri tamamen dökülmüş, vücudunda yaralar olan ve ileri derecede uyuz olduğu anlaşılan bir sokak köpeği bulunmaktadır. Hayvanın tedavi altına alınması için desteğinizi rica ederiz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_041
+Scenario      : injured_stray
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Bacağını sürüyerek yürüyen bir sokak köpeği fark ettim, muhtemelen bir araçla çarpışmış görünüyor. Hareket etmekte zorlanıyor ve insanlardan uzak duruyor, kendi başına iyileşmesi zor gözüküyor. Hayvanın tedavi için gerekli desteği alabilmesini rica ediyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 081
+====================================================================================================
+Original rank : 96
+Similarity    : 0.933492
+Category      : HAYVAN_VETERINER
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_084
+Scenario      : injured_stray
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir köpeğin araç çarpması sonrası hareketsizce beklediği görülüyor. Güvenli şekilde alınarak tedavi edilmesini talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_089
+Scenario      : aggressive_stray
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Yoldan geçenlere sürekli hırlayıp saldıran sahipsiz köpeğin kontrol altına alınmasını istiyorum.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 082
+====================================================================================================
+Original rank : 97
+Similarity    : 0.933461
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_002
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Kullanılan çöp konteyneri neredeyse her akşam üstüne kadar doluyor ve kapağı artık düzgün kapanmıyor. Rüzgârlı havalarda içindeki poşetler etrafa savruluyor, bu hem görüntü kirliliği hem de kötü koku oluşturuyor. Toplama sıklığının artırılmasını ve konteyner sayısının gözden geçirilmesini istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_003
+Scenario      : uncollected_garbage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Çöpler bu hafta boyunca hiç toplanmadı ve poşetler etrafta birikmeye başladı. Yaz sıcağıyla birlikte koku iyice belirginleşti ve rahatsızlık veriyor. Toplama programının aksamasının nedeni araştırılıp bir an önce düzeltilmesini rica ederim.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 083
+====================================================================================================
+Original rank : 98
+Similarity    : 0.933460
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_013
+Scenario      : illegal_dumping
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Gece saatlerinde torbalarla evsel çöp bırakılıyor. Son birkaç gündür yığının büyüdüğünü görüyoruz ve çevreye ağır bir koku yayılmaya başladı. Birikimin temizlenmesi ve tekrar bırakılmasının önlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_002
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Sokağın başındaki metal konteynerin kapağı kırık olduğu için çöpler üst üste yığılmış ve dışarı taşmış. Gece saatlerinde sokak hayvanları torbaları parçaladığı için bütün atıklar yola saçılıyor. Sabah işe giderken kokudan ve kirlilikten yürüyemiyoruz, buradaki konteynerin düzenli boşaltılması gerekiyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 084
+====================================================================================================
+Original rank : 99
+Similarity    : 0.933429
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_014
+Scenario      : illegal_dumping
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Mahalle çıkışındaki toprak alana düzenli olarak çöp dökülüyor. Bu hafta poşetlerin yanında eski gıda kutuları ve kırık plastikler de birikmiş. Rüzgârla hafif atıklar çevreye sacılıyor; alan giderek kalıcı bir döküm noktası gibi kullanılmaya başladı. Geçen ay yalnızca birkaç torba varken şimdi alanın kenarı boyunca dağılmış durumda. Yakından geçenler kokudan rahatsız oluyor ve yağmur sonrası atıkların bir kısmı çamura karışıyor. Birikimin tamamen temizlenmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_009
+Scenario      : street_litter
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki yol kenarında her sabah bardak, ambalaj ve peçeteler birikiyor. Gün içinde rüzgâr bunları çevreye dağıtınca alan daha da kirli görünüyor. Çöp kutuları dolu değil ama yerdeki atıklar uzun süre kalıyor. Özellikle hafta başlarında temizlik yapılmadığı çok belli oluyor.
+
+
+====================================================================================================
+SCENARIO BOUNDARY 085
+====================================================================================================
+Original rank : 100
+Similarity    : 0.933403
+Category      : TEMIZLIK_ATIK
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_004
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Konteynerlerin düzenli boşaltılmaması nedeniyle çevresinde ciddi bir atık birikimi oluşmuştur. Temizlenmesini talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_010
+Scenario      : street_litter
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yerlere biriken kâğıt, plastik ve izmaritler uzun süredir süpürülmemiş görünüyor. Temizlenmesini rica ediyorum.
+
+

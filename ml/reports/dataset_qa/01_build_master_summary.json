@@ -1,0 +1,79 @@
+{
+  "expected_total": 1750,
+  "actual_total": 1750,
+  "unique_sample_ids": 1750,
+  "duplicate_sample_id_count": 0,
+  "source_files": {
+    "VeriGPT.txt": {
+      "expected_count": 500,
+      "actual_count": 500,
+      "count_matches": true,
+      "sha256": "7f06a22bc281f94913cd110c9755980f9045c2e85d21963ef87cadf665cca24a"
+    },
+    "VeriGemini.txt": {
+      "expected_count": 500,
+      "actual_count": 500,
+      "count_matches": true,
+      "sha256": "f416b9c26f108a38e174a107406866b253c23d7d1867257d9f9d0bb2724eba8f"
+    },
+    "Veri_Claude.txt": {
+      "expected_count": 100,
+      "actual_count": 100,
+      "count_matches": true,
+      "sha256": "30e31e6b126d6b33ae4f54638b323b00b44fbc4e2b115986bb647d93c7d0ac47"
+    },
+    "UzunVeriGPT.txt": {
+      "expected_count": 300,
+      "actual_count": 300,
+      "count_matches": true,
+      "sha256": "7cc517593ddedaf81f86a1e08ccce80fcfb2861593c8dc782579dc3a0c60c2f3"
+    },
+    "UzunVeriGemini.txt": {
+      "expected_count": 300,
+      "actual_count": 300,
+      "count_matches": true,
+      "sha256": "40b8bd8a41bb27eeee3be8b1b25a50e165daf5da82fac3fc822f0bb3a7de5a57"
+    },
+    "UzunVeriClaude.txt": {
+      "expected_count": 50,
+      "actual_count": 50,
+      "count_matches": true,
+      "sha256": "39c9bc18c895d6aeedda1aab045c210cdaab7146976ef51bd5712f1d4f2464c0"
+    }
+  },
+  "generator_distribution": {
+    "GPT": 800,
+    "GEMINI": 800,
+    "CLAUDE": 150
+  },
+  "batch_distribution": {
+    "prod_gpt_001": 100,
+    "prod_gpt_002": 100,
+    "prod_gpt_003": 100,
+    "prod_gpt_004": 100,
+    "prod_gpt_005": 100,
+    "prod_gemini_001": 100,
+    "prod_gemini_002": 100,
+    "prod_gemini_003": 100,
+    "prod_gemini_004": 100,
+    "prod_gemini_005": 100,
+    "prod_claude_001": 50,
+    "prod_claude_002": 50,
+    "long_gpt_001": 100,
+    "long_gpt_002": 100,
+    "long_gpt_003": 100,
+    "long_gemini_001": 100,
+    "long_gemini_002": 100,
+    "long_gemini_003": 100,
+    "long_claude_001": 50
+  },
+  "category_distribution": {
+    "TEMIZLIK_ATIK": 350,
+    "YOL_KALDIRIM": 350,
+    "PARK_YESIL_ALAN": 350,
+    "KENT_DUZENI_DENETIM": 350,
+    "HAYVAN_VETERINER": 350
+  },
+  "master_raw_sha256": "492e1ccb36a3a278def150ef1661b3d3d393ca779e39227cb887b468df4cb4b9",
+  "master_raw_path": "data\\raw\\master_raw.jsonl"
+}

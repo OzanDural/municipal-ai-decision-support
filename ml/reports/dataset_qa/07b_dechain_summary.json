@@ -1,0 +1,25 @@
+{
+  "p99_5_similarity_threshold": 0.952652,
+  "p99_9_similarity_threshold": 0.967695,
+  "complete_linkage_distance_threshold": 0.047347999999999946,
+  "stage6b_connected_component_count": 76,
+  "stage6b_records_in_components": 271,
+  "stage6b_largest_component": 19,
+  "complete_linkage_group_count": 104,
+  "records_in_complete_linkage_groups": 237,
+  "largest_complete_linkage_group": 7,
+  "review_priority_counts": {
+    "R1_EXACT": 1,
+    "R1_VERY_HIGH_COHESION": 15,
+    "R2_COHESIVE": 16,
+    "R3_PAIR": 72
+  },
+  "stage6b_candidate_pair_count": 305,
+  "candidate_pairs_covered_by_complete_groups": 183,
+  "residual_pair_count": 122,
+  "residual_reason_counts": {
+    "SEMANTIC_EDGE_CROSS_COMPLETE_GROUP": 119,
+    "LEXICAL_ONLY_BELOW_P99_5": 3
+  },
+  "policy": "Complete-linkage groups are cohesive human-review units, not automatic deletion groups. Every member within a complete-linkage group satisfies the empirical P99.5 pairwise similarity requirement. Stage 6B candidate pairs not represented inside one complete-linkage group are retained in the residual review queue, so no candidate evidence is discarded."
+}

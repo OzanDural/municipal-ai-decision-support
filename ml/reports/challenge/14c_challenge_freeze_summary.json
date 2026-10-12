@@ -1,0 +1,18 @@
+{
+  "status": "CHALLENGE_SET_V1_FROZEN",
+  "candidate_sha256": "a1bbadb8cd88347460192fa76fa9a5f21bd85473dbc51b69e0dccfabab955d18",
+  "final_sha256": "8c70ad783976fdb58597b5feddeffbb8e23c676b149e5119b005605888dcd7d8",
+  "total_records": 150,
+  "in_scope_records": 100,
+  "ood_records": 50,
+  "manual_reviewed_records": 150,
+  "manual_pass": 150,
+  "manual_reject": 0,
+  "text_revisions": 31,
+  "gold_category_changes": 0,
+  "ood_family_changes": 0,
+  "normalized_overlap_with_master_final": 0,
+  "model_predictions_seen_before_freeze": false,
+  "review_policy_already_frozen": true,
+  "purpose": "Diagnostic challenge evaluation only; not training data and not a replacement for the frozen standard test."
+}

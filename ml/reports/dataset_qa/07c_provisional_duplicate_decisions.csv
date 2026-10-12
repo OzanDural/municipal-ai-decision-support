@@ -1,0 +1,100 @@
+﻿review_scope,group_id,sample_id,decision,reason_code,kept_reference,review_note
+R1_R2_COMPLETE_LINKAGE,CLG_102,GPT_prod_gpt_003_029,KEEP,KEEP_REPRESENTATIVE,,Birebir aynı metin; tek kopya yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_102,GPT_prod_gpt_004_029,REJECT_DUPLICATE,EXACT_DUPLICATE,GPT_prod_gpt_003_029,Birebir aynı metin; tek kopya yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_035,GPT_long_gpt_001_061,KEEP,KEEP_REPRESENTATIVE,,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_035,GPT_long_gpt_003_061,KEEP,KEEP_REPRESENTATIVE,,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_035,GPT_long_gpt_002_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_long_gpt_001_061,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_070,GPT_prod_gpt_003_017,KEEP,KEEP_REPRESENTATIVE,,Aynı bulky-waste olayı neredeyse yalnızca kelime düzeyinde yeniden yazılmış.
+R1_R2_COMPLETE_LINKAGE,CLG_070,GPT_prod_gpt_004_017,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_017,Aynı bulky-waste olayı neredeyse yalnızca kelime düzeyinde yeniden yazılmış.
+R1_R2_COMPLETE_LINKAGE,CLG_040,GPT_prod_gpt_003_067,KEEP,KEEP_REPRESENTATIVE,,Medium örnek izin/kullanım kontrolü nüansını taşıdığı için korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_040,GPT_prod_gpt_004_065,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_067,Medium örnek izin/kullanım kontrolü nüansını taşıdığı için korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_049,GEMINI_prod_gemini_003_045,KEEP,KEEP_REPRESENTATIVE,,İki easy-formal bank hasarı örneği içerik olarak çok yakın.
+R1_R2_COMPLETE_LINKAGE,CLG_049,GEMINI_prod_gemini_004_045,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_003_045,İki easy-formal bank hasarı örneği içerik olarak çok yakın.
+R1_R2_COMPLETE_LINKAGE,CLG_013,GEMINI_long_gemini_001_081,KEEP,KEEP_REPRESENTATIVE,,İki uzun formal yaralı köpek örneği aynı semantik çekirdeği taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_013,GEMINI_long_gemini_002_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_long_gemini_001_081,İki uzun formal yaralı köpek örneği aynı semantik çekirdeği taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_028,GPT_prod_gpt_005_073,KEEP,KEEP_REPRESENTATIVE,,İki kısa formal işletme-gürültü örneğinden daha doğal ifade korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_028,GPT_prod_gpt_004_073,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_005_073,İki kısa formal işletme-gürültü örneğinden daha doğal ifade korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_057,GEMINI_prod_gemini_005_041,KEEP,KEEP_DIVERSITY,,Kısa ve uzun örnek; uzun kayıt ek kırık korkuluk ve güvenlik ayrıntısı taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_057,GEMINI_long_gemini_002_041,KEEP,KEEP_DIVERSITY,,Kısa ve uzun örnek; uzun kayıt ek kırık korkuluk ve güvenlik ayrıntısı taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_077,GPT_long_gpt_001_001,KEEP,KEEP_DIVERSITY,,Neutral/formal stil ve boşaltma sıklığı versus anlık boşaltma talebi ayrımı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_077,GPT_long_gpt_002_001,KEEP,KEEP_DIVERSITY,,Neutral/formal stil ve boşaltma sıklığı versus anlık boşaltma talebi ayrımı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_011,GEMINI_prod_gemini_003_081,KEEP,KEEP_DIVERSITY,,İkinci örnek araç çarpması nedenini ekliyor; bağlamsal bilgi artışı var.
+R1_R2_COMPLETE_LINKAGE,CLG_011,GEMINI_prod_gemini_005_081,KEEP,KEEP_DIVERSITY,,İkinci örnek araç çarpması nedenini ekliyor; bağlamsal bilgi artışı var.
+R1_R2_COMPLETE_LINKAGE,CLG_069,GPT_prod_gpt_001_017,KEEP,KEEP_DIVERSITY,,Farklı hacimli atık bileşimleri ve farklı üretici dili korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_069,GEMINI_prod_gemini_005_018,KEEP,KEEP_DIVERSITY,,Farklı hacimli atık bileşimleri ve farklı üretici dili korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_017,GPT_prod_gpt_001_094,KEEP,KEEP_DIVERSITY,,Yaklaşma/korku ile takip davranışı arasında şiddet ve davranış farkı var.
+R1_R2_COMPLETE_LINKAGE,CLG_017,GPT_prod_gpt_004_093,KEEP,KEEP_DIVERSITY,,Yaklaşma/korku ile takip davranışı arasında şiddet ve davranış farkı var.
+R1_R2_COMPLETE_LINKAGE,CLG_056,GEMINI_prod_gemini_004_042,KEEP,KEEP_DIVERSITY,,Hard multi-defect örnek ile typo içeren medium kısa örnek farklı eğitim sinyali taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_056,CLAUDE_prod_claude_001_022,KEEP,KEEP_DIVERSITY,,Hard multi-defect örnek ile typo içeren medium kısa örnek farklı eğitim sinyali taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_042,GEMINI_prod_gemini_002_065,KEEP,KEEP_DIVERSITY,,Casual/neutral stil ve yol/yaya-geçişi bağlamı farkı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_042,GEMINI_prod_gemini_005_065,KEEP,KEEP_DIVERSITY,,Casual/neutral stil ve yol/yaya-geçişi bağlamı farkı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_098,GEMINI_long_gemini_001_021,KEEP,KEEP_DIVERSITY,,Ani fren/kaza riski ile alt takım hasarı sonucu farklı ayrıntılar taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_098,GEMINI_long_gemini_002_021,KEEP,KEEP_DIVERSITY,,Ani fren/kaza riski ile alt takım hasarı sonucu farklı ayrıntılar taşıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_073,GPT_prod_gpt_002_002,KEEP,KEEP_REPRESENTATIVE,,İlk örnek çevre kirliliği sonucunu da taşıyor; daha kısa ikinci örnek bilgi eklemiyor.
+R1_R2_COMPLETE_LINKAGE,CLG_073,GPT_prod_gpt_005_002,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_002,İlk örnek çevre kirliliği sonucunu da taşıyor; daha kısa ikinci örnek bilgi eklemiyor.
+R1_R2_COMPLETE_LINKAGE,CLG_071,GPT_prod_gpt_001_001,KEEP,KEEP_REPRESENTATIVE,,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,GEMINI_prod_gemini_001_001,KEEP,KEEP_REPRESENTATIVE,,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,CLAUDE_long_claude_001_001,KEEP,KEEP_REPRESENTATIVE,,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,GPT_prod_gpt_002_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,GPT_prod_gpt_003_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,GPT_prod_gpt_005_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_071,CLAUDE_prod_claude_002_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor."
+R1_R2_COMPLETE_LINKAGE,CLG_093,GPT_prod_gpt_003_021,KEEP,KEEP_REPRESENTATIVE,,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_093,CLAUDE_long_claude_001_011,KEEP,KEEP_REPRESENTATIVE,,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_093,GPT_prod_gpt_001_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_093,GPT_prod_gpt_002_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_093,GPT_prod_gpt_005_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_093,CLAUDE_prod_claude_002_011,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.
+R1_R2_COMPLETE_LINKAGE,CLG_031,GPT_prod_gpt_001_062,KEEP,KEEP_REPRESENTATIVE,,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_031,GPT_prod_gpt_003_062,KEEP,KEEP_REPRESENTATIVE,,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_031,GPT_prod_gpt_002_062,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_062,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_031,GPT_prod_gpt_005_062,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_062,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.
+R1_R2_COMPLETE_LINKAGE,CLG_054,GPT_prod_gpt_002_041,KEEP,KEEP_REPRESENTATIVE,,Aynı salıncak-zincir olayında iki temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_054,GEMINI_prod_gemini_004_041,KEEP,KEEP_REPRESENTATIVE,,Aynı salıncak-zincir olayında iki temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_054,GPT_prod_gpt_005_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_041,Aynı salıncak-zincir olayında iki temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_054,GEMINI_prod_gemini_001_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_041,Aynı salıncak-zincir olayında iki temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_006,GPT_prod_gpt_001_083,KEEP,KEEP_REPRESENTATIVE,,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_006,GPT_prod_gpt_002_081,KEEP,KEEP_REPRESENTATIVE,,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_006,GPT_prod_gpt_003_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_083,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_006,GPT_prod_gpt_005_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_083,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_053,GPT_prod_gpt_001_042,KEEP,KEEP_REPRESENTATIVE,,Easy kısa ve medium uzun varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_053,GPT_long_gpt_001_042,KEEP,KEEP_REPRESENTATIVE,,Easy kısa ve medium uzun varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_053,GPT_prod_gpt_003_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_042,Easy kısa ve medium uzun varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_053,GPT_prod_gpt_005_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_042,Easy kısa ve medium uzun varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_095,GEMINI_prod_gemini_002_021,KEEP,KEEP_REPRESENTATIVE,,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_095,GEMINI_prod_gemini_005_021,KEEP,KEEP_REPRESENTATIVE,,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_095,GEMINI_prod_gemini_003_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_021,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_095,GEMINI_prod_gemini_004_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_021,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_076,GEMINI_prod_gemini_002_001,KEEP,KEEP_REPRESENTATIVE,,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_076,GEMINI_prod_gemini_005_001,KEEP,KEEP_REPRESENTATIVE,,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_076,GEMINI_prod_gemini_003_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_001,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_090,GPT_prod_gpt_003_033,KEEP,KEEP_REPRESENTATIVE,,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_090,GEMINI_prod_gemini_005_033,KEEP,KEEP_REPRESENTATIVE,,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_090,GPT_prod_gpt_004_033,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_033,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_030,GPT_prod_gpt_003_061,KEEP,KEEP_REPRESENTATIVE,,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_030,GPT_prod_gpt_001_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_061,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_030,GPT_prod_gpt_005_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_061,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_052,GPT_prod_gpt_001_041,KEEP,KEEP_REPRESENTATIVE,,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_052,CLAUDE_prod_claude_002_021,KEEP,KEEP_REPRESENTATIVE,,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_052,GPT_prod_gpt_003_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_041,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_055,CLAUDE_prod_claude_001_021,KEEP,KEEP_REPRESENTATIVE,,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_055,GPT_prod_gpt_004_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,CLAUDE_prod_claude_001_021,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_055,GEMINI_prod_gemini_003_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,CLAUDE_prod_claude_001_021,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.
+R1_R2_COMPLETE_LINKAGE,CLG_046,GPT_prod_gpt_001_045,KEEP,KEEP_REPRESENTATIVE,,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_046,GPT_prod_gpt_004_045,KEEP,KEEP_REPRESENTATIVE,,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_046,GPT_prod_gpt_002_045,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_045,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_094,GPT_prod_gpt_001_022,KEEP,KEEP_REPRESENTATIVE,,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_094,GPT_prod_gpt_003_022,KEEP,KEEP_REPRESENTATIVE,,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_094,GPT_prod_gpt_002_022,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_022,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_027,GPT_prod_gpt_003_073,KEEP,KEEP_DIVERSITY,,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.
+R1_R2_COMPLETE_LINKAGE,CLG_027,GPT_long_gpt_003_073,KEEP,KEEP_DIVERSITY,,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.
+R1_R2_COMPLETE_LINKAGE,CLG_027,GPT_long_gpt_003_076,KEEP,KEEP_DIVERSITY,,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.
+R1_R2_COMPLETE_LINKAGE,CLG_025,GPT_prod_gpt_002_073,KEEP,KEEP_REPRESENTATIVE,,Easy uyku etkisi ile typo içeren medium varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_025,GPT_prod_gpt_004_074,KEEP,KEEP_REPRESENTATIVE,,Easy uyku etkisi ile typo içeren medium varyant korunuyor.
+R1_R2_COMPLETE_LINKAGE,CLG_025,GPT_prod_gpt_001_073,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_073,Easy uyku etkisi ile typo içeren medium varyant korunuyor.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GPT_prod_gpt_002_057,KEEP,KEEP_REPRESENTATIVE,,İlk örnek çocukların eğimli tarafa geçmesi sonucunu ekliyor; kısa ikinci örnek bilgi eklemiyor.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GPT_prod_gpt_003_057,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GPT_prod_gpt_002_057,İlk örnek çocukların eğimli tarafa geçmesi sonucunu ekliyor; kısa ikinci örnek bilgi eklemiyor.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GEMINI_prod_gemini_002_049,KEEP,KEEP_REPRESENTATIVE,,İki sulanmayan bitki örneği çok yakın; kurumaya başlama ayrıntısı taşıyan örnek korunuyor.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GEMINI_prod_gemini_001_049,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GEMINI_prod_gemini_002_049,İki sulanmayan bitki örneği çok yakın; kurumaya başlama ayrıntısı taşıyan örnek korunuyor.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GEMINI_prod_gemini_001_001,KEEP,KEEP_REPRESENTATIVE,,Aynı taşmış konteyner anlatımı; kept kayıt zaten CLG_071'de temsilci.
+LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,GEMINI_prod_gemini_004_001,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GEMINI_prod_gemini_001_001,Aynı taşmış konteyner anlatımı; kept kayıt zaten CLG_071'de temsilci.

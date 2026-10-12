@@ -1,0 +1,4 @@
+﻿sample_id,current_scenario,status,note
+GEMINI_prod_gemini_003_088,sick_stray,KEEP_SOFT_BOUNDARY,"Halsizlik + açık yaralar injured/sick sınırında; mevcut sick_stray etiketi savunulabilir, zorla değiştirilmedi."
+CLAUDE_prod_claude_001_013,asphalt_damage,KEEP_SOFT_BOUNDARY,'Asfalt çökük' ifadesi collapse ile kesişiyor ancak yaygın yüzey deformasyonu olarak da okunabildiği için mevcut metadata korundu.
+CLAUDE_long_claude_001_013,asphalt_damage,KEEP_SOFT_BOUNDARY,Yer yer çökme ve çatlak birlikte anlatılıyor; asfalt yüzey bozulması etiketi hâlâ savunulabilir.

@@ -1,0 +1,23 @@
+{
+  "status": "PROVISIONAL_SCENARIO_BOUNDARY_REVIEW_COMPLETE",
+  "active_pairs_reviewed": 85,
+  "unique_records_in_queue": 116,
+  "pair_decision_counts": {
+    "KEEP_BOTH": 78,
+    "METADATA_FIX_2": 6,
+    "METADATA_FIX_1": 1
+  },
+  "unique_metadata_corrections": 4,
+  "metadata_correction_sample_ids": [
+    "GPT_long_gpt_001_069",
+    "GPT_long_gpt_003_005",
+    "CLAUDE_prod_claude_002_013",
+    "GPT_prod_gpt_002_071"
+  ],
+  "soft_boundary_records_retained_without_change": 3,
+  "reject_ambiguous_count": 0,
+  "dataset_modified": false,
+  "current_survivor_before_scenario_review": 1681,
+  "current_survivor_after_scenario_review_if_applied": 1681,
+  "policy": "Scenario is QA metadata, not the model target. High similarity across scenarios was reviewed for metadata consistency rather than used as a deletion rule. Clear metadata inconsistencies receive audited scenario corrections; semantically soft but defensible boundaries are retained without forced relabeling."
+}

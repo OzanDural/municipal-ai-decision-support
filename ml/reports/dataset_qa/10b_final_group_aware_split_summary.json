@@ -1,0 +1,44 @@
+{
+  "status": "FINAL_GROUP_AWARE_SPLIT_FROZEN",
+  "input_final_dataset_count": 1667,
+  "input_final_dataset_sha256": "c6d8a06e0fb757c3b1db11a87959f7086fd4b22da5c97268522c5fd4d77ed1c7",
+  "split_method": "CATEGORY_SCENARIO_STRATIFIED_SEMANTIC_GROUP_AWARE",
+  "semantic_group_source": "Stage6B final-survivor duplicate-candidate graph",
+  "stage6b_global_candidate_edges": 305,
+  "stage6b_final_survivor_edges": 139,
+  "cross_split_candidate_edges_before": 62,
+  "cross_split_candidate_edges_after": 0,
+  "semantic_component_count": 1542,
+  "non_singleton_semantic_components": 71,
+  "largest_semantic_component": 12,
+  "moved_record_count": 71,
+  "records_kept_in_original_split": 1596,
+  "movement_distribution": {
+    "TEST_TO_TRAIN": 14,
+    "TEST_TO_VALIDATION": 5,
+    "TRAIN_TO_TEST": 15,
+    "TRAIN_TO_VALIDATION": 16,
+    "VALIDATION_TO_TEST": 4,
+    "VALIDATION_TO_TRAIN": 17
+  },
+  "final_train_count": 1167,
+  "final_validation_count": 250,
+  "final_test_count": 250,
+  "category_distribution_preserved_exactly": true,
+  "category_scenario_distribution_preserved_exactly": true,
+  "split_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "final_hashes": {
+    "train": "f53325aa45d45b3fbb8a0c356a1c838421e5b2860ab773f0301db5869e2426aa",
+    "validation": "7e22c40cb1fb62de9201e9ce5fddd14fa444cd63d3b27c6b765b03b687d99d75",
+    "test": "59d69c1995c377158ccee355962a2ec152e2cda754fc478bfcf71922969aea69"
+  },
+  "test_frozen": true,
+  "frozen_test_sha256": "59d69c1995c377158ccee355962a2ec152e2cda754fc478bfcf71922969aea69",
+  "dataset_modified": false,
+  "records_removed": 0,
+  "policy": "No additional records were rejected. The Stage6B final-survivor semantic near-duplicate graph was treated as an indivisible grouping constraint. Dynamic programming reassigned complete semantic components while preserving the exact Stage9 category+scenario counts for TRAIN, VALIDATION and TEST and minimizing changes from the provisional split. All Stage6B survivor candidate edges are now internal to one split."
+}

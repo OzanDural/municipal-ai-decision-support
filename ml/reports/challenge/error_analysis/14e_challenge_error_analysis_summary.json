@@ -1,0 +1,21 @@
+{
+  "status": "CHALLENGE_ERROR_ANALYSIS_PREPARED",
+  "in_scope": {
+    "count": 100,
+    "errors": 6,
+    "reviewed": 17,
+    "auto_accepted": 83,
+    "errors_caught_by_review": 3,
+    "errors_missed_by_review": 3,
+    "correct_samples_sent_to_review": 14,
+    "incorrect_autoaccepted": 3
+  },
+  "ood": {
+    "count": 50,
+    "reviewed": 48,
+    "auto_accepted": 2
+  },
+  "model_tuning_allowed": false,
+  "threshold_tuning_allowed": false,
+  "note": "This stage prepares manual analysis of real challenge-set errors and high-confidence OOD failures. It does not modify the model or the frozen review policy."
+}

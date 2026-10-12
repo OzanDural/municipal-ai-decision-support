@@ -1,0 +1,1684 @@
+{
+  "total_records": 1750,
+  "overall_word_stats": {
+    "count": 1750,
+    "min": 5,
+    "mean": 26.34,
+    "median": 19.0,
+    "p75": 31.0,
+    "p90": 53.0,
+    "p95": 67.0,
+    "p99": 87.0,
+    "max": 106
+  },
+  "overall_sentence_stats": {
+    "count": 1750,
+    "min": 1,
+    "mean": 2.07,
+    "median": 1.0,
+    "p75": 3.0,
+    "p90": 4.0,
+    "p95": 5.0,
+    "p99": 6.0,
+    "max": 9
+  },
+  "source_groups": {
+    "original": {
+      "record_count": 1100,
+      "word_stats": {
+        "count": 1100,
+        "min": 5,
+        "mean": 15.34,
+        "median": 14.0,
+        "p75": 18.0,
+        "p90": 22.0,
+        "p95": 24.0,
+        "p99": 29.0,
+        "max": 36
+      },
+      "sentence_stats": {
+        "count": 1100,
+        "min": 1,
+        "mean": 1.18,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      },
+      "length_band_distribution": {
+        "25_50": 46,
+        "under_25": 1054
+      },
+      "sentence_count_distribution": {
+        "1": 905,
+        "2": 195
+      }
+    },
+    "long_augmentation": {
+      "record_count": 650,
+      "word_stats": {
+        "count": 650,
+        "min": 23,
+        "mean": 44.95,
+        "median": 39.5,
+        "p75": 54.0,
+        "p90": 76.0,
+        "p95": 84.55,
+        "p99": 91.51,
+        "max": 106
+      },
+      "sentence_stats": {
+        "count": 650,
+        "min": 2,
+        "mean": 3.58,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "p95": 5.0,
+        "p99": 7.0,
+        "max": 9
+      },
+      "length_band_distribution": {
+        "25_50": 429,
+        "51_80": 166,
+        "81_120": 49,
+        "under_25": 6
+      },
+      "sentence_count_distribution": {
+        "2": 72,
+        "3": 297,
+        "4": 169,
+        "5": 81,
+        "6": 15,
+        "7": 11,
+        "8": 4,
+        "9": 1
+      }
+    }
+  },
+  "generator_summary": {
+    "CLAUDE": {
+      "record_count": 150,
+      "word_stats": {
+        "count": 150,
+        "min": 6,
+        "mean": 28.59,
+        "median": 19.0,
+        "p75": 34.0,
+        "p90": 62.1,
+        "p95": 83.1,
+        "p99": 101.57,
+        "max": 106
+      },
+      "length_band_distribution": {
+        "25_50": 29,
+        "51_80": 15,
+        "81_120": 10,
+        "under_25": 96
+      }
+    },
+    "GEMINI": {
+      "record_count": 800,
+      "word_stats": {
+        "count": 800,
+        "min": 7,
+        "mean": 26.81,
+        "median": 19.0,
+        "p75": 31.25,
+        "p90": 52.0,
+        "p95": 74.05,
+        "p99": 85.0,
+        "max": 90
+      },
+      "length_band_distribution": {
+        "25_50": 222,
+        "51_80": 77,
+        "81_120": 24,
+        "under_25": 477
+      }
+    },
+    "GPT": {
+      "record_count": 800,
+      "word_stats": {
+        "count": 800,
+        "min": 5,
+        "mean": 25.44,
+        "median": 18.0,
+        "p75": 31.0,
+        "p90": 54.0,
+        "p95": 63.0,
+        "p99": 88.01,
+        "max": 97
+      },
+      "length_band_distribution": {
+        "25_50": 224,
+        "51_80": 74,
+        "81_120": 15,
+        "under_25": 487
+      }
+    }
+  },
+  "category_summary": {
+    "HAYVAN_VETERINER": {
+      "original": {
+        "record_count": 220,
+        "word_stats": {
+          "count": 220,
+          "min": 7,
+          "mean": 15.86,
+          "median": 15.0,
+          "p75": 19.0,
+          "p90": 21.0,
+          "p95": 23.0,
+          "p99": 28.81,
+          "max": 33
+        },
+        "length_band_distribution": {
+          "25_50": 8,
+          "under_25": 212
+        }
+      },
+      "long_augmentation": {
+        "record_count": 130,
+        "word_stats": {
+          "count": 130,
+          "min": 24,
+          "mean": 45.17,
+          "median": 39.5,
+          "p75": 55.0,
+          "p90": 72.5,
+          "p95": 86.1,
+          "p99": 90.0,
+          "max": 92
+        },
+        "length_band_distribution": {
+          "25_50": 85,
+          "51_80": 32,
+          "81_120": 12,
+          "under_25": 1
+        }
+      }
+    },
+    "KENT_DUZENI_DENETIM": {
+      "original": {
+        "record_count": 220,
+        "word_stats": {
+          "count": 220,
+          "min": 7,
+          "mean": 16.72,
+          "median": 16.0,
+          "p75": 20.0,
+          "p90": 24.0,
+          "p95": 27.0,
+          "p99": 31.62,
+          "max": 36
+        },
+        "length_band_distribution": {
+          "25_50": 16,
+          "under_25": 204
+        }
+      },
+      "long_augmentation": {
+        "record_count": 130,
+        "word_stats": {
+          "count": 130,
+          "min": 25,
+          "mean": 45.57,
+          "median": 39.5,
+          "p75": 54.75,
+          "p90": 76.2,
+          "p95": 85.55,
+          "p99": 90.71,
+          "max": 106
+        },
+        "length_band_distribution": {
+          "25_50": 83,
+          "51_80": 37,
+          "81_120": 10
+        }
+      }
+    },
+    "PARK_YESIL_ALAN": {
+      "original": {
+        "record_count": 220,
+        "word_stats": {
+          "count": 220,
+          "min": 6,
+          "mean": 14.69,
+          "median": 14.0,
+          "p75": 17.25,
+          "p90": 21.1,
+          "p95": 26.05,
+          "p99": 29.0,
+          "max": 34
+        },
+        "length_band_distribution": {
+          "25_50": 13,
+          "under_25": 207
+        }
+      },
+      "long_augmentation": {
+        "record_count": 130,
+        "word_stats": {
+          "count": 130,
+          "min": 23,
+          "mean": 44.31,
+          "median": 37.5,
+          "p75": 53.0,
+          "p90": 75.0,
+          "p95": 83.2,
+          "p99": 95.97,
+          "max": 105
+        },
+        "length_band_distribution": {
+          "25_50": 82,
+          "51_80": 36,
+          "81_120": 9,
+          "under_25": 3
+        }
+      }
+    },
+    "TEMIZLIK_ATIK": {
+      "original": {
+        "record_count": 220,
+        "word_stats": {
+          "count": 220,
+          "min": 7,
+          "mean": 15.01,
+          "median": 14.0,
+          "p75": 17.0,
+          "p90": 20.1,
+          "p95": 22.0,
+          "p99": 25.62,
+          "max": 29
+        },
+        "length_band_distribution": {
+          "25_50": 3,
+          "under_25": 217
+        }
+      },
+      "long_augmentation": {
+        "record_count": 130,
+        "word_stats": {
+          "count": 130,
+          "min": 23,
+          "mean": 45.08,
+          "median": 40.0,
+          "p75": 54.0,
+          "p90": 75.1,
+          "p95": 80.55,
+          "p99": 85.42,
+          "max": 97
+        },
+        "length_band_distribution": {
+          "25_50": 88,
+          "51_80": 34,
+          "81_120": 7,
+          "under_25": 1
+        }
+      }
+    },
+    "YOL_KALDIRIM": {
+      "original": {
+        "record_count": 220,
+        "word_stats": {
+          "count": 220,
+          "min": 5,
+          "mean": 14.43,
+          "median": 13.5,
+          "p75": 17.0,
+          "p90": 20.0,
+          "p95": 22.05,
+          "p99": 26.81,
+          "max": 32
+        },
+        "length_band_distribution": {
+          "25_50": 6,
+          "under_25": 214
+        }
+      },
+      "long_augmentation": {
+        "record_count": 130,
+        "word_stats": {
+          "count": 130,
+          "min": 24,
+          "mean": 44.63,
+          "median": 40.0,
+          "p75": 52.0,
+          "p90": 76.2,
+          "p95": 83.55,
+          "p99": 90.84,
+          "max": 95
+        },
+        "length_band_distribution": {
+          "25_50": 91,
+          "51_80": 27,
+          "81_120": 11,
+          "under_25": 1
+        }
+      }
+    }
+  },
+  "batch_summary": {
+    "long_claude_001": {
+      "record_count": 50,
+      "word_stats": {
+        "count": 50,
+        "min": 27,
+        "mean": 53.42,
+        "median": 47.0,
+        "p75": 69.5,
+        "p90": 87.0,
+        "p95": 93.95,
+        "p99": 105.51,
+        "max": 106
+      },
+      "length_band_distribution": {
+        "25_50": 25,
+        "51_80": 15,
+        "81_120": 10
+      },
+      "sentence_stats": {
+        "count": 50,
+        "min": 3,
+        "mean": 3.9,
+        "median": 3.5,
+        "p75": 4.75,
+        "p90": 5.1,
+        "p95": 6.0,
+        "p99": 7.0,
+        "max": 7
+      }
+    },
+    "long_gemini_001": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 24,
+        "mean": 43.89,
+        "median": 40.5,
+        "p75": 52.0,
+        "p90": 77.1,
+        "p95": 80.05,
+        "p99": 81.09,
+        "max": 90
+      },
+      "length_band_distribution": {
+        "25_50": 60,
+        "51_80": 32,
+        "81_120": 5,
+        "under_25": 3
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 2,
+        "mean": 3.27,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 4.0,
+        "p95": 5.0,
+        "p99": 6.0,
+        "max": 6
+      }
+    },
+    "long_gemini_002": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 26,
+        "mean": 44.67,
+        "median": 40.0,
+        "p75": 51.0,
+        "p90": 78.0,
+        "p95": 82.05,
+        "p99": 86.01,
+        "max": 87
+      },
+      "length_band_distribution": {
+        "25_50": 72,
+        "51_80": 21,
+        "81_120": 7
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 2,
+        "mean": 3.01,
+        "median": 3.0,
+        "p75": 3.0,
+        "p90": 4.0,
+        "p95": 4.05,
+        "p99": 5.01,
+        "max": 6
+      }
+    },
+    "long_gemini_003": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 25,
+        "mean": 46.46,
+        "median": 42.5,
+        "p75": 53.0,
+        "p90": 83.0,
+        "p95": 85.0,
+        "p99": 87.03,
+        "max": 90
+      },
+      "length_band_distribution": {
+        "25_50": 64,
+        "51_80": 24,
+        "81_120": 12
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 2,
+        "mean": 3.34,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "p95": 5.0,
+        "p99": 6.0,
+        "max": 6
+      }
+    },
+    "long_gpt_001": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 25,
+        "mean": 49.38,
+        "median": 47.5,
+        "p75": 60.25,
+        "p90": 88.0,
+        "p95": 91.0,
+        "p99": 95.02,
+        "max": 97
+      },
+      "length_band_distribution": {
+        "25_50": 50,
+        "51_80": 35,
+        "81_120": 15
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 2,
+        "mean": 4.51,
+        "median": 4.0,
+        "p75": 5.0,
+        "p90": 7.0,
+        "p95": 7.05,
+        "p99": 8.01,
+        "max": 9
+      }
+    },
+    "long_gpt_002": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 23,
+        "mean": 40.22,
+        "median": 36.0,
+        "p75": 48.0,
+        "p90": 62.1,
+        "p95": 64.1,
+        "p99": 72.04,
+        "max": 76
+      },
+      "length_band_distribution": {
+        "25_50": 77,
+        "51_80": 21,
+        "under_25": 2
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 2,
+        "mean": 3.57,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 4.1,
+        "p95": 5.0,
+        "p99": 5.0,
+        "max": 5
+      }
+    },
+    "long_gpt_003": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 23,
+        "mean": 40.85,
+        "median": 35.5,
+        "p75": 47.25,
+        "p90": 65.3,
+        "p95": 72.1,
+        "p99": 78.02,
+        "max": 80
+      },
+      "length_band_distribution": {
+        "25_50": 81,
+        "51_80": 18,
+        "under_25": 1
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 3,
+        "mean": 3.59,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "p95": 5.0,
+        "p99": 5.0,
+        "max": 5
+      }
+    },
+    "prod_claude_001": {
+      "record_count": 50,
+      "word_stats": {
+        "count": 50,
+        "min": 6,
+        "mean": 15.56,
+        "median": 14.0,
+        "p75": 19.75,
+        "p90": 23.0,
+        "p95": 24.1,
+        "p99": 27.02,
+        "max": 28
+      },
+      "length_band_distribution": {
+        "25_50": 3,
+        "under_25": 47
+      },
+      "sentence_stats": {
+        "count": 50,
+        "min": 1,
+        "mean": 1.26,
+        "median": 1.0,
+        "p75": 1.75,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_claude_002": {
+      "record_count": 50,
+      "word_stats": {
+        "count": 50,
+        "min": 10,
+        "mean": 16.8,
+        "median": 16.0,
+        "p75": 19.0,
+        "p90": 21.0,
+        "p95": 22.0,
+        "p99": 26.06,
+        "max": 29
+      },
+      "length_band_distribution": {
+        "25_50": 1,
+        "under_25": 49
+      },
+      "sentence_stats": {
+        "count": 50,
+        "min": 1,
+        "mean": 1.32,
+        "median": 1.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_gemini_001": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 9,
+        "mean": 16.58,
+        "median": 16.0,
+        "p75": 19.25,
+        "p90": 23.0,
+        "p95": 27.0,
+        "p99": 29.0,
+        "max": 29
+      },
+      "length_band_distribution": {
+        "25_50": 7,
+        "under_25": 93
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.01,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0,
+        "p99": 1.01,
+        "max": 2
+      }
+    },
+    "prod_gemini_002": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 7,
+        "mean": 14.77,
+        "median": 14.0,
+        "p75": 17.0,
+        "p90": 21.0,
+        "p95": 22.0,
+        "p99": 24.03,
+        "max": 27
+      },
+      "length_band_distribution": {
+        "25_50": 1,
+        "under_25": 99
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "max": 1
+      }
+    },
+    "prod_gemini_003": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 8,
+        "mean": 13.55,
+        "median": 13.0,
+        "p75": 15.0,
+        "p90": 18.0,
+        "p95": 20.0,
+        "p99": 22.02,
+        "max": 24
+      },
+      "length_band_distribution": {
+        "under_25": 100
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "max": 1
+      }
+    },
+    "prod_gemini_004": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 10,
+        "mean": 15.75,
+        "median": 16.0,
+        "p75": 18.0,
+        "p90": 19.0,
+        "p95": 20.05,
+        "p99": 22.01,
+        "max": 23
+      },
+      "length_band_distribution": {
+        "under_25": 100
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "max": 1
+      }
+    },
+    "prod_gemini_005": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 7,
+        "mean": 18.84,
+        "median": 18.0,
+        "p75": 22.0,
+        "p90": 28.0,
+        "p95": 32.0,
+        "p99": 36.0,
+        "max": 36
+      },
+      "length_band_distribution": {
+        "25_50": 18,
+        "under_25": 82
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "max": 1
+      }
+    },
+    "prod_gpt_001": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 6,
+        "mean": 15.24,
+        "median": 14.0,
+        "p75": 18.25,
+        "p90": 24.0,
+        "p95": 27.0,
+        "p99": 28.02,
+        "max": 30
+      },
+      "length_band_distribution": {
+        "25_50": 9,
+        "under_25": 91
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.38,
+        "median": 1.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_gpt_002": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 8,
+        "mean": 15.41,
+        "median": 14.0,
+        "p75": 18.25,
+        "p90": 21.0,
+        "p95": 22.0,
+        "p99": 23.0,
+        "max": 23
+      },
+      "length_band_distribution": {
+        "under_25": 100
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.42,
+        "median": 1.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_gpt_003": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 5,
+        "mean": 13.98,
+        "median": 13.0,
+        "p75": 17.0,
+        "p90": 19.1,
+        "p95": 21.05,
+        "p99": 24.01,
+        "max": 25
+      },
+      "length_band_distribution": {
+        "25_50": 1,
+        "under_25": 99
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.34,
+        "median": 1.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_gpt_004": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 5,
+        "mean": 14.64,
+        "median": 14.0,
+        "p75": 17.0,
+        "p90": 21.1,
+        "p95": 24.0,
+        "p99": 27.01,
+        "max": 28
+      },
+      "length_band_distribution": {
+        "25_50": 4,
+        "under_25": 96
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.25,
+        "median": 1.0,
+        "p75": 1.25,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    },
+    "prod_gpt_005": {
+      "record_count": 100,
+      "word_stats": {
+        "count": 100,
+        "min": 7,
+        "mean": 13.81,
+        "median": 13.0,
+        "p75": 15.25,
+        "p90": 19.0,
+        "p95": 21.15,
+        "p99": 26.0,
+        "max": 26
+      },
+      "length_band_distribution": {
+        "25_50": 2,
+        "under_25": 98
+      },
+      "sentence_stats": {
+        "count": 100,
+        "min": 1,
+        "mean": 1.26,
+        "median": 1.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "max": 2
+      }
+    }
+  },
+  "long_augmentation_analysis": {
+    "record_count": 650,
+    "records_with_2_to_5_sentences": 619,
+    "ratio_with_2_to_5_sentences": 0.9523,
+    "quota_review_group_count": 25,
+    "batch_category_results": {
+      "long_claude_001": {
+        "HAYVAN_VETERINER": {
+          "record_count": 10,
+          "band_counts": {
+            "25_50": 5,
+            "51_80": 3,
+            "81_120": 2
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 10,
+          "band_counts": {
+            "25_50": 5,
+            "51_80": 3,
+            "81_120": 2
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 10,
+          "band_counts": {
+            "25_50": 5,
+            "51_80": 3,
+            "81_120": 2
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 10,
+          "band_counts": {
+            "25_50": 5,
+            "51_80": 3,
+            "81_120": 2
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 10,
+          "band_counts": {
+            "25_50": 5,
+            "51_80": 3,
+            "81_120": 2
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        }
+      },
+      "long_gemini_001": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 12,
+            "51_80": 6,
+            "81_120": 1,
+            "under_25": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 12
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 6
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": [
+            {
+              "sample_id": "GEMINI_long_gemini_001_097",
+              "word_count": 24,
+              "length_band": "under_25"
+            }
+          ]
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 13,
+            "51_80": 6,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 13
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 6
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 1,
+            "under_25": 2
+          },
+          "quota_differences": [
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": [
+            {
+              "sample_id": "GEMINI_long_gemini_001_053",
+              "word_count": 24,
+              "length_band": "under_25"
+            },
+            {
+              "sample_id": "GEMINI_long_gemini_001_057",
+              "word_count": 24,
+              "length_band": "under_25"
+            }
+          ]
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 11,
+            "51_80": 9
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 11
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 9
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 14,
+            "51_80": 4,
+            "81_120": 2
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 14
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 2
+            }
+          ],
+          "outside_target_records": []
+        }
+      },
+      "long_gemini_002": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 15,
+            "51_80": 2,
+            "81_120": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 15
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 2
+            }
+          ],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 12,
+            "51_80": 7,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 12
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 14,
+            "51_80": 5,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 14
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 5
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 14,
+            "51_80": 5,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 14
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 5
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 17,
+            "51_80": 2,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 17
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 2
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        }
+      },
+      "long_gemini_003": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 12,
+            "51_80": 5,
+            "81_120": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 12
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 5
+            }
+          ],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 11,
+            "51_80": 6,
+            "81_120": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 11
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 6
+            }
+          ],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 11,
+            "51_80": 7,
+            "81_120": 2
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 11
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 2
+            }
+          ],
+          "outside_target_records": []
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 17,
+            "51_80": 2,
+            "81_120": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 17
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 2
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 1
+            }
+          ],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 13,
+            "51_80": 4,
+            "81_120": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 13
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            }
+          ],
+          "outside_target_records": []
+        }
+      },
+      "long_gpt_001": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 3
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 3
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 3
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 3
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 10,
+            "51_80": 7,
+            "81_120": 3
+          },
+          "quota_differences": [],
+          "outside_target_records": []
+        }
+      },
+      "long_gpt_002": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 15,
+            "51_80": 5
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 15
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 5
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 16,
+            "51_80": 4
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 16
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 15,
+            "51_80": 4,
+            "under_25": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 15
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": [
+            {
+              "sample_id": "GPT_long_gpt_002_043",
+              "word_count": 23,
+              "length_band": "under_25"
+            }
+          ]
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 16,
+            "51_80": 4
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 16
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 15,
+            "51_80": 4,
+            "under_25": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 15
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": [
+            {
+              "sample_id": "GPT_long_gpt_002_031",
+              "word_count": 24,
+              "length_band": "under_25"
+            }
+          ]
+        }
+      },
+      "long_gpt_003": {
+        "HAYVAN_VETERINER": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 16,
+            "51_80": 4
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 16
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "KENT_DUZENI_DENETIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 16,
+            "51_80": 4
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 16
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "PARK_YESIL_ALAN": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 17,
+            "51_80": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 17
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 3
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        },
+        "TEMIZLIK_ATIK": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 15,
+            "51_80": 4,
+            "under_25": 1
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 15
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 4
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": [
+            {
+              "sample_id": "GPT_long_gpt_003_001",
+              "word_count": 23,
+              "length_band": "under_25"
+            }
+          ]
+        },
+        "YOL_KALDIRIM": {
+          "record_count": 20,
+          "band_counts": {
+            "25_50": 17,
+            "51_80": 3
+          },
+          "quota_differences": [
+            {
+              "band": "25_50",
+              "expected": 10,
+              "actual": 17
+            },
+            {
+              "band": "51_80",
+              "expected": 7,
+              "actual": 3
+            },
+            {
+              "band": "81_120",
+              "expected": 3,
+              "actual": 0
+            }
+          ],
+          "outside_target_records": []
+        }
+      }
+    }
+  },
+  "policy": "Length statistics are descriptive QA. Approximate generation length targets are not automatic rejection criteria. BERTurk token-length analysis will be repeated after the final accepted dataset is produced."
+}

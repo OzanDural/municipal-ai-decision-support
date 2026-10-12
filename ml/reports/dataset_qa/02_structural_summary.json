@@ -1,0 +1,300 @@
+{
+  "total_records": 1750,
+  "json_error_count": 0,
+  "record_level_error_count": 0,
+  "duplicate_sample_id_count": 0,
+  "unexpected_batches": [],
+  "batch_quota_error_count": 4,
+  "category_distribution": {
+    "TEMIZLIK_ATIK": 350,
+    "YOL_KALDIRIM": 350,
+    "PARK_YESIL_ALAN": 350,
+    "KENT_DUZENI_DENETIM": 350,
+    "HAYVAN_VETERINER": 350
+  },
+  "generator_distribution": {
+    "GPT": 800,
+    "GEMINI": 800,
+    "CLAUDE": 150
+  },
+  "difficulty_distribution": {
+    "easy": 465,
+    "hard": 410,
+    "medium": 875
+  },
+  "language_style_distribution": {
+    "formal": 526,
+    "neutral": 699,
+    "casual": 525
+  },
+  "location_style_distribution": {
+    "none": 525,
+    "generic": 700,
+    "specific": 525
+  },
+  "has_typo_distribution": {
+    "False": 1401,
+    "True": 349
+  },
+  "batch_results": {
+    "long_claude_001": {
+      "record_count": 50,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 10,
+        "YOL_KALDIRIM": 10,
+        "PARK_YESIL_ALAN": 10,
+        "KENT_DUZENI_DENETIM": 10,
+        "HAYVAN_VETERINER": 10
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "long_gemini_001": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "long_gemini_002": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 2,
+      "quota_errors": [
+        {
+          "type": "TYPO_COUNT",
+          "category": "HAYVAN_VETERINER",
+          "value": false,
+          "expected": 16,
+          "actual": 17
+        },
+        {
+          "type": "TYPO_COUNT",
+          "category": "HAYVAN_VETERINER",
+          "value": true,
+          "expected": 4,
+          "actual": 3
+        }
+      ]
+    },
+    "long_gemini_003": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "long_gpt_001": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "long_gpt_002": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "long_gpt_003": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_claude_001": {
+      "record_count": 50,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 10,
+        "YOL_KALDIRIM": 10,
+        "PARK_YESIL_ALAN": 10,
+        "KENT_DUZENI_DENETIM": 10,
+        "HAYVAN_VETERINER": 10
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_claude_002": {
+      "record_count": 50,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 10,
+        "YOL_KALDIRIM": 10,
+        "PARK_YESIL_ALAN": 10,
+        "KENT_DUZENI_DENETIM": 10,
+        "HAYVAN_VETERINER": 10
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gemini_001": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 2,
+      "quota_errors": [
+        {
+          "type": "STYLE_COUNT",
+          "category": "TEMIZLIK_ATIK",
+          "value": "formal",
+          "expected": 6,
+          "actual": 7
+        },
+        {
+          "type": "STYLE_COUNT",
+          "category": "TEMIZLIK_ATIK",
+          "value": "neutral",
+          "expected": 8,
+          "actual": 7
+        }
+      ]
+    },
+    "prod_gemini_002": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gemini_003": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gemini_004": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gemini_005": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gpt_001": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gpt_002": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gpt_003": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gpt_004": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    },
+    "prod_gpt_005": {
+      "record_count": 100,
+      "category_counts": {
+        "TEMIZLIK_ATIK": 20,
+        "YOL_KALDIRIM": 20,
+        "PARK_YESIL_ALAN": 20,
+        "KENT_DUZENI_DENETIM": 20,
+        "HAYVAN_VETERINER": 20
+      },
+      "quota_error_count": 0,
+      "quota_errors": []
+    }
+  },
+  "status": "REVIEW_REQUIRED"
+}

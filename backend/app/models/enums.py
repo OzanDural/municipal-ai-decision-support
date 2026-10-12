@@ -1,0 +1,20 @@
+from enum import Enum
+
+
+class UserRole(str, Enum):
+    OPERATOR = "OPERATOR"
+    MANAGER = "MANAGER"
+
+
+class ComplaintCategory(str, Enum):
+    TEMIZLIK_ATIK = "TEMIZLIK_ATIK"
+    YOL_KALDIRIM = "YOL_KALDIRIM"
+    PARK_YESIL_ALAN = "PARK_YESIL_ALAN"
+    KENT_DUZENI_DENETIM = "KENT_DUZENI_DENETIM"
+    HAYVAN_VETERINER = "HAYVAN_VETERINER"
+
+
+class ComplaintStatus(str, Enum):
+    AUTO_ACCEPTED = "AUTO_ACCEPTED"
+    REVIEW_REQUIRED = "REVIEW_REQUIRED"
+    REVIEWED = "REVIEWED"

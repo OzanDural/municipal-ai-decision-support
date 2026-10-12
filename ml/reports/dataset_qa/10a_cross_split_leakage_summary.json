@@ -1,0 +1,44 @@
+{
+  "status": "MANUAL_CROSS_SPLIT_LEAKAGE_REVIEW_REQUIRED",
+  "final_dataset_count": 1667,
+  "train_count": 1167,
+  "validation_count": 250,
+  "test_count": 250,
+  "total_cross_split_pair_space": 646000,
+  "raw_exact_cross_split_group_count": 0,
+  "normalized_exact_cross_split_group_count": 0,
+  "stage6b_global_duplicate_candidate_count": 305,
+  "stage6b_duplicate_candidates_with_both_final_survivors": 139,
+  "stage6b_duplicate_candidates_cross_split": 62,
+  "combined_cross_split_candidate_pair_count": 62,
+  "critical_review_pair_count": 0,
+  "same_label_leakage_review_pair_count": 62,
+  "information_only_candidate_pair_count": 0,
+  "blocking_review_pair_count": 62,
+  "candidate_relation_distribution": {
+    "SAME_CATEGORY_SAME_SCENARIO": 62
+  },
+  "candidate_split_pair_distribution": {
+    "VALIDATION_VS_TEST": 5,
+    "TRAIN_VS_VALIDATION": 30,
+    "TRAIN_VS_TEST": 27
+  },
+  "blocking_split_pair_distribution": {
+    "VALIDATION_VS_TEST": 5,
+    "TRAIN_VS_VALIDATION": 30,
+    "TRAIN_VS_TEST": 27
+  },
+  "scenario_boundary_top100_cross_split_count": 32,
+  "cross_category_top100_cross_split_count": 29,
+  "hashes_verified": {
+    "final": "c6d8a06e0fb757c3b1db11a87959f7086fd4b22da5c97268522c5fd4d77ed1c7",
+    "train": "1cc1c03db3e25a8a631267d6d16b712da9ae13059935048009c57371509ca8c4",
+    "validation": "20f7f2f0ae0652079cc82f2dc5841b0890af2a2a7636154990a3b381d87648cb",
+    "test": "df52121b604e3934891a60df92d24c40b28c8549ec020d35ea23c9c4889baefd"
+  },
+  "test_frozen": false,
+  "dataset_modified": false,
+  "split_modified": false,
+  "method": "Cross-split leakage auditing reuses the global lexical/semantic candidate graphs generated before splitting. Pair similarity is invariant to split membership, so recalculating all pairwise TF-IDF/E5 similarities is unnecessary. Direct raw and normalized exact duplicate checks are additionally performed on the provisional split files.",
+  "decision_policy": "Exact or normalized-exact cross-split matches are critical. Surviving Stage6B duplicate-pool pairs carrying the same target category require split-specific human review before the test set can be frozen. Different-category high-similarity pairs are treated as informational hard negative boundaries rather than direct leakage."
+}

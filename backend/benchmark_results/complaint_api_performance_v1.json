@@ -1,0 +1,15 @@
+{
+  "measured_at_utc": "2026-09-11T16:20:48.537038+00:00",
+  "endpoint": "POST /complaints",
+  "database": "belediye_ai_test",
+  "model_version": "berturk_final_v2_99ea9e29",
+  "warmup_runs": 5,
+  "measured_runs": 30,
+  "http_response_latency_ms": {
+    "mean": 21.440396666002925,
+    "median": 20.029600003908854,
+    "p95": 29.211100001703016,
+    "min": 16.03469999099616,
+    "max": 42.48469999583904
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "total_records": 1750,
+  "total_flags": 74,
+  "unique_flagged_records": 72,
+  "flag_type_counts": {
+    "SERVICE_TERM": 63,
+    "ARTIFICIAL_CONTRAST": 11
+  },
+  "severity_counts": {
+    "INFO": 63,
+    "REVIEW": 11
+  },
+  "multi_flag_record_count": 2,
+  "multi_flag_records": {
+    "GEMINI_long_gemini_002_088": 2,
+    "GEMINI_long_gemini_002_096": 2
+  },
+  "policy": "Rule-based flags are review signals, not automatic rejection decisions. HIGH and REVIEW records require semantic inspection. SERVICE_TERM is informational and is evaluated for potential label shortcut risk at dataset level."
+}

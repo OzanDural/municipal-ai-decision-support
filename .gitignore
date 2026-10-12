@@ -1,0 +1,54 @@
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ------------------------------------------------------------
+# Environment variables / secrets
+# ------------------------------------------------------------
+backend/.env
+.env
+.env.local
+
+# Keep example environment files
+!backend/.env.example
+
+# ------------------------------------------------------------
+# Frontend
+# ------------------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+
+# ------------------------------------------------------------
+# IDE
+# ------------------------------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------------------------------
+# Operating system
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+*.log
+# ------------------------------------------------------------
+# Large ML model artifacts
+# ------------------------------------------------------------
+ml/models/berturk/final_model/model.safetensors
+ml/models/berturk/berturk_final_model_complete_v2.zip
+
+# Reproducible ML embedding caches
+ml/reports/dataset_qa/06b_embeddings.npy
+ml/models/frozen_berturk/train_embeddings.npy
+ml/models/frozen_berturk/validation_embeddings.npy
+
+# Local frontend environment
+frontend/.env.development

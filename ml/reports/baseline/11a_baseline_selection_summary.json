@@ -1,0 +1,43 @@
+{
+  "status": "BASELINE_VALIDATION_SELECTION_COMPLETE",
+  "experiment": "TF-IDF + Logistic Regression",
+  "train_count": 1167,
+  "validation_count": 250,
+  "train_sha256": "f53325aa45d45b3fbb8a0c356a1c838421e5b2860ab773f0301db5869e2426aa",
+  "validation_sha256": "7e22c40cb1fb62de9201e9ce5fddd14fa444cd63d3b27c6b765b03b687d99d75",
+  "candidate_count": 9,
+  "feature_sets_tested": [
+    "WORD",
+    "CHAR",
+    "HYBRID"
+  ],
+  "C_values_tested": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "class_weight": null,
+  "random_seed": 2026,
+  "primary_selection_metric": "validation_macro_f1",
+  "best_candidate": {
+    "candidate_id": "HYBRID_C2p0",
+    "feature_set": "HYBRID",
+    "C": 2.0,
+    "training_seconds": 0.8874918000001344,
+    "train_accuracy": 1.0,
+    "train_macro_f1": 1.0,
+    "train_weighted_f1": 1.0,
+    "train_log_loss": 0.14367022135588237,
+    "val_accuracy": 0.992,
+    "val_precision_macro": 0.9923076923076923,
+    "val_recall_macro": 0.992,
+    "val_macro_f1": 0.9919967987194879,
+    "val_weighted_f1": 0.9919967987194878,
+    "val_log_loss": 0.27500137640999733
+  },
+  "best_model_file": "ml\\models\\baseline\\tfidf_logreg_best_train_only.joblib",
+  "best_model_sha256": "5c2088ef51dbe3a4ea799c36731a22c6a6bfcd2eccd9c1cf9e6cdb67ac60cd9d",
+  "test_accessed": false,
+  "test_metrics_reported": false,
+  "policy": "Model and hyperparameter selection used only the frozen TRAIN and VALIDATION splits. The frozen TEST split was intentionally not loaded or accessed during Stage 11A."
+}

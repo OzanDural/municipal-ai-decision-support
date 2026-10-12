@@ -1,0 +1,66 @@
+{
+  "status": "FINAL_DATASET_QA_COMPLETE",
+  "master_record_count": 1750,
+  "accepted_record_count": 1667,
+  "rejected_record_count": 83,
+  "record_conservation_pass": true,
+  "accepted_rejected_overlap": 0,
+  "target_label_correction_count": 0,
+  "complaint_text_correction_count": 0,
+  "scenario_metadata_correction_count": 4,
+  "final_reject_counts": {
+    "REJECT_DUPLICATE": 58,
+    "REJECT_ARTIFICIAL": 22,
+    "REJECT_AMBIGUOUS": 3
+  },
+  "accepted_category_distribution": {
+    "TEMIZLIK_ATIK": 338,
+    "YOL_KALDIRIM": 333,
+    "PARK_YESIL_ALAN": 328,
+    "KENT_DUZENI_DENETIM": 332,
+    "HAYVAN_VETERINER": 336
+  },
+  "rejected_category_distribution": {
+    "YOL_KALDIRIM": 17,
+    "KENT_DUZENI_DENETIM": 18,
+    "HAYVAN_VETERINER": 14,
+    "TEMIZLIK_ATIK": 12,
+    "PARK_YESIL_ALAN": 22
+  },
+  "accepted_generator_distribution": {
+    "GPT": 749,
+    "GEMINI": 772,
+    "CLAUDE": 146
+  },
+  "rejected_generator_distribution": {
+    "GPT": 51,
+    "GEMINI": 28,
+    "CLAUDE": 4
+  },
+  "accepted_source_family_distribution": {
+    "ORIGINAL": 1044,
+    "LONG": 623
+  },
+  "rejected_source_family_distribution": {
+    "ORIGINAL": 56,
+    "LONG": 27
+  },
+  "qa_status_before": {
+    "PENDING": 1750
+  },
+  "qa_status_final_accepted": {
+    "ACCEPTED": 1667
+  },
+  "qa_status_final_rejected": {
+    "REJECTED": 83
+  },
+  "immutable_master_sha256": "eadcf4af5ee4dd4afb6742acbd70919541d8240c0e9dbe40f30e99fb8f9f0e29",
+  "stage7_survivor_sha256": "9ac4637f442a1abb1bb2c91b21172ae73f9f9eec30cbe9ed1c51f6d021986478",
+  "final_accepted_sha256": "c6d8a06e0fb757c3b1db11a87959f7086fd4b22da5c97268522c5fd4d77ed1c7",
+  "final_rejected_sha256": "f26b06721b25deeb5b1f7789df8874d8a792e723f8127fe5b1beefcb3fb49082",
+  "final_review_ledger_sha256": "f61e88244517bd19dae82f90e77f2a0d00627b7c75985d91f8aca78b2d21d864",
+  "final_decision_audit_sha256": "f34187a39607784bd34b13e73c653beff0ec677d6c1c671c32b44c8826728dde",
+  "immutable_master_modified": false,
+  "final_dataset_frozen": true,
+  "policy": "The final accepted dataset was reconstructed from the immutable Stage 2 master using the audited Stage 7 review ledger. Exactly 83 records were rejected and four approved scenario metadata corrections were applied. Complaint text and target category were never modified. The final accepted dataset is now frozen for subsequent distribution, tokenizer, split, leakage, baseline and BERTurk stages."
+}

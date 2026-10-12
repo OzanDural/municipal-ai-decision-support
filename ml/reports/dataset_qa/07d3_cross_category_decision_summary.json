@@ -1,0 +1,29 @@
+{
+  "status": "PROVISIONAL_CROSS_CATEGORY_REVIEW_COMPLETE",
+  "active_pairs_reviewed": 92,
+  "unique_records_in_active_queue": 109,
+  "pair_keep_both_valid_boundary_count": 66,
+  "pairs_affected_by_record_reject": 26,
+  "unique_record_reject_count": 14,
+  "reject_artificial_count": 11,
+  "reject_ambiguous_count": 3,
+  "label_review_count": 0,
+  "target_label_correction_count": 0,
+  "current_survivor_before_cross_category_review": 1681,
+  "provisional_survivor_after_cross_category_review": 1667,
+  "category_reject_counts": {
+    "YOL_KALDIRIM": 3,
+    "PARK_YESIL_ALAN": 6,
+    "TEMIZLIK_ATIK": 2,
+    "KENT_DUZENI_DENETIM": 3
+  },
+  "category_distribution_after_if_applied": {
+    "HAYVAN_VETERINER": 336,
+    "KENT_DUZENI_DENETIM": 332,
+    "PARK_YESIL_ALAN": 328,
+    "TEMIZLIK_ATIK": 338,
+    "YOL_KALDIRIM": 333
+  },
+  "dataset_modified": false,
+  "policy": "Cross-category semantic similarity was used only to retrieve difficult boundaries for human review. Valid hard negatives were retained. Records were rejected only when manual inspection found artificial competing-class neutralization/target-priority wording, category underdetermination from the visible text, or a multi-issue complaint without a dominant municipal intervention. No target category was changed."
+}

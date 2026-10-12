@@ -1,0 +1,832 @@
+[
+  {
+    "sample_id": "CLAUDE_long_claude_001_030",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "CLAUDE_prod_claude_002_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "CLAUDE_prod_claude_002_002",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "CLAUDE_prod_claude_002_011",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_039",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_084",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_088",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_092",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_096",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_002_100",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_CONTRAST_CONSTRUCTION"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_003_016",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_003_056",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_003_060",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_CONTRAST_CONSTRUCTION"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_003_068",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_long_gemini_003_084",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_001_041",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_001_049",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "LEXICAL_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_002_041",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_002_042",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_002_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_003_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_003_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_003_042",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_003_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "LEXICAL_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_033",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_036",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_045",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GEMINI_prod_gemini_004_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_001_057",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_AMBIGUOUS"
+    ],
+    "reason_codes": [
+      "CATEGORY_UNDERDETERMINED_FROM_TEXT"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_001_073",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_001_089",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_018",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEGATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_030",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_044",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_TARGET_PRIORITY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_058",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_LOCATION_BOUNDARY_EXPLANATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_002_069",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEGATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_003_010",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEGATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_003_029",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEGATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_003_034",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEGATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_long_gpt_003_059",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEUTRALIZATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_072",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_ARTIFICIAL"
+    ],
+    "reason_codes": [
+      "ARTIFICIAL_COMPETING_CLASS_NEUTRALIZATION"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_073",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_074",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_001_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_022",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_045",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_058",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_AMBIGUOUS"
+    ],
+    "reason_codes": [
+      "CATEGORY_UNDERDETERMINED_FROM_TEXT"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_062",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_002_065",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_041",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_042",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_045",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_057",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "LEXICAL_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_003_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_017",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_029",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "EXACT_DUPLICATE"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_033",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_038",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_041",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_063",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_AMBIGUOUS"
+    ],
+    "reason_codes": [
+      "MULTI_ISSUE_NO_DOMINANT_INTERVENTION"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_065",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_004_073",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_001",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_002",
+    "category": "TEMIZLIK_ATIK",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_021",
+    "category": "YOL_KALDIRIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_041",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_042",
+    "category": "PARK_YESIL_ALAN",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_061",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_062",
+    "category": "KENT_DUZENI_DENETIM",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_081",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  },
+  {
+    "sample_id": "GPT_prod_gpt_005_093",
+    "category": "HAYVAN_VETERINER",
+    "decisions": [
+      "REJECT_DUPLICATE"
+    ],
+    "reason_codes": [
+      "SEMANTIC_REDUNDANCY"
+    ]
+  }
+]

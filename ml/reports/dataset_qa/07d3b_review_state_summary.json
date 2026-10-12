@@ -1,0 +1,48 @@
+{
+  "status": "STAGE7_REVIEW_STATE_AFTER_CROSS_CATEGORY",
+  "master_record_count": 1750,
+  "input_survivor_count": 1681,
+  "new_cross_category_reject_count": 14,
+  "new_reject_artificial_count": 11,
+  "new_reject_ambiguous_count": 3,
+  "previous_effective_reject_count": 69,
+  "effective_reject_count": 83,
+  "output_survivor_count": 1667,
+  "cross_category_pairs_reviewed": 92,
+  "valid_hard_negative_pairs_kept": 66,
+  "pairs_affected_by_reject": 26,
+  "global_reject_decision_counts": {
+    "REJECT_DUPLICATE": 58,
+    "REJECT_ARTIFICIAL": 22,
+    "REJECT_AMBIGUOUS": 3
+  },
+  "category_reject_counts_this_stage": {
+    "PARK_YESIL_ALAN": 6,
+    "YOL_KALDIRIM": 3,
+    "TEMIZLIK_ATIK": 2,
+    "KENT_DUZENI_DENETIM": 3
+  },
+  "category_distribution_before": {
+    "TEMIZLIK_ATIK": 340,
+    "YOL_KALDIRIM": 336,
+    "PARK_YESIL_ALAN": 334,
+    "KENT_DUZENI_DENETIM": 335,
+    "HAYVAN_VETERINER": 336
+  },
+  "category_distribution_after": {
+    "TEMIZLIK_ATIK": 338,
+    "YOL_KALDIRIM": 333,
+    "PARK_YESIL_ALAN": 328,
+    "KENT_DUZENI_DENETIM": 332,
+    "HAYVAN_VETERINER": 336
+  },
+  "scenario_fixes_preserved": true,
+  "target_label_correction_count": 0,
+  "master_dataset_modified": false,
+  "survivor_is_final_dataset": false,
+  "master_sha256": "eadcf4af5ee4dd4afb6742acbd70919541d8240c0e9dbe40f30e99fb8f9f0e29",
+  "input_survivor_sha256": "c8f2a6c6c71f49a9a9f5cb1f2c5a01dd4055b6b39fe1e34a3089a8629dd2a5ef",
+  "cross_decisions_sha256": "a85d49bf43951e2233bfbedbbefa2cd3ccc97477fb1020304d5ef935828102d9",
+  "output_survivor_sha256": "9ac4637f442a1abb1bb2c91b21172ae73f9f9eec30cbe9ed1c51f6d021986478",
+  "policy": "Cross-category review decisions were appended to the stage-specific QA ledger. Valid hard-negative boundaries were retained. Only manually identified artificial or category-ambiguous records were removed from the current survivor view. Previous audited scenario metadata fixes were preserved. The immutable master dataset was not modified."
+}

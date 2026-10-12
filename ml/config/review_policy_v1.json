@@ -1,0 +1,33 @@
+{
+  "policy_id": "berturk_review_policy_v1",
+  "model_family": "full_finetuned_berturk",
+  "selection_basis": "validation_lower_5_percent_operating_point",
+  "selection_rationale": "Use an operational manual-review budget of approximately five percent on the validation distribution. The threshold is derived only from precomputed validation predictions.",
+  "rule": "TOP1_OR_MARGIN",
+  "top1_threshold": 0.9889855593442918,
+  "margin_threshold": 0.9816169261932371,
+  "decision_logic": {
+    "NORMAL": "top1_score >= top1_threshold AND score_margin >= margin_threshold",
+    "REVIEW_LOW_CONFIDENCE": "top1_score < top1_threshold",
+    "REVIEW_CLOSE_TOP2": "score_margin < margin_threshold",
+    "INVALID_INPUT": "Handled separately by application input validation."
+  },
+  "validation_behavior": {
+    "automatic_coverage": 0.944,
+    "review_rate": 0.056,
+    "accepted_accuracy": 1.0
+  },
+  "score_interpretation": "Softmax outputs are model scores and are not presented as guaranteed calibrated probabilities.",
+  "threshold_source": "validation_only",
+  "standard_test_predictions_used": false,
+  "challenge_predictions_used": false,
+  "standard_test_had_already_been_opened": true,
+  "post_test_model_tuning_allowed": false,
+  "limitations": [
+    "Validation contained zero classification errors, so no empirical correct-versus-incorrect error boundary could be estimated.",
+    "High-confidence errors may not be detected by confidence-based review rules.",
+    "OOD inputs may still receive high softmax scores because the classifier is closed-set."
+  ],
+  "source_file": "ml\\reports\\model_evaluation\\12d_validation_operating_points.csv",
+  "source_sha256": "332c4efb33bddc4c4076c6acb48f8556e613b09b76bb0b908343015fb2847115"
+}

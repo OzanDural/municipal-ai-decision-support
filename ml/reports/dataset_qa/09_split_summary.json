@@ -1,0 +1,347 @@
+{
+  "status": "PROVISIONAL_STRATIFIED_SPLIT_COMPLETE",
+  "input_dataset": "data\\processed\\master_final.jsonl",
+  "input_record_count": 1667,
+  "input_dataset_sha256": "c6d8a06e0fb757c3b1db11a87959f7086fd4b22da5c97268522c5fd4d77ed1c7",
+  "random_seed": 2026,
+  "split_strategy": "STRATIFIED_SHUFFLE_SPLIT",
+  "primary_stratification": "category + scenario",
+  "train_count": 1167,
+  "validation_count": 250,
+  "test_count": 250,
+  "train_ratio": 0.7000599880023995,
+  "validation_ratio": 0.14997000599880023,
+  "test_ratio": 0.14997000599880023,
+  "stratum_count": 25,
+  "minimum_stratum_size": 60,
+  "maximum_stratum_size": 71,
+  "overlap_checks": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "record_conservation_pass": true,
+  "overall_statistics": {
+    "count": 1667,
+    "category_distribution": {
+      "HAYVAN_VETERINER": 336,
+      "KENT_DUZENI_DENETIM": 332,
+      "PARK_YESIL_ALAN": 328,
+      "TEMIZLIK_ATIK": 338,
+      "YOL_KALDIRIM": 333
+    },
+    "category_scenario_distribution": {
+      "HAYVAN_VETERINER||aggressive_stray": 68,
+      "HAYVAN_VETERINER||injured_stray": 62,
+      "HAYVAN_VETERINER||sick_stray": 69,
+      "HAYVAN_VETERINER||stray_animal_group": 68,
+      "HAYVAN_VETERINER||trapped_animal_rescue": 69,
+      "KENT_DUZENI_DENETIM||business_noise_nuisance": 66,
+      "KENT_DUZENI_DENETIM||business_sidewalk_occupation": 62,
+      "KENT_DUZENI_DENETIM||public_space_obstruction": 66,
+      "KENT_DUZENI_DENETIM||unauthorized_signage_display": 71,
+      "KENT_DUZENI_DENETIM||unauthorized_street_vendor": 67,
+      "PARK_YESIL_ALAN||park_fence_path": 63,
+      "PARK_YESIL_ALAN||park_furniture": 67,
+      "PARK_YESIL_ALAN||playground_equipment": 60,
+      "PARK_YESIL_ALAN||tree_branch_hazard": 69,
+      "PARK_YESIL_ALAN||vegetation_irrigation": 69,
+      "TEMIZLIK_ATIK||bulky_waste_debris": 68,
+      "TEMIZLIK_ATIK||illegal_dumping": 69,
+      "TEMIZLIK_ATIK||overflowing_container": 63,
+      "TEMIZLIK_ATIK||street_litter": 69,
+      "TEMIZLIK_ATIK||uncollected_garbage": 69,
+      "YOL_KALDIRIM||asphalt_damage": 69,
+      "YOL_KALDIRIM||curb_damage": 66,
+      "YOL_KALDIRIM||pothole": 62,
+      "YOL_KALDIRIM||road_surface_collapse": 69,
+      "YOL_KALDIRIM||sidewalk_damage": 67
+    },
+    "generator_distribution": {
+      "CLAUDE": 146,
+      "GEMINI": 772,
+      "GPT": 749
+    },
+    "difficulty_distribution": {
+      "easy": 410,
+      "hard": 391,
+      "medium": 866
+    },
+    "source_family_distribution": {
+      "LONG": 623,
+      "ORIGINAL": 1044
+    },
+    "word_band_distribution": {
+      "25_50": 460,
+      "51_80": 159,
+      "81_120": 43,
+      "UNDER_25": 1005
+    },
+    "word_count": {
+      "min": 5.0,
+      "mean": 26.350329934013196,
+      "median": 19.0,
+      "p95": 65.0,
+      "p99": 87.0,
+      "max": 106.0
+    },
+    "berturk_token_count": {
+      "min": 12.0,
+      "mean": 40.991601679664065,
+      "median": 31.0,
+      "p95": 93.69999999999982,
+      "p99": 131.33999999999992,
+      "max": 163.0
+    }
+  },
+  "train_statistics": {
+    "count": 1167,
+    "category_distribution": {
+      "HAYVAN_VETERINER": 236,
+      "KENT_DUZENI_DENETIM": 233,
+      "PARK_YESIL_ALAN": 229,
+      "TEMIZLIK_ATIK": 236,
+      "YOL_KALDIRIM": 233
+    },
+    "category_scenario_distribution": {
+      "HAYVAN_VETERINER||aggressive_stray": 48,
+      "HAYVAN_VETERINER||injured_stray": 44,
+      "HAYVAN_VETERINER||sick_stray": 48,
+      "HAYVAN_VETERINER||stray_animal_group": 48,
+      "HAYVAN_VETERINER||trapped_animal_rescue": 48,
+      "KENT_DUZENI_DENETIM||business_noise_nuisance": 46,
+      "KENT_DUZENI_DENETIM||business_sidewalk_occupation": 44,
+      "KENT_DUZENI_DENETIM||public_space_obstruction": 46,
+      "KENT_DUZENI_DENETIM||unauthorized_signage_display": 50,
+      "KENT_DUZENI_DENETIM||unauthorized_street_vendor": 47,
+      "PARK_YESIL_ALAN||park_fence_path": 44,
+      "PARK_YESIL_ALAN||park_furniture": 47,
+      "PARK_YESIL_ALAN||playground_equipment": 42,
+      "PARK_YESIL_ALAN||tree_branch_hazard": 48,
+      "PARK_YESIL_ALAN||vegetation_irrigation": 48,
+      "TEMIZLIK_ATIK||bulky_waste_debris": 48,
+      "TEMIZLIK_ATIK||illegal_dumping": 48,
+      "TEMIZLIK_ATIK||overflowing_container": 44,
+      "TEMIZLIK_ATIK||street_litter": 48,
+      "TEMIZLIK_ATIK||uncollected_garbage": 48,
+      "YOL_KALDIRIM||asphalt_damage": 48,
+      "YOL_KALDIRIM||curb_damage": 46,
+      "YOL_KALDIRIM||pothole": 44,
+      "YOL_KALDIRIM||road_surface_collapse": 48,
+      "YOL_KALDIRIM||sidewalk_damage": 47
+    },
+    "generator_distribution": {
+      "CLAUDE": 106,
+      "GEMINI": 539,
+      "GPT": 522
+    },
+    "difficulty_distribution": {
+      "easy": 287,
+      "hard": 276,
+      "medium": 604
+    },
+    "source_family_distribution": {
+      "LONG": 436,
+      "ORIGINAL": 731
+    },
+    "word_band_distribution": {
+      "25_50": 322,
+      "51_80": 105,
+      "81_120": 33,
+      "UNDER_25": 707
+    },
+    "word_count": {
+      "min": 5.0,
+      "mean": 26.41816623821765,
+      "median": 19.0,
+      "p95": 67.70000000000005,
+      "p99": 87.0,
+      "max": 106.0
+    },
+    "berturk_token_count": {
+      "min": 12.0,
+      "mean": 41.13196229648672,
+      "median": 31.0,
+      "p95": 96.0,
+      "p99": 131.33999999999992,
+      "max": 163.0
+    }
+  },
+  "validation_statistics": {
+    "count": 250,
+    "category_distribution": {
+      "HAYVAN_VETERINER": 50,
+      "KENT_DUZENI_DENETIM": 50,
+      "PARK_YESIL_ALAN": 50,
+      "TEMIZLIK_ATIK": 50,
+      "YOL_KALDIRIM": 50
+    },
+    "category_scenario_distribution": {
+      "HAYVAN_VETERINER||aggressive_stray": 10,
+      "HAYVAN_VETERINER||injured_stray": 9,
+      "HAYVAN_VETERINER||sick_stray": 10,
+      "HAYVAN_VETERINER||stray_animal_group": 10,
+      "HAYVAN_VETERINER||trapped_animal_rescue": 11,
+      "KENT_DUZENI_DENETIM||business_noise_nuisance": 10,
+      "KENT_DUZENI_DENETIM||business_sidewalk_occupation": 9,
+      "KENT_DUZENI_DENETIM||public_space_obstruction": 10,
+      "KENT_DUZENI_DENETIM||unauthorized_signage_display": 11,
+      "KENT_DUZENI_DENETIM||unauthorized_street_vendor": 10,
+      "PARK_YESIL_ALAN||park_fence_path": 9,
+      "PARK_YESIL_ALAN||park_furniture": 10,
+      "PARK_YESIL_ALAN||playground_equipment": 9,
+      "PARK_YESIL_ALAN||tree_branch_hazard": 11,
+      "PARK_YESIL_ALAN||vegetation_irrigation": 11,
+      "TEMIZLIK_ATIK||bulky_waste_debris": 10,
+      "TEMIZLIK_ATIK||illegal_dumping": 10,
+      "TEMIZLIK_ATIK||overflowing_container": 10,
+      "TEMIZLIK_ATIK||street_litter": 10,
+      "TEMIZLIK_ATIK||uncollected_garbage": 10,
+      "YOL_KALDIRIM||asphalt_damage": 11,
+      "YOL_KALDIRIM||curb_damage": 10,
+      "YOL_KALDIRIM||pothole": 9,
+      "YOL_KALDIRIM||road_surface_collapse": 10,
+      "YOL_KALDIRIM||sidewalk_damage": 10
+    },
+    "generator_distribution": {
+      "CLAUDE": 18,
+      "GEMINI": 124,
+      "GPT": 108
+    },
+    "difficulty_distribution": {
+      "easy": 59,
+      "hard": 56,
+      "medium": 135
+    },
+    "source_family_distribution": {
+      "LONG": 96,
+      "ORIGINAL": 154
+    },
+    "word_band_distribution": {
+      "25_50": 72,
+      "51_80": 25,
+      "81_120": 6,
+      "UNDER_25": 147
+    },
+    "word_count": {
+      "min": 7.0,
+      "mean": 26.2,
+      "median": 19.0,
+      "p95": 63.54999999999998,
+      "p99": 87.0,
+      "max": 95.0
+    },
+    "berturk_token_count": {
+      "min": 13.0,
+      "mean": 40.84,
+      "median": 31.0,
+      "p95": 92.54999999999998,
+      "p99": 131.58999999999992,
+      "max": 152.0
+    }
+  },
+  "test_statistics": {
+    "count": 250,
+    "category_distribution": {
+      "HAYVAN_VETERINER": 50,
+      "KENT_DUZENI_DENETIM": 49,
+      "PARK_YESIL_ALAN": 49,
+      "TEMIZLIK_ATIK": 52,
+      "YOL_KALDIRIM": 50
+    },
+    "category_scenario_distribution": {
+      "HAYVAN_VETERINER||aggressive_stray": 10,
+      "HAYVAN_VETERINER||injured_stray": 9,
+      "HAYVAN_VETERINER||sick_stray": 11,
+      "HAYVAN_VETERINER||stray_animal_group": 10,
+      "HAYVAN_VETERINER||trapped_animal_rescue": 10,
+      "KENT_DUZENI_DENETIM||business_noise_nuisance": 10,
+      "KENT_DUZENI_DENETIM||business_sidewalk_occupation": 9,
+      "KENT_DUZENI_DENETIM||public_space_obstruction": 10,
+      "KENT_DUZENI_DENETIM||unauthorized_signage_display": 10,
+      "KENT_DUZENI_DENETIM||unauthorized_street_vendor": 10,
+      "PARK_YESIL_ALAN||park_fence_path": 10,
+      "PARK_YESIL_ALAN||park_furniture": 10,
+      "PARK_YESIL_ALAN||playground_equipment": 9,
+      "PARK_YESIL_ALAN||tree_branch_hazard": 10,
+      "PARK_YESIL_ALAN||vegetation_irrigation": 10,
+      "TEMIZLIK_ATIK||bulky_waste_debris": 10,
+      "TEMIZLIK_ATIK||illegal_dumping": 11,
+      "TEMIZLIK_ATIK||overflowing_container": 9,
+      "TEMIZLIK_ATIK||street_litter": 11,
+      "TEMIZLIK_ATIK||uncollected_garbage": 11,
+      "YOL_KALDIRIM||asphalt_damage": 10,
+      "YOL_KALDIRIM||curb_damage": 10,
+      "YOL_KALDIRIM||pothole": 9,
+      "YOL_KALDIRIM||road_surface_collapse": 11,
+      "YOL_KALDIRIM||sidewalk_damage": 10
+    },
+    "generator_distribution": {
+      "CLAUDE": 22,
+      "GEMINI": 109,
+      "GPT": 119
+    },
+    "difficulty_distribution": {
+      "easy": 64,
+      "hard": 59,
+      "medium": 127
+    },
+    "source_family_distribution": {
+      "LONG": 91,
+      "ORIGINAL": 159
+    },
+    "word_band_distribution": {
+      "25_50": 66,
+      "51_80": 29,
+      "81_120": 4,
+      "UNDER_25": 151
+    },
+    "word_count": {
+      "min": 7.0,
+      "mean": 26.184,
+      "median": 18.0,
+      "p95": 62.0,
+      "p99": 87.50999999999999,
+      "max": 92.0
+    },
+    "berturk_token_count": {
+      "min": 14.0,
+      "mean": 40.488,
+      "median": 30.5,
+      "p95": 91.54999999999998,
+      "p99": 124.01999999999998,
+      "max": 139.0
+    }
+  },
+  "distribution_deviation_pp": {
+    "TRAIN": {
+      "category_max_abs_deviation_pp": 0.06682468133622499,
+      "category_scenario_max_abs_deviation_pp": 0.05109517942169933,
+      "generator_max_abs_deviation_pp": 0.32487075849611663,
+      "difficulty_max_abs_deviation_pp": 0.19507666590075357,
+      "source_family_max_abs_deviation_pp": 0.011771424635387273
+    },
+    "VALIDATION": {
+      "category_max_abs_deviation_pp": 0.32393521295741023,
+      "category_scenario_max_abs_deviation_pp": 0.2608278344331132,
+      "generator_max_abs_deviation_pp": 3.2892621475704873,
+      "difficulty_max_abs_deviation_pp": 2.050389922015605,
+      "source_family_max_abs_deviation_pp": 1.0274745050989798
+    },
+    "TEST": {
+      "category_max_abs_deviation_pp": 0.5240551889622053,
+      "category_scenario_max_abs_deviation_pp": 0.2608278344331132,
+      "generator_max_abs_deviation_pp": 2.7107378524295123,
+      "difficulty_max_abs_deviation_pp": 1.1496100779843976,
+      "source_family_max_abs_deviation_pp": 0.972525494901022
+    }
+  },
+  "provisional_hashes": {
+    "train": "1cc1c03db3e25a8a631267d6d16b712da9ae13059935048009c57371509ca8c4",
+    "validation": "20f7f2f0ae0652079cc82f2dc5841b0890af2a2a7636154990a3b381d87648cb",
+    "test": "df52121b604e3934891a60df92d24c40b28c8549ec020d35ea23c9c4889baefd"
+  },
+  "test_frozen": false,
+  "stage10_leakage_audit_required": true,
+  "policy": "The frozen final accepted dataset was split deterministically using category + scenario stratification. Generator, difficulty, source-family and length distributions were retained as diagnostics rather than hard split constraints. These split files are provisional until cross-split exact, lexical and semantic leakage auditing is completed. The test set must not be used for model selection or hyperparameter tuning."
+}

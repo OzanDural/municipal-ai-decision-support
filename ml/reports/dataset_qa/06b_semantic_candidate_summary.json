@@ -1,0 +1,24 @@
+{
+  "input_file": "data\\processed\\master_stage2.jsonl",
+  "input_sha256": "eadcf4af5ee4dd4afb6742acbd70919541d8240c0e9dbe40f30e99fb8f9f0e29",
+  "model": "intfloat/multilingual-e5-base",
+  "record_count": 1750,
+  "embedding_dimension": 768,
+  "duplicate_candidate_policy": {
+    "empirical_threshold_source": "Stage 6A SAME_CATEGORY_SAME_SCENARIO distribution",
+    "candidate_threshold_p99_5": 0.952652,
+    "high_priority_threshold_p99_9": 0.967695,
+    "lexical_candidates_always_included": true,
+    "automatic_deletion": false
+  },
+  "duplicate_candidate_pair_count": 305,
+  "high_priority_pair_count": 61,
+  "lexical_overlap_pair_count": 14,
+  "semantic_only_pair_count": 291,
+  "semantic_cluster_count": 76,
+  "records_in_semantic_clusters": 271,
+  "largest_cluster_size": 19,
+  "scenario_boundary_top_k": 100,
+  "cross_category_boundary_top_k": 100,
+  "policy": "High semantic similarity is not treated as automatic evidence of duplication. Same-category/same-scenario pairs form duplicate-review candidates. Cross-scenario and cross-category pairs are retained as boundary-review candidates because semantic overlap may represent valuable hard negatives."
+}

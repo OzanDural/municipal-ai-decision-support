@@ -1,0 +1,99 @@
+﻿sample_id,decision,reason_code,kept_reference,review_scope,group_id,review_note,review_stage,finalized
+CLAUDE_long_claude_001_001,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_long_claude_001_011,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_prod_claude_001_021,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_055,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_prod_claude_001_022,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_056,Hard multi-defect örnek ile typo içeren medium kısa örnek farklı eğitim sinyali taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_prod_claude_002_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_prod_claude_002_011,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+CLAUDE_prod_claude_002_021,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_052,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_long_gemini_001_021,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_098,Ani fren/kaza riski ile alt takım hasarı sonucu farklı ayrıntılar taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_long_gemini_001_081,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_013,İki uzun formal yaralı köpek örneği aynı semantik çekirdeği taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_long_gemini_002_021,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_098,Ani fren/kaza riski ile alt takım hasarı sonucu farklı ayrıntılar taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_long_gemini_002_041,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_057,Kısa ve uzun örnek; uzun kayıt ek kırık korkuluk ve güvenlik ayrıntısı taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_long_gemini_002_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_long_gemini_001_081,R1_R2_COMPLETE_LINKAGE,CLG_013,İki uzun formal yaralı köpek örneği aynı semantik çekirdeği taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_001_001,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_001_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_041,R1_R2_COMPLETE_LINKAGE,CLG_054,Aynı salıncak-zincir olayında iki temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_001_049,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GEMINI_prod_gemini_002_049,LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,İki sulanmayan bitki örneği çok yakın; kurumaya başlama ayrıntısı taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_002_001,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_076,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_002_021,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_095,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_002_049,KEEP,KEEP_REPRESENTATIVE,,LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,İki sulanmayan bitki örneği çok yakın; kurumaya başlama ayrıntısı taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_002_065,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_042,Casual/neutral stil ve yol/yaya-geçişi bağlamı farkı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_003_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_001,R1_R2_COMPLETE_LINKAGE,CLG_076,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_003_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_021,R1_R2_COMPLETE_LINKAGE,CLG_095,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_003_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,CLAUDE_prod_claude_001_021,R1_R2_COMPLETE_LINKAGE,CLG_055,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_003_045,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_049,İki easy-formal bank hasarı örneği içerik olarak çok yakın.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_003_081,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_011,İkinci örnek araç çarpması nedenini ekliyor; bağlamsal bilgi artışı var.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_004_001,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GEMINI_prod_gemini_001_001,LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,Aynı taşmış konteyner anlatımı; kept kayıt zaten CLG_071'de temsilci.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_004_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_002_021,R1_R2_COMPLETE_LINKAGE,CLG_095,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_004_041,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_054,Aynı salıncak-zincir olayında iki temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_004_042,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_056,Hard multi-defect örnek ile typo içeren medium kısa örnek farklı eğitim sinyali taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_004_045,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GEMINI_prod_gemini_003_045,R1_R2_COMPLETE_LINKAGE,CLG_049,İki easy-formal bank hasarı örneği içerik olarak çok yakın.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_001,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_076,Kapak kapanmaması ve kapasite yetersizliği nüansları korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_018,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_069,Farklı hacimli atık bileşimleri ve farklı üretici dili korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_021,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_095,Standart pothole anlatımı ile alt-takım/can-mal güvenliği sonucu taşıyan örnek korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_033,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_090,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_041,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_057,Kısa ve uzun örnek; uzun kayıt ek kırık korkuluk ve güvenlik ayrıntısı taşıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_065,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_042,Casual/neutral stil ve yol/yaya-geçişi bağlamı farkı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GEMINI_prod_gemini_005_081,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_011,İkinci örnek araç çarpması nedenini ekliyor; bağlamsal bilgi artışı var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_001_001,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_077,Neutral/formal stil ve boşaltma sıklığı versus anlık boşaltma talebi ayrımı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_001_042,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_053,Easy kısa ve medium uzun varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_001_061,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_035,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_002_001,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_077,Neutral/formal stil ve boşaltma sıklığı versus anlık boşaltma talebi ayrımı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_002_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_long_gpt_001_061,R1_R2_COMPLETE_LINKAGE,CLG_035,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_003_061,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_035,Üç uzun metin aynı olay akışını taşıyor; neutral ve formal varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_003_073,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_027,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_long_gpt_003_076,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_027,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_001,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_017,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_069,Farklı hacimli atık bileşimleri ve farklı üretici dili korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_022,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_094,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_041,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_052,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_042,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_053,Easy kısa ve medium uzun varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_045,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_046,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_061,R1_R2_COMPLETE_LINKAGE,CLG_030,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_062,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_031,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_073,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_073,R1_R2_COMPLETE_LINKAGE,CLG_025,Easy uyku etkisi ile typo içeren medium varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_083,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_006,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_001_094,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_017,Yaklaşma/korku ile takip davranışı arasında şiddet ve davranış farkı var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_002,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_073,İlk örnek çevre kirliliği sonucunu da taşıyor; daha kısa ikinci örnek bilgi eklemiyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_022,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_022,R1_R2_COMPLETE_LINKAGE,CLG_094,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_041,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_054,Aynı salıncak-zincir olayında iki temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_045,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_045,R1_R2_COMPLETE_LINKAGE,CLG_046,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_057,KEEP,KEEP_REPRESENTATIVE,,LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,İlk örnek çocukların eğimli tarafa geçmesi sonucunu ekliyor; kısa ikinci örnek bilgi eklemiyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_062,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_062,R1_R2_COMPLETE_LINKAGE,CLG_031,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_073,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_025,Easy uyku etkisi ile typo içeren medium varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_002_081,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_006,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_017,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_070,Aynı bulky-waste olayı neredeyse yalnızca kelime düzeyinde yeniden yazılmış.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_021,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_022,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_094,Easy genel manevra ve medium yağmur/karşı-şerit ayrıntısı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_029,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_102,Birebir aynı metin; tek kopya yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_033,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_090,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_041,R1_R2_COMPLETE_LINKAGE,CLG_052,Dengesiz oturak ayrıntısı ve çocuk düşme riski taşıyan iki temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_042,R1_R2_COMPLETE_LINKAGE,CLG_053,Easy kısa ve medium uzun varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_057,REJECT_DUPLICATE,LEXICAL_REDUNDANCY,GPT_prod_gpt_002_057,LEXICAL_RESIDUAL,RESIDUAL_LEXICAL,İlk örnek çocukların eğimli tarafa geçmesi sonucunu ekliyor; kısa ikinci örnek bilgi eklemiyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_061,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_030,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_062,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_031,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_067,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_040,Medium örnek izin/kullanım kontrolü nüansını taşıdığı için korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_073,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_027,Kısa/uzun yapı ve açık kapı/bas sesi/kapalı pencere gibi farklı akustik bağlamlar var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_003_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_083,R1_R2_COMPLETE_LINKAGE,CLG_006,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_017,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_017,R1_R2_COMPLETE_LINKAGE,CLG_070,Aynı bulky-waste olayı neredeyse yalnızca kelime düzeyinde yeniden yazılmış.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_029,REJECT_DUPLICATE,EXACT_DUPLICATE,GPT_prod_gpt_003_029,R1_R2_COMPLETE_LINKAGE,CLG_102,Birebir aynı metin; tek kopya yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_033,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_033,R1_R2_COMPLETE_LINKAGE,CLG_090,Kırık/yerinden çıkmış bordür ile yola devrilmiş bordür ayrımı korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,CLAUDE_prod_claude_001_021,R1_R2_COMPLETE_LINKAGE,CLG_055,Üç kısa-neutral kayıt neredeyse aynı; tek temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_045,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_046,Generic ve konumlu/yerinden çıkmış bank hasarı örnekleri korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_065,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_067,R1_R2_COMPLETE_LINKAGE,CLG_040,Medium örnek izin/kullanım kontrolü nüansını taşıdığı için korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_073,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_005_073,R1_R2_COMPLETE_LINKAGE,CLG_028,İki kısa formal işletme-gürültü örneğinden daha doğal ifade korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_074,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_025,Easy uyku etkisi ile typo içeren medium varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_004_093,KEEP,KEEP_DIVERSITY,,R1_R2_COMPLETE_LINKAGE,CLG_017,Yaklaşma/korku ile takip davranışı arasında şiddet ve davranış farkı var.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_001,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_001,R1_R2_COMPLETE_LINKAGE,CLG_071,"Kısa formal, kısa neutral ve uzun-form temsilciler korunarak tekrar yoğunluğu azaltılıyor.",STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_002,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_002,R1_R2_COMPLETE_LINKAGE,CLG_073,İlk örnek çevre kirliliği sonucunu da taşıyor; daha kısa ikinci örnek bilgi eklemiyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_021,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_021,R1_R2_COMPLETE_LINKAGE,CLG_093,Bir kısa ve bir uzun pothole örneği yeterli çeşitliliği koruyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_041,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_002_041,R1_R2_COMPLETE_LINKAGE,CLG_054,Aynı salıncak-zincir olayında iki temsilci yeterli.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_042,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_042,R1_R2_COMPLETE_LINKAGE,CLG_053,Easy kısa ve medium uzun varyant korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_061,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_003_061,R1_R2_COMPLETE_LINKAGE,CLG_030,Denetim talebini açıkça ve doğal biçimde veren temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_062,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_062,R1_R2_COMPLETE_LINKAGE,CLG_031,Easy ve medium varyant korunuyor; iki yakın easy paraphrase çıkarılıyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_073,KEEP,KEEP_REPRESENTATIVE,,R1_R2_COMPLETE_LINKAGE,CLG_028,İki kısa formal işletme-gürültü örneğinden daha doğal ifade korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False
+GPT_prod_gpt_005_081,REJECT_DUPLICATE,SEMANTIC_REDUNDANCY,GPT_prod_gpt_001_083,R1_R2_COMPLETE_LINKAGE,CLG_006,Hard+typo+konumlu örnek ve bir easy temsilci korunuyor.,STAGE_7C_DUPLICATE_REVIEW,False

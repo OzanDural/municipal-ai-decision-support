@@ -1,0 +1,27 @@
+{
+  "master_record_count": 1750,
+  "unique_reviewed_record_count": 98,
+  "provisional_keep_count": 59,
+  "provisional_reject_count": 39,
+  "survivor_view_record_count": 1711,
+  "original_residual_pair_count": 122,
+  "removed_residual_pair_count": 48,
+  "remaining_residual_pair_count": 74,
+  "decision_counts": {
+    "KEEP": 59,
+    "REJECT_DUPLICATE": 39
+  },
+  "reason_counts": {
+    "KEEP_REPRESENTATIVE": 40,
+    "EXACT_DUPLICATE": 1,
+    "SEMANTIC_REDUNDANCY": 35,
+    "KEEP_DIVERSITY": 19,
+    "LEXICAL_REDUNDANCY": 3
+  },
+  "remaining_residual_reason_counts": {
+    "SEMANTIC_EDGE_CROSS_COMPLETE_GROUP": 74
+  },
+  "master_dataset_modified": false,
+  "survivor_view_is_final_dataset": false,
+  "policy": "Provisional duplicate-review decisions are stored in a separate audit ledger. master_stage2.jsonl remains immutable. The survivor view is used only to simplify subsequent semantic and rule-based review."
+}

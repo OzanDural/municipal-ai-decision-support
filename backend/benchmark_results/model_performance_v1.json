@@ -1,0 +1,15 @@
+{
+  "measured_at_utc": "2026-09-11T16:16:57.300660+00:00",
+  "model_version": "berturk_final_v2_99ea9e29",
+  "device": "cuda",
+  "model_load_seconds": 2.211080699999002,
+  "warmup_runs": 5,
+  "measured_runs": 30,
+  "inference_latency_ms": {
+    "mean": 14.610326666055093,
+    "median": 12.33390000561485,
+    "p95": 18.295499990927055,
+    "min": 8.91619999310933,
+    "max": 75.95280000532512
+  }
+}

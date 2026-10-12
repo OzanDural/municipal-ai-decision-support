@@ -1,0 +1,46 @@
+{
+  "status": "FROZEN_BERTURK_LINEAR_PROBE_COMPLETE",
+  "experiment_type": "frozen pretrained encoder + linear probe",
+  "base_model": "dbmdz/bert-base-turkish-cased",
+  "representation": "pooler_output",
+  "encoder_frozen": true,
+  "encoder_trainable_parameters": 0,
+  "encoder_total_parameters": 110617344,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce GTX 1650",
+  "pytorch_version": "2.14.0+cu126",
+  "max_length": 160,
+  "batch_size": 8,
+  "train_size": 1167,
+  "validation_size": 250,
+  "train_sha256": "f53325aa45d45b3fbb8a0c356a1c838421e5b2860ab773f0301db5869e2426aa",
+  "validation_sha256": "7e22c40cb1fb62de9201e9ce5fddd14fa444cd63d3b27c6b765b03b687d99d75",
+  "train_embedding_seconds": 9.19873849999567,
+  "validation_embedding_seconds": 1.834687299997313,
+  "candidate_C_values": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "selection_metric": "validation_macro_f1",
+  "tie_breakers": [
+    "lower_validation_log_loss",
+    "higher_validation_accuracy"
+  ],
+  "selected_C": 0.5,
+  "selected_metrics": {
+    "C": 0.5,
+    "fit_seconds": 0.579444599999988,
+    "train_accuracy": 0.9940017137960583,
+    "train_macro_f1": 0.9939869359721893,
+    "train_log_loss": 0.10146627575159073,
+    "validation_accuracy": 0.876,
+    "validation_macro_precision": 0.8771768417585358,
+    "validation_macro_recall": 0.876,
+    "validation_macro_f1": 0.8761335681505111,
+    "validation_weighted_f1": 0.8761335681505111,
+    "validation_log_loss": 0.368402361869812
+  },
+  "test_accessed": false,
+  "note": "This experiment measures how well the pretrained BERTurk representation supports the municipal classification task without updating encoder weights. It is a control experiment, not the production classifier."
+}

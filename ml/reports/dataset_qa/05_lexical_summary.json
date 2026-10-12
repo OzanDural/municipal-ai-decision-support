@@ -1,0 +1,40 @@
+{
+  "total_records": 1750,
+  "total_possible_pairs": 1530375,
+  "raw_exact_group_count": 1,
+  "normalized_exact_group_count": 1,
+  "lexical_candidate_pair_count": 14,
+  "strong_same_scenario_pair_count": 3,
+  "cross_scenario_candidate_count": 0,
+  "cross_category_candidate_count": 0,
+  "pair_type_counts": {
+    "LEXICAL_REVIEW_CANDIDATE": 10,
+    "RAW_EXACT": 1,
+    "STRONG_LEXICAL_NEAR_DUPLICATE": 3
+  },
+  "relation_counts": {
+    "SAME_CATEGORY_SAME_SCENARIO": 14
+  },
+  "cluster_count": 3,
+  "records_in_clusters": 7,
+  "largest_cluster_size": 3,
+  "thresholds": {
+    "same_category_same_scenario": {
+      "char": 0.74,
+      "word": 0.68
+    },
+    "same_category_diff_scenario": {
+      "char": 0.82,
+      "word": 0.76
+    },
+    "different_category": {
+      "char": 0.88,
+      "word": 0.84
+    },
+    "strong_same_scenario": {
+      "char": 0.84,
+      "word": 0.8
+    }
+  },
+  "policy": "Lexical similarity thresholds are candidate-generation heuristics only. No record is automatically removed. Final duplicate decisions require semantic review and will later be supplemented by embedding-based semantic similarity analysis."
+}

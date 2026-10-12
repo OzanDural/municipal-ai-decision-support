@@ -1,0 +1,2668 @@
+====================================================================================================
+CROSS CATEGORY 001
+====================================================================================================
+Original rank : 1
+Similarity    : 0.944757
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta kaldırım boyunca kırık şişe ve ambalaj parçaları var; bisikletle geçenler de üzerinden kaçmaya çalışıyor. Alanın temizlenmesi gerekyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta pazar sonrasında kalan ambalajlar kırık kaldırım plakalarının aralarına doluyor; plakalar da aşağı çökmüş durumda ve yürüyenler dengesini kaybediyor. Onarim gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 002
+====================================================================================================
+Original rank : 2
+Similarity    : 0.940293
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_035
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Safir Mahallesi Kırlangıç Caddesi'nde bordür taşları park sulamasından gelen suyun aktığı bölümde gevşemiş. Sürekli ıslanan zemin taşların altını boşaltmış gibi; iki parça artık yola doğru eğiliyor. Çimlerin sulanması devam ettikçe hasarın ilerlediğini görüyoruz. Araçlar kenara yanaşırken taşlara sürtüyor ve yayalar da çıkıntının üzerinden atlamak zorunda kalıyor. Geçen hafta bordürün altındaki toprakta küçük bir boşluk vardı, bugün bu boşluk daha geniş ve taşlardan biri elle bile oynayacak kadar gevşek görünüyor. Sulama suyu her sabah aynı noktadan bordür dibine doğru akıyor ve ıslaklık gün içinde uzun süre kalıyor. Bordür hattının sağlamlaştırılması ve gevşeyen taşların yerine oturtulması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+
+====================================================================================================
+CROSS CATEGORY 003
+====================================================================================================
+Original rank : 3
+Similarity    : 0.938180
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_061
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Cadde üzerindeki kafeler masa ve sandalyelerini yaya kaldırımının tamamına yayarak yayaların geçişini engellemektedir. Bebek arabalı ve engelli vatandaşların mağduriyet yaşamaması için gerekli denetimlerin yapılarak kaldırım işgaline son verilmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırımların yenilenmesini arz ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 004
+====================================================================================================
+Original rank : 4
+Similarity    : 0.935771
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Oyun alanına çıkan iç yürüyüş yolunda taşlar yerinden oynamış ve yüzey düzensizleşmiş. Park içi yolun düzenlenmesi için işlem yapılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 005
+====================================================================================================
+Original rank : 5
+Similarity    : 0.935273
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yeşiltepe Mahallesi İnci Parkı'nın dış kenarındaki kaldırımda birkaç taş kırılmış ve bir kısmı yerinden oynamış. Park sulandığında su bu boşluklarda birikiyor, taşların altı daha fazla gevşiyor. Çimlerde belirgin bir kuruma yok ama yürüyüş tarafında takılma riski her geçen gün artıyor. Özellikle bebek arabasıyla geçerken tekerler boşluğa giriyor.
+
+
+====================================================================================================
+CROSS CATEGORY 006
+====================================================================================================
+Original rank : 6
+Similarity    : 0.935106
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_008
+Category      : TEMIZLIK_ATIK
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Günlerdir alınmayan çöp torbaları parçalanmış, yiyecek arayan sokak kedileri atıkları etrafa yayıyor. Birikmiş çöplerin toplanmasını talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_088
+Category      : HAYVAN_VETERINER
+Scenario      : sick_stray
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Sahipsiz bir kedi belirgin şekilde halsiz, gözleri akıyor ve yiyecek bulmak için çöp torbalarını eşeliyor. Hayvanın alınarak muayene edilmesini talep ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 007
+====================================================================================================
+Original rank : 7
+Similarity    : 0.933141
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırımların yenilenmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_061
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Çarşı caddesindeki kafeler, yaya kaldırımını masa, sandalye ve rüzgarlıklarla tamamen işgal etmiştir. Yayaların ve bebek arabalı ailelerin araç yoluna inmek zorunda kaldığı bu duruma müdahale edilerek kaldırımın boşaltılmasını saygılarımla arz ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 008
+====================================================================================================
+Original rank : 8
+Similarity    : 0.931960
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırımların yenilenmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_031
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Bir işletme sahibi kaldırımın büyük bölümünü masa ve sandalyelerle kaplamış durumda, yayaların geçebileceği alan neredeyse kalmamış. Özellikle bebek arabası ya da tekerlekli sandalyeyle geçmek imkansız hale geliyor. Kaldırımın yeniden yaya kullanımına açılmasını rica ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 009
+====================================================================================================
+Original rank : 9
+Similarity    : 0.931433
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_018
+Category      : TEMIZLIK_ATIK
+Scenario      : bulky_waste_debris
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Mahalle çıkışındaki kaldırımın kenarında bir süredir eski yatak, kırık sandalye ve tahta parçaları beklemektedir. Yağmurdan sonra parçalar dağıldığı için daha geniş yer kaplamaya başladı. Kaldırım yüzeyinde belirgin bir hasar yok ancak büyük eşyalar yayaların kullanabileceği alanı daraltıyor. Bu hacimli atıkların toplanarak alanın açılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_031
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Bir işletme sahibi kaldırımın büyük bölümünü masa ve sandalyelerle kaplamış durumda, yayaların geçebileceği alan neredeyse kalmamış. Özellikle bebek arabası ya da tekerlekli sandalyeyle geçmek imkansız hale geliyor. Kaldırımın yeniden yaya kullanımına açılmasını rica ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 010
+====================================================================================================
+Original rank : 10
+Similarity    : 0.930998
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_018
+Category      : TEMIZLIK_ATIK
+Scenario      : bulky_waste_debris
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde kaldırım kenarına bırakılan büyük dolap parçalarının kaldırılmasını rica ediyorum; geçiş alanını daraltıyo.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_078
+Category      : KENT_DUZENI_DENETIM
+Scenario      : unauthorized_signage_display
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde bir işletme kaldırım üzerine sabit olmayan büyük bir reklam standı koymuştur. Yaya geçişini daraltan standın kaldırlmasını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 011
+====================================================================================================
+Original rank : 11
+Similarity    : 0.930352
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta pazar sonrasında kalan ambalajlar kırık kaldırım plakalarının aralarına doluyor; plakalar da aşağı çökmüş durumda ve yürüyenler dengesini kaybediyor. Onarim gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_072
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta dükkânların ortak geçiş alanına bırakılan boş kasalar ve reklam standları, çöpler toplanırken bile yolun açılmasını engelliyor; yayalar araçların arasından dolaşıyor. Geçişin acılması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 012
+====================================================================================================
+Original rank : 12
+Similarity    : 0.929971
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'ndeki parkta yürüyüş yolunun taşları yer yer kalkmıştır; takılma riski oluşuyor. Park içi yolun duzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : CLAUDE
+Text          : Güneşli Mahallesi Zambak Caddesi'nde kaldırım taşları yerinden oynamış, yürürken ayak takılma riski var.
+
+
+====================================================================================================
+CROSS CATEGORY 013
+====================================================================================================
+Original rank : 14
+Similarity    : 0.929651
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_024
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yanından geçen ana yol üzerinde giderek genişleyen bir çukur bulunmaktadır. Sulama sonrasında yol kenarında bir miktar su birikse de çukur kuru günlerde de aynı şekilde mevcut ve araçların geçiş çizgisinin tam üzerinde kalıyor. Sürücüler son anda sağa veya sola yönelerek çevresinden geçmeye çalışıyor, bu yüzden karşı yönden gelen araçlarla mesafe daralıyor. Yol yüzeyindeki bu bölümün kontrol edilerek kalıcı biçimde onarılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 014
+====================================================================================================
+Original rank : 15
+Similarity    : 0.929521
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_019
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : Yeşilvadi Mahallesi Defne Sokak'ta yol yüzeyinin bir kısmı içeri doğru çökmüş, sanki altında boşluk varmış gibi bir görüntü oluşmuş. İlk fark ettiğimde küçük bir çatlak sanmıştım ama birkaç gün içinde çukurun kenarları genişledi ve derinliği artık el ayasına kadar iniyor. Gece bu bölgeden geçen araçlar farkında olmadan üzerinden geçtiğinde ciddi bir sarsıntı yaşıyor, bir keresinde bir aracın lastiği neredeyse patlayacaktı. Yaya geçidine de çok yakın olduğu için yürüyerek geçenler bile dikkatli adım atmak zorunda kalıyor. Bu çöküntünün altyapı açısından da kontrol edilip bir an önce onarılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_030
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : Güneşli Mahallesi Akasya Caddesi'ndeki parkın taş döşeli yürüyüş yolunda büyük bir kısım çökmüş, sanki zemin aşınmış gibi bir görüntü var. Yolun hemen kenarındaki tel çit de bu çökmeyle birlikte eğilmiş, direklerden biri neredeyse yatay hale gelmiş durumda. Yürüyüşe çıkan yaşlılar bu bölümde bastonlarını sağlam basamayınca dengelerini kaybedebiliyor, bir komşum geçen hafta neredeyse düşüyordu. Yakınındaki çöp kutusunun da zaman zaman taştığını görüyorum ama burada yürürken oluşan çukurlar ve eğik çit çok daha tehlikeli görünüyor. Havalar ısındıkça toprak daha da gevşiyor, yol her geçen gün biraz daha çöküyor gibi görünüyor. Bu bölümün hem yol hem de çit açısından onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 015
+====================================================================================================
+Original rank : 16
+Similarity    : 0.929286
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_068
+Category      : KENT_DUZENI_DENETIM
+Scenario      : unauthorized_street_vendor
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Otobüs durağının yanında kurulan seyyar satış tezgâhı, bekleyenlerin kaldırımın kırık kenarına sıkışmasına neden oluyor; özellikle yoğun saatte geçiş tamamen daralıyor. Zabıtanın durumu kontrol etmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GEMINI
+Text          : Otobüs durağının arkasındaki kaldırım tabanının çökmesi ve taşların kırılması sebebiyle yayalar düşme tehhlikesi yaşamaktadır, onarımını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 016
+====================================================================================================
+Original rank : 17
+Similarity    : 0.929267
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_024
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Park çıkışındaki yolda oluşan çukur yağmur suyuyla doluyor; sürücüler kaçarken kaldırım tarafına fazla yaklaşıyor. Yol yüzeyinin onarılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 017
+====================================================================================================
+Original rank : 18
+Similarity    : 0.928973
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_057
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yürüyüş yolunda birkaç taş yerinden çıkmış ve aralarında boşluk oluşmuş. Koşanlar ayağını takabiliyor, yağmurda da boşluklara su doluyor. O kısmın en kısa sürede düzeltilmesi yeterli olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki kaldırımda birkaç taş yerinden çıkmış ve aralarında belirgin seviye farkı oluşmuş. Öğrenciler çıkış saatinde yoğun şekilde buradan geçiyor. Özellikle yağmurda taşların arasındaki boşluklar su doluyor ve takılma riski artıyor. Kaldırımın bozulan kısmı düzeltilmeli.
+
+
+====================================================================================================
+CROSS CATEGORY 018
+====================================================================================================
+Original rank : 19
+Similarity    : 0.928953
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_003
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : medium
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Çınar Mahallesi Menekşe Sokak'taki konteyner taşmış, çöpler yola doğru dağılyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_002_040
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Mahalledeki çöp konteynerinin durduğu yol tabanı aşağı göçtü, araçlar geçerken kayıyor, yol zeminine dolgu yapılması lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 019
+====================================================================================================
+Original rank : 20
+Similarity    : 0.928590
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 020
+====================================================================================================
+Original rank : 21
+Similarity    : 0.927992
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Kaldırımda taşlar çökmüş, yağmur sonrası aralarında su birikiyor. Bebek arabası ve tekerlekli sandalye kullananlar düzgün geçebilmek için yol kenarına yöneliyor. Hasar son birkaç haftada daha belirgin hale geldi.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+
+====================================================================================================
+CROSS CATEGORY 021
+====================================================================================================
+Original rank : 23
+Similarity    : 0.927396
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_060
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Çisenti Parkı'nın arka yürüyüş yolunda taşlar yer yer çökmüş, yağmurdan sonra koca su birikintileri oluyor. Yan taraftaki çimler de biraz çamurlu ama insanların zorlandığı kısım park içindeki yol. Bebek arabasıyla geçerken teker sürekli cukura giriyor, akşam koşanlar da son anda fark ediyor. Birkaç taş tamamen oynamış ve üstüne basınca sallanıyor. Yol daha fazla dağılmadan düzgün şekilde yenilense çok iyi olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yeşiltepe Mahallesi İnci Parkı'nın dış kenarındaki kaldırımda birkaç taş kırılmış ve bir kısmı yerinden oynamış. Park sulandığında su bu boşluklarda birikiyor, taşların altı daha fazla gevşiyor. Çimlerde belirgin bir kuruma yok ama yürüyüş tarafında takılma riski her geçen gün artıyor. Özellikle bebek arabasıyla geçerken tekerler boşluğa giriyor.
+
+
+====================================================================================================
+CROSS CATEGORY 022
+====================================================================================================
+Original rank : 24
+Similarity    : 0.926976
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_029
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : İhlamur Mahallesi'ndeki parkın kenar çiti bir süredir kısmen yıkık duruyor, özellikle köşedeki bölümde teller tamamen kopmuş halde sarkıyor. Başlangıçta sadece birkaç direk eğilmişti ama zamanla rüzgârla birlikte daha da açıldı, şimdi neredeyse bir metrelik bir boşluk oluşmuş durumda. Bu boşluktan hem çocuklar dışarı çıkabiliyor hem de sokaktaki köpekler içeri girip oyun alanına kadar geliyor. Akşamları buradan geçenler bazen çitin kopan tellerine takılıyor, bir defasında bir çocuğun pantolonu bile yırtılmıştı. Parkın içindeki yürüyüş yolu da bu bölümde kenar taşlarını kaybetmiş, toprak zemin ortaya çıkmış durumda. Yağmurlu günlerde bu kısım çamur haline geliyor ve yürümek neredeyse imkansızlaşıyor. Çitin onarılmasını ve yolun da kenar taşlarıyla birlikte düzeltilmesini istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 023
+====================================================================================================
+Original rank : 25
+Similarity    : 0.926900
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Menekşe Sokak'ta park çitinin yanındaki kaldırım çökmüş, yağmur suyu çukurda birikiyor ve yürüyüş yolu bağlantısında geçiş zorlaşıyor. Onarım yapılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 024
+====================================================================================================
+Original rank : 26
+Similarity    : 0.926854
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_060
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Menekşe Mahallesi Kuğu Parkı'nın tel çitinde bir bölüm kopmus ve sivri uçlar yürüyüş yoluna doğru dönmüş. Hemen dışında sokakta birkaç başıboş köpek dolaşıyor, bu yüzden çocuklar açıklıktan çıkabiliyor diye aileler ayrıca tedirgin oluyor. Çitin altındaki toprak da yağmurla oyulmuş ve boşluk büyümüş. Geçen hafta yalnızca gevşek olan panel şimdi tamamen yana yatmış. Akşam karanlığında sivri tel uçları uzaktan seçilmiyor ve yürüyüş yapanlar kenardan geçerken çok yaklaşabiliyor. Köpekler bazı saatlerde uzaklaşıyor, ancak çitin açık kalan alt kısmından çocukların dışarı çıkması gün boyu mümkün. Panelin güvenli biçimde yenilenmesi, alt boşluğun da kapatılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_100
+Category      : HAYVAN_VETERINER
+Scenario      : trapped_animal_rescue
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Gülistan Mahallesi Turna Parkı'nda bir yavru köpek tel çitin altındaki dar boşlukta sikisip kalmış. Çitin bir kısmı eğilmiş ve hayvanın ön ayağı tele dolandığı için geri çıkamıyor. Çevredeki çocuklar yaklaşınca çok hareketleniyor, tel de ayağının çevresinde daha fazla geriliyor. Su verildiğinde sakinleşiyor ama ayağını kurtaramıyor. Birkaç yetişkin uzaktan bakıp çekmeye çalışmadı çünkü telin daha fazla batmasından endişe edildi. Yavru köpek zaman zaman inliyor ve uzun süre aynı pozisyonda kaldığı için yorulmuş görünüyor. Güvenli biçimde serbest bırakılması gerekiyor. Ayağı hareket ettikçe tel deriye sürtüyor ve yavru daha çok panikliyor.
+
+
+====================================================================================================
+CROSS CATEGORY 025
+====================================================================================================
+Original rank : 27
+Similarity    : 0.926146
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_038
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde yol yüzeyi belirgin biçimde çökmüş ve seviye farkı oluşmuştur. Bölgenin kontrol edilerek onarılmasını rica ediyrum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'ndeki parkta yürüyüş yolunun taşları yer yer kalkmıştır; takılma riski oluşuyor. Park içi yolun duzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 026
+====================================================================================================
+Original rank : 28
+Similarity    : 0.925719
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_096
+Category      : HAYVAN_VETERINER
+Scenario      : stray_animal_group
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Yenikent Mahallesi Çam Caddesi'nde park çıkışında toplanan sahipsiz köpekler, çöp poşetleri açıldığında daha da kalabalıklaşıp çevreden geçenleri sıkıştırıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_008
+Category      : TEMIZLIK_ATIK
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Köşeye bırakılan poşetleri sokak köpekleri deşip yola dağıtmış, günlerdir alınmadığı için mahalle çöplüğe döndü, şunların bi toplanması lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 027
+====================================================================================================
+Original rank : 29
+Similarity    : 0.925342
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Kaldırımın birkaç taşı yerinden oynamış, basınca sallanıyor; yürürken ayağa takılıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yürüyüş yolundaki birkaç taş yerinden oynamış, koşarken ayağa takılıyor. Düzeltilse iyi olur.
+
+
+====================================================================================================
+CROSS CATEGORY 028
+====================================================================================================
+Original rank : 30
+Similarity    : 0.925111
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_062
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Köşedeki kafe kaldırımın neredeyse tamamına masa koymuş, bebek arabasıyla geçilemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Çarşıdaki kafelerin önündeki yaya kaldırımında taşlar patlamış betonlar parçalanmış, bebek arabasını sürmek imkansız tekerlek takılıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 029
+====================================================================================================
+Original rank : 31
+Similarity    : 0.924787
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_030
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Mahalle parkının yürüyüş yolundaki taş döşeme parçaları yerinden çıkmış, yürüyüş yapanlar sık sık ayaklarını burkuyor. Onarımın yapılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 030
+====================================================================================================
+Original rank : 33
+Similarity    : 0.924513
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'ndeki park girişine bağlanan kaldırımda taşlar kırılmış; yağmurdan sonra boşluklara çöp doluyor ve bebek arabaları geçerken zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+
+====================================================================================================
+CROSS CATEGORY 031
+====================================================================================================
+Original rank : 34
+Similarity    : 0.924292
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_094
+Category      : HAYVAN_VETERINER
+Scenario      : stray_animal_group
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Pazar yerinin arkasında toplanan sahipsiz köpekler akşam saatlerinde dagılmıyor ve yaklaşanlara topluca havlıyor. Güvenli şekilde kontrol edilmelerini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_076
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_noise_nuisance
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : İşletmenin dışarıya koyduğu hoparlörlerden gelen yüksek ses akşam boyunca kesilmiyor; ses yükseldiğinde sahipsiz köpekler de ürküp koşuşturuyor. Gürültü konusunda zabıta kontrolü yapılmasını talep ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 032
+====================================================================================================
+Original rank : 35
+Similarity    : 0.924275
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_040
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın yanındaki yolda yağmurdan sonra belirgin bir çökme oluştu; oyukta su ve poşet birikiyor, araçlar kaldırım tarafına yanaşarak geçiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş patikası yagmurdan sonra oyulmuş; yağmurla sürüklenen çöpler oyukta birikiyor ve kenardaki çit boşluğa doğru eğilmiş.
+
+
+====================================================================================================
+CROSS CATEGORY 033
+====================================================================================================
+Original rank : 36
+Similarity    : 0.924071
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_035
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Safir Mahallesi Kırlangıç Caddesi'nde bordür taşları park sulamasından gelen suyun aktığı bölümde gevşemiş. Sürekli ıslanan zemin taşların altını boşaltmış gibi; iki parça artık yola doğru eğiliyor. Çimlerin sulanması devam ettikçe hasarın ilerlediğini görüyoruz. Araçlar kenara yanaşırken taşlara sürtüyor ve yayalar da çıkıntının üzerinden atlamak zorunda kalıyor. Geçen hafta bordürün altındaki toprakta küçük bir boşluk vardı, bugün bu boşluk daha geniş ve taşlardan biri elle bile oynayacak kadar gevşek görünüyor. Sulama suyu her sabah aynı noktadan bordür dibine doğru akıyor ve ıslaklık gün içinde uzun süre kalıyor. Bordür hattının sağlamlaştırılması ve gevşeyen taşların yerine oturtulması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_029
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : İhlamur Mahallesi'ndeki parkın kenar çiti bir süredir kısmen yıkık duruyor, özellikle köşedeki bölümde teller tamamen kopmuş halde sarkıyor. Başlangıçta sadece birkaç direk eğilmişti ama zamanla rüzgârla birlikte daha da açıldı, şimdi neredeyse bir metrelik bir boşluk oluşmuş durumda. Bu boşluktan hem çocuklar dışarı çıkabiliyor hem de sokaktaki köpekler içeri girip oyun alanına kadar geliyor. Akşamları buradan geçenler bazen çitin kopan tellerine takılıyor, bir defasında bir çocuğun pantolonu bile yırtılmıştı. Parkın içindeki yürüyüş yolu da bu bölümde kenar taşlarını kaybetmiş, toprak zemin ortaya çıkmış durumda. Yağmurlu günlerde bu kısım çamur haline geliyor ve yürümek neredeyse imkansızlaşıyor. Çitin onarılmasını ve yolun da kenar taşlarıyla birlikte düzeltilmesini istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 034
+====================================================================================================
+Original rank : 38
+Similarity    : 0.923800
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_034
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Parkın dış tarafındaki bordür taşları birkaç noktada kırılmış ve aşağı doğru yatmış. Sulama sonrası gelen su bu kesimden yola akıyor, kenarda çamur oluşuyor. Park içindeki bitkiler canlı görünüyor ancak kırık bordür suyun yönünü bozuyor ve parçalar yayaların ayağına takılabilecek şekilde dışarı çıkıyor. Taşların düzeltilmesi gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 035
+====================================================================================================
+Original rank : 39
+Similarity    : 0.923745
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_040
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın yanındaki yolda yağmurdan sonra belirgin bir çökme oluştu; oyukta su ve poşet birikiyor, araçlar kaldırım tarafına yanaşarak geçiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Pınar Caddesi'nde park çıkışından köşeye kadar yerlere poşet ve şişeler saçılmış; yağmurla birlikte kaldırım kenarına sürüklenip geçişi daraltıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 036
+====================================================================================================
+Original rank : 40
+Similarity    : 0.923550
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_003
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde park çıkışındaki konteyner taşmış; poşetler kaldırımın geçiş kısmına yayılıyor. Konteynerin bosaltılmasını ve çevresinin toplanmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_048
+Category      : PARK_YESIL_ALAN
+Scenario      : park_furniture
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Güneş Mahallesi Sümbül Caddesi'ndeki yeşil alanda bankın sırt kısmı kopmuş; pazar sonrası kenara bırakılan poşetler bankın altına doluyor. Park görevlilerinin kırık bölümü güvenli hale getirmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 037
+====================================================================================================
+Original rank : 41
+Similarity    : 0.923452
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yeşiltepe Mahallesi İnci Parkı'nın dış kenarındaki kaldırımda birkaç taş kırılmış ve bir kısmı yerinden oynamış. Park sulandığında su bu boşluklarda birikiyor, taşların altı daha fazla gevşiyor. Çimlerde belirgin bir kuruma yok ama yürüyüş tarafında takılma riski her geçen gün artıyor. Özellikle bebek arabasıyla geçerken tekerler boşluğa giriyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Çiçekli Mahallesi Ufuk Parkı'ndaki iç yürüyüş yolunun taşları bazı yerlerde çökmüş. Yan taraftaki ahşap çitte de gevşeyen bir bölüm var. Özellikle koşan çocuklar takılmasın diye bu park içi geçişin toparlanması lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 038
+====================================================================================================
+Original rank : 42
+Similarity    : 0.923403
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_044
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Park içerisindeki ahşap oyun kulesinin tırmanma merdiveni çatlamış ve taşıyıcı çıtası yerinden çıkmıştır, çevresinde kedilerin barınması nedeniyle kuma basmakta zorlanan çocukların düşme tehlikesi bulunmaktadır, oyun grubunun onarılmasını talep ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 039
+====================================================================================================
+Original rank : 43
+Similarity    : 0.923240
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yeşiltepe Mahallesi İnci Parkı'nın dış kenarındaki kaldırımda birkaç taş kırılmış ve bir kısmı yerinden oynamış. Park sulandığında su bu boşluklarda birikiyor, taşların altı daha fazla gevşiyor. Çimlerde belirgin bir kuruma yok ama yürüyüş tarafında takılma riski her geçen gün artıyor. Özellikle bebek arabasıyla geçerken tekerler boşluğa giriyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_029
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : İhlamur Mahallesi'ndeki parkın kenar çiti bir süredir kısmen yıkık duruyor, özellikle köşedeki bölümde teller tamamen kopmuş halde sarkıyor. Başlangıçta sadece birkaç direk eğilmişti ama zamanla rüzgârla birlikte daha da açıldı, şimdi neredeyse bir metrelik bir boşluk oluşmuş durumda. Bu boşluktan hem çocuklar dışarı çıkabiliyor hem de sokaktaki köpekler içeri girip oyun alanına kadar geliyor. Akşamları buradan geçenler bazen çitin kopan tellerine takılıyor, bir defasında bir çocuğun pantolonu bile yırtılmıştı. Parkın içindeki yürüyüş yolu da bu bölümde kenar taşlarını kaybetmiş, toprak zemin ortaya çıkmış durumda. Yağmurlu günlerde bu kısım çamur haline geliyor ve yürümek neredeyse imkansızlaşıyor. Çitin onarılmasını ve yolun da kenar taşlarıyla birlikte düzeltilmesini istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 040
+====================================================================================================
+Original rank : 44
+Similarity    : 0.923154
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_021
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Çocuk parkındaki salıncaklardan birinin zinciri kopmuş ve oturma kısmı yerde sürünür halde duruyor. Çocuklar yine de üzerine çıkmaya çalışıyor, bu da ciddi bir düşme riski oluşturuyor. Salıncağın onarılmasını ya da kullanıma kapatılmasını rica ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 041
+====================================================================================================
+Original rank : 45
+Similarity    : 0.922938
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_003
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde park çıkışındaki konteyner taşmış; poşetler kaldırımın geçiş kısmına yayılıyor. Konteynerin bosaltılmasını ve çevresinin toplanmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_043
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'ndeki çocuk parkında salıncağın bağlantısı açılmış; kopan metal parça çöp kutusunun yanına düşmüş ve çocuklar kaldırım tarafındaki girişe doğru taşınıyor. Ekipmanın onarılmasını rica ediyorm.
+
+
+====================================================================================================
+CROSS CATEGORY 042
+====================================================================================================
+Original rank : 46
+Similarity    : 0.922796
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_039
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Deniz Mahallesi Lale Sokak'ta kazı sonrası kapatılan bölüm yeniden çökmüs; yol ekibinin kontrol edip zemini sağlamlaştırmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Deniz Mahallesi Lale Caddesi'ndeki parkta yürüyüş yolunun kenar taşları dagılmış; geçiş hattı daralmış. Düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 043
+====================================================================================================
+Original rank : 47
+Similarity    : 0.922570
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_021
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Çocuk parkındaki salıncaklardan birinin zinciri kopmuş ve oturma kısmı yerde sürünür halde duruyor. Çocuklar yine de üzerine çıkmaya çalışıyor, bu da ciddi bir düşme riski oluşturuyor. Salıncağın onarılmasını ya da kullanıma kapatılmasını rica ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 044
+====================================================================================================
+Original rank : 48
+Similarity    : 0.922520
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_018
+Category      : TEMIZLIK_ATIK
+Scenario      : bulky_waste_debris
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde kaldırım kenarına bırakılan büyük dolap parçalarının kaldırılmasını rica ediyorum; geçiş alanını daraltıyo.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'ndeki parkta yürüyüş yolunun taşları yer yer kalkmıştır; takılma riski oluşuyor. Park içi yolun duzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 045
+====================================================================================================
+Original rank : 49
+Similarity    : 0.922282
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Park girişinin yanındaki şehir kaldırımında birkaç taş kırık ve eğri. Yakındaki ağaçtan dökülen yapraklar kırıkları kapatınca seviye farkı daha zor fark ediliyor. Sabah yürüyüşünde iki kişinin sendelediğini gördüm. Çatlak taşların arasında küçük boşluklar da oluşmuş ve yağmurdan sonra su bu aralıklarda kalıyor. Bu bölümün yüzeyi eşitlenirse geçiş çok daha güvenli olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Parkın içindeki yürüyüş patikasının kenar taşları dagılmış ve çitin alt bölümünde açılma oluşmuş. Yakında birkaç başıboş hayvan zaman zaman dolaşıyor ancak insanlara yaklaşmıyor. Sorunlu kısım özellikle yağmurdan sonra kayganlaşıyor, gevşek taşlar patikanın ortasına geliyor ve çitteki açıklık büyüyor. Park içi geçişin güvenli hâle getirilmesi gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 046
+====================================================================================================
+Original rank : 50
+Similarity    : 0.922061
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GEMINI
+Text          : Otobüs durağının etrafına atılan çekirdek kabukları ve izmaritler nedeniyle alan çok kirlenmiş, temizik yapılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_026
+Category      : YOL_KALDIRIM
+Scenario      : asphalt_damage
+Difficulty    : easy
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Otobüs durağının önündeki asfalt epey aşınmış, yüzey parça parça kalkıyor. Araçlar geçtikçe küçük taşlar kenara saçılıyor ve yağmurda bölüm daha kaygan oluyor. Yolun bu kısmının yenilenmesi lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 047
+====================================================================================================
+Original rank : 52
+Similarity    : 0.921871
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_009
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde kaldırımlara bardak, ambalaj ve peçete saçılmış; cadde oldukça kirli görünüyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde kaldırım taşlarından biri tamamen kırılmış ve köşesi yukarı kalkmış.
+
+
+====================================================================================================
+CROSS CATEGORY 048
+====================================================================================================
+Original rank : 53
+Similarity    : 0.921505
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 049
+====================================================================================================
+Original rank : 54
+Similarity    : 0.921476
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_024
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Barış Parkı'nın hemen önünden geçen ana cadde üzerinde yaklaşık yarım metre genişliğinde ve oldukça derin bir çukur bulunuyor. Parka çocuğunu getiren aileler yol kenarında yürürken, araçlar bu çukurdan kaçmak için aniden kaldırım tarafına direksiyon kırıyor ve yayalar büyük panik yaşıyor. Yağışlı havalarda içi çamurlu suyla dolan çukur hem karşıdan karşıya geçenlerin üzerine su sıçratıyor hem de gece karanlığında fark edilmediği için araçların jantlarını büküyor. Çevre güvenliğini tehlikeye atan bu derin yol çukurunun kalıcı şekilde sıcak asfalt ile doldurulup düzeltilmesini rica ediyoruz.
+
+
+====================================================================================================
+CROSS CATEGORY 050
+====================================================================================================
+Original rank : 55
+Similarity    : 0.921324
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Oyun alanına çıkan iç yürüyüş yolunda taşlar yerinden oynamış ve yüzey düzensizleşmiş. Park içi yolun düzenlenmesi için işlem yapılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 051
+====================================================================================================
+Original rank : 56
+Similarity    : 0.921300
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_024
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Park çıkışındaki yolda derin bir çukur var, yağmurdan sonra içi su doluyor ve araçlar çukura girmemek için manevra yaparken kaldırıma doğru kayıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 052
+====================================================================================================
+Original rank : 57
+Similarity    : 0.921299
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_033
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Kaldırım bordürleri kırılmış, parçalar yol kenarına dağılmış. Yenilenmesini talep ediyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_017
+Category      : TEMIZLIK_ATIK
+Scenario      : bulky_waste_debris
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Kaldırıma bırakılan eski koltuk ve kırık suntaların kaldırılmasını rica ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 053
+====================================================================================================
+Original rank : 58
+Similarity    : 0.921142
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Park girişinin yanındaki şehir kaldırımında birkaç taş kırık ve eğri. Yakındaki ağaçtan dökülen yapraklar kırıkları kapatınca seviye farkı daha zor fark ediliyor. Sabah yürüyüşünde iki kişinin sendelediğini gördüm. Çatlak taşların arasında küçük boşluklar da oluşmuş ve yağmurdan sonra su bu aralıklarda kalıyor. Bu bölümün yüzeyi eşitlenirse geçiş çok daha güvenli olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_057
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolunda birkaç taş yerinden çıkmış ve çitin bir bölümü içeri doğru eğilmiş. İnsanlar daralan kısımdan dikkatli geçiyor. Bozulma büyümeden yol ve çit bölümünün düzeltilmesi gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 054
+====================================================================================================
+Original rank : 59
+Similarity    : 0.921053
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_009
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'nde kaldırımlara bardak, ambalaj ve peçete saçılmış; cadde oldukça kirli görünüyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'ndeki park girişine bağlanan kaldırımda taşlar kırılmış; yağmurdan sonra boşluklara çöp doluyor ve bebek arabaları geçerken zorlanıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 055
+====================================================================================================
+Original rank : 60
+Similarity    : 0.920991
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_001_004
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Otobüs durağının hemen arkasında duran büyük çöp konteyneri aşırı dolduğu için yolcular koku ve sinekten durakta bekleyemiyor, etrafa yayılan çöplerin kaldırılması gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_072
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Otobüs durağının önüne sürekli reklam standı ve birkaç büyük kasa bırakılıyor. Otobüs geldiğinde bekleyenlerle inenler aynı dar alanda sıkışıyor, bazı kişiler yola doğru çıkmak zorunda kalıyor. Durağın önünün boş bırakılması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 056
+====================================================================================================
+Original rank : 61
+Similarity    : 0.920966
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_003
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde park çıkışındaki konteyner taşmış; poşetler kaldırımın geçiş kısmına yayılıyor. Konteynerin bosaltılmasını ve çevresinin toplanmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_023
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'nde park çıkışına yakın yolda derin bir çukur oluşmuştur; yağmurdan sonra içine poşet ve yaprak doluyor, araçlar kaldırım tarafına yanaşıyor. Çukurun onarılmasını rica ederm.
+
+
+====================================================================================================
+CROSS CATEGORY 057
+====================================================================================================
+Original rank : 62
+Similarity    : 0.920965
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_005_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Fevzi Çakmak Caddesi üzerindeki yaya kaldırımında bulunan karo taşlarının kırılması ve yerinden oynaması sebebiyle bebek arabalı ve engelli vatandaşlarımızın geçişi zorlaşmıştır; onarım yapılmasını saygıyla talep ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_061
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Cadde üzerindeki kafeler masa ve sandalyelerini yaya kaldırımının tamamına yayarak yayaların geçişini engellemektedir. Bebek arabalı ve engelli vatandaşların mağduriyet yaşamaması için gerekli denetimlerin yapılarak kaldırım işgaline son verilmesini arz ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 058
+====================================================================================================
+Original rank : 63
+Similarity    : 0.920896
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_077
+Category      : KENT_DUZENI_DENETIM
+Scenario      : unauthorized_signage_display
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Fevzi Çakmak Caddesi'nde yaya yolunu daraltacak biçimde dikilen izinsiz ayaklı reklam panolarının kaldırılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_005_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Fevzi Çakmak Caddesi üzerindeki yaya kaldırımında bulunan karo taşlarının kırılması ve yerinden oynaması sebebiyle bebek arabalı ve engelli vatandaşlarımızın geçişi zorlaşmıştır; onarım yapılmasını saygıyla talep ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 059
+====================================================================================================
+Original rank : 64
+Similarity    : 0.920838
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_029
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : İhlamur Mahallesi'ndeki parkın kenar çiti bir süredir kısmen yıkık duruyor, özellikle köşedeki bölümde teller tamamen kopmuş halde sarkıyor. Başlangıçta sadece birkaç direk eğilmişti ama zamanla rüzgârla birlikte daha da açıldı, şimdi neredeyse bir metrelik bir boşluk oluşmuş durumda. Bu boşluktan hem çocuklar dışarı çıkabiliyor hem de sokaktaki köpekler içeri girip oyun alanına kadar geliyor. Akşamları buradan geçenler bazen çitin kopan tellerine takılıyor, bir defasında bir çocuğun pantolonu bile yırtılmıştı. Parkın içindeki yürüyüş yolu da bu bölümde kenar taşlarını kaybetmiş, toprak zemin ortaya çıkmış durumda. Yağmurlu günlerde bu kısım çamur haline geliyor ve yürümek neredeyse imkansızlaşıyor. Çitin onarılmasını ve yolun da kenar taşlarıyla birlikte düzeltilmesini istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 060
+====================================================================================================
+Original rank : 65
+Similarity    : 0.920779
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_040
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın yanındaki yolda yağmurdan sonra belirgin bir çökme oluştu; oyukta su ve poşet birikiyor, araçlar kaldırım tarafına yanaşarak geçiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_060
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Parkın içindeki yaya yolu girişe yakın yerde çöken toprak yüzünden daralmış; kenarda biriken birkaç poşet de geçişi daha da sıkıştırıyor, yolun ve sınır düzeninin toparlanması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 061
+====================================================================================================
+Original rank : 66
+Similarity    : 0.920599
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_008
+Category      : TEMIZLIK_ATIK
+Scenario      : uncollected_garbage
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Otobüs durağının arkasında günlerdir toplanmayan çöpler var; poşetler yırtılınca cam parçaları kaldırım tarafına saçılmıs.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_039
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Otobüs durağına yakın yerde yol yüzeyi çökmüs; yağmur sonrası içine çamurlu su ve çöpler dolduğu için boşluk fark edilmiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 062
+====================================================================================================
+Original rank : 67
+Similarity    : 0.920561
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_044
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki parkta bulunan tırmanma ünitesinin bir bağlantı noktası açılmış ve metal parça dışarı doğru çıkmış durumdadır. Oyun alanının çevresindeki zemin genel olarak kullanılabilir olsa da çocuklar koşarken bu bölüme çok yaklaşıyor. Ayrıca yakındaki çöp kutusundan zaman zaman atıklar taşsa da şu anda doğrudan yaralanma riski oluşturan unsur oyun ekipmanındaki gevşek parçadır. Ekipmanın kontrol edilerek onarılmasını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 063
+====================================================================================================
+Original rank : 68
+Similarity    : 0.920508
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki kaldırımda birkaç taş yerinden çıkmış ve aralarında belirgin seviye farkı oluşmuş. Öğrenciler çıkış saatinde yoğun şekilde buradan geçiyor. Özellikle yağmurda taşların arasındaki boşluklar su doluyor ve takılma riski artıyor. Kaldırımın bozulan kısmı düzeltilmeli.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_069
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki kaldırıma gün içinde büyük kasalar ve ürün standları bırakılıyor. Öğrencilerin çıkış saatinde kalabalık artınca bu eşyaların çevresinden geçmek oldukça zor oluyor. Kaldırımda fiziksel bir hasar yok, fakat kullanılabilir bölüm ciddi biçimde daralıyor. Geçiş yolunun boş tutulması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 064
+====================================================================================================
+Original rank : 69
+Similarity    : 0.920485
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Oyun alanına çıkan iç yürüyüş yolunda taşlar yerinden oynamış ve yüzey düzensizleşmiş. Park içi yolun düzenlenmesi için işlem yapılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Otobüs durağının yanındaki yaya kaldırımında taşlar yerinden oynamıştır, onarılmasını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 065
+====================================================================================================
+Original rank : 70
+Similarity    : 0.920443
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Park girişinin yanındaki şehir kaldırımında birkaç taş kırık ve eğri. Yakındaki ağaçtan dökülen yapraklar kırıkları kapatınca seviye farkı daha zor fark ediliyor. Sabah yürüyüşünde iki kişinin sendelediğini gördüm. Çatlak taşların arasında küçük boşluklar da oluşmuş ve yağmurdan sonra su bu aralıklarda kalıyor. Bu bölümün yüzeyi eşitlenirse geçiş çok daha güvenli olur.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+
+====================================================================================================
+CROSS CATEGORY 066
+====================================================================================================
+Original rank : 71
+Similarity    : 0.920412
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta kaldırım boyunca kırık şişe ve ambalaj parçaları var; bisikletle geçenler de üzerinden kaçmaya çalışıyor. Alanın temizlenmesi gerekyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_072
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yıldız Mahallesi Akasya Sokak'ta dükkânların ortak geçiş alanına bırakılan boş kasalar ve reklam standları, çöpler toplanırken bile yolun açılmasını engelliyor; yayalar araçların arasından dolaşıyor. Geçişin acılması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 067
+====================================================================================================
+Original rank : 72
+Similarity    : 0.920332
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_008
+Category      : TEMIZLIK_ATIK
+Scenario      : uncollected_garbage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Evimizin yakınındaki çöp poşetleri üç gündür toplanmıyor, kediler dağıtmaya basladı.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_088
+Category      : HAYVAN_VETERINER
+Scenario      : sick_stray
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Evimizin yakınındaki sokak kedisi iki gündür çok halsiz, gozü de kapanmış durumda.
+
+
+====================================================================================================
+CROSS CATEGORY 068
+====================================================================================================
+Original rank : 73
+Similarity    : 0.920315
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Otobüs durağının yanındaki yaya kaldırımında taşlar yerinden oynamıştır, onarılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_004_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GEMINI
+Text          : Otobüs durağının etrafına atılan çekirdek kabukları ve izmaritler nedeniyle alan çok kirlenmiş, temizik yapılmasını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 069
+====================================================================================================
+Original rank : 74
+Similarity    : 0.920192
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Çiçekli Mahallesi Ufuk Parkı'ndaki iç yürüyüş yolunun taşları bazı yerlerde çökmüş. Yan taraftaki ahşap çitte de gevşeyen bir bölüm var. Özellikle koşan çocuklar takılmasın diye bu park içi geçişin toparlanması lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 070
+====================================================================================================
+Original rank : 75
+Similarity    : 0.920140
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'ndeki parkta yürüyüş yolunun taşları yer yer kalkmıştır; takılma riski oluşuyor. Park içi yolun duzeltilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_071
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Güneş Mahallesi Papatya Caddesi'nde park ile durak arasındaki kamusal geçide inşaat malzemesi yığılmış; yerdeki kırık taşlar yüzünden insanlar yığının çevresinden dolaşamıyor. Alanın açılmasını rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 071
+====================================================================================================
+Original rank : 76
+Similarity    : 0.920079
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_062
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : easy
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Köşedeki kafe kaldırımın neredeyse tamamına masa koymuş, bebek arabasıyla geçilemiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Marketlerin bulunduğu bölümde kaldırım yüzeyi çatlayıp yükselmiş, bebek arabasıyla düz ilerlemek mümkün olmuyor.
+
+
+====================================================================================================
+CROSS CATEGORY 072
+====================================================================================================
+Original rank : 77
+Similarity    : 0.919978
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Dükkânların önündeki kaldırımın birkaç taşı yerinden çıkmış, özellikle bebek arabasıyla geçmek zor oluyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_062
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Ana cadde üzerindeki bir kafenin masa ve sandalyeleri akşam saatlerinde kaldırımın büyük bölümünü kaplıyor. Gündüz geçiş daha rahatken yoğun saatlerde iki kişinin yan yana yürümesi bile zorlaşıyor. Özellikle bebek arabasıyla geçenler yol tarafına yönelmek zorunda kalıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 073
+====================================================================================================
+Original rank : 78
+Similarity    : 0.919922
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Yayaların yoğun olarak kullandığı kaldırım üzerindeki karoların kırılması ve zemin dolgusunun boşalması sebebiyle yürüyüş güvenliği ortadan kalkmıştır. Bebek arabalı ve tekerlekli sandalyeli vatandaşların geçişini imkansız kılan bu hasarlı kaldırımların yenilenmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_035
+Category      : KENT_DUZENI_DENETIM
+Scenario      : public_space_obstruction
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Meydanın kenarında bırakılan büyük reklam panoları ve bariyerler yürüyüş alanını daraltıyo, insanlar aralarından zor geçiyor. Özellikle tekerlekli sandalye kullananlar için bu engeller neredeyse aşılmaz hale geliyor. Alanın açılıp engellerin kaldırılmasını istiyorum
+
+
+====================================================================================================
+CROSS CATEGORY 074
+====================================================================================================
+Original rank : 79
+Similarity    : 0.919797
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_041
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Salıncağın bir zinciri kopmuş ve oturma bölümü dengesiz duruyor. Onarılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_033
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Kaldırım bordürleri kırılmış, parçalar yol kenarına dağılmış. Yenilenmesini talep ediyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 075
+====================================================================================================
+Original rank : 80
+Similarity    : 0.919688
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'ndeki park girişine bağlanan kaldırımda taşlar kırılmış; yağmurdan sonra boşluklara çöp doluyor ve bebek arabaları geçerken zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_003
+Category      : TEMIZLIK_ATIK
+Scenario      : overflowing_container
+Difficulty    : hard
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Barış Mahallesi Gül Caddesi'ndeki park girişinde konteyner taşmış, poşetler kaldırıma yayılıyo ve çocuk arabasıyla geçmek zorlaşıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 076
+====================================================================================================
+Original rank : 81
+Similarity    : 0.919659
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_005_024
+Category      : YOL_KALDIRIM
+Scenario      : pothole
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Mahalle parkının çıkış kapısının hemen önündeki taşıt yolunda oluşan geniş çukur yağmur sularıyla dolmakta, geçen araçlar biriken çamurlu suyu yürüyüş yapan yayaların üzerine sıçratmaktadır; yol zeminindeki bu çukurun tamir edilmesini arz ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_058
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Parkın yan girişindeki iç yürüyüş yolunun bazı taşları çökmüş ve yağmurda bu bölümde su birikmektedir. Park dışındaki kaldırım kullanılabilir durumda, bozulma yalnızca parkın iç güzergâhında görülüyor. Özellikle koşu yapanlar ve çocuk arabasıyla geçenler çukurlaşan bölümü aşmakta zorlanıyor. Park içi yolun düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 077
+====================================================================================================
+Original rank : 83
+Similarity    : 0.919506
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_014
+Category      : TEMIZLIK_ATIK
+Scenario      : illegal_dumping
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Yol kenarına siyah torbalar ve kırık fayans parçaları dökülmüş. Bunların kaldırlmasını ve alanın temizlenmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_028
+Category      : YOL_KALDIRIM
+Scenario      : asphalt_damage
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Asfalt tabakası parça parça kalkmış; kopan parçalar kenara savruluyor ve yağmurda çamurlu birikintiler oluşuyor. Yol yüzeyinin düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 078
+====================================================================================================
+Original rank : 84
+Similarity    : 0.919494
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Okulun yakınındaki kaldırımda birkaç taş yerinden çıkmış ve aralarında belirgin seviye farkı oluşmuş. Öğrenciler çıkış saatinde yoğun şekilde buradan geçiyor. Özellikle yağmurda taşların arasındaki boşluklar su doluyor ve takılma riski artıyor. Kaldırımın bozulan kısmı düzeltilmeli.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_057
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolunda birkaç taş yerinden çıkmış ve çitin bir bölümü içeri doğru eğilmiş. İnsanlar daralan kısımdan dikkatli geçiyor. Bozulma büyümeden yol ve çit bölümünün düzeltilmesi gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 079
+====================================================================================================
+Original rank : 86
+Similarity    : 0.919412
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_005_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Manavın önündeki kaldırım parkeleri tamamen kırılmış ve çökmüş, millet sandıklara çarpmamak için oynamış taşlara basıp sendeliyor, şu taşları tamir edin.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_048
+Category      : PARK_YESIL_ALAN
+Scenario      : park_furniture
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GEMINI
+Text          : Belediyenin yaptırdığı yürüyüş parkurunun kenarındaki dinlenme bankları tamamen yerinden sökülüp çimlerin üzerine savrulmuş. Bankların vidaları açıkta duruyor, yürüyüş yapan yaşlılar dinlenecek yer bulamadığı için kaldırım taşlarına oturmak zorunda kalıyor. Bazı bankların sırt tahtaları kırılıp çalılıkların arasına atılmış. Bu kırık bankların toparlanıp yeniden beton zemine sağlamca monte edilmesini istiyoruz.
+
+
+====================================================================================================
+CROSS CATEGORY 080
+====================================================================================================
+Original rank : 87
+Similarity    : 0.919260
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_001_038
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Güneş Mahallesi Yasemin Caddesi'nde yol yüzeyi belirgin biçimde çökmüş ve seviye farkı oluşmuştur. Bölgenin kontrol edilerek onarılmasını rica ediyrum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : medium
+Style         : formal
+Typo          : True
+Generator     : GPT
+Text          : Deniz Mahallesi Lale Caddesi'ndeki parkta yürüyüş yolunun kenar taşları dagılmış; geçiş hattı daralmış. Düzeltilmesini rica ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 081
+====================================================================================================
+Original rank : 88
+Similarity    : 0.919250
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_059
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Parkın arka tarafındaki yürüyüş yolu kenardan çökmeye başlamış; taşlar çim alana doğru kayıyor. Yakında sulama nedeniyle toprak zaman zaman ıslak kalıyor, bu da yolun kenarını yumuşatıyor olabilir. Akşam yürüyenler daralan bölümde birbirine yol vermekte zorlanıyor. Bazı taşlar yükseldiği için bebek arabaları da sarsılıyor. Son birkaç günde iki taş daha yana kaymış ve boşluk genişlemiş. Hasar büyümeden park içi yolun zemini sağlamlaştırılıp taşlar yeniden oturtulmalı. Yürüyüş yolunun kenarındaki taşlar her yağmurdan sonra biraz daha ayrılıyor ve boşluk büyüyor. Çocukların bisikletle geçtiği saatlerde de bu dar bölümde karşılaşmalar daha sık oluyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_034
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Parkın dış tarafındaki bordür taşları birkaç noktada kırılmış ve aşağı doğru yatmış. Sulama sonrası gelen su bu kesimden yola akıyor, kenarda çamur oluşuyor. Park içindeki bitkiler canlı görünüyor ancak kırık bordür suyun yönünü bozuyor ve parçalar yayaların ayağına takılabilecek şekilde dışarı çıkıyor. Taşların düzeltilmesi gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 082
+====================================================================================================
+Original rank : 89
+Similarity    : 0.919167
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_042
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Mahalle parkındaki kaydırağın merdiven basamaklarından biri gevşemiş; çocuklar çıkarken sallanıyor. Kontrol edilmesini rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 083
+====================================================================================================
+Original rank : 90
+Similarity    : 0.919092
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_042
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GEMINI
+Text          : Mahalle parkının oyun alanında bulunan spiral kaydırağın iniş basamakları kırık ve plastik yüzeyinde derin çatlaklar var. Çocuklar kayarken bacaklarını çiziyor. Herhangi bir yaralanma meydana gelmeden bu oyun grubunun onarılmasını istiyoruz.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_long_claude_001_015
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : CLAUDE
+Text          : Parkın arka tarafındaki kaldırım taşları yerinden oynamış, üzerine basınca sallanıyo ve su fışkırıyor yağmurdan sonra. Özellikle çocuklu aileler buradan geçerken dikkat etmek zorunda kalıyor çünkü taşlar aniden yerinden çıkabiliyor. Kaldırımın onarılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 084
+====================================================================================================
+Original rank : 91
+Similarity    : 0.918871
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_002_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : casual
+Typo          : True
+Generator     : GEMINI
+Text          : Çarşı içindeki lokantaların ve kafelerin yoğun oldugu sokakta yerler resmen cop kaynıyor. Masalarda oturan müsteriler kalktıkca peçeteler, plastik bardaklar ve yemek poşetleri rüzgarla beraber yola uçuşuyor, butun sokak berbat bir görüntüye büründü. Yoldaki esnaf da dükkanın önünü süpürmüyor, herkes birbirine atıyor topu. Kaldirim kenarlarında biriken bu ambalaj atıkları artık rüzgardan saga sola savrulup dükkanların içine kadar giriyor. Hem gelip gecen insanlar tiksiniyor hem de genel çevre kirliliği yürümeyi zorlaştırıyor. Bu sokağın acilen boydan boya süpürülüp temizlenmesi sart oldu, lütfen ilgilenin artik.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_003_063
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : medium
+Style         : casual
+Typo          : True
+Generator     : GEMINI
+Text          : Metro çıkışının karşısındaki cadde boyunca lokantalar bütün kaldırımı resmen parsellemiş durumda. Masaları yetmiyormuş gibi bir de devasa ısıtıcılar ve koca brandalar koymuşlar, akşamları iş çıkışı yoldan kesinlikle gecemıyoruz. İki kişi yan yana yürüyemiyor, mecbur vızır vızır araba geçen yola iniyoruz. Esnafın bu pervasız kaldırım işgaline artık bir sınır çizilmesi lazım.
+
+
+====================================================================================================
+CROSS CATEGORY 085
+====================================================================================================
+Original rank : 92
+Similarity    : 0.918819
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_029
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın çevresindeki tel çit yer yer kopmuş, çocuklar kırık kısımdan hemen yola çıkabiliyor.
+
+
+====================================================================================================
+CROSS CATEGORY 086
+====================================================================================================
+Original rank : 93
+Similarity    : 0.918804
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_001_063
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : hard
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Çınar Mahallesi Salkım Caddesi'ndeki bir işyeri masa ve saksıları kaldırıma tasirmis. Kaldırımın köşesinde hafif oynayan birkaç taş da var; akşam iki sıra sandalye eklenince yürünebilir alan iyice daralıyor. Sabah geçiş nispeten rahatken akşam aynı bölümde karşılıklı iki kişinin yan yana geçmesi mümkün olmuyor. Çocuk arabası kullananlar masa kenarlarından sıyrılmak yerine yol tarafına yöneliyor. Bu düzenin geçişi engellemeyecek biçimde kontrol edilmesi gerekiyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Güvercinlik Mahallesi Narçiçeği Sokak boyunca kaldırım taşlarının bazıları çökmüş, bazıları ise yukarı kalkmış durumda. Yakındaki dükkânlar gün içinde kaldırıma birkaç eşya çıkarsa da geçişi zorlaştıran durum özellikle yüzeydeki ani kot farkları. Bebek arabası ve tekerlekli sandalye kullananlar düz bir hat bulamadığı için sık sık yol kenarına yöneliyor. Akşam saatlerinde bozuk taşların gölgede kalması takılma riskini artırıyor. Kaldırım yüzeyinin sökülüp düzgün seviyede yeniden yapılması gerekiyor.
+
+
+====================================================================================================
+CROSS CATEGORY 087
+====================================================================================================
+Original rank : 94
+Similarity    : 0.918753
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_020
+Category      : YOL_KALDIRIM
+Scenario      : road_surface_collapse
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Parkın hemen yanındaki yolun bir bölümü çökmüş, çocuklar oyun alanına geçerken bu çukurlu kısımdan geçmek zorunda kalıyor. Onarım için gerekli işlemlerin başlatılmasını bekliyorum.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_long_gemini_001_041
+Category      : PARK_YESIL_ALAN
+Scenario      : playground_equipment
+Difficulty    : easy
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Çocuk parkındaki salıncakların zincir bağlantıları kopmuş ve tahterevallinin oturak kısmı kırılmıştır. Çocuklarımızın can güvenliği açısından tehlike arz eden oyun aletlerinin ivedilikle tamir edilmesini veya yenilenmesini saygılarımla arz ederim.
+
+
+====================================================================================================
+CROSS CATEGORY 088
+====================================================================================================
+Original rank : 95
+Similarity    : 0.918547
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_029
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : easy
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Çınar Mahallesi Menekşe Sokak'ta kaldırım taşlarının bir kısmı kırılmıs, yürürken ayağa takılıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_004_063
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : hard
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Çınar Mahallesi Gül Sokak'ta manav kasaları kaldırıma taşmış, yol kenarında da çukur olunca insanlar araçların arasından geçmek zorunda kalıyo.
+
+
+====================================================================================================
+CROSS CATEGORY 089
+====================================================================================================
+Original rank : 96
+Similarity    : 0.918538
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_003_031
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Dükkânların önündeki kaldırımın birkaç taşı yerinden çıkmış, özellikle bebek arabasıyla geçmek zor oluyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_063
+Category      : KENT_DUZENI_DENETIM
+Scenario      : business_sidewalk_occupation
+Difficulty    : medium
+Style         : casual
+Typo          : True
+Generator     : GPT
+Text          : Çınaraltı Mahallesi Yelken Caddesi'ndeki bir dükkân ürün sepetlerini ve tabureleri kaldırımın ortasına kadar çıkarıyor. Akşam saatlerinde gecis iyice daralıyor. Tekerlekli sandalye veya bebek arabasıyla buradan geçmek neredeyse mümkün olmuyor.
+
+
+====================================================================================================
+CROSS CATEGORY 090
+====================================================================================================
+Original rank : 97
+Similarity    : 0.918523
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_002_032
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : hard
+Style         : neutral
+Typo          : False
+Generator     : GPT
+Text          : Umut Mahallesi Papatya Caddesi'ndeki park girişine bağlanan kaldırımda taşlar kırılmış; yağmurdan sonra boşluklara çöp doluyor ve bebek arabaları geçerken zorlanıyor.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_prod_gpt_005_012
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : casual
+Typo          : False
+Generator     : GPT
+Text          : Yıldız Mahallesi Pınar Caddesi'nde park çıkışından köşeye kadar yerlere poşet ve şişeler saçılmış; yağmurla birlikte kaldırım kenarına sürüklenip geçişi daraltıyor.
+
+
+====================================================================================================
+CROSS CATEGORY 091
+====================================================================================================
+Original rank : 98
+Similarity    : 0.918477
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GEMINI_prod_gemini_003_030
+Category      : YOL_KALDIRIM
+Scenario      : sidewalk_damage
+Difficulty    : medium
+Style         : formal
+Typo          : False
+Generator     : GEMINI
+Text          : Otobüs durağının yanındaki yaya kaldırımında taşlar yerinden oynamıştır, onarılmasını rica ederim.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : CLAUDE_prod_claude_001_030
+Category      : PARK_YESIL_ALAN
+Scenario      : park_fence_path
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : CLAUDE
+Text          : Mahalle parkının yürüyüş yolundaki taş döşeme parçaları yerinden çıkmış, yürüyüş yapanlar sık sık ayaklarını burkuyor. Onarımın yapılmasını istiyorum.
+
+
+====================================================================================================
+CROSS CATEGORY 092
+====================================================================================================
+Original rank : 100
+Similarity    : 0.918359
+
+A
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_002_034
+Category      : YOL_KALDIRIM
+Scenario      : curb_damage
+Difficulty    : medium
+Style         : neutral
+Typo          : True
+Generator     : GPT
+Text          : Yol kenarındaki bordür yaklaşık birkaç metre boyunca çatlamış ve bazı parçalar taşıt yoluna doğru ayrılmış durumda. Yağmur suyu bu açıklıklardan geçerken altındaki malzemeyi de sürüklüyor. Yakında çöp poşetleri bırakıldığı zaman parçaların üzeri kapanıyor ve fark edilmesi güçleşiyor. Bordürün bozuk kısmının yenilenmesi gerekir.
+
+B
+----------------------------------------------------------------------------------------------------
+Sample ID     : GPT_long_gpt_003_010
+Category      : TEMIZLIK_ATIK
+Scenario      : street_litter
+Difficulty    : hard
+Style         : formal
+Typo          : False
+Generator     : GPT
+Text          : Yaya geçişinin yoğun olduğu bir bölgede zemine atılmış çok sayıda plastik bardak, yiyecek ambalajı ve kâğıt bulunuyor. Atıkların bir kısmı yakındaki bordür boyunca birikmiş, yağmurla birlikte rögar çevresine taşınmaya başlamış durumda. Yol yüzeyinde belirgin bir bozulma görülmemesine rağmen çöpler hem görüntü kirliliği yaratıyor hem de yağışta suyun akışını zorlaştırabilecek kadar çoğalmış durumda. Alanın temizlenip benzer birikmenin düzenli olarak önlenmesi uygun olacaktır.
+
+

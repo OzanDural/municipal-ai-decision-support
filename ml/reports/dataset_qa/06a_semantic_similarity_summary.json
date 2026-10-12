@@ -1,0 +1,43 @@
+{
+  "model": "intfloat/multilingual-e5-base",
+  "record_count": 1750,
+  "embedding_dimension": 768,
+  "total_possible_pairs": 1530375,
+  "relation_statistics": {
+    "SAME_CATEGORY_SAME_SCENARIO": {
+      "count": 60375,
+      "mean": 0.886549,
+      "median": 0.887406,
+      "p90": 0.917858,
+      "p95": 0.926861,
+      "p99": 0.944542,
+      "p99_5": 0.952652,
+      "p99_9": 0.967695,
+      "max": 1.0
+    },
+    "SAME_CATEGORY_DIFF_SCENARIO": {
+      "count": 245000,
+      "mean": 0.862458,
+      "median": 0.863231,
+      "p90": 0.890861,
+      "p95": 0.898638,
+      "p99": 0.912962,
+      "p99_5": 0.918012,
+      "p99_9": 0.92924,
+      "max": 0.960475
+    },
+    "DIFFERENT_CATEGORY": {
+      "count": 1225000,
+      "mean": 0.842798,
+      "median": 0.843579,
+      "p90": 0.868634,
+      "p95": 0.875808,
+      "p99": 0.889386,
+      "p99_5": 0.894344,
+      "p99_9": 0.904663,
+      "max": 0.944757
+    }
+  },
+  "top_k_per_relation": 200,
+  "policy": "No fixed semantic duplicate threshold is applied at this stage. Similarity distributions are measured first. Candidate thresholds and clusters will be determined only after inspecting the empirical score distribution."
+}

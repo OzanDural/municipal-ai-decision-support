@@ -1,0 +1,12 @@
+{
+  "status": "PROVISIONAL_REVIEW_DECISIONS_ONLY",
+  "dataset_modified": false,
+  "complete_linkage_groups_reviewed": 32,
+  "complete_linkage_records_reviewed": 93,
+  "complete_linkage_keep_count": 57,
+  "complete_linkage_reject_count": 36,
+  "lexical_residual_pairs_reviewed": 3,
+  "additional_lexical_reject_count": 3,
+  "total_unique_provisional_rejects": 39,
+  "policy": "Similarity alone is not a deletion rule. Records are rejected only when redundancy is high and no meaningful linguistic, contextual, difficulty, typo, or length diversity is lost."
+}

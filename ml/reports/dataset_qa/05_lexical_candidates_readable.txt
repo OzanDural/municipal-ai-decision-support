@@ -1,0 +1,211 @@
+﻿
+
+sample_id_1      : GPT_prod_gpt_003_029
+sample_id_2      : GPT_prod_gpt_004_029
+category_1       : YOL_KALDIRIM
+scenario_1       : sidewalk_damage
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_003
+batch_2          : prod_gpt_004
+pair_type        : RAW_EXACT
+char_similarity  : 1.0
+word_similarity  : 1.0
+complaint_text_1 : Kaldırım taşları kırılmış, basınca oynuyor.
+complaint_text_2 : Kaldırım taşları kırılmış, basınca oynuyor.
+
+sample_id_1      : GPT_prod_gpt_004_041
+sample_id_2      : CLAUDE_prod_claude_001_021
+category_1       : PARK_YESIL_ALAN
+scenario_1       : playground_equipment
+generator_1      : GPT
+generator_2      : CLAUDE
+batch_1          : prod_gpt_004
+batch_2          : prod_claude_001
+pair_type        : STRONG_LEXICAL_NEAR_DUPLICATE
+char_similarity  : 0.930271
+word_similarity  : 0.706644
+complaint_text_1 : Salıncağın bir zinciri kopmuş, çocuklar kullanamıyor.
+complaint_text_2 : Parktaki salıncağın zinciri kopmuş, çocuklar kullanamıyor.
+
+sample_id_1      : GPT_prod_gpt_004_041
+sample_id_2      : GEMINI_prod_gemini_003_042
+category_1       : PARK_YESIL_ALAN
+scenario_1       : playground_equipment
+generator_1      : GPT
+generator_2      : GEMINI
+batch_1          : prod_gpt_004
+batch_2          : prod_gemini_003
+pair_type        : STRONG_LEXICAL_NEAR_DUPLICATE
+char_similarity  : 0.870548
+word_similarity  : 0.628111
+complaint_text_1 : Salıncağın bir zinciri kopmuş, çocuklar kullanamıyor.
+complaint_text_2 : Oyun alanındaki salıncağın bir zinciri kopmuş, çocuklar sallanamıyor.
+
+sample_id_1      : GPT_prod_gpt_003_081
+sample_id_2      : GPT_prod_gpt_005_081
+category_1       : HAYVAN_VETERINER
+scenario_1       : injured_stray
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_003
+batch_2          : prod_gpt_005
+pair_type        : STRONG_LEXICAL_NEAR_DUPLICATE
+char_similarity  : 0.857603
+word_similarity  : 0.793845
+complaint_text_1 : Yaralı bir sokak kedisi var, arka ayağına basamıyor. Yardım edilmesini rica ederim.
+complaint_text_2 : Yaralı bir kedi var, arka ayağına basamıyor. Yardım edilmesini rica ediyorum.
+
+sample_id_1      : GPT_prod_gpt_002_001
+sample_id_2      : GPT_prod_gpt_003_001
+category_1       : TEMIZLIK_ATIK
+scenario_1       : overflowing_container
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_002
+batch_2          : prod_gpt_003
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.816582
+word_similarity  : 0.632392
+complaint_text_1 : Çöp konteyneri ağzına kadar dolmuş, atıklar dışarı taşmaya başladı. Boşaltılmasını ric
+                   a ederim.
+complaint_text_2 : Çöp konteyneri ağzına kadar dolu ve çevresine taşmaya başladı. Boşaltılmasını rica ede
+                   rim.
+
+sample_id_1      : GEMINI_prod_gemini_003_042
+sample_id_2      : CLAUDE_prod_claude_001_021
+category_1       : PARK_YESIL_ALAN
+scenario_1       : playground_equipment
+generator_1      : GEMINI
+generator_2      : CLAUDE
+batch_1          : prod_gemini_003
+batch_2          : prod_claude_001
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.81495
+word_similarity  : 0.3926
+complaint_text_1 : Oyun alanındaki salıncağın bir zinciri kopmuş, çocuklar sallanamıyor.
+complaint_text_2 : Parktaki salıncağın zinciri kopmuş, çocuklar kullanamıyor.
+
+sample_id_1      : GEMINI_prod_gemini_001_001
+sample_id_2      : GEMINI_prod_gemini_004_001
+category_1       : TEMIZLIK_ATIK
+scenario_1       : overflowing_container
+generator_1      : GEMINI
+generator_2      : GEMINI
+batch_1          : prod_gemini_001
+batch_2          : prod_gemini_004
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.778625
+word_similarity  : 0.442991
+complaint_text_1 : Çöp konteyneri tamamen dolmuş durumda ve atıklar etrafa saçılmaya başladı. Boşaltılmas
+                   ını rica ediyorum.
+complaint_text_2 : Çöp konteyneri tamamen dolmuş ve etrafa taşmış durumda, boşaltılmasını rica ediyoruz.
+
+sample_id_1      : GEMINI_prod_gemini_003_001
+sample_id_2      : GEMINI_prod_gemini_004_001
+category_1       : TEMIZLIK_ATIK
+scenario_1       : overflowing_container
+generator_1      : GEMINI
+generator_2      : GEMINI
+batch_1          : prod_gemini_003
+batch_2          : prod_gemini_004
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.758523
+word_similarity  : 0.603593
+complaint_text_1 : Çöp konteyneri tamamen dolmuş ve atıklar dışarıya taşmış durumda, boşaltılmasını talep
+                    ediyorum.
+complaint_text_2 : Çöp konteyneri tamamen dolmuş ve etrafa taşmış durumda, boşaltılmasını rica ediyoruz.
+
+sample_id_1      : GPT_prod_gpt_001_073
+sample_id_2      : GPT_prod_gpt_004_074
+category_1       : KENT_DUZENI_DENETIM
+scenario_1       : business_noise_nuisance
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_001
+batch_2          : prod_gpt_004
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.757637
+word_similarity  : 0.493748
+complaint_text_1 : Alt sokaktaki kafe gece çok yüksek müzik açıyor, evde cam kapalıyken bile duyuluyor.
+complaint_text_2 : Alt sokaktaki kafeden her gece çok yüksek müzik geliyo, camlar kapalıyken bile duyuluy
+                   or.
+
+sample_id_1      : GEMINI_prod_gemini_003_021
+sample_id_2      : GEMINI_prod_gemini_004_021
+category_1       : YOL_KALDIRIM
+scenario_1       : pothole
+generator_1      : GEMINI
+generator_2      : GEMINI
+batch_1          : prod_gemini_003
+batch_2          : prod_gemini_004
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.755237
+word_similarity  : 0.568154
+complaint_text_1 : Yoldaki derin çukur araç trafiğini tehlikeye sokmaktadır, asfaltlama çalışması yapılma
+                   sını rica ederim.
+complaint_text_2 : Yol üzerinde oluşan derin çukur araç trafiğini tehlikeye sokmaktadır, asfalt yama yapı
+                   lmasını rica ederim.
+
+sample_id_1      : GPT_prod_gpt_004_073
+sample_id_2      : GPT_prod_gpt_005_073
+category_1       : KENT_DUZENI_DENETIM
+scenario_1       : business_noise_nuisance
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_004
+batch_2          : prod_gpt_005
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.750976
+word_similarity  : 0.40663
+complaint_text_1 : Gece geç saatlere kadar yüksek sesle müzik açan işletmenin denetlenmesini talep ediyor
+                   um.
+complaint_text_2 : Bir işletmeden gece geç saatlere kadar yüksek sesli müzik geliyor. Denetlenmesini rica
+                    ediyorum.
+
+sample_id_1      : GEMINI_prod_gemini_001_049
+sample_id_2      : GEMINI_prod_gemini_002_049
+category_1       : PARK_YESIL_ALAN
+scenario_1       : vegetation_irrigation
+generator_1      : GEMINI
+generator_2      : GEMINI
+batch_1          : prod_gemini_001
+batch_2          : prod_gemini_002
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.746056
+word_similarity  : 0.609372
+complaint_text_1 : Yeşil alandaki çimler ve süs bitkileri uzun süredir sulanmadığı için tamamen sarardı.
+complaint_text_2 : Çimler ve süs bitkileri sulanmadığı için tamamen sarardı ve kurumaya başladı.
+
+sample_id_1      : GPT_prod_gpt_002_062
+sample_id_2      : GPT_prod_gpt_005_062
+category_1       : KENT_DUZENI_DENETIM
+scenario_1       : business_sidewalk_occupation
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_002
+batch_2          : prod_gpt_005
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.745777
+word_similarity  : 0.457853
+complaint_text_1 : Köşedeki kafe akşamları masaları iyice dışarı çıkarıyor, bebek arabasıyla geçmek mümkü
+                   n olmuyor.
+complaint_text_2 : Köşedeki kafe her akşam kaldırımı masalarla kapatıyor, bebek arabasıyla geçmek mümkün 
+                   olmuyor.
+
+sample_id_1      : GPT_prod_gpt_002_057
+sample_id_2      : GPT_prod_gpt_003_057
+category_1       : PARK_YESIL_ALAN
+scenario_1       : park_fence_path
+generator_1      : GPT
+generator_2      : GPT
+batch_1          : prod_gpt_002
+batch_2          : prod_gpt_003
+pair_type        : LEXICAL_REVIEW_CANDIDATE
+char_similarity  : 0.70963
+word_similarity  : 0.724985
+complaint_text_1 : Parkın çevre çitinde geniş bir açıklık oluşmuş, çocuklar eğimli tarafa geçebiliyor.
+complaint_text_2 : Parkın çevre çitinde geniş bir açıklık oluşmuş.
+
+
+

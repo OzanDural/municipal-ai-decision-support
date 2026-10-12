@@ -1,0 +1,50 @@
+{
+  "status": "VALIDATION_CONFIDENCE_ANALYSIS_COMPLETE",
+  "validation_count": 250,
+  "correct_count": 250,
+  "incorrect_count": 0,
+  "validation_accuracy": 1.0,
+  "top1_distribution": {
+    "min": 0.5945523977279663,
+    "p01": 0.9513742840290069,
+    "p025": 0.9739735156297684,
+    "p05": 0.9889855593442918,
+    "p10": 0.9937326431274414,
+    "median": 0.9970978498458862,
+    "mean": 0.9937954938411713,
+    "p90": 0.9977393805980681,
+    "max": 0.9980251789093018
+  },
+  "top2_distribution": {
+    "min": 0.000574376725126,
+    "p01": 0.0006211149715818071,
+    "p025": 0.0006353282602503225,
+    "p05": 0.00066753349965433,
+    "p10": 0.00070341364480551,
+    "median": 0.00098577263997865,
+    "mean": 0.003921066487906451,
+    "p90": 0.003535181866027399,
+    "max": 0.3831228613853454
+  },
+  "margin_distribution": {
+    "min": 0.2114295363426208,
+    "p01": 0.9110064935684203,
+    "p025": 0.9543491542339324,
+    "p05": 0.9816169261932373,
+    "p10": 0.9898202002048493,
+    "median": 0.9961411654949188,
+    "mean": 0.9898744280338287,
+    "p90": 0.9970290482044221,
+    "max": 0.997379183769226
+  },
+  "operating_point_quantiles": [
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "threshold_finalized": false,
+  "reason_threshold_not_finalized": "All 250 validation samples were classified correctly. Validation therefore provides confidence-distribution and coverage information, but no observed error boundary from which a final error-separating threshold can be estimated.",
+  "policy_note": "Softmax scores are treated as model scores, not guaranteed calibrated probabilities. Candidate thresholds are derived from validation quantiles rather than arbitrary constants.",
+  "frozen_test_accessed": false
+}

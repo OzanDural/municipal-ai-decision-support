@@ -1,0 +1,57 @@
+{
+  "model": "FROZEN_BERTURK_LINEAR_PROBE",
+  "metrics": {
+    "accuracy": 0.904,
+    "macro_precision": 0.9048181234758055,
+    "macro_recall": 0.9043422291993721,
+    "macro_f1": 0.9043446381455194,
+    "weighted_f1": 0.9041011263077946,
+    "log_loss": 0.26506380559709375
+  },
+  "elapsed_seconds": 2.0382619998417795,
+  "classification_report": {
+    "TEMIZLIK_ATIK": {
+      "precision": 0.9,
+      "recall": 0.8653846153846154,
+      "f1-score": 0.8823529411764706,
+      "support": 52.0
+    },
+    "YOL_KALDIRIM": {
+      "precision": 0.8490566037735849,
+      "recall": 0.9,
+      "f1-score": 0.8737864077669902,
+      "support": 50.0
+    },
+    "PARK_YESIL_ALAN": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8979591836734694,
+      "f1-score": 0.9072164948453608,
+      "support": 49.0
+    },
+    "KENT_DUZENI_DENETIM": {
+      "precision": 0.9183673469387755,
+      "recall": 0.9183673469387755,
+      "f1-score": 0.9183673469387755,
+      "support": 49.0
+    },
+    "HAYVAN_VETERINER": {
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1-score": 0.94,
+      "support": 50.0
+    },
+    "accuracy": 0.904,
+    "macro avg": {
+      "precision": 0.9048181234758055,
+      "recall": 0.9043422291993721,
+      "f1-score": 0.9043446381455194,
+      "support": 250.0
+    },
+    "weighted avg": {
+      "precision": 0.9046779874213836,
+      "recall": 0.904,
+      "f1-score": 0.9041011263077946,
+      "support": 250.0
+    }
+  }
+}
